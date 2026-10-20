@@ -3,7 +3,7 @@
   "name": "Sporty zimowe",
   "questions": [
     {
-      "q": "Który Polak trzykrotnie wygrał Turniej Czterech Skoczni?",
+      "q": "Który Polak wygrał Turniej Czterech Skoczni trzy razy w latach 2017-2021?",
       "ok": "Kamil Stoch",
       "bad": [
         "Adam Małysz",
@@ -410,7 +410,7 @@
         "Skoki narciarskie",
         "Kombinacja norweska"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Z jakiego kraju pochodzi biathlonista Ole Einar Bjørndalen?",
@@ -868,7 +868,7 @@
       "bad": [
         "Hokejówki",
         "Figurówki",
-        "Panczeny"
+        "Rolki"
       ],
       "lvl": 3
     },
@@ -1000,7 +1000,7 @@
         "Innsbruck",
         "Garmisch-Partenkirchen"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Ilu zawodników liczy drużyna w konkursie drużynowym Pucharu Świata w skokach?",

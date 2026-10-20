@@ -33,16 +33,6 @@
       "lvl": 3
     },
     {
-      "q": "Którą chorobę zakaźną ludzi udało się całkowicie wyeliminować na świecie?",
-      "ok": "Ospę prawdziwą",
-      "bad": [
-        "Polio",
-        "Odrę",
-        "Gruźlicę"
-      ],
-      "lvl": 2
-    },
-    {
       "q": "Jaką chorobę przenoszą komary z rodzaju Anopheles?",
       "ok": "Malarię",
       "bad": [

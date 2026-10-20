@@ -210,7 +210,7 @@
         "Sol",
         "Boliwar"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Jaka jest waluta Republiki Południowej Afryki?",
@@ -340,7 +340,7 @@
         "Korekta",
         "Krach"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Jak nazywa się ogólny wzrost poziomu cen w gospodarce?",
@@ -363,7 +363,7 @@
       "lvl": 2
     },
     {
-      "q": "Jak nazywa się połączenie stagnacji gospodarczej z wysoką inflacją?",
+      "q": "Jak nazywa się zastój gospodarczy połączony z wysoką inflacją?",
       "ok": "Stagflacja",
       "bad": [
         "Hiperinflacja",
@@ -447,7 +447,7 @@
       "ok": "Karol Marks",
       "bad": [
         "Adam Smith",
-        "Fryderyk Engels",
+        "Max Weber",
         "David Ricardo"
       ],
       "lvl": 1
@@ -721,16 +721,6 @@
         "28"
       ],
       "lvl": 2
-    },
-    {
-      "q": "Jaka waluta ma symbol £?",
-      "ok": "Funt",
-      "bad": [
-        "Frank",
-        "Euro",
-        "Jen"
-      ],
-      "lvl": 1
     },
     {
       "q": "Jaki kod ISO ma polski złoty?",

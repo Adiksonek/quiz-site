@@ -21,7 +21,6 @@
     { "q": "W którym mieście znajduje się most Golden Gate?", "ok": "San Francisco", "bad": ["Los Angeles", "Seattle", "San Diego"], "lvl": 1 },
     { "q": "Nad którym miastem góruje pomnik Chrystusa Odkupiciela?", "ok": "Rio de Janeiro", "bad": ["São Paulo", "Lizbona", "Buenos Aires"], "lvl": 1 },
     { "q": "W pobliżu którego chińskiego miasta odkryto Armię Terakotową?", "ok": "Xi'an", "bad": ["Pekin", "Nankin", "Chengdu"], "lvl": 3 },
-    { "q": "Która z piramid w Gizie jest największa?", "ok": "Cheopsa", "bad": ["Chefrena", "Mykerinosa", "Dżesera"], "lvl": 2 },
     { "q": "W którym kraju stoi zamek Neuschwanstein?", "ok": "Niemcy", "bad": ["Austria", "Szwajcaria", "Francja"], "lvl": 2 },
     { "q": "W którym kraju leży opactwo Mont-Saint-Michel?", "ok": "Francja", "bad": ["Belgia", "Hiszpania", "Włochy"], "lvl": 2 },
     { "q": "Jak nazywa się tramwaj wodny kursujący po kanałach Wenecji?", "ok": "Vaporetto", "bad": ["Gondola", "Feluka", "Dżonka"], "lvl": 2 },

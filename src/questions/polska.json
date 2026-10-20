@@ -100,7 +100,6 @@
     { "q": "Panoramę Racławicką można obejrzeć we:", "ok": "Wrocławiu", "bad": ["Krakowie", "Warszawie", "Poznaniu"], "lvl": 2 },
     { "q": "Obraz Leonarda da Vinci „Dama z gronostajem” można zobaczyć w:", "ok": "Krakowie", "bad": ["Warszawie", "Gdańsku", "Wrocławiu"], "lvl": 2 },
     { "q": "Tryptyk „Sąd Ostateczny” Hansa Memlinga znajduje się w muzeum w:", "ok": "Gdańsku", "bad": ["Krakowie", "Warszawie", "Wrocławiu"], "lvl": 3 },
-    { "q": "Ołtarz Wita Stwosza znajduje się w:", "ok": "Kościele Mariackim", "bad": ["Katedrze Wawelskiej", "Bazylice w Licheniu", "Katedrze Oliwskiej"], "lvl": 2 },
     { "q": "Największy kościół w Polsce to bazylika w:", "ok": "Licheniu", "bad": ["Częstochowie", "Gnieźnie", "Krakowie"], "lvl": 2 },
     { "q": "Gigantyczny pomnik Chrystusa Króla stoi w:", "ok": "Świebodzinie", "bad": ["Licheniu", "Zakopanem", "Częstochowie"], "lvl": 2 },
     { "q": "Jak nazywa się słynny dzwon na Wawelu?", "ok": "Zygmunt", "bad": ["Kazimierz", "Bolesław", "Jagiełło"], "lvl": 1 },

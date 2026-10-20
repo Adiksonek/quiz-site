@@ -580,7 +580,7 @@
         "Srebrny",
         "Nie zdobyła medalu"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Z jakiego kraju pochodzi gimnastyczka Nadia Comăneci?",
@@ -960,7 +960,7 @@
         "5",
         "0"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "W którym roku kobiety po raz pierwszy wystartowały w nowożytnych igrzyskach?",
@@ -1053,7 +1053,7 @@
       "lvl": 2
     },
     {
-      "q": "Na którym zamieszkanym kontynencie nigdy nie odbyły się igrzyska olimpijskie?",
+      "q": "Na którym zamieszkanym kontynencie do 2024 roku nie odbyły się igrzyska olimpijskie?",
       "ok": "Afryka",
       "bad": [
         "Ameryka Południowa",
@@ -1083,7 +1083,7 @@
       "lvl": 2
     },
     {
-      "q": "Który kraj zdobył najwięcej medali w historii letnich igrzysk olimpijskich?",
+      "q": "Który kraj zdobył najwięcej medali na letnich igrzyskach do 2024 roku włącznie?",
       "ok": "USA",
       "bad": [
         "Chiny",

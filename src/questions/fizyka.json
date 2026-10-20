@@ -22,7 +22,7 @@
     { "q": "Jak nazywa się rozszczepienie światła białego na barwy w pryzmacie?", "ok": "Dyspersja", "bad": ["Dyfrakcja", "Interferencja", "Polaryzacja"], "lvl": 2 },
     { "q": "Jak nazywa się przyrząd do pomiaru napięcia elektrycznego?", "ok": "Woltomierz", "bad": ["Amperomierz", "Omomierz", "Barometr"], "lvl": 1 },
     { "q": "Jak nazywa się przyrząd do pomiaru ciśnienia atmosferycznego?", "ok": "Barometr", "bad": ["Termometr", "Higrometr", "Anemometr"], "lvl": 1 },
-    { "q": "Co oznacza litera c we wzorze E = mc²?", "ok": "Prędkość światła", "bad": ["Ciepło właściwe", "Ładunek elektryczny", "Stałą Plancka"], "lvl": 1 },
+    { "q": "Co oznacza litera c we wzorze E = mc²?", "ok": "Prędkość światła", "bad": ["Ciepło właściwe", "Ładunek elektryczny", "Stała Plancka"], "lvl": 1 },
     { "q": "Które prawo mówi, że ciało w cieczy traci na ciężarze tyle, ile waży wyparta ciecz?", "ok": "Prawo Archimedesa", "bad": ["Prawo Pascala", "Prawo Hooke'a", "Prawo Ohma"], "lvl": 1 },
     { "q": "Jak nazywa się odbity dźwięk, który słyszymy jako powtórzenie, np. w górach?", "ok": "Echo", "bad": ["Rezonans", "Dyfrakcja", "Refrakcja"], "lvl": 1 },
     { "q": "Zmiana wysokości dźwięku syreny przejeżdżającej karetki to efekt...", "ok": "Dopplera", "bad": ["Comptona", "Joule'a", "Halla"], "lvl": 2 },

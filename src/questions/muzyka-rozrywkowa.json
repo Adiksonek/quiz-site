@@ -13,7 +13,7 @@
       "lvl": 1
     },
     {
-      "q": "Ilu członków liczyło The Beatles w najsłynniejszym składzie?",
+      "q": "Ilu członków liczył zespół The Beatles w najsłynniejszym składzie?",
       "ok": "4",
       "bad": [
         "3",
@@ -453,16 +453,6 @@
       "lvl": 1
     },
     {
-      "q": "Który teledysk PSY jako pierwszy w historii YouTube przekroczył miliard wyświetleń?",
-      "ok": "Gangnam Style",
-      "bad": [
-        "Gentleman",
-        "Daddy",
-        "Hangover"
-      ],
-      "lvl": 1
-    },
-    {
       "q": "Kto nagrał album „1989”?",
       "ok": "Taylor Swift",
       "bad": [
@@ -640,7 +630,7 @@
         "Marvin Gaye",
         "Lionel Richie"
       ],
-      "lvl": 1
+      "lvl": 2
     },
     {
       "q": "Kto nagrał w 1971 roku album „What's Going On”?",
@@ -836,7 +826,7 @@
       "q": "Z jakiego kraju pochodzi raper Drake?",
       "ok": "Kanada",
       "bad": [
-        "USA",
+        "Australia",
         "Wielka Brytania",
         "Jamajka"
       ],
@@ -1000,7 +990,7 @@
         "Pearl Jam",
         "Incubus"
       ],
-      "lvl": 1
+      "lvl": 2
     },
     {
       "q": "Jak potocznie nazywa się grupę słynnych muzyków zmarłych w wieku 27 lat?",

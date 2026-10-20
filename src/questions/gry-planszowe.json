@@ -230,7 +230,7 @@
         "System Buchholza",
         "Współczynnik Morphy'ego"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Jaki jest najwyższy tytuł szachowy nadawany przez FIDE?",
@@ -740,7 +740,7 @@
         "Kontra",
         "Rekontra"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Ile kart liczy standardowa talia z dwoma jokerami?",
@@ -1040,7 +1040,7 @@
         "Austria",
         "Holandia"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "W której grze na kartce wypisuje się na czas wyrazy na wylosowaną literę w kilku kategoriach?",

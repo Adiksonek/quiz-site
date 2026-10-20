@@ -3,7 +3,7 @@
   "name": "Film",
   "questions": [
     { "q": "Kto wyreżyserował film „Titanic” z 1997 roku?", "ok": "James Cameron", "bad": ["Steven Spielberg", "Ridley Scott", "Christopher Nolan"], "lvl": 1 },
-    { "q": "Który film jako pierwszy nieanglojęzyczny zdobył Oscara dla najlepszego filmu (2020)?", "ok": "Parasite", "bad": ["Roma", "Amelia", "Ida"], "lvl": 2 },
+    { "q": "Który film jako pierwszy nieanglojęzyczny zdobył Oscara dla najlepszego filmu (gala w 2020 roku)?", "ok": "Parasite", "bad": ["Roma", "Amelia", "Ida"], "lvl": 2 },
     { "q": "Z ilu filmów składa się główna saga „Gwiezdnych wojen” o rodzie Skywalkerów?", "ok": "9", "bad": ["6", "8", "12"], "lvl": 2 },
     { "q": "Kto wyreżyserował film „Pulp Fiction”?", "ok": "Quentin Tarantino", "bad": ["Martin Scorsese", "David Fincher", "Guy Ritchie"], "lvl": 1 },
     { "q": "Kto wyreżyserował „Ojca chrzestnego” z 1972 roku?", "ok": "Francis Ford Coppola", "bad": ["Martin Scorsese", "Brian De Palma", "Sergio Leone"], "lvl": 1 },
@@ -28,7 +28,7 @@
     { "q": "Kto zagrał Bohuna w filmie „Ogniem i mieczem” z 1999 roku?", "ok": "Aleksandr Domogarow", "bad": ["Michał Żebrowski", "Krzysztof Kowalewski", "Andrzej Seweryn"], "lvl": 3 },
     { "q": "Akcja którego filmu Andrzeja Wajdy toczy się w XIX-wiecznej przemysłowej Łodzi?", "ok": "Ziemia obiecana", "bad": ["Wesele", "Popiół i diament", "Kanał"], "lvl": 2 },
     { "q": "Kto zagrał Maćka Chełmickiego w „Popiele i diamencie”?", "ok": "Zbigniew Cybulski", "bad": ["Daniel Olbrychski", "Tadeusz Janczar", "Bogumił Kobiela"], "lvl": 2 },
-    { "q": "Który film Romana Polańskiego był pierwszym polskim filmem nominowanym do Oscara?", "ok": "Nóż w wodzie", "bad": ["Ziemia obiecana", "Faraon", "Rejs"], "lvl": 3 },
+    { "q": "Który film był pierwszym polskim filmem nominowanym do Oscara?", "ok": "Nóż w wodzie", "bad": ["Ziemia obiecana", "Faraon", "Potop"], "lvl": 3 },
     { "q": "Kto wyreżyserował film „Faraon” z 1966 roku?", "ok": "Jerzy Kawalerowicz", "bad": ["Andrzej Wajda", "Wojciech Jerzy Has", "Aleksander Ford"], "lvl": 3 },
     { "q": "Kto wyreżyserował „Rękopis znaleziony w Saragossie” z 1965 roku?", "ok": "Wojciech Jerzy Has", "bad": ["Andrzej Wajda", "Jerzy Kawalerowicz", "Andrzej Żuławski"], "lvl": 3 },
     { "q": "Który film Jana Komasy był nominowany do Oscara w 2020 roku?", "ok": "Boże Ciało", "bad": ["Sala samobójców", "Hejter", "Miasto 44"], "lvl": 3 },

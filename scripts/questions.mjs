@@ -19,6 +19,9 @@ const ONLY = opt('only', '') ? opt('only', '').split(',') : null;
 const cats = JSON.parse(readFileSync(join(DIR, 'categories.json'), 'utf8'));
 const norm = s => String(s).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/ł/g, 'l').replace(/[^a-z0-9]+/g, ' ').trim();
 
+const STOP = new Set('ktory ktora ktore jaki jaka jakie jakiego jakim jak kto co czy sie na do od jest byl byla ile ktorego ktorej ktorym ten po za przez dla nazywa nazwa jego jej kraju pochodzi roku pierwszy jako'.split(' '));
+const words = s => new Set(norm(s).split(' ').filter(x => x.length > 2 && !STOP.has(x)));
+
 function load(slug) {
   const f = join(DIR, slug + '.json');
   if (!existsSync(f)) return null;
@@ -28,6 +31,7 @@ function load(slug) {
 function check() {
   const errors = [], warns = [];
   const seen = new Map();
+  const pool = [];
   let total = 0;
   for (const c of cats) {
     const data = load(c.slug);
@@ -57,6 +61,16 @@ function check() {
       }
     });
     if ((!ONLY || ONLY.includes(c.slug)) && qs.length < MIN) errors.push(`${where}: ${qs.length} pytań (min ${MIN})`);
+    qs.forEach((x, i) => typeof x.q === 'string' && typeof x.ok === 'string' && pool.push({ at: `${where}#${i + 1}`, cat: c.slug, ok: norm(x.ok), w: words(x.q) }));
+  }
+  // Ten sam fakt w dwóch kategoriach: ta sama poprawna odpowiedź i podobne słowa w pytaniu.
+  const byOk = new Map();
+  pool.forEach(p => byOk.set(p.ok, [...(byOk.get(p.ok) || []), p]));
+  for (const group of byOk.values()) for (let a = 0; a < group.length; a++) for (let b = a + 1; b < group.length; b++) {
+    const A = group[a], B = group[b];
+    if (A.cat === B.cat) continue;
+    const common = [...A.w].filter(x => B.w.has(x)).length;
+    if (common && common / new Set([...A.w, ...B.w]).size >= 0.5) warns.push(`${A.at} i ${B.at}: prawdopodobnie to samo pytanie`);
   }
   warns.forEach(w => console.warn('uwaga: ' + w));
   errors.forEach(e => console.error('błąd:  ' + e));

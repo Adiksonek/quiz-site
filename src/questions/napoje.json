@@ -123,7 +123,7 @@
       "lvl": 3
     },
     {
-      "q": "Który kraj od ponad 150 lat jest największym producentem kawy na świecie?",
+      "q": "Który kraj był największym producentem kawy na świecie w 2020 roku?",
       "ok": "Brazylia",
       "bad": [
         "Kolumbia",
@@ -230,7 +230,7 @@
         "Na Tajwanie",
         "Na Borneo"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "W którym roku miała miejsce bostońska herbatka?",
@@ -370,7 +370,7 @@
         "Filtracji",
         "Krystalizacji"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Kompot to napój przygotowywany z:",
@@ -400,7 +400,7 @@
         "Boza",
         "Salep"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Z jakiego kraju pochodzi jogurtowy napój lassi?",
@@ -470,7 +470,7 @@
         "Spontanicznej",
         "Mlekowej"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Od nazwy którego miasta pochodzi styl piwa pils?",
@@ -500,7 +500,7 @@
         "Edynburg",
         "Cork"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Jaki tradycyjny polski styl piwa warzy się z wędzonego słodu pszenicznego?",
@@ -670,7 +670,7 @@
         "Pomologia",
         "Dendrologia"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Wino z białego szczepu riesling jest zazwyczaj:",
@@ -820,7 +820,7 @@
         "Z Brazylii",
         "Z Hiszpanii"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Jaki alkohol jest bazą brazylijskiej caipirinhi?",
@@ -940,7 +940,7 @@
         "Doppio",
         "Cortado"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Jak nazywa się bardzo krótkie, skoncentrowane espresso z mniejszą ilością wody?",
@@ -1100,7 +1100,7 @@
         "Americano",
         "Lungo"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Jaki alkohol dodaje się do tradycyjnej kawy po irlandzku?",
@@ -1110,7 +1110,7 @@
         "Brandy",
         "Wódkę"
       ],
-      "lvl": 2
+      "lvl": 1
     },
     {
       "q": "Z jakiego kraju pochodzi firma Hario, twórca zaparzacza V60?",
@@ -1140,7 +1140,7 @@
         "Cream soda",
         "Tonik"
       ],
-      "lvl": 3
+      "lvl": 2
     },
     {
       "q": "Jaki składnik nadaje smak napojowi ginger ale?",

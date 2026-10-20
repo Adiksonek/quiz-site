@@ -45,7 +45,6 @@
     { "q": "Od nazwiska którego malarza pochodzi określenie krągłej, pulchnej sylwetki kobiecej?", "ok": "Peter Paul Rubens", "bad": ["Rembrandt", "Sandro Botticelli", "Tycjan"], "lvl": 2 },
     { "q": "Kto namalował „Myśliwych na śniegu”?", "ok": "Pieter Bruegel Starszy", "bad": ["Hieronim Bosch", "Jan van Eyck", "Hans Memling"], "lvl": 2 },
     { "q": "Kto namalował „Portret małżonków Arnolfinich”?", "ok": "Jan van Eyck", "bad": ["Hans Memling", "Rogier van der Weyden", "Hieronim Bosch"], "lvl": 3 },
-    { "q": "Którego mistrza „Sąd Ostateczny” znajduje się w Muzeum Narodowym w Gdańsku?", "ok": "Hans Memling", "bad": ["Hieronim Bosch", "Jan van Eyck", "Albrecht Dürer"], "lvl": 2 },
     { "q": "Który niemiecki artysta namalował słynną akwarelę „Zając”?", "ok": "Albrecht Dürer", "bad": ["Hans Holbein", "Lucas Cranach", "Matthias Grünewald"], "lvl": 2 },
     { "q": "Kto namalował obraz „Ambasadorowie” z ukrytą czaszką?", "ok": "Hans Holbein Młodszy", "bad": ["Albrecht Dürer", "Lucas Cranach", "Anton van Dyck"], "lvl": 3 },
     { "q": "Kto namalował „Powołanie świętego Mateusza”?", "ok": "Caravaggio", "bad": ["Peter Paul Rubens", "Tycjan", "Tintoretto"], "lvl": 3 },

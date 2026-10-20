@@ -131,7 +131,6 @@
     { "q": "Jak nazywa się koń Don Kichota?", "ok": "Rosynant", "bad": ["Bucefał", "Pegaz", "Marengo"], "lvl": 2 },
     { "q": "Jak nazywa się giermek Don Kichota?", "ok": "Sancho Pansa", "bad": ["Lazarillo", "Figaro", "Leporello"], "lvl": 1 },
     { "q": "Czym wyróżniał się wygląd Cyrana de Bergerac z dramatu Rostanda?", "ok": "Bardzo dużym nosem", "bad": ["Garbem", "Brakiem oka", "Rudą brodą"], "lvl": 2 },
-    { "q": "Kto napisał powiastkę filozoficzną „Kandyd”?", "ok": "Wolter", "bad": ["Jean-Jacques Rousseau", "Denis Diderot", "Monteskiusz"], "lvl": 2 },
     { "q": "Kto napisał komedię „Świętoszek”?", "ok": "Molier", "bad": ["Jean Racine", "Pierre Corneille", "Beaumarchais"], "lvl": 2 },
     { "q": "Z jakiego kraju pochodzi średniowieczna „Pieśń o Rolandzie”?", "ok": "Francja", "bad": ["Hiszpania", "Niemcy", "Anglia"], "lvl": 3 },
     { "q": "Kto napisał „Opowieści kanterberyjskie”?", "ok": "Geoffrey Chaucer", "bad": ["Thomas Malory", "John Milton", "Edmund Spenser"], "lvl": 3 },

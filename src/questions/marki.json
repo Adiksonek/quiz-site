@@ -53,32 +53,12 @@
       "lvl": 2
     },
     {
-      "q": "Nazwa Google wywodzi się od słowa googol. Jaką liczbę ono oznacza?",
-      "ok": "10 do potęgi 100",
-      "bad": [
-        "10 do potęgi 10",
-        "10 do potęgi 1000",
-        "Milion milionów"
-      ],
-      "lvl": 3
-    },
-    {
       "q": "Ile różnych kolorów liter ma klasyczne logo Google?",
       "ok": "4",
       "bad": [
         "3",
         "5",
         "6"
-      ],
-      "lvl": 2
-    },
-    {
-      "q": "Od sprzedaży czego zaczynał działalność Amazon?",
-      "ok": "Książek",
-      "bad": [
-        "Płyt z muzyką",
-        "Elektroniki",
-        "Ubrań"
       ],
       "lvl": 2
     },
@@ -496,7 +476,7 @@
       "q": "Jakie zwierzę obok czerwonego krzyża widnieje w logo Alfa Romeo?",
       "ok": "Wąż",
       "bad": [
-        "Smok",
+        "Gryf",
         "Lew",
         "Orzeł"
       ],
