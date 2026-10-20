@@ -57,5 +57,14 @@
   { "slug": "ekonomia", "name": "Ekonomia i biznes", "group": "Różne" },
   { "slug": "medycyna", "name": "Medycyna i zdrowie", "group": "Różne" },
   { "slug": "napoje", "name": "Napoje", "group": "Różne" },
-  { "slug": "zagadki", "name": "Zagadki i łamigłówki", "group": "Różne" }
+  { "slug": "zagadki", "name": "Zagadki i łamigłówki", "group": "Różne" },
+
+  { "slug": "cs", "name": "CS:GO i CS2", "group": "Gaming" },
+  { "slug": "minecraft", "name": "Minecraft", "group": "Gaming" },
+  { "slug": "esport", "name": "Esport", "group": "Gaming" },
+  { "slug": "gry-komputerowe", "name": "Gry komputerowe", "group": "Gaming" },
+
+  { "slug": "influencerzy", "name": "Influencerzy i YouTuberzy", "group": "Scena" },
+  { "slug": "polski-rap", "name": "Polski rap", "group": "Scena" },
+  { "slug": "rap", "name": "Rap zagraniczny", "group": "Scena" }
 ]
