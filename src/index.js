@@ -251,6 +251,7 @@ export class Room {
           id: p.id, name: p.name, color: p.color, score: p.score, correct: p.correct, connected: p.connected,
           answered: p.answer !== null, gain: p.gain,
           choice: this.phase === 'reveal' ? p.answer : null,
+          ms: this.phase === 'reveal' && p.answer !== null ? p.answerAt - this.qStart : null,
         };
       }),
       q: q && {
