@@ -249,6 +249,25 @@ const ICON={
   bad:'<svg viewBox="0 0 24 24" class="i-bad" aria-label="Błędna"><path d="M7 7l10 10M17 7L7 17"/></svg>',
   x:'<svg class="ico" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17"/></svg>'
 };
+/* ---------- platforma: strona albo aplikacja (Capacitor) ---------- */
+const SITE='https://quiz-party.adrianwolosz3.workers.dev';
+const NATIVE=!!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform());
+const API=NATIVE?SITE:'';                  // w aplikacji strona leży w paczce, serwer jest zdalny
+const ORIGIN=NATIVE?SITE:location.origin;  // adres do linków zaproszeń i kodów QR
+const P=NATIVE?Capacitor.Plugins:{};
+function vibrate(kind){
+  if(P.Haptics){kind==='error'?P.Haptics.notification({type:'ERROR'}):P.Haptics.impact({style:'LIGHT'});return}
+  if(navigator.vibrate)navigator.vibrate(kind==='error'?[40,40,40]:12);
+}
+// true, jeśli udostępniono (albo użytkownik zamknął okno udostępniania)
+async function shareIt(data){
+  try{
+    if(P.Share){await P.Share.share({title:data.title,text:data.text,url:data.url,dialogTitle:'Udostępnij'});return true}
+    if(navigator.share){await navigator.share(data);return true}
+  }catch(e){return true}
+  return false;
+}
+
 const SAMPLES=[
   ['Geografia','Jaka jest stolica Australii?',['Sydney','Canberra','Melbourne','Perth']],
   ['Kosmos','Którą planetę nazywa się Czerwoną Planetą?',['Wenus','Jowisz','Mars','Merkury']],
@@ -262,7 +281,7 @@ const ui={sheet:false,search:'',searchFocus:false};
 
 function uid(){return (crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2))}
 function myId(){let id=ls.get('id:'+code,'');if(!id){id=uid();ls.set('id:'+code,id)}return id}
-function joinLink(){return location.origin+'/?r='+code}
+function joinLink(){return ORIGIN+'/?r='+code}
 
 const ink=hex=>{const n=parseInt(String(hex).slice(1),16);if(isNaN(n))return '#111113';const r=n>>16&255,g=n>>8&255,b=n&255;return (.299*r+.587*g+.114*b)>150?'#111113':'#FFFFFF'};
 const av=(p,cls='')=>`<span class="av ${cls}" style="background:${esc(p.color)};color:${ink(p.color)}" aria-hidden="true">${esc(([...p.name][0]||'?').toUpperCase())}</span>`;
@@ -322,7 +341,7 @@ function renderHome(err=''){
     if(!needName())return;
     if(code){connect();return}
     const b=document.getElementById('createBtn');b.disabled=true;
-    try{const r=await fetch('/api/new');const d=await r.json();if(!r.ok)throw new Error(d.error||'Błąd');
+    try{const r=await fetch(API+'/api/new');const d=await r.json();if(!r.ok)throw new Error(d.error||'Błąd');
       code=d.code;history.replaceState(null,'','/?r='+code);connect();
     }catch(x){b.disabled=false;showErr('Nie udało się założyć pokoju. Spróbuj jeszcze raz.')}
   };
@@ -340,7 +359,7 @@ function connect(){
   leaving=false;
   if(ws){try{ws.onclose=null;ws.close()}catch(e){}}
   if(!S)app.innerHTML='<div class="wrap"><p class="waiting">Łączenie z pokojem…</p></div>';
-  ws=new WebSocket((location.protocol==='https:'?'wss://':'ws://')+location.host+'/api/ws/'+code);
+  ws=new WebSocket(API?API.replace(/^http/,'ws')+'/api/ws/'+code:(location.protocol==='https:'?'wss://':'ws://')+location.host+'/api/ws/'+code);
   ws.onopen=()=>{retry=0;document.getElementById('banner').hidden=true;ws.send(JSON.stringify({t:'join',id:myId(),name}));
     clearInterval(pingT);pingT=setInterval(()=>{if(ws.readyState===1)ws.send('{"t":"ping"}')},20000)};
   ws.onmessage=e=>{let m;try{m=JSON.parse(e.data)}catch(x){return}
@@ -359,6 +378,7 @@ function leave(){leaving=true;try{ws.close()}catch(e){}code='';history.replaceSt
 let lock=null;
 async function wakeLock(on){
   try{
+    if(P.KeepAwake){on?await P.KeepAwake.keepAwake():await P.KeepAwake.allowSleep();return}
     if(on&&!lock&&'wakeLock' in navigator&&!document.hidden){lock=await navigator.wakeLock.request('screen');lock.addEventListener('release',()=>{lock=null})}
     else if(!on&&lock){await lock.release();lock=null}
   }catch(e){lock=null}
@@ -455,7 +475,7 @@ function renderLobby(){
   window.QRCode?drawQR():window.addEventListener('load',drawQR,{once:true});
   document.getElementById('copyBtn').onclick=async e=>{try{await navigator.clipboard.writeText(joinLink());e.target.textContent='Skopiowano'}catch(x){prompt('Skopiuj link:',joinLink())}};
   document.getElementById('shareBtn').onclick=async()=>{
-    if(navigator.share){navigator.share({title:'Quiz Party',text:'Dołącz do quizu, kod '+S.code,url:joinLink()}).catch(()=>{});return}
+    if(await shareIt({title:'Quiz Party',text:'Dołącz do quizu, kod '+S.code,url:joinLink()}))return;
     try{await navigator.clipboard.writeText(joinLink());document.getElementById('copyBtn').textContent='Skopiowano'}catch(x){prompt('Skopiuj link:',joinLink())}};
   document.getElementById('leaveBtn').onclick=()=>{if(confirm('Wyjść z pokoju?'))leave()};
   if(!host)return;
@@ -559,7 +579,7 @@ function renderQuestion(){
       ${isHost()?'<button class="btn sm" id="endBtn" style="border-radius:24px;height:48px">Zakończ</button>':''}`)}`;
   document.getElementById('ans').onclick=e=>{const b=e.target.closest('.ans');if(!b||S.myAnswer!==null)return;
     S.myAnswer=+b.dataset.k;send({t:'answer',k:S.myAnswer});
-    if(navigator.vibrate)navigator.vibrate(12);
+    vibrate('tap');
     app.querySelectorAll('.ans').forEach((x,i)=>{x.disabled=true;x.classList.add(i===S.myAnswer?'sel':'dim')});
     document.getElementById('status').textContent='Zapisano. Czekamy na resztę'};
   const eb=document.getElementById('endBtn');if(eb)eb.onclick=()=>{if(confirm('Zakończyć grę i pokazać wyniki?'))send({t:'end'})};
@@ -654,7 +674,7 @@ const today=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Warsaw'}).form
 const dailyRes=()=>{try{return JSON.parse(ls.get('daily:'+today(),'null'))}catch(e){return null}};
 function deviceId(){let id=ls.get('device','');if(!id){id=uid();ls.set('device',id)}return id}
 async function api(path,body){
-  const r=await fetch(path,body?{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)}:undefined);
+  const r=await fetch(API+path,body?{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)}:undefined);
   const d=await r.json().catch(()=>({error:'Brak połączenia z serwerem.'}));
   if(!r.ok||d.error)throw new Error(d.error||'Coś poszło nie tak.');
   return d;
@@ -776,7 +796,7 @@ async function spAnswer(k){
   if(sp.lock)return;sp.lock=true;cancelAnimationFrame(raf);
   let r;
   try{r=await api('/api/sprint/answer',{run:sp.run,k})}catch(e){sp.lock=false;toast(e.message);return}
-  if(!r.correct&&navigator.vibrate)navigator.vibrate(k<0?[60]:[40,40,40]);
+  if(!r.correct)vibrate('error');
   renderSprintQ({ok:r.ok,k});
   if(sp.cur.mode==='time'&&!r.correct&&!r.over)toast(k<0?'Czas minął':'-5 s');
   setTimeout(()=>{
@@ -825,13 +845,16 @@ function renderSprintOver(res){
   document.getElementById('againBtn').onclick=()=>{renderSprintMenu().then(()=>document.getElementById('spStart')?.click())};
   document.getElementById('shareBtn').onclick=async()=>{
     const text=`Quiz Party, ${m.name}: ${res.score} ${m.unit(res.score)}. Pobijesz?`;
-    if(navigator.share){navigator.share({title:'Quiz Party',text,url:location.origin}).catch(()=>{});return}
-    try{await navigator.clipboard.writeText(text+' '+location.origin);toast('Skopiowano wynik')}catch(e){prompt('Skopiuj wynik:',text+' '+location.origin)}
+    if(await shareIt({title:'Quiz Party',text,url:ORIGIN}))return;
+    try{await navigator.clipboard.writeText(text+' '+ORIGIN);toast('Skopiowano wynik')}catch(e){prompt('Skopiuj wynik:',text+' '+ORIGIN)}
   };
 }
 
 /* ---------- start aplikacji ---------- */
 if(code&&name&&ls.get('id:'+code,'')) connect(); else renderHome();
+addEventListener('offline',()=>{const b=document.getElementById('banner');b.textContent='Brak internetu. Gra wróci, gdy połączenie wróci.';b.hidden=false});
+addEventListener('online',()=>{const b=document.getElementById('banner');b.hidden=true;b.textContent='Brak połączenia. Łączę ponownie…';if(code&&!leaving&&ws&&ws.readyState>1)connect()});
+if(!navigator.onLine)dispatchEvent(new Event('offline'));
 document.addEventListener('visibilitychange',()=>{
   if(document.hidden)return;
   if(code&&!leaving&&ws&&ws.readyState>1)connect();
