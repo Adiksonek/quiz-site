@@ -65,3 +65,20 @@ Strona będzie pod `http://localhost:8787`.
 
 Poprawna odpowiedź daje od 500 do 1000 punktów - im szybciej, tym więcej. Zła albo brak odpowiedzi: 0.
 Pytanie kończy się, gdy odpowiedzą wszyscy podłączeni gracze albo gdy skończy się czas. Host przechodzi dalej przyciskiem.
+
+## Aplikacja na Androida
+
+Ten sam frontend (`public/`) w Capacitorze. Plan i decyzje: `docs/ANDROID_PLAN.md`.
+
+**Pobranie:** zakładka Releases, wydanie `android-latest`, plik `quiz-party.apk`. Budowane automatycznie przy każdym pushu na `main`, który zmienia `public/` albo `android/`. Nowa wersja instaluje się na poprzednią (stały klucz debug w sekrecie `ANDROID_DEBUG_KEYSTORE`).
+
+**Lokalnie** (Android SDK, JDK 21):
+
+```bash
+npx cap sync android
+cd android && ./gradlew assembleDebug   # android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+**Test z lokalnym serwerem:** `npm run dev`, potem `adb reverse tcp:8787 tcp:8787` i w aplikacji (debugowanie WebView przez `chrome://inspect`) `localStorage.setItem('quizp:api','http://localhost:8787')`. Bez tego aplikacja łączy się z `quiz-party.adrianwolosz3.workers.dev`.
+
+**Ikona i ekran startowy:** `node scripts/app-assets.mjs && npx capacitor-assets generate --android`.

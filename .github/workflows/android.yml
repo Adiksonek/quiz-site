@@ -1,0 +1,52 @@
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+    paths: ['public/**', 'android/**', 'capacitor.config.json', 'package.json', 'package-lock.json', '.github/workflows/android.yml']
+  pull_request:
+    paths: ['public/**', 'android/**', 'capacitor.config.json', 'package.json', 'package-lock.json', '.github/workflows/android.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: npm ci
+      - run: npx cap sync android
+      # Ten sam klucz debug co lokalnie: nowa wersja instaluje się na starą bez odinstalowywania.
+      - name: Klucz debug
+        env:
+          KEYSTORE: ${{ secrets.ANDROID_DEBUG_KEYSTORE }}
+        run: |
+          if [ -n "$KEYSTORE" ]; then mkdir -p ~/.android && echo "$KEYSTORE" | base64 -d > ~/.android/debug.keystore; fi
+      - name: Budowanie APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+      - run: mv android/app/build/outputs/apk/debug/app-debug.apk quiz-party.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: quiz-party-apk
+          path: quiz-party.apk
+      # Stały link do najnowszej wersji: Releases > android-latest
+      - name: Wydanie android-latest
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete android-latest --yes --cleanup-tag || true
+          gh release create android-latest quiz-party.apk --prerelease --target "$GITHUB_SHA" \
+            --title "Quiz Party na Androida (wersja 1.0.$GITHUB_RUN_NUMBER)" \
+            --notes "APK z commita ${GITHUB_SHA::7}. Instalacja: pobierz quiz-party.apk na telefon, otwórz i zezwól na instalację z tego źródła. Nowe wersje instalują się na poprzednią."
