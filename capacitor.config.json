@@ -1,0 +1,15 @@
+{
+  "appId": "pl.quizparty.app",
+  "appName": "Quiz Party",
+  "webDir": "public",
+  "android": {
+    "backgroundColor": "#0E0E11"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "backgroundColor": "#0E0E11",
+      "showSpinner": false
+    }
+  }
+}

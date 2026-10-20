@@ -13,39 +13,62 @@ const IDLE_MS = 10 * 60 * 1000;
 
 const json = (d, s = 200) => new Response(JSON.stringify(d), { status: s, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
 const RUN_ID = /^[0-9a-f-]{36}$/;
+// Aplikacja Capacitor ładuje stronę z lokalnego originu i woła API na tym serwerze.
+const APP_ORIGINS = ['https://localhost', 'capacitor://localhost', 'http://localhost'];
+
+function withCors(req, res) {
+  const origin = req.headers.get('Origin');
+  if (!APP_ORIGINS.includes(origin) || res.status === 101) return res;
+  const out = new Response(res.body, res);
+  out.headers.set('Access-Control-Allow-Origin', origin);
+  out.headers.set('Vary', 'Origin');
+  return out;
+}
 
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
-    if (url.pathname === '/api/cats') return json(CAT_INFO);
-    if (url.pathname === '/api/daily') return env.DAILY.get(env.DAILY.idFromName(warsawDate())).fetch('https://daily/top');
-    const sp = url.pathname.match(/^\/api\/sprint\/(start|answer|joker)$/);
-    if (sp) {
-      if (req.method !== 'POST') return json({ error: 'POST' }, 405);
-      const body = await req.json().catch(() => ({}));
-      const run = sp[1] === 'start' ? crypto.randomUUID() : String(body.run || '');
-      if (!RUN_ID.test(run)) return json({ error: 'Brak identyfikatora sprintu.' }, 400);
-      const res = await env.SPRINTS.get(env.SPRINTS.idFromName(run)).fetch('https://sprint/' + sp[1], { method: 'POST', body: JSON.stringify(body) });
-      const data = await res.json();
-      return json(sp[1] === 'start' && res.ok ? { run, ...data } : data, res.status);
+    if (url.pathname.startsWith('/api/') && req.method === 'OPTIONS') {
+      const origin = req.headers.get('Origin');
+      if (!APP_ORIGINS.includes(origin)) return new Response(null, { status: 403 });
+      return new Response(null, { status: 204, headers: {
+        'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+        'Access-Control-Allow-Headers': 'content-type', 'Access-Control-Max-Age': '86400', 'Vary': 'Origin',
+      } });
     }
-    if (url.pathname === '/api/new') {
-      for (let i = 0; i < 10; i++) {
-        const code = Array.from({ length: 4 }, () => CODE_CHARS[Math.floor(Math.random() * CODE_CHARS.length)]).join('');
-        const stub = env.ROOMS.get(env.ROOMS.idFromName(code));
-        const r = await stub.fetch('https://room/claim');
-        if (r.ok) return json({ code });
-      }
-      return json({ error: 'Brak wolnych pokoi, spróbuj ponownie.' }, 503);
-    }
-    const m = url.pathname.match(/^\/api\/ws\/([A-Z]{4})$/);
-    if (m) {
-      if (req.headers.get('Upgrade') !== 'websocket') return new Response('Expected WebSocket', { status: 426 });
-      return env.ROOMS.get(env.ROOMS.idFromName(m[1])).fetch(req);
-    }
-    return env.ASSETS.fetch(req);
+    return withCors(req, await route(req, env, url));
   },
 };
+
+async function route(req, env, url) {
+  if (url.pathname === '/api/cats') return json(CAT_INFO);
+  if (url.pathname === '/api/daily') return env.DAILY.get(env.DAILY.idFromName(warsawDate())).fetch('https://daily/top');
+  const sp = url.pathname.match(/^\/api\/sprint\/(start|answer|joker)$/);
+  if (sp) {
+    if (req.method !== 'POST') return json({ error: 'POST' }, 405);
+    const body = await req.json().catch(() => ({}));
+    const run = sp[1] === 'start' ? crypto.randomUUID() : String(body.run || '');
+    if (!RUN_ID.test(run)) return json({ error: 'Brak identyfikatora sprintu.' }, 400);
+    const res = await env.SPRINTS.get(env.SPRINTS.idFromName(run)).fetch('https://sprint/' + sp[1], { method: 'POST', body: JSON.stringify(body) });
+    const data = await res.json();
+    return json(sp[1] === 'start' && res.ok ? { run, ...data } : data, res.status);
+  }
+  if (url.pathname === '/api/new') {
+    for (let i = 0; i < 10; i++) {
+      const code = Array.from({ length: 4 }, () => CODE_CHARS[Math.floor(Math.random() * CODE_CHARS.length)]).join('');
+      const stub = env.ROOMS.get(env.ROOMS.idFromName(code));
+      const r = await stub.fetch('https://room/claim');
+      if (r.ok) return json({ code });
+    }
+    return json({ error: 'Brak wolnych pokoi, spróbuj ponownie.' }, 503);
+  }
+  const m = url.pathname.match(/^\/api\/ws\/([A-Z]{4})$/);
+  if (m) {
+    if (req.headers.get('Upgrade') !== 'websocket') return new Response('Expected WebSocket', { status: 426 });
+    return env.ROOMS.get(env.ROOMS.idFromName(m[1])).fetch(req);
+  }
+  return env.ASSETS.fetch(req);
+}
 
 export class Room {
   constructor(ctx, env) {

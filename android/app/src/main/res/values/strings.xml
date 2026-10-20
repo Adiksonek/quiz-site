@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Quiz Party</string>
+    <string name="title_activity_main">Quiz Party</string>
+    <string name="package_name">pl.quizparty.app</string>
+    <string name="custom_url_scheme">pl.quizparty.app</string>
+</resources>
