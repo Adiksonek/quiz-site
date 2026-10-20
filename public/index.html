@@ -18,7 +18,7 @@
   --bg:#F4F4F1; --surface:#FFFFFF; --surface-2:#EAEAE6; --thumb:#FFFFFF; --line:rgba(0,0,0,.07);
   --text:#111113; --text-2:#5C5C66; --text-3:#62626C;
   --accent:#C6F432; --on-accent:#111113; --accent-text:#4A6600;
-  --ok:#1F7A35; --ok-tint:rgba(52,199,89,.16); --bad:#C4001A;
+  --ok:#1F7A35; --ok-tint:rgba(52,199,89,.16); --bad:#C4001A; --bad-tint:rgba(255,59,48,.12);
   --glass:rgba(255,255,255,.62); --glass-edge:rgba(0,0,0,.06); --glass-hi:rgba(255,255,255,.95); --glass-shadow:0 8px 24px rgba(0,0,0,.08);
   --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
 }
@@ -27,7 +27,7 @@
     --bg:#0E0E11; --surface:#1A1A1F; --surface-2:#26262D; --thumb:#3A3A43; --line:rgba(255,255,255,.08);
     --text:#F4F4F6; --text-2:#A1A1AA; --text-3:#93939D;
     --on-accent:#0E0E11; --accent-text:#C6F432;
-    --ok:#32D74B; --ok-tint:rgba(50,215,75,.14); --bad:#FF6961;
+    --ok:#32D74B; --ok-tint:rgba(50,215,75,.14); --bad:#FF6961; --bad-tint:rgba(255,69,58,.16);
     --glass:rgba(30,30,36,.55); --glass-edge:rgba(255,255,255,.12); --glass-hi:rgba(255,255,255,.16); --glass-shadow:0 10px 30px rgba(0,0,0,.45);
   }
 }
@@ -127,6 +127,27 @@ button{cursor:pointer}
 .seg button{height:44px;border:0;border-radius:13px;background:none;color:var(--text-2);font-size:15px;font-weight:500}
 .seg button[aria-pressed="true"]{background:var(--thumb);color:var(--text);font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,.12)}
 .seg button:disabled{cursor:default}
+.solo{margin-top:20px}
+.modes{display:flex;flex-direction:column;gap:10px}
+.mode{width:100%;padding:16px 18px;display:flex;align-items:center;gap:14px;text-align:left;color:var(--text)}
+.mode[aria-checked="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.mode .t{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.mode b{font-size:17px;font-weight:600}
+.mode .t span{font-size:13px;color:var(--text-2)}
+.mode .rec{text-align:right}
+.mode .rec small{display:block;font-size:12px;color:var(--text-3)}
+.mode .rec strong{font-size:22px;font-weight:600}
+.sp-score{margin-top:24px;display:flex;align-items:baseline;gap:10px}
+.sp-score span:first-child{font-size:56px;line-height:1;font-weight:600;letter-spacing:-.04em}
+.sp-score span:last-child{font-size:15px;color:var(--text-2)}
+.sp-score.big span:first-child{font-size:72px;color:var(--accent-text)}
+.sp-note{margin:12px 4px 16px;font-size:15px;line-height:1.5}
+.ans.right{background:var(--ok-tint);border:1px solid var(--ok);font-weight:600}
+.ans.right b{background:var(--ok);color:var(--bg)}
+.ans.right svg{width:20px;height:20px;fill:none;stroke:var(--ok);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.ans.wrong{background:var(--bad-tint);border:1px solid var(--bad)}
+.ans.gone{visibility:hidden}
+@media (max-height:700px){.sp-score{margin-top:12px}.sp-score span:first-child{font-size:40px}}
 .catsum{width:100%;min-height:68px;padding:12px 12px 12px 18px;display:flex;align-items:center;gap:12px;text-align:left;color:var(--text)}
 .catsum .t{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
 .catsum .t b{font-size:16px;font-weight:600}
@@ -269,6 +290,10 @@ function renderHome(err=''){
         <div class="brand"><i aria-hidden="true">?</i>Quiz Party</div>
         <h1 class="hero">Quiz na żywo<br>dla całej ekipy</h1>
         <p class="lead">Jedna osoba zakłada pokój, reszta dołącza kodem. Każdy odpowiada na swoim telefonie.</p>
+        <button class="card catsum solo" id="soloBtn">
+          <span class="t"><b>Graj sam</b><span id="dailyInfo">Sprint: odpowiadaj, dopóki się nie pomylisz</span></span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
         <div class="preview" aria-hidden="true">${SAMPLES.map(([c,q,o])=>`
           <div class="card"><div class="c">${esc(c)}</div><div class="q">${esc(q)}</div>
           <div class="o">${o.map(x=>`<span>${esc(x)}</span>`).join('')}</div></div>`).join('')}</div>
@@ -302,6 +327,9 @@ function renderHome(err=''){
     }catch(x){b.disabled=false;showErr('Nie udało się założyć pokoju. Spróbuj jeszcze raz.')}
   };
   on('homeBtn',()=>{code='';history.replaceState(null,'','/');renderHome()});
+  on('soloBtn',()=>renderSprintMenu());
+  const di=document.getElementById('dailyInfo');
+  if(di)api('/api/daily').then(d=>{sp.daily=d;if(d.players)di.textContent=`Sprint dnia: ${num(d.players)} ${pl(d.players,'gracz','graczy','graczy')}, rekord ${d.best}`}).catch(()=>{});
   on('codeBtn',()=>{const c=cleanCode(cd.value);
     if(c.length!==4){showErr('Kod ma 4 litery.');cd.focus();return}
     if(!needName())return; code=c;history.replaceState(null,'','/?r='+code);connect();});
@@ -417,8 +445,8 @@ function renderLobby(){
       <div class="info"><b class="tnum">${games} ${qWord(games)} · ${st.time} s</b><span>${allOn?'Wszystkie kategorie':`${st.cats.length} ${catWord(st.cats.length)}`}</span></div>
       ${st.cats.length?'<button class="btn primary" id="startBtn">Start</button>':'<button class="btn" disabled>Wybierz kategorię</button>'}`)
     :dock(`<div class="msg">Czekamy, aż ${esc(hostName())} wystartuje grę</div>`)}
-    ${ui.sheet?catSheetHTML(host,st,total):''}`;
-  if(ui.sheet)bindCatSheet(host,st,sheetScroll);
+    ${ui.sheet?catSheetHTML(S.cats,st.cats,host,st.count,total):''}`;
+  if(ui.sheet)bindCatSheet(S.cats,st.cats,host,sheetScroll,cats=>send({t:'settings',...st,cats}),renderLobby);
   document.body.style.overflow=ui.sheet?'hidden':'';
   document.getElementById('catsBtn').onclick=()=>{ui.sheet=true;ui.search='';renderLobby();setTimeout(()=>{const s=document.getElementById('csSearch');if(s&&matchMedia('(pointer:fine)').matches)s.focus()},50)};
 
@@ -439,12 +467,12 @@ function renderLobby(){
 }
 
 /* arkusz wyboru kategorii (#13) */
-function catSheetHTML(host,st,total){
+function catSheetHTML(cats,sel,host,count,total){
   const groups=[];
-  S.cats.forEach(c=>{let g=groups.find(x=>x.name===c.group);if(!g)groups.push(g={name:c.group,cats:[]});g.cats.push(c)});
+  cats.forEach(c=>{let g=groups.find(x=>x.name===c.group);if(!g)groups.push(g={name:c.group,cats:[]});g.cats.push(c)});
   let last=[];try{last=JSON.parse(ls.get('lastCats','[]'))}catch(e){}
-  last=last.filter(s=>S.cats.some(c=>c.slug===s));
-  const short=st.cats.length&&total<st.count;
+  last=last.filter(s=>cats.some(c=>c.slug===s));
+  const short=count&&sel.length&&total<count;
   return `
     <div class="scrim" id="scrim"></div>
     <section class="catsheet float glass" role="dialog" aria-modal="true" aria-labelledby="csTitle">
@@ -457,21 +485,21 @@ function catSheetHTML(host,st,total){
         <button class="btn sm" data-preset="none">Wyczyść</button>
       </div>`:''}
       <div class="cs-body" id="csBody">${groups.map(g=>{
-        const sel=g.cats.filter(c=>st.cats.includes(c.slug)).length, full=sel===g.cats.length;
+        const on=g.cats.filter(c=>sel.includes(c.slug)).length, full=on===g.cats.length;
         return `<div class="cs-group">
-          <div class="cs-gh"><h3>${esc(g.name)}</h3><span class="tnum">${sel}/${g.cats.length}</span>
+          <div class="cs-gh"><h3>${esc(g.name)}</h3><span class="tnum">${on}/${g.cats.length}</span>
             ${host?`<button class="textlink acc" data-group="${esc(g.name)}">${full?'Odznacz':'Zaznacz'}</button>`:''}</div>
-          <div class="chips">${g.cats.map(c=>`<button class="chip" data-c="${esc(c.slug)}" data-s="${esc(c.name.toLowerCase())}" aria-pressed="${st.cats.includes(c.slug)}" ${host?'':'disabled'}>${esc(c.name)}<span class="n tnum">${c.n}</span></button>`).join('')}</div>
+          <div class="chips">${g.cats.map(c=>`<button class="chip" data-c="${esc(c.slug)}" data-s="${esc(c.name.toLowerCase())}" aria-pressed="${sel.includes(c.slug)}" ${host?'':'disabled'}>${esc(c.name)}<span class="n tnum">${c.n}</span></button>`).join('')}</div>
         </div>`}).join('')}
         <p class="foot" id="csEmpty" hidden>Nic nie pasuje do wyszukiwania.</p>
       </div>
-      <div class="cs-foot tnum ${short?'warn':''}">${st.cats.length} ${catWord(st.cats.length)} · ${num(total)} ${qWord(total)} w puli${short?` · gra będzie miała ${total} ${qWord(total)}`:''}</div>
+      <div class="cs-foot tnum ${short?'warn':''}">${sel.length} ${catWord(sel.length)} · ${num(total)} ${qWord(total)} w puli${short?` · gra będzie miała ${total} ${qWord(total)}`:''}</div>
     </section>`;
 }
-function bindCatSheet(host,st,scroll){
+function bindCatSheet(cats,sel,host,scroll,push,rerender){
   const body=document.getElementById('csBody'), search=document.getElementById('csSearch');
   body.scrollTop=scroll;
-  const close=()=>{ui.sheet=false;renderLobby()};
+  const close=()=>{ui.sheet=false;rerender()};
   document.getElementById('csDone').onclick=close;
   document.getElementById('scrim').onclick=close;
   const filter=()=>{
@@ -487,15 +515,14 @@ function bindCatSheet(host,st,scroll){
   search.onfocus=()=>{ui.searchFocus=true};search.onblur=()=>{ui.searchFocus=false};
   filter();
   if(!host)return;
-  const push=cats=>send({t:'settings',...st,cats});
   body.onclick=e=>{
     const chip=e.target.closest('.chip'), grp=e.target.closest('[data-group]');
-    if(chip){const s=new Set(st.cats);s.has(chip.dataset.c)?s.delete(chip.dataset.c):s.add(chip.dataset.c);push([...s])}
-    else if(grp){const slugs=S.cats.filter(c=>c.group===grp.dataset.group).map(c=>c.slug);
-      const s=new Set(st.cats), full=slugs.every(x=>s.has(x));slugs.forEach(x=>full?s.delete(x):s.add(x));push([...s])}
+    if(chip){const s=new Set(sel);s.has(chip.dataset.c)?s.delete(chip.dataset.c):s.add(chip.dataset.c);push([...s])}
+    else if(grp){const slugs=cats.filter(c=>c.group===grp.dataset.group).map(c=>c.slug);
+      const s=new Set(sel), full=slugs.every(x=>s.has(x));slugs.forEach(x=>full?s.delete(x):s.add(x));push([...s])}
   };
   document.querySelectorAll('[data-preset]').forEach(b=>b.onclick=()=>{
-    const all=S.cats.map(c=>c.slug), p=b.dataset.preset;
+    const all=cats.map(c=>c.slug), p=b.dataset.preset;
     if(p==='all')push(all);
     else if(p==='none')push([]);
     else if(p==='rand'){const a=all.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}push(a.slice(0,5))}
@@ -612,6 +639,195 @@ function renderFinal(){
   const a=document.getElementById('againBtn');if(a)a.onclick=()=>{a.disabled=true;send({t:'start'})};
   const l=document.getElementById('lobbyBtn');if(l)l.onclick=()=>send({t:'lobby'});
   document.getElementById('leaveBtn').onclick=()=>{if(confirm('Wyjść z pokoju?'))leave()};
+}
+
+/* ---------- Sprint: gra w pojedynkę (#27-#29) ---------- */
+const SP_MODES={
+  streak:{name:'Do pierwszego błędu',desc:'Coraz trudniej, coraz mniej czasu',unit:n=>pl(n,'dobra z rzędu','dobre z rzędu','dobrych z rzędu')},
+  time:{name:'60 sekund',desc:'Ile zdążysz. Zła odpowiedź: -5 s',unit:n=>pl(n,'punkt','punkty','punktów')},
+  daily:{name:'Sprint dnia',desc:'Te same pytania dla wszystkich',unit:n=>pl(n,'dobra z rzędu','dobre z rzędu','dobrych z rzędu')}
+};
+const sp={mode:ls.get('spMode','streak'),cats:null,allCats:null,daily:null,cur:null,lock:false,qTotal:0,qDeadline:0};
+try{sp.cats=JSON.parse(ls.get('spCats','null'))}catch(e){}
+const bestOf=m=>+ls.get('best:'+m,0);
+const today=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Warsaw'}).format(new Date());
+const dailyRes=()=>{try{return JSON.parse(ls.get('daily:'+today(),'null'))}catch(e){return null}};
+function deviceId(){let id=ls.get('device','');if(!id){id=uid();ls.set('device',id)}return id}
+async function api(path,body){
+  const r=await fetch(path,body?{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)}:undefined);
+  const d=await r.json().catch(()=>({error:'Brak połączenia z serwerem.'}));
+  if(!r.ok||d.error)throw new Error(d.error||'Coś poszło nie tak.');
+  return d;
+}
+const secs=ms=>(ms/1000).toFixed(1).replace('.',',')+' s';
+function ringHTML(){
+  return `<div class="ring" role="timer" aria-label="Pozostały czas">
+    <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true">
+      <circle cx="22" cy="22" r="18" fill="none" stroke-width="3" style="stroke:var(--surface-2)"/>
+      <circle id="arc" cx="22" cy="22" r="18" fill="none" stroke-width="3" stroke-linecap="round" stroke-dasharray="113.1" style="stroke:var(--accent)"/>
+    </svg><span class="tnum" id="sec"></span></div>`;
+}
+function spLeave(){sp.cur=null;cancelAnimationFrame(raf);wakeLock(false);ui.sheet=false;document.body.style.overflow=''}
+
+async function renderSprintMenu(err=''){
+  spLeave();
+  if(!sp.allCats){
+    app.innerHTML='<div class="wrap"><p class="waiting">Wczytuję…</p></div>';
+    try{[sp.allCats,sp.daily]=await Promise.all([api('/api/cats'),api('/api/daily').catch(()=>null)])}
+    catch(e){app.innerHTML=`<div class="wrap"><p class="waiting">${esc(e.message)}</p><button class="btn" id="backBtn" style="margin:16px auto">Wróć</button></div>`;document.getElementById('backBtn').onclick=()=>renderHome();return}
+  }
+  renderSprintMenuView(err);
+}
+function renderSprintMenuView(err=''){
+  const all=sp.allCats, sel=sp.cats||all.map(c=>c.slug), allOn=!sp.cats||sel.length===all.length;
+  const total=all.filter(c=>sel.includes(c.slug)).reduce((a,c)=>a+c.n,0);
+  const chosen=all.filter(c=>sel.includes(c.slug)).map(c=>c.name);
+  const dr=dailyRes(), d=sp.daily;
+  const sheetScroll=ui.sheet?(document.getElementById('csBody')||{}).scrollTop||0:0;
+  const rec=m=>m==='daily'
+    ?(dr?`<small>Dziś</small><strong>${dr.rank}.</strong>`:`<small>Graczy dziś</small><strong>${d?num(d.players):'-'}</strong>`)
+    :`<small>Rekord</small><strong>${bestOf(m)}</strong>`;
+  app.innerHTML=`
+    <header class="topbar float glass">
+      <button class="icon-btn" id="backBtn" aria-label="Wróć">${ICON.back}</button>
+      <h1>Sprint</h1><span style="width:44px"></span>
+    </header>
+    <div class="wrap under-top">
+      <h2 class="hero" style="font-size:32px;margin-top:4px">Graj sam</h2>
+      <p class="lead" style="margin-bottom:20px">Wybierz tryb. Rekordy zapisują się na tym telefonie.</p>
+      <div class="modes" role="radiogroup" aria-label="Tryb">${Object.entries(SP_MODES).map(([k,m])=>`
+        <button class="card mode" role="radio" aria-checked="${sp.mode===k}" data-mode="${k}">
+          <span class="t"><b>${m.name}</b><span>${k==='daily'&&dr?`Twój wynik dziś: ${dr.score} · kolejne próby poza rankingiem`:m.desc}</span></span>
+          <span class="rec tnum">${rec(k)}</span>
+        </button>`).join('')}</div>
+      ${sp.mode==='daily'?`
+        <div class="section-h"><h2>Imię w rankingu</h2></div>
+        <input class="field" id="spName" maxlength="18" placeholder="np. Kasia" value="${esc(name)}" autocomplete="nickname">
+        ${d&&d.top.length?`<div class="section-h"><h2>Ranking dnia</h2><span class="tnum">${num(d.players)} ${pl(d.players,'gracz','graczy','graczy')}</span></div>
+        <div class="list">${d.top.slice(0,5).map((e,i)=>`<div class="li tnum"><span class="place">${i+1}</span><span class="nm">${esc(e.name)}</span><span class="pts">${e.score}</span></div>`).join('')}</div>`:''}`
+      :`
+        <div class="section-h"><h2>Kategorie</h2></div>
+        <button class="card catsum" id="catsBtn" aria-haspopup="dialog">
+          <span class="t"><b>${allOn?'Wszystkie kategorie':`${sel.length} ${catWord(sel.length)}`}</b>
+          <span>${allOn?`${all.length} ${catWord(all.length)}`:esc(chosen.slice(0,3).join(', '))+(chosen.length>3?` i ${chosen.length-3} innych`:'')}</span></span>
+          <span class="meta tnum">${num(total)} ${qWord(total)}</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </button>`}
+      <div class="err" role="alert" style="margin:12px 4px 0">${esc(err)}</div>
+    </div>
+    ${dock(`<button class="btn primary grow" id="spStart" ${sel.length?'':'disabled'}>${sel.length?'Start':'Wybierz kategorię'}</button>`)}
+    ${ui.sheet?catSheetHTML(all,sel,true,0,total):''}`;
+  if(ui.sheet)bindCatSheet(all,sel,true,sheetScroll,cats=>{sp.cats=cats.length===all.length?null:cats;ls.set('spCats',JSON.stringify(sp.cats));renderSprintMenuView()},renderSprintMenuView);
+  document.body.style.overflow=ui.sheet?'hidden':'';
+  document.getElementById('backBtn').onclick=()=>{spLeave();renderHome()};
+  app.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{sp.mode=b.dataset.mode;ls.set('spMode',sp.mode);renderSprintMenuView()});
+  const cb=document.getElementById('catsBtn');if(cb)cb.onclick=()=>{ui.sheet=true;ui.search='';renderSprintMenuView()};
+  document.getElementById('spStart').onclick=async e=>{
+    const n=document.getElementById('spName');
+    if(n){name=n.value.trim();if(!name){n.focus();app.querySelector('.err').textContent='Wpisz imię do rankingu.';return}ls.set('name',name)}
+    e.target.disabled=true;
+    try{
+      const r=await api('/api/sprint/start',{mode:sp.mode,cats:sp.cats||[],name:name||'Gracz',device:deviceId()});
+      sp.cur=r;sp.run=r.run;sp.startedAt=Date.now();sp.endsAt=r.endsIn!=null?Date.now()+r.endsIn:0;
+      renderSprintQ();
+    }catch(x){renderSprintMenuView(x.message)}
+  };
+}
+
+// keepTimer: to samo pytanie po 50/50, zegar liczy dalej.
+function renderSprintQ(feedback,keepTimer){
+  const c=sp.cur, q=c.q, m=SP_MODES[c.mode], time=c.mode==='time';
+  if(!feedback){sp.lock=false;if(!keepTimer){sp.qTotal=time?60000:q.ms;sp.qDeadline=Date.now()+q.ms}}
+  wakeLock(true);
+  const big=time?c.score:c.streak;
+  app.innerHTML=`
+    <div class="wrap full">
+      <div class="qhead">
+        <div class="t"><span>${m.name} · ${esc(q.cat)}</span><b class="tnum">Rekord: ${c.mode==='daily'?(dailyRes()?.score??'-'):bestOf(c.mode)}</b></div>
+        ${ringHTML()}
+      </div>
+      <div class="sp-score"><span class="tnum">${big}</span><span>${m.unit(big)}</span></div>
+      <h1 class="qtext" style="margin-top:20px">${esc(q.text)}</h1>
+      <div class="spacer"></div>
+      <div class="answers" id="ans" role="group" aria-label="Odpowiedzi">${q.opts.map((o,i)=>{
+        let cls=q.hidden.includes(i)?'gone':'';
+        if(feedback){if(i===feedback.ok)cls='right';else if(i===feedback.k)cls='wrong';else cls+=' dim'}
+        return `<button class="ans ${cls}" data-k="${i}" ${feedback||q.hidden.includes(i)?'disabled':''}><b>${'ABCD'[i]}</b><span class="tx">${esc(o)}</span>
+          ${feedback&&i===feedback.ok?ICON.ok:''}</button>`}).join('')}</div>
+    </div>
+    ${dock(`
+      <button class="btn grow" id="jFifty" ${c.jokers.fifty&&!feedback?'':'disabled'}>${c.jokers.fifty?'50/50':'50/50 · użyty'}</button>
+      <button class="btn grow" id="jSkip" ${c.jokers.skip&&!feedback?'':'disabled'}>${c.jokers.skip?'Pomiń':'Pomiń · użyty'}</button>`)}`;
+  if(feedback)return;
+  document.getElementById('ans').onclick=e=>{const b=e.target.closest('.ans');if(b&&!b.disabled)spAnswer(+b.dataset.k)};
+  document.getElementById('jFifty').onclick=()=>spJoker('fifty');
+  document.getElementById('jSkip').onclick=()=>spJoker('skip');
+  const arc=document.getElementById('arc'), sec=document.getElementById('sec');
+  const step=()=>{
+    if(!sp.cur||sp.lock)return;
+    const end=time?sp.endsAt:sp.qDeadline, left=Math.max(0,end-Date.now());
+    arc.style.strokeDashoffset=(113.1*(1-left/sp.qTotal)).toFixed(1);sec.textContent=Math.ceil(left/1000);
+    if(left>0){raf=requestAnimationFrame(step);return}
+    spAnswer(-1);
+  };
+  step();
+}
+async function spAnswer(k){
+  if(sp.lock)return;sp.lock=true;cancelAnimationFrame(raf);
+  let r;
+  try{r=await api('/api/sprint/answer',{run:sp.run,k})}catch(e){sp.lock=false;toast(e.message);return}
+  if(!r.correct&&navigator.vibrate)navigator.vibrate(k<0?[60]:[40,40,40]);
+  renderSprintQ({ok:r.ok,k});
+  if(sp.cur.mode==='time'&&!r.correct&&!r.over)toast(k<0?'Czas minął':'-5 s');
+  setTimeout(()=>{
+    if(r.over){renderSprintOver(r.result);return}
+    sp.cur=r;if(r.endsIn!=null)sp.endsAt=Date.now()+r.endsIn;renderSprintQ();
+  },r.correct?650:r.over?1400:900);
+}
+async function spJoker(type){
+  if(sp.lock)return;
+  try{
+    const r=await api('/api/sprint/joker',{run:sp.run,type});
+    if(r.over){renderSprintOver(r.result);return}
+    cancelAnimationFrame(raf);sp.cur=r;
+    renderSprintQ(null,type==='fifty');
+  }catch(e){toast(e.message)}
+}
+function renderSprintOver(res){
+  spLeave();
+  const m=SP_MODES[res.mode], prev=res.mode==='daily'?(dailyRes()?.score??0):bestOf(res.mode);
+  const isBest=res.score>prev&&res.score>0;
+  if(res.mode!=='daily'&&isBest)ls.set('best:'+res.mode,res.score);
+  const d=res.daily;
+  if(res.mode==='daily'&&d&&d.ranked)ls.set('daily:'+res.date,JSON.stringify({score:res.score,rank:d.rank}));
+  if(res.mode==='daily')sp.daily=d?{players:d.players,best:d.top[0]?.score??0,top:d.top}:sp.daily;
+  const tiles=res.mode==='daily'&&d
+    ?[['Miejsce',d.ranked?d.rank+'.':'-'],['Graczy',num(d.players)],['Śr. czas',res.avgMs?secs(res.avgMs):'-']]
+    :res.mode==='time'?[['Odpowiedzi',res.answered],['Najdłuższa seria',res.best],['Śr. czas',res.avgMs?secs(res.avgMs):'-']]
+    :[['Odpowiedzi',res.answered],['Rekord',Math.max(prev,res.score)],['Śr. czas',res.avgMs?secs(res.avgMs):'-']];
+  app.innerHTML=`
+    <header class="topbar float glass">
+      <button class="icon-btn" id="closeBtn" aria-label="Wróć do menu Sprintu">${ICON.close}</button>
+      <h1>Koniec</h1><span style="width:44px"></span>
+    </header>
+    <div class="wrap under-top">
+      <div class="section-h" style="margin-top:4px"><h2>${m.name}${res.mode==='daily'?' · '+esc(res.date):''}</h2></div>
+      <div class="sp-score big"><span class="tnum">${res.score}</span><span>${m.unit(res.score)}</span></div>
+      <p class="sp-note">${isBest?'Nowy rekord.':res.score===0?'Następnym razem pójdzie lepiej.':`Rekord: ${Math.max(prev,res.score)}`}${res.missed?` Pomyłka przy: „${esc(res.missed.text)}”. Poprawna odpowiedź: ${esc(res.missed.ok)}.`:''}</p>
+      ${res.mode==='daily'&&d&&!d.ranked?'<p class="foot">Dzisiejsza próba rankingowa już była, ten wynik nie trafił do rankingu.</p>':''}
+      <div class="tiles tnum">${tiles.map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join('')}</div>
+      ${res.mode==='daily'&&d&&d.top.length?`
+        <div class="section-h"><h2>Ranking dnia</h2></div>
+        <div class="list">${d.top.slice(0,10).map((e,i)=>`<div class="li tnum ${d.ranked&&i+1===d.rank?'me':''}"><span class="place">${i+1}</span><span class="nm">${esc(e.name)}${d.ranked&&i+1===d.rank?' <small>(Ty)</small>':''}</span><span class="pts">${e.score}</span></div>`).join('')}</div>`:''}
+    </div>
+    ${dock(`<button class="btn" id="shareBtn">Udostępnij</button><button class="btn primary grow" id="againBtn">Jeszcze raz</button>`)}`;
+  document.getElementById('closeBtn').onclick=()=>renderSprintMenu();
+  document.getElementById('againBtn').onclick=()=>{renderSprintMenu().then(()=>document.getElementById('spStart')?.click())};
+  document.getElementById('shareBtn').onclick=async()=>{
+    const text=`Quiz Party, ${m.name}: ${res.score} ${m.unit(res.score)}. Pobijesz?`;
+    if(navigator.share){navigator.share({title:'Quiz Party',text,url:location.origin}).catch(()=>{});return}
+    try{await navigator.clipboard.writeText(text+' '+location.origin);toast('Skopiowano wynik')}catch(e){prompt('Skopiuj wynik:',text+' '+location.origin)}
+  };
 }
 
 /* ---------- start aplikacji ---------- */

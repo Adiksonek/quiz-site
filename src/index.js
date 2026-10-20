@@ -1,10 +1,8 @@
-import { CATEGORIES, BANK } from './questions/index.js';
+import { ALL, CAT_INFO, CATS, CAT_NAME, shuffle } from './bank.js';
+import { Sprint, Daily, warsawDate } from './sprint.js';
 
-const ALL = CATEGORIES.flatMap(c => (BANK[c.slug] || []).map((q, i) => ({ id: c.slug + ':' + i, text: q.q, cat: c.slug, ok: q.ok, wrong: q.bad })));
-// Kategorie widoczne w grze: kolejność i grupy z categories.json, tylko te z pytaniami.
-const CAT_INFO = CATEGORIES.map(c => ({ ...c, n: (BANK[c.slug] || []).length })).filter(c => c.n > 0);
-const CATS = CAT_INFO.map(c => c.slug);
-const CAT_NAME = Object.fromEntries(CATEGORIES.map(c => [c.slug, c.name]));
+export { Sprint, Daily };
+
 const COLORS = ['#FF6B5B', '#13A89C', '#8A5CF6', '#E9A100', '#2F8CFF', '#E0479E', '#5FAE2E', '#FF8A1F',
   '#00A3C4', '#B5651D', '#7C83FD', '#D9415B', '#2BB673', '#C05CE0', '#F2C230', '#4A90A4'];
 const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
@@ -14,11 +12,23 @@ const TIMES = [10, 15, 20, 30];
 const IDLE_MS = 10 * 60 * 1000;
 
 const json = (d, s = 200) => new Response(JSON.stringify(d), { status: s, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
-const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const RUN_ID = /^[0-9a-f-]{36}$/;
 
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
+    if (url.pathname === '/api/cats') return json(CAT_INFO);
+    if (url.pathname === '/api/daily') return env.DAILY.get(env.DAILY.idFromName(warsawDate())).fetch('https://daily/top');
+    const sp = url.pathname.match(/^\/api\/sprint\/(start|answer|joker)$/);
+    if (sp) {
+      if (req.method !== 'POST') return json({ error: 'POST' }, 405);
+      const body = await req.json().catch(() => ({}));
+      const run = sp[1] === 'start' ? crypto.randomUUID() : String(body.run || '');
+      if (!RUN_ID.test(run)) return json({ error: 'Brak identyfikatora sprintu.' }, 400);
+      const res = await env.SPRINTS.get(env.SPRINTS.idFromName(run)).fetch('https://sprint/' + sp[1], { method: 'POST', body: JSON.stringify(body) });
+      const data = await res.json();
+      return json(sp[1] === 'start' && res.ok ? { run, ...data } : data, res.status);
+    }
     if (url.pathname === '/api/new') {
       for (let i = 0; i < 10; i++) {
         const code = Array.from({ length: 4 }, () => CODE_CHARS[Math.floor(Math.random() * CODE_CHARS.length)]).join('');
