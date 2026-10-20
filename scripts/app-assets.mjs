@@ -17,10 +17,15 @@ mkdirSync('assets', { recursive: true });
 // Ikona pełna (starsze Androidy): limonkowy kwadrat z zaokrągleniem robi system, tu pełne tło.
 await sharp(svg(mark(INK, 0.72), 1024, LIME)).png().toFile('assets/icon-only.png');
 // Ikona adaptacyjna: znak w bezpiecznej strefie (ok. 66% środka) i osobne tło.
-await sharp(svg(mark(INK, 0.5))).png().toFile('assets/icon-foreground.png');
+// Skala 0.6: znak czytelny także na systemowym ekranie startowym Androida 12+ (ikona w kole).
+await sharp(svg(mark(INK, 0.6))).png().toFile('assets/icon-foreground.png');
 await sharp(svg('', 1024, LIME)).png().toFile('assets/icon-background.png');
 // Ekran startowy: mały znak na tle motywu.
 const splash = bg => svg(`<g transform="translate(1366 1366) scale(.42) translate(-512 -512)"><rect width="1024" height="1024" rx="230" fill="${LIME}"/>${mark(INK, 0.72)}</g>`, 2732, bg);
 await sharp(splash('#F4F4F1')).png().toFile('assets/splash.png');
 await sharp(splash('#0E0E11')).png().toFile('assets/splash-dark.png');
-console.log('assets/: icon-only, icon-foreground, icon-background, splash, splash-dark');
+// Ikona systemowego ekranu startowego Androida 12+: koło w 2/3 płótna, czytelne na jasnym i ciemnym tle.
+mkdirSync('android/app/src/main/res/drawable-nodpi', { recursive: true });
+await sharp(svg(`<circle cx="480" cy="480" r="320" fill="${LIME}"/><g transform="translate(-32 -32)">${mark(INK, 0.5)}</g>`, 960))
+  .png().toFile('android/app/src/main/res/drawable-nodpi/qp_splash_icon.png');
+console.log('assets/: icon-only, icon-foreground, icon-background, splash, splash-dark; android: qp_splash_icon');

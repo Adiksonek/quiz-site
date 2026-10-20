@@ -73,6 +73,7 @@ button{cursor:pointer}
 .field.code{text-transform:uppercase;letter-spacing:.08em}
 .label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:500;color:var(--text-2)}
 .row-gap{display:flex;gap:8px}
+.btn.icon-only{padding:0;width:52px;flex:none}
 .err{color:var(--bad);font-size:14px;font-weight:500;min-height:0}
 .err:empty{display:none}
 .textlink{background:none;border:0;padding:0;height:44px;font-size:15px;font-weight:500;color:var(--text-2)}
@@ -247,17 +248,37 @@ const ICON={
   share:'<svg class="ico" viewBox="0 0 24 24"><path d="M12 15V3M7.5 7.5L12 3l4.5 4.5"/><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1"/></svg>',
   ok:'<svg viewBox="0 0 24 24" class="i-ok" aria-label="Poprawna"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
   bad:'<svg viewBox="0 0 24 24" class="i-bad" aria-label="Błędna"><path d="M7 7l10 10M17 7L7 17"/></svg>',
-  x:'<svg class="ico" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17"/></svg>'
+  x:'<svg class="ico" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17"/></svg>',
+  scan:'<svg class="ico" viewBox="0 0 24 24"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><path d="M7 12h10"/></svg>'
 };
 /* ---------- platforma: strona albo aplikacja (Capacitor) ---------- */
 const SITE='https://quiz-party.adrianwolosz3.workers.dev';
 const NATIVE=!!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform());
-const API=NATIVE?SITE:'';                  // w aplikacji strona leży w paczce, serwer jest zdalny
+// W aplikacji strona leży w paczce, serwer jest zdalny. Do testów można go podmienić: localStorage 'quizp:api'.
+const API=NATIVE?(ls.get('api','')||SITE):'';
 const ORIGIN=NATIVE?SITE:location.origin;  // adres do linków zaproszeń i kodów QR
 const P=NATIVE?Capacitor.Plugins:{};
 function vibrate(kind){
   if(P.Haptics){kind==='error'?P.Haptics.notification({type:'ERROR'}):P.Haptics.impact({style:'LIGHT'});return}
   if(navigator.vibrate)navigator.vibrate(kind==='error'?[40,40,40]:12);
+}
+// Kod pokoju z linku strony (?r=ABCD), linku aplikacji (quizparty://join/ABCD) albo samego kodu.
+function codeFrom(text){
+  const t=String(text||'').trim();
+  const m=t.match(/[?&]r=([A-Za-z]{4})\b/)||t.match(/^quizparty:\/\/join\/([A-Za-z]{4})/i)||t.match(/^([A-Za-z]{4})$/);
+  return m?m[1].toUpperCase():'';
+}
+// Skaner Google (ML Kit): nie wymaga uprawnienia do aparatu, moduł pobiera się przy pierwszym użyciu.
+async function scanCode(){
+  const B=P.BarcodeScanner;
+  const {available}=await B.isGoogleBarcodeScannerModuleAvailable();
+  if(!available){B.installGoogleBarcodeScannerModule().catch(()=>{});throw new Error('Pobieram skaner kodów. Spróbuj za chwilę.')}
+  let res;
+  // Wtyczka zwraca ten sam błąd przy anulowaniu i przy niepowodzeniu, więc zamknięcie skanera to po prostu brak kodu.
+  try{res=await B.scan({formats:['QR_CODE']})}catch(e){return null}
+  const c=codeFrom(res.barcodes[0]?.rawValue);
+  if(!c)throw new Error('To nie jest kod pokoju Quiz Party.');
+  return c;
 }
 // true, jeśli udostępniono (albo użytkownik zamknął okno udostępniania)
 async function shareIt(data){
@@ -278,6 +299,7 @@ let code=cleanCode(new URLSearchParams(location.search).get('r'));
 let name=ls.get('name','');
 let ws=null,S=null,retry=0,leaving=false,pingT=null,deadline=0,raf=0;
 const ui={sheet:false,search:'',searchFocus:false};
+let view='home'; // bieżący ekran, potrzebny przyciskowi wstecz w aplikacji
 
 function uid(){return (crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2))}
 function myId(){let id=ls.get('id:'+code,'');if(!id){id=uid();ls.set('id:'+code,id)}return id}
@@ -289,6 +311,7 @@ const dock=inner=>`<div class="dock float glass">${inner}</div>`;
 
 /* ---------- start ---------- */
 function renderHome(err=''){
+  view='home';
   S=null; cancelAnimationFrame(raf);
   if(code){
     app.innerHTML=`
@@ -322,6 +345,7 @@ function renderHome(err=''){
         <button class="btn primary sheet-btn" id="createBtn" type="submit">Załóż pokój</button>
         <div class="row-gap">
           <input class="field code" id="cd" maxlength="4" placeholder="Kod pokoju" aria-label="Kod pokoju" autocapitalize="characters" autocomplete="off" spellcheck="false">
+          ${NATIVE?`<button class="btn sheet-btn icon-only" id="scanBtn" type="button" aria-label="Zeskanuj kod QR">${ICON.scan}</button>`:''}
           <button class="btn sheet-btn" id="codeBtn" type="button">Dołącz</button>
         </div>
         <div class="err" role="alert">${esc(err)}</div>
@@ -347,6 +371,11 @@ function renderHome(err=''){
   };
   on('homeBtn',()=>{code='';history.replaceState(null,'','/');renderHome()});
   on('soloBtn',()=>renderSprintMenu());
+  on('scanBtn',async()=>{
+    const c=await scanCode().catch(e=>{showErr(e.message);return null});
+    if(!c)return;
+    cd.value=c;document.getElementById('codeBtn').click();
+  });
   const di=document.getElementById('dailyInfo');
   if(di)api('/api/daily').then(d=>{sp.daily=d;if(d.players)di.textContent=`Sprint dnia: ${num(d.players)} ${pl(d.players,'gracz','graczy','graczy')}, rekord ${d.best}`}).catch(()=>{});
   on('codeBtn',()=>{const c=cleanCode(cd.value);
@@ -406,6 +435,7 @@ function render(){
   if(prevHost&&prevHost!==S.hostId&&S.hostId===S.me)toast('Poprzedni host wyszedł. Teraz ty prowadzisz grę.');
   prevHost=S.hostId;
   wakeLock(S.phase==='question'||S.phase==='reveal');
+  view=S.phase;
   ({lobby:renderLobby,question:renderQuestion,reveal:renderReveal,final:renderFinal})[S.phase]();
 }
 function progHTML(q,doneUpTo){
@@ -699,6 +729,7 @@ async function renderSprintMenu(err=''){
   renderSprintMenuView(err);
 }
 function renderSprintMenuView(err=''){
+  view='sprint-menu';
   const all=sp.allCats, sel=sp.cats||all.map(c=>c.slug), allOn=!sp.cats||sel.length===all.length;
   const total=all.filter(c=>sel.includes(c.slug)).reduce((a,c)=>a+c.n,0);
   const chosen=all.filter(c=>sel.includes(c.slug)).map(c=>c.name);
@@ -756,6 +787,7 @@ function renderSprintMenuView(err=''){
 
 // keepTimer: to samo pytanie po 50/50, zegar liczy dalej.
 function renderSprintQ(feedback,keepTimer){
+  view='sprint-q';
   const c=sp.cur, q=c.q, m=SP_MODES[c.mode], time=c.mode==='time';
   if(!feedback){sp.lock=false;if(!keepTimer){sp.qTotal=time?60000:q.ms;sp.qDeadline=Date.now()+q.ms}}
   wakeLock(true);
@@ -800,6 +832,7 @@ async function spAnswer(k){
   renderSprintQ({ok:r.ok,k});
   if(sp.cur.mode==='time'&&!r.correct&&!r.over)toast(k<0?'Czas minął':'-5 s');
   setTimeout(()=>{
+    if(view!=='sprint-q')return; // gracz wyszedł przyciskiem wstecz
     if(r.over){renderSprintOver(r.result);return}
     sp.cur=r;if(r.endsIn!=null)sp.endsAt=Date.now()+r.endsIn;renderSprintQ();
   },r.correct?650:r.over?1400:900);
@@ -814,6 +847,7 @@ async function spJoker(type){
   }catch(e){toast(e.message)}
 }
 function renderSprintOver(res){
+  view='sprint-over';
   spLeave();
   const m=SP_MODES[res.mode], prev=res.mode==='daily'?(dailyRes()?.score??0):bestOf(res.mode);
   const isBest=res.score>prev&&res.score>0;
@@ -848,6 +882,36 @@ function renderSprintOver(res){
     if(await shareIt({title:'Quiz Party',text,url:ORIGIN}))return;
     try{await navigator.clipboard.writeText(text+' '+ORIGIN);toast('Skopiowano wynik')}catch(e){prompt('Skopiuj wynik:',text+' '+ORIGIN)}
   };
+}
+
+/* ---------- aplikacja na Androida: pasek statusu, przycisk wstecz ---------- */
+if(NATIVE){
+  const dark=matchMedia('(prefers-color-scheme: dark)');
+  const bar=()=>{
+    if(!P.StatusBar)return;
+    P.StatusBar.setStyle({style:dark.matches?'DARK':'LIGHT'}).catch(()=>{});
+    P.StatusBar.setBackgroundColor({color:dark.matches?'#0E0E11':'#F4F4F1'}).catch(()=>{});
+  };
+  bar();dark.addEventListener('change',bar);
+  if(P.App)P.App.addListener('backButton',()=>{
+    if(ui.sheet){ui.sheet=false;view==='lobby'?renderLobby():renderSprintMenuView();return}
+    if(view==='home'){if(code){code='';history.replaceState(null,'','/');renderHome()}else P.App.exitApp();return}
+    if(view==='sprint-menu'){spLeave();renderHome();return}
+    if(view==='sprint-over'){renderSprintMenu();return}
+    if(view==='sprint-q'){if(confirm('Przerwać sprint? Wynik nie zostanie zapisany.'))renderSprintMenu();return}
+    if(confirm('Wyjść z pokoju?'))leave();
+  });
+  // Link quizparty://join/ABCD: przy starcie aplikacji i gdy już działa.
+  const openLink=url=>{
+    const c=codeFrom(url);if(!c||c===code&&S)return;
+    if(S){leaving=true;try{ws.close()}catch(e){}}
+    code=c;history.replaceState(null,'','/?r='+c);
+    if(name&&ls.get('id:'+c,''))connect();else renderHome();
+  };
+  if(P.App){
+    P.App.addListener('appUrlOpen',e=>openLink(e.url));
+    P.App.getLaunchUrl().then(r=>r&&r.url&&openLink(r.url)).catch(()=>{});
+  }
 }
 
 /* ---------- start aplikacji ---------- */
