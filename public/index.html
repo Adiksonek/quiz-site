@@ -16,7 +16,7 @@
 :root{
   color-scheme:light dark;
   --bg:#F4F4F1; --surface:#FFFFFF; --surface-2:#EAEAE6; --thumb:#FFFFFF; --line:rgba(0,0,0,.07);
-  --text:#111113; --text-2:#5C5C66; --text-3:#6B6B75;
+  --text:#111113; --text-2:#5C5C66; --text-3:#62626C;
   --accent:#C6F432; --on-accent:#111113; --accent-text:#4A6600;
   --ok:#1F7A35; --ok-tint:rgba(52,199,89,.16); --bad:#C4001A;
   --glass:rgba(255,255,255,.62); --glass-edge:rgba(0,0,0,.06); --glass-hi:rgba(255,255,255,.95); --glass-shadow:0 8px 24px rgba(0,0,0,.08);
@@ -25,7 +25,7 @@
 @media (prefers-color-scheme: dark){
   :root{
     --bg:#0E0E11; --surface:#1A1A1F; --surface-2:#26262D; --thumb:#3A3A43; --line:rgba(255,255,255,.08);
-    --text:#F4F4F6; --text-2:#A1A1AA; --text-3:#8B8B95;
+    --text:#F4F4F6; --text-2:#A1A1AA; --text-3:#93939D;
     --on-accent:#0E0E11; --accent-text:#C6F432;
     --ok:#32D74B; --ok-tint:rgba(50,215,75,.14); --bad:#FF6961;
     --glass:rgba(30,30,36,.55); --glass-edge:rgba(255,255,255,.12); --glass-hi:rgba(255,255,255,.16); --glass-shadow:0 10px 30px rgba(0,0,0,.45);
@@ -127,6 +127,29 @@ button{cursor:pointer}
 .seg button{height:44px;border:0;border-radius:13px;background:none;color:var(--text-2);font-size:15px;font-weight:500}
 .seg button[aria-pressed="true"]{background:var(--thumb);color:var(--text);font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,.12)}
 .seg button:disabled{cursor:default}
+.catsum{width:100%;min-height:68px;padding:12px 12px 12px 18px;display:flex;align-items:center;gap:12px;text-align:left;color:var(--text)}
+.catsum .t{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.catsum .t b{font-size:16px;font-weight:600}
+.catsum .t span{font-size:13px;color:var(--text-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.catsum .meta{font-size:13px;color:var(--text-3)}
+.catsum .ico{color:var(--text-3)}
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.32);z-index:6}
+.catsheet{top:calc(var(--safe-t) + 24px);bottom:calc(var(--safe-b) + 8px);border-radius:36px;padding:20px 20px 0;display:flex;flex-direction:column;gap:12px;z-index:7}
+.cs-head{display:flex;align-items:center;justify-content:space-between}
+.cs-head h2{margin:0;font-size:22px;font-weight:600;letter-spacing:-.02em}
+.presets{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:0 -20px;padding:0 20px}
+.presets::-webkit-scrollbar{display:none}
+.presets .btn{flex:none;background:var(--surface)}
+.cs-body{flex:1;overflow-y:auto;margin:0 -20px;padding:4px 20px 12px;overscroll-behavior:contain}
+.cs-group+.cs-group{margin-top:20px}
+.cs-gh{display:flex;align-items:center;gap:8px;margin:0 4px 8px;min-height:24px}
+.cs-gh h3{flex:1;margin:0;font-size:13px;font-weight:500;color:var(--text-2)}
+.cs-gh span{font-size:13px;color:var(--text-3)}
+.cs-gh .textlink{height:32px;font-size:13px}
+.textlink.acc{color:var(--accent-text)}
+.chip .n{margin-left:6px;font-size:13px;opacity:.6}
+.cs-foot{margin:0 -20px;padding:14px 20px calc(14px);border-top:.5px solid var(--line);font-size:13px;color:var(--text-2)}
+.cs-foot.warn{color:var(--bad)}
 .foot{margin:12px 4px 0;font-size:13px;line-height:1.45;color:var(--text-3)}
 .kick{width:44px;height:44px;border:0;background:none;color:var(--text-3);display:flex;align-items:center;justify-content:center;padding:0}
 .kick svg{width:18px;height:18px}
@@ -182,7 +205,8 @@ button{cursor:pointer}
 </style>
 </head>
 <body>
-<div id="banner" class="banner float glass" hidden>Łączenie z pokojem…</div>
+<div id="banner" class="banner float glass" role="status" hidden>Brak połączenia. Łączę ponownie…</div>
+<div id="toast" class="banner float glass" role="status" hidden></div>
 <div id="app"></div>
 <script>
 const app=document.getElementById('app');
@@ -207,6 +231,7 @@ const SAMPLES=[
 let code=cleanCode(new URLSearchParams(location.search).get('r'));
 let name=ls.get('name','');
 let ws=null,S=null,retry=0,leaving=false,pingT=null,deadline=0,raf=0;
+const ui={sheet:false,search:'',searchFocus:false};
 
 function uid(){return (crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2))}
 function myId(){let id=ls.get('id:'+code,'');if(!id){id=uid();ls.set('id:'+code,id)}return id}
@@ -287,7 +312,7 @@ function connect(){
   ws.onmessage=e=>{let m;try{m=JSON.parse(e.data)}catch(x){return}
     if(m.t==='state'){S=m;if(m.q&&m.phase==='question')deadline=Date.now()+m.q.remaining;render()}
     else if(m.t==='kicked'){leaving=true;ls.del('id:'+code);code='';history.replaceState(null,'','/');renderHome('Host usunął cię z pokoju.')}
-    else if(m.t==='error'){leaving=true;renderHome(m.msg)}};
+    else if(m.t==='error'){leaving=true;ls.del('id:'+code);code='';history.replaceState(null,'','/');renderHome(m.msg)}};
   ws.onclose=()=>{clearInterval(pingT);if(leaving)return;
     document.getElementById('banner').hidden=false;
     setTimeout(()=>{if(!leaving)connect()},Math.min(8000,500*2**retry++))};
@@ -296,6 +321,14 @@ function send(m){if(ws&&ws.readyState===1)ws.send(JSON.stringify(m))}
 function leave(){leaving=true;try{ws.close()}catch(e){}code='';history.replaceState(null,'','/');renderHome()}
 
 /* ---------- widoki ---------- */
+/* ekran nie gaśnie w trakcie pytania (Wake Lock API, gdzie dostępne) */
+let lock=null;
+async function wakeLock(on){
+  try{
+    if(on&&!lock&&'wakeLock' in navigator&&!document.hidden){lock=await navigator.wakeLock.request('screen');lock.addEventListener('release',()=>{lock=null})}
+    else if(!on&&lock){await lock.release();lock=null}
+  }catch(e){lock=null}
+}
 const isHost=()=>S&&S.me===S.hostId;
 const me=()=>S.players.find(p=>p.id===S.me);
 const hostName=()=>(S.players.find(p=>p.id===S.hostId)||{}).name||'host';
@@ -308,8 +341,17 @@ const pl=(n,one,few,many)=>n===1?one:(n%10>=2&&n%10<=4&&(n%100<10||n%100>=20))?f
 const catWord=n=>pl(n,'kategoria','kategorie','kategorii');
 const qWord=n=>pl(n,'pytanie','pytania','pytań');
 const okWord=n=>n+' '+pl(n,'poprawna','poprawne','poprawnych');
+let prevHost=null;
+function toast(t){
+  const el=document.getElementById('toast');el.textContent=t;el.hidden=false;
+  clearTimeout(toast.t);toast.t=setTimeout(()=>{el.hidden=true},3500);
+}
 function render(){
   cancelAnimationFrame(raf);
+  if(S.phase!=='lobby'){ui.sheet=false;document.body.style.overflow=''}
+  if(prevHost&&prevHost!==S.hostId&&S.hostId===S.me)toast('Poprzedni host wyszedł. Teraz ty prowadzisz grę.');
+  prevHost=S.hostId;
+  wakeLock(S.phase==='question'||S.phase==='reveal');
   ({lobby:renderLobby,question:renderQuestion,reveal:renderReveal,final:renderFinal})[S.phase]();
 }
 function progHTML(q,doneUpTo){
@@ -318,8 +360,10 @@ function progHTML(q,doneUpTo){
 
 function renderLobby(){
   const host=isHost(), st=S.settings;
-  const total=S.cats.filter(([c])=>st.cats.includes(c)).reduce((a,[,n])=>a+n,0);
+  const total=S.cats.filter(c=>st.cats.includes(c.slug)).reduce((a,c)=>a+c.n,0);
   const allOn=st.cats.length===S.cats.length;
+  const chosen=S.cats.filter(c=>st.cats.includes(c.slug)).map(c=>c.name);
+  const sheetScroll=ui.sheet?(document.getElementById('csBody')||{}).scrollTop||0:0;
   const live=S.players.filter(p=>p.connected).length;
   const games=Math.min(st.count,total);
   app.innerHTML=`
@@ -348,9 +392,13 @@ function renderLobby(){
           ${host&&p.id!==S.me?`<button class="kick" data-kick="${esc(p.id)}" aria-label="Usuń ${esc(p.name)}">${ICON.x}</button>`:''}
         </div>`).join('')}</div>
 
-      <div class="section-h"><h2 class="tnum">Kategorie · ${st.cats.length} z ${S.cats.length}</h2>
-        ${host?`<button class="textlink" id="allBtn" style="font-size:13px;color:var(--accent-text);margin:-12px 0">${allOn?'Odznacz wszystkie':'Zaznacz wszystkie'}</button>`:''}</div>
-      <div class="chips" id="cats">${S.cats.map(([c])=>`<button class="chip" data-c="${esc(c)}" aria-pressed="${st.cats.includes(c)}" ${host?'':'disabled'}>${esc(c)}</button>`).join('')}</div>
+      <div class="section-h"><h2>Kategorie</h2></div>
+      <button class="card catsum" id="catsBtn" aria-haspopup="dialog">
+        <span class="t"><b>${allOn?'Wszystkie kategorie':st.cats.length?`${st.cats.length} ${catWord(st.cats.length)}`:'Nie wybrano kategorii'}</b>
+        <span>${allOn?`${S.cats.length} ${catWord(S.cats.length)} w ${new Set(S.cats.map(c=>c.group)).size} grupach`:esc(chosen.slice(0,3).join(', '))+(chosen.length>3?` i ${chosen.length-3} innych`:'')}</span></span>
+        <span class="meta tnum">${num(total)} ${qWord(total)}</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
 
       <div class="section-h"><h2>Liczba pytań</h2></div>
       <div class="seg" id="cnt" role="group" aria-label="Liczba pytań">${[5,10,15,20,30].map(n=>`<button class="tnum" data-v="${n}" aria-pressed="${n===st.count}" ${host?'':'disabled'}>${n}</button>`).join('')}</div>
@@ -362,7 +410,11 @@ function renderLobby(){
     ${host?dock(`
       <div class="info"><b class="tnum">${games} ${qWord(games)} · ${st.time} s</b><span>${allOn?'Wszystkie kategorie':`${st.cats.length} ${catWord(st.cats.length)}`}</span></div>
       ${st.cats.length?'<button class="btn primary" id="startBtn">Start</button>':'<button class="btn" disabled>Wybierz kategorię</button>'}`)
-    :dock(`<div class="msg">Czekamy, aż ${esc(hostName())} wystartuje grę</div>`)}`;
+    :dock(`<div class="msg">Czekamy, aż ${esc(hostName())} wystartuje grę</div>`)}
+    ${ui.sheet?catSheetHTML(host,st,total):''}`;
+  if(ui.sheet)bindCatSheet(host,st,sheetScroll);
+  document.body.style.overflow=ui.sheet?'hidden':'';
+  document.getElementById('catsBtn').onclick=()=>{ui.sheet=true;ui.search='';renderLobby();setTimeout(()=>{const s=document.getElementById('csSearch');if(s&&matchMedia('(pointer:fine)').matches)s.focus()},50)};
 
   const qrEl=document.getElementById('qr');
   const drawQR=()=>{if(window.QRCode){qrEl.innerHTML='';new QRCode(qrEl,{text:joinLink(),width:176,height:176,colorDark:'#111113',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.M})}else qrEl.remove()};
@@ -374,14 +426,75 @@ function renderLobby(){
   document.getElementById('leaveBtn').onclick=()=>{if(confirm('Wyjść z pokoju?'))leave()};
   if(!host)return;
   const push=ch=>send({t:'settings',...st,...ch});
-  const ab=document.getElementById('allBtn');if(ab)ab.onclick=()=>push({cats:allOn?[]:S.cats.map(([c])=>c)});
-  document.getElementById('cats').onclick=e=>{const b=e.target.closest('button');if(!b)return;
-    const cats=new Set(st.cats);cats.has(b.dataset.c)?cats.delete(b.dataset.c):cats.add(b.dataset.c);
-    push({cats:[...cats]})};
   document.getElementById('cnt').onclick=e=>{const b=e.target.closest('button');if(b)push({count:+b.dataset.v})};
   document.getElementById('tm').onclick=e=>{const b=e.target.closest('button');if(b)push({time:+b.dataset.v})};
   app.querySelectorAll('[data-kick]').forEach(b=>b.onclick=()=>{if(confirm('Usunąć tego gracza z pokoju?'))send({t:'kick',id:b.dataset.kick})});
-  const sb=document.getElementById('startBtn');if(sb)sb.onclick=()=>{sb.disabled=true;send({t:'start'})};
+  const sb=document.getElementById('startBtn');if(sb)sb.onclick=()=>{sb.disabled=true;ls.set('lastCats',JSON.stringify(st.cats));send({t:'start'})};
+}
+
+/* arkusz wyboru kategorii (#13) */
+function catSheetHTML(host,st,total){
+  const groups=[];
+  S.cats.forEach(c=>{let g=groups.find(x=>x.name===c.group);if(!g)groups.push(g={name:c.group,cats:[]});g.cats.push(c)});
+  let last=[];try{last=JSON.parse(ls.get('lastCats','[]'))}catch(e){}
+  last=last.filter(s=>S.cats.some(c=>c.slug===s));
+  const short=st.cats.length&&total<st.count;
+  return `
+    <div class="scrim" id="scrim"></div>
+    <section class="catsheet float glass" role="dialog" aria-modal="true" aria-labelledby="csTitle">
+      <div class="cs-head"><h2 id="csTitle">Kategorie</h2><button class="btn sm primary" id="csDone">Gotowe</button></div>
+      <input class="field" id="csSearch" type="search" placeholder="Szukaj kategorii" aria-label="Szukaj kategorii" value="${esc(ui.search)}" autocomplete="off">
+      ${host?`<div class="presets">
+        <button class="btn sm" data-preset="all">Wszystkie</button>
+        <button class="btn sm" data-preset="rand">Losowe 5</button>
+        ${last.length?'<button class="btn sm" data-preset="last">Ostatnie</button>':''}
+        <button class="btn sm" data-preset="none">Wyczyść</button>
+      </div>`:''}
+      <div class="cs-body" id="csBody">${groups.map(g=>{
+        const sel=g.cats.filter(c=>st.cats.includes(c.slug)).length, full=sel===g.cats.length;
+        return `<div class="cs-group">
+          <div class="cs-gh"><h3>${esc(g.name)}</h3><span class="tnum">${sel}/${g.cats.length}</span>
+            ${host?`<button class="textlink acc" data-group="${esc(g.name)}">${full?'Odznacz':'Zaznacz'}</button>`:''}</div>
+          <div class="chips">${g.cats.map(c=>`<button class="chip" data-c="${esc(c.slug)}" data-s="${esc(c.name.toLowerCase())}" aria-pressed="${st.cats.includes(c.slug)}" ${host?'':'disabled'}>${esc(c.name)}<span class="n tnum">${c.n}</span></button>`).join('')}</div>
+        </div>`}).join('')}
+        <p class="foot" id="csEmpty" hidden>Nic nie pasuje do wyszukiwania.</p>
+      </div>
+      <div class="cs-foot tnum ${short?'warn':''}">${st.cats.length} ${catWord(st.cats.length)} · ${num(total)} ${qWord(total)} w puli${short?` · gra będzie miała ${total} ${qWord(total)}`:''}</div>
+    </section>`;
+}
+function bindCatSheet(host,st,scroll){
+  const body=document.getElementById('csBody'), search=document.getElementById('csSearch');
+  body.scrollTop=scroll;
+  const close=()=>{ui.sheet=false;renderLobby()};
+  document.getElementById('csDone').onclick=close;
+  document.getElementById('scrim').onclick=close;
+  const filter=()=>{
+    const q=ui.search.trim().toLowerCase();let any=false;
+    body.querySelectorAll('.cs-group').forEach(g=>{let vis=0;
+      g.querySelectorAll('.chip').forEach(c=>{const on=!q||c.dataset.s.includes(q);c.hidden=!on;if(on)vis++});
+      g.hidden=!vis;if(vis)any=true});
+    document.getElementById('csEmpty').hidden=any;
+  };
+  search.oninput=()=>{ui.search=search.value;filter()};
+  search.onkeydown=e=>{if(e.key==='Escape')close()};
+  if(ui.searchFocus){search.focus();search.setSelectionRange(search.value.length,search.value.length)}
+  search.onfocus=()=>{ui.searchFocus=true};search.onblur=()=>{ui.searchFocus=false};
+  filter();
+  if(!host)return;
+  const push=cats=>send({t:'settings',...st,cats});
+  body.onclick=e=>{
+    const chip=e.target.closest('.chip'), grp=e.target.closest('[data-group]');
+    if(chip){const s=new Set(st.cats);s.has(chip.dataset.c)?s.delete(chip.dataset.c):s.add(chip.dataset.c);push([...s])}
+    else if(grp){const slugs=S.cats.filter(c=>c.group===grp.dataset.group).map(c=>c.slug);
+      const s=new Set(st.cats), full=slugs.every(x=>s.has(x));slugs.forEach(x=>full?s.delete(x):s.add(x));push([...s])}
+  };
+  document.querySelectorAll('[data-preset]').forEach(b=>b.onclick=()=>{
+    const all=S.cats.map(c=>c.slug), p=b.dataset.preset;
+    if(p==='all')push(all);
+    else if(p==='none')push([]);
+    else if(p==='rand'){const a=all.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}push(a.slice(0,5))}
+    else if(p==='last'){try{push(JSON.parse(ls.get('lastCats','[]')))}catch(e){}}
+  });
 }
 
 function renderQuestion(){
@@ -420,7 +533,11 @@ function renderQuestion(){
   const arc=document.getElementById('arc'), sec=document.getElementById('sec'), T=q.time*1000;
   const step=()=>{const left=Math.max(0,deadline-Date.now());
     arc.style.strokeDashoffset=(113.1*(1-left/T)).toFixed(1);sec.textContent=Math.ceil(left/1000);
-    if(left>0)raf=requestAnimationFrame(step)};
+    if(left>0){raf=requestAnimationFrame(step);return}
+    if(S.myAnswer===null){
+      app.querySelectorAll('.ans').forEach(x=>{x.disabled=true;x.classList.add('dim')});
+      document.getElementById('status').textContent='Czas minął';
+    }};
   step();
 }
 
@@ -493,7 +610,11 @@ function renderFinal(){
 
 /* ---------- start aplikacji ---------- */
 if(code&&name&&ls.get('id:'+code,'')) connect(); else renderHome();
-document.addEventListener('visibilitychange',()=>{if(!document.hidden&&code&&!leaving&&ws&&ws.readyState>1)connect()});
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden)return;
+  if(code&&!leaving&&ws&&ws.readyState>1)connect();
+  if(S)wakeLock(S.phase==='question'||S.phase==='reveal');
+});
 </script>
 </body>
 </html>

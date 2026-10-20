@@ -1,15 +1,10 @@
-import { QUESTIONS } from './questions.js';
+import { CATEGORIES, BANK } from './questions/index.js';
 
-const CAT_MAP = {
-  Biologia: 'Przyroda i człowiek', Nauka: 'Nauka', Kosmos: 'Kosmos', Geografia: 'Geografia',
-  Historia: 'Historia', Polska: 'Polska', Literatura: 'Literatura', Sztuka: 'Sztuka',
-  Muzyka: 'Muzyka', Sport: 'Sport', Kuchnia: 'Kuchnia', Technologia: 'Technologia i motoryzacja',
-  Motoryzacja: 'Technologia i motoryzacja', Film: 'Film i gry', Gry: 'Film i gry',
-  Zagadki: 'Zagadki i liczby', 'Różne': 'Różne',
-};
-const ALL = QUESTIONS.map((q, i) => ({ id: i, text: q[0], cat: CAT_MAP[q[1]] || q[1], ok: q[2], wrong: q.slice(3) }));
-const CATS = [...new Set(ALL.map(q => q.cat))].sort((a, b) => a.localeCompare(b, 'pl'));
-const CAT_COUNTS = CATS.map(c => [c, ALL.filter(q => q.cat === c).length]);
+const ALL = CATEGORIES.flatMap(c => (BANK[c.slug] || []).map((q, i) => ({ id: c.slug + ':' + i, text: q.q, cat: c.slug, ok: q.ok, wrong: q.bad })));
+// Kategorie widoczne w grze: kolejność i grupy z categories.json, tylko te z pytaniami.
+const CAT_INFO = CATEGORIES.map(c => ({ ...c, n: (BANK[c.slug] || []).length })).filter(c => c.n > 0);
+const CATS = CAT_INFO.map(c => c.slug);
+const CAT_NAME = Object.fromEntries(CATEGORIES.map(c => [c.slug, c.name]));
 const COLORS = ['#FF6B5B', '#13A89C', '#8A5CF6', '#E9A100', '#2F8CFF', '#E0479E', '#5FAE2E', '#FF8A1F',
   '#00A3C4', '#B5651D', '#7C83FD', '#D9415B', '#2BB673', '#C05CE0', '#F2C230', '#4A90A4'];
 const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
@@ -47,6 +42,7 @@ export class Room {
     this.ctx = ctx;
     this.sockets = new Map(); // ws -> playerId
     this.lastActivity = 0;
+    this.claimed = false;
     this.used = new Set();
     this.resetRoom();
   }
@@ -71,6 +67,7 @@ export class Room {
       if (live || Date.now() - this.lastActivity < IDLE_MS) return new Response('taken', { status: 409 });
       this.resetRoom();
       this.used = new Set();
+      this.claimed = true;
       this.lastActivity = Date.now();
       return new Response('ok');
     }
@@ -162,6 +159,8 @@ export class Room {
       p.connected = true;
       p.name = name;
     } else {
+      // Pokój nie założony przez /api/new: zły kod albo obiekt wygasły po bezczynności.
+      if (!this.claimed && this.players.size === 0) return this.send(ws, { t: 'error', msg: 'Nie ma pokoju o kodzie ' + this.code + '. Sprawdź kod.' });
       if (this.players.size >= MAX_PLAYERS) return this.send(ws, { t: 'error', msg: 'Pokój jest pełny.' });
       p = { id, name, color: COLORS[this.colorIdx++ % COLORS.length], score: 0, gain: 0, correct: 0, connected: true, answer: null, answerAt: 0 };
       this.players.set(id, p);
@@ -203,7 +202,7 @@ export class Room {
     this.deck = fresh.slice(0, this.settings.count).map(q => {
       this.used.add(q.id);
       const opts = shuffle([q.ok, ...q.wrong]);
-      return { text: q.text, cat: q.cat, opts, ok: opts.indexOf(q.ok) };
+      return { text: q.text, cat: CAT_NAME[q.cat], opts, ok: opts.indexOf(q.ok) };
     });
   }
 
@@ -244,7 +243,7 @@ export class Room {
     const mine = this.players.get(me);
     return {
       t: 'state', code: this.code, me, hostId: this.hostId, phase: this.phase,
-      settings: this.settings, cats: CAT_COUNTS,
+      settings: this.settings, cats: CAT_INFO,
       players: this.order.map(pid => {
         const p = this.players.get(pid);
         return {

@@ -3,8 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "build:questions": "node scripts/questions.mjs build",
+    "check:questions": "node scripts/questions.mjs check",
+    "stats:questions": "node scripts/questions.mjs stats",
+    "dev": "npm run build:questions && wrangler dev",
+    "deploy": "npm run build:questions && npm run check:questions && wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

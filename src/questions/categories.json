@@ -1,0 +1,61 @@
+[
+  { "slug": "fizyka", "name": "Fizyka", "group": "Nauki ścisłe" },
+  { "slug": "chemia", "name": "Chemia", "group": "Nauki ścisłe" },
+  { "slug": "matematyka", "name": "Matematyka i logika", "group": "Nauki ścisłe" },
+  { "slug": "kosmos", "name": "Kosmos", "group": "Nauki ścisłe" },
+  { "slug": "wynalazki", "name": "Wynalazki i odkrycia", "group": "Nauki ścisłe" },
+
+  { "slug": "biologia", "name": "Biologia", "group": "Przyroda" },
+  { "slug": "cialo", "name": "Ludzkie ciało", "group": "Przyroda" },
+  { "slug": "zwierzeta", "name": "Zwierzęta", "group": "Przyroda" },
+  { "slug": "rosliny", "name": "Rośliny i przyroda", "group": "Przyroda" },
+  { "slug": "ziemia", "name": "Ziemia i pogoda", "group": "Przyroda" },
+
+  { "slug": "geografia", "name": "Geografia", "group": "Świat" },
+  { "slug": "stolice", "name": "Stolice i flagi", "group": "Świat" },
+  { "slug": "podroze", "name": "Podróże i transport", "group": "Świat" },
+  { "slug": "kuchnie-swiata", "name": "Kuchnie świata", "group": "Świat" },
+  { "slug": "religie", "name": "Religie świata", "group": "Świat" },
+
+  { "slug": "historia-polski", "name": "Historia Polski", "group": "Historia i idee" },
+  { "slug": "historia-swiata", "name": "Historia świata", "group": "Historia i idee" },
+  { "slug": "mitologia", "name": "Mitologia", "group": "Historia i idee" },
+  { "slug": "filozofia", "name": "Filozofia", "group": "Historia i idee" },
+  { "slug": "wos", "name": "Wiedza o społeczeństwie", "group": "Historia i idee" },
+
+  { "slug": "polska", "name": "Polska - ciekawostki", "group": "Polska" },
+  { "slug": "kuchnia-polska", "name": "Kuchnia polska", "group": "Polska" },
+  { "slug": "jezyk-polski", "name": "Język polski", "group": "Polska" },
+  { "slug": "literatura-polska", "name": "Literatura polska", "group": "Polska" },
+  { "slug": "polska-muzyka", "name": "Polska muzyka", "group": "Polska" },
+
+  { "slug": "literatura-swiatowa", "name": "Literatura światowa", "group": "Kultura" },
+  { "slug": "sztuka", "name": "Sztuka i malarstwo", "group": "Kultura" },
+  { "slug": "architektura", "name": "Architektura", "group": "Kultura" },
+  { "slug": "muzyka-klasyczna", "name": "Muzyka klasyczna", "group": "Kultura" },
+  { "slug": "jezyki-obce", "name": "Języki obce", "group": "Kultura" },
+
+  { "slug": "film", "name": "Film", "group": "Ekran" },
+  { "slug": "seriale", "name": "Seriale", "group": "Ekran" },
+  { "slug": "animacje", "name": "Animacje i bajki", "group": "Ekran" },
+  { "slug": "komiksy", "name": "Komiksy i superbohaterowie", "group": "Ekran" },
+  { "slug": "internet", "name": "Internet i memy", "group": "Ekran" },
+
+  { "slug": "muzyka-rozrywkowa", "name": "Muzyka rozrywkowa", "group": "Rozrywka" },
+  { "slug": "gry-wideo", "name": "Gry wideo", "group": "Rozrywka" },
+  { "slug": "gry-planszowe", "name": "Gry planszowe i karciane", "group": "Rozrywka" },
+  { "slug": "moda", "name": "Moda", "group": "Rozrywka" },
+  { "slug": "marki", "name": "Marki i logo", "group": "Rozrywka" },
+
+  { "slug": "pilka-nozna", "name": "Piłka nożna", "group": "Sport" },
+  { "slug": "sporty-zimowe", "name": "Sporty zimowe", "group": "Sport" },
+  { "slug": "olimpiady", "name": "Igrzyska olimpijskie", "group": "Sport" },
+  { "slug": "motoryzacja", "name": "Motoryzacja", "group": "Sport" },
+  { "slug": "sport", "name": "Sport - różne", "group": "Sport" },
+
+  { "slug": "technologia", "name": "Technologia i IT", "group": "Różne" },
+  { "slug": "ekonomia", "name": "Ekonomia i biznes", "group": "Różne" },
+  { "slug": "medycyna", "name": "Medycyna i zdrowie", "group": "Różne" },
+  { "slug": "napoje", "name": "Napoje", "group": "Różne" },
+  { "slug": "zagadki", "name": "Zagadki i łamigłówki", "group": "Różne" }
+]
