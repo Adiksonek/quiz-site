@@ -17,6 +17,19 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    // Stały klucz debug: QP_DEBUG_KEYSTORE wskazuje plik (GitHub Actions dekoduje go z sekretu).
+    // Bez tej zmiennej Gradle używa domyślnego klucza debug z ANDROID_USER_HOME.
+    signingConfigs {
+        debug {
+            def ks = System.getenv("QP_DEBUG_KEYSTORE")
+            if (ks) {
+                storeFile file(ks)
+                storePassword "android"
+                keyAlias "androiddebugkey"
+                keyPassword "android"
+            }
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
