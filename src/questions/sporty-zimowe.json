@@ -1,0 +1,1126 @@
+{
+  "slug": "sporty-zimowe",
+  "name": "Sporty zimowe",
+  "questions": [
+    {
+      "q": "Który Polak wygrał Turniej Czterech Skoczni trzy razy w latach 2017-2021?",
+      "ok": "Kamil Stoch",
+      "bad": [
+        "Adam Małysz",
+        "Dawid Kubacki",
+        "Piotr Żyła"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ilu zawodników jednej drużyny jest na lodzie w hokeju, wliczając bramkarza?",
+      "ok": "6",
+      "bad": [
+        "5",
+        "7",
+        "11"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakich krajach rozgrywany jest Turniej Czterech Skoczni?",
+      "ok": "Niemcy i Austria",
+      "bad": [
+        "Austria i Szwajcaria",
+        "Niemcy i Polska",
+        "Norwegia i Finlandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiej miejscowości pochodzi Adam Małysz?",
+      "ok": "Wisła",
+      "bad": [
+        "Zakopane",
+        "Szczyrk",
+        "Ustroń"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim rajdzie startował Adam Małysz po zakończeniu kariery skoczka?",
+      "ok": "Rajd Dakar",
+      "bad": [
+        "Rajd Monte Carlo",
+        "Rajd Polski",
+        "Rajd Safari"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim mieście znajduje się skocznia Wielka Krokiew?",
+      "ok": "Zakopane",
+      "bad": [
+        "Wisła",
+        "Szczyrk",
+        "Karpacz"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi skoczek Ryoyu Kobayashi?",
+      "ok": "Japonia",
+      "bad": [
+        "Korea Południowa",
+        "Chiny",
+        "Kanada"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie dwie umiejętności łączy biathlon?",
+      "ok": "Bieg na nartach i strzelanie",
+      "bad": [
+        "Skoki i bieg na nartach",
+        "Zjazd i strzelanie",
+        "Łyżwiarstwo i strzelanie"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile tercji ma mecz hokeja na lodzie?",
+      "ok": "3",
+      "bad": [
+        "2",
+        "4",
+        "5"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się najsłynniejsza zawodowa liga hokeja w Ameryce Północnej?",
+      "ok": "NHL",
+      "bad": [
+        "NBA",
+        "NFL",
+        "MLB"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi hokeista Wayne Gretzky?",
+      "ok": "Kanada",
+      "bad": [
+        "USA",
+        "Szwecja",
+        "Finlandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Czym zawodnicy curlingu pocierają lód przed sunącym kamieniem?",
+      "ok": "Szczotkami",
+      "bad": [
+        "Kijami",
+        "Łopatkami",
+        "Rękawicami"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi narciarka alpejska Lindsey Vonn?",
+      "ok": "USA",
+      "bad": [
+        "Kanada",
+        "Szwajcaria",
+        "Austria"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej dyscyplinie startuje Mikaela Shiffrin?",
+      "ok": "Narciarstwo alpejskie",
+      "bad": [
+        "Biegi narciarskie",
+        "Biathlon",
+        "Łyżwiarstwo figurowe"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się obrót w miejscu wykonywany przez łyżwiarza figurowego?",
+      "ok": "Piruet",
+      "bad": [
+        "Axel",
+        "Lutz",
+        "Toeloop"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jaki szczyt w Tatrach prowadzi kolej linowa z Kuźnic?",
+      "ok": "Kasprowy Wierch",
+      "bad": [
+        "Gubałówka",
+        "Giewont",
+        "Nosal"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się technika hamowania na nartach ustawionych czubkami do siebie?",
+      "ok": "Pług",
+      "bad": [
+        "Telemark",
+        "Carving",
+        "Christiania"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jakim wyciągu narciarz jedzie na siedząco?",
+      "ok": "Krzesełkowym",
+      "bad": [
+        "Orczykowym",
+        "Talerzykowym",
+        "Taśmowym"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której konkurencji narciarstwa alpejskiego zawodnicy osiągają najwyższe prędkości?",
+      "ok": "Zjazd",
+      "bad": [
+        "Slalom",
+        "Slalom gigant",
+        "Supergigant"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju wywodzi się curling?",
+      "ok": "Szkocja",
+      "bad": [
+        "Kanada",
+        "Norwegia",
+        "Szwecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której miejscowości rozpoczyna się Turniej Czterech Skoczni?",
+      "ok": "Oberstdorf",
+      "bad": [
+        "Bischofshofen",
+        "Innsbruck",
+        "Garmisch-Partenkirchen"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której miejscowości odbywa się noworoczny konkurs Turnieju Czterech Skoczni?",
+      "ok": "Garmisch-Partenkirchen",
+      "bad": [
+        "Oberstdorf",
+        "Innsbruck",
+        "Bischofshofen"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który skoczek w sezonie 2017/18 wygrał wszystkie cztery konkursy TCS?",
+      "ok": "Kamil Stoch",
+      "bad": [
+        "Sven Hannawald",
+        "Ryoyu Kobayashi",
+        "Adam Małysz"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym sezonie Adam Małysz wygrał Turniej Czterech Skoczni?",
+      "ok": "2000/01",
+      "bad": [
+        "2001/02",
+        "1999/00",
+        "2002/03"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile razy Adam Małysz wygrał klasyfikację generalną Pucharu Świata w skokach?",
+      "ok": "4",
+      "bad": [
+        "3",
+        "2",
+        "5"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie trofeum otrzymuje zwycięzca klasyfikacji generalnej Pucharu Świata w skokach?",
+      "ok": "Kryształową Kulę",
+      "bad": [
+        "Złotą Nartę",
+        "Złotego Orła",
+        "Srebrny Puchar"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na prezesa jakiej organizacji wybrano Adama Małysza w 2022 roku?",
+      "ok": "Polski Związek Narciarski",
+      "bad": [
+        "Polski Komitet Olimpijski",
+        "PZPN",
+        "Ministerstwo Sportu"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Imię którego skoczka nosi skocznia w Wiśle-Malince?",
+      "ok": "Adam Małysz",
+      "bad": [
+        "Kamil Stoch",
+        "Wojciech Fortuna",
+        "Stanisław Marusarz"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym kraju znajduje się Planica, słynąca z lotów narciarskich?",
+      "ok": "Słowenia",
+      "bad": [
+        "Austria",
+        "Norwegia",
+        "Chorwacja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim mieście znajduje się skocznia Holmenkollen?",
+      "ok": "Oslo",
+      "bad": [
+        "Lillehammer",
+        "Trondheim",
+        "Sztokholm"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się lądowanie skoczka z nogami ustawionymi w wykroku?",
+      "ok": "Telemark",
+      "bad": [
+        "Christiania",
+        "Slalom",
+        "Pług"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodził skoczek narciarski Matti Nykänen?",
+      "ok": "Finlandia",
+      "bad": [
+        "Norwegia",
+        "Szwecja",
+        "Austria"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto wygrał Turniej Czterech Skoczni w sezonie 2019/20?",
+      "ok": "Dawid Kubacki",
+      "bad": [
+        "Kamil Stoch",
+        "Karl Geiger",
+        "Ryoyu Kobayashi"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który Polak został mistrzem świata na skoczni normalnej w 2021 i 2023 roku?",
+      "ok": "Piotr Żyła",
+      "bad": [
+        "Dawid Kubacki",
+        "Kamil Stoch",
+        "Andrzej Stękała"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się konkurencja rozgrywana na skoczniach mamucich?",
+      "ok": "Loty narciarskie",
+      "bad": [
+        "Kombinacja norweska",
+        "Skoki akrobatyczne",
+        "Big air"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakich konkurencji składa się kombinacja norweska?",
+      "ok": "Skoki i biegi narciarskie",
+      "bad": [
+        "Biegi i strzelanie",
+        "Zjazd i slalom",
+        "Skoki i zjazd"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest maksymalna nota za styl od jednego sędziego w skokach narciarskich?",
+      "ok": "20",
+      "bad": [
+        "10",
+        "30",
+        "60"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakich pozycjach strzelają biathloniści?",
+      "ok": "Leżąc i stojąc",
+      "bad": [
+        "Leżąc i klęcząc",
+        "Stojąc i klęcząc",
+        "Tylko stojąc"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Do ilu tarcz strzela biathlonista podczas jednej wizyty na strzelnicy?",
+      "ok": "5",
+      "bad": [
+        "3",
+        "4",
+        "10"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiej broni strzelają biathloniści?",
+      "ok": "Karabinek małokalibrowy",
+      "bad": [
+        "Pistolet",
+        "Wiatrówka",
+        "Strzelba śrutowa"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie startował Tomasz Sikora?",
+      "ok": "Biathlon",
+      "bad": [
+        "Biegi narciarskie",
+        "Skoki narciarskie",
+        "Kombinacja norweska"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi biathlonista Ole Einar Bjørndalen?",
+      "ok": "Norwegia",
+      "bad": [
+        "Szwecja",
+        "Finlandia",
+        "Niemcy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi biathlonista Martin Fourcade?",
+      "ok": "Francja",
+      "bad": [
+        "Szwajcaria",
+        "Belgia",
+        "Kanada"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie dwa style wyróżnia się w biegach narciarskich?",
+      "ok": "Klasyczny i dowolny",
+      "bad": [
+        "Alpejski i klasyczny",
+        "Dowolny i zjazdowy",
+        "Klasyczny i sprinterski"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile przejazdów ma slalom w zawodach Pucharu Świata?",
+      "ok": "2",
+      "bad": [
+        "1",
+        "3",
+        "4"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się konkurencja alpejska łącząca zjazd i slalom?",
+      "ok": "Kombinacja alpejska",
+      "bad": [
+        "Kombinacja norweska",
+        "Supergigant",
+        "Slalom równoległy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi narciarz alpejski Hermann Maier?",
+      "ok": "Austria",
+      "bad": [
+        "Niemcy",
+        "Szwajcaria",
+        "Słowenia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi narciarz alpejski Alberto Tomba?",
+      "ok": "Włochy",
+      "bad": [
+        "Hiszpania",
+        "Szwajcaria",
+        "Francja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym kraju znajduje się trasa zjazdowa Streif w Kitzbühel?",
+      "ok": "Austria",
+      "bad": [
+        "Szwajcaria",
+        "Niemcy",
+        "Włochy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile minut trwa jedna tercja meczu hokeja na lodzie?",
+      "ok": "20",
+      "bad": [
+        "15",
+        "25",
+        "30"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego materiału wykonany jest krążek hokejowy?",
+      "ok": "Z twardej gumy",
+      "bad": [
+        "Z plastiku",
+        "Z drewna",
+        "Z korka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się trofeum dla zwycięzcy rozgrywek NHL?",
+      "ok": "Puchar Stanleya",
+      "bad": [
+        "Puchar Larry'ego O'Briena",
+        "Vince Lombardi Trophy",
+        "Puchar Gretzky'ego"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile minut trwa kara mniejsza w hokeju na lodzie?",
+      "ok": "2",
+      "bad": [
+        "5",
+        "10",
+        "1"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest długość toru w łyżwiarstwie szybkim na długim torze?",
+      "ok": "400 m",
+      "bad": [
+        "333 m",
+        "250 m",
+        "500 m"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ilu zawodników startuje jednocześnie w biegu indywidualnym na długim torze łyżwiarskim?",
+      "ok": "2",
+      "bad": [
+        "1",
+        "4",
+        "6"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie zawodnik zjeżdża po lodowym torze głową w dół, leżąc na brzuchu?",
+      "ok": "Skeleton",
+      "bad": [
+        "Saneczkarstwo",
+        "Bobsleje",
+        "Short track"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile osób liczy największa osada bobslejowa?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "3",
+        "6"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi snowboardzista Shaun White?",
+      "ok": "USA",
+      "bad": [
+        "Kanada",
+        "Szwajcaria",
+        "Norwegia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się rynna, w której snowboardziści wykonują ewolucje?",
+      "ok": "Halfpipe",
+      "bad": [
+        "Slopestyle",
+        "Big air",
+        "Boardercross"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie startuje Natalia Maliszewska?",
+      "ok": "Short track",
+      "bad": [
+        "Biathlon",
+        "Łyżwiarstwo figurowe",
+        "Snowboard"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się wieloetapowa impreza biegów narciarskich na przełomie roku?",
+      "ok": "Tour de Ski",
+      "bad": [
+        "Turniej Czterech Skoczni",
+        "Raw Air",
+        "Vasaloppet"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym kraju odbywa się Bieg Wazów (Vasaloppet)?",
+      "ok": "Szwecja",
+      "bad": [
+        "Norwegia",
+        "Finlandia",
+        "Dania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi łyżwiarz szybki Sven Kramer?",
+      "ok": "Holandia",
+      "bad": [
+        "Norwegia",
+        "Niemcy",
+        "Kanada"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi łyżwiarz figurowy Yuzuru Hanyu?",
+      "ok": "Japonia",
+      "bad": [
+        "Chiny",
+        "Korea Południowa",
+        "USA"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi biathlonistka Magdalena Neuner?",
+      "ok": "Niemcy",
+      "bad": [
+        "Austria",
+        "Szwajcaria",
+        "Czechy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką dyscyplinę sportu obejmuje międzynarodowa federacja FIS?",
+      "ok": "Narciarstwo",
+      "bad": [
+        "Hokej na lodzie",
+        "Łyżwiarstwo",
+        "Bobsleje"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się ustawienie snowboardzisty z prawą nogą z przodu deski?",
+      "ok": "Goofy",
+      "bad": [
+        "Regular",
+        "Switch",
+        "Fakie"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który skoczek jako pierwszy wygrał wszystkie cztery konkursy TCS, w sezonie 2001/02?",
+      "ok": "Sven Hannawald",
+      "bad": [
+        "Janne Ahonen",
+        "Martin Schmitt",
+        "Adam Małysz"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Imię którego zawodnika nosi Wielka Krokiew w Zakopanem?",
+      "ok": "Stanisław Marusarz",
+      "bad": [
+        "Wojciech Fortuna",
+        "Adam Małysz",
+        "Bronisław Czech"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który skoczek spopularyzował pod koniec lat 80. styl V?",
+      "ok": "Jan Boklöv",
+      "bad": [
+        "Matti Nykänen",
+        "Jens Weißflog",
+        "Primož Peterka"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ilu sędziów ocenia styl skoku w zawodach Pucharu Świata?",
+      "ok": "5",
+      "bad": [
+        "3",
+        "4",
+        "7"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza skrót HS w opisie skoczni narciarskiej?",
+      "ok": "Hill Size",
+      "bad": [
+        "High Speed",
+        "Height Standard",
+        "Hill Slope"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej miejscowości Kamil Stoch został mistrzem świata na dużej skoczni w 2013 roku?",
+      "ok": "Val di Fiemme",
+      "bad": [
+        "Lahti",
+        "Falun",
+        "Oslo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym mieście Adam Małysz zdobył swój pierwszy tytuł mistrza świata w 2001 roku?",
+      "ok": "Lahti",
+      "bad": [
+        "Val di Fiemme",
+        "Sapporo",
+        "Trondheim"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który trener prowadził Adama Małysza w czasie małyszomanii w 2001 roku?",
+      "ok": "Apoloniusz Tajner",
+      "bad": [
+        "Hannu Lepistö",
+        "Heinz Kuttin",
+        "Łukasz Kruczek"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który Austriak prowadził polską kadrę skoczków w latach 2016-2019?",
+      "ok": "Stefan Horngacher",
+      "bad": [
+        "Michal Doležal",
+        "Thomas Thurnbichler",
+        "Heinz Kuttin"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto był wieloletnim trenerem Justyny Kowalczyk?",
+      "ok": "Aleksander Wierietielny",
+      "bad": [
+        "Łukasz Kruczek",
+        "Stefan Horngacher",
+        "Apoloniusz Tajner"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile razy Justyna Kowalczyk wygrała klasyfikację generalną Pucharu Świata?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "3",
+        "5"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej miejscowości odbywa się Bieg Piastów?",
+      "ok": "Szklarska Poręba",
+      "bad": [
+        "Zakopane",
+        "Karpacz",
+        "Wisła"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile metrów liczy runda karna w biathlonie?",
+      "ok": "150",
+      "bad": [
+        "100",
+        "200",
+        "250"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiej odległości strzelają biathloniści do tarcz?",
+      "ok": "50 m",
+      "bad": [
+        "25 m",
+        "100 m",
+        "75 m"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi narciarz alpejski Ingemar Stenmark?",
+      "ok": "Szwecja",
+      "bad": [
+        "Norwegia",
+        "Austria",
+        "Szwajcaria"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak w hokeju nazywa się wybicie krążka z własnej połowy za linię bramkową rywala?",
+      "ok": "Uwolnienie",
+      "bad": [
+        "Spalony",
+        "Wznowienie",
+        "Kara mniejsza"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Którą drużynę Polska pokonała 6:4 na mistrzostwach świata w hokeju w 1976 roku?",
+      "ok": "ZSRR",
+      "bad": [
+        "Czechosłowację",
+        "Kanadę",
+        "USA"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który skok w łyżwiarstwie figurowym jako jedyny wykonuje się z odbicia przodem?",
+      "ok": "Axel",
+      "bad": [
+        "Lutz",
+        "Salchow",
+        "Toeloop"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile wynosi długość okrążenia w short tracku?",
+      "ok": "111,12 m",
+      "bad": [
+        "400 m",
+        "200 m",
+        "150 m"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywają się łyżwy z odpinaną piętą używane w łyżwiarstwie szybkim?",
+      "ok": "Klapy",
+      "bad": [
+        "Hokejówki",
+        "Figurówki",
+        "Rolki"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się okrągły cel na lodzie w curlingu?",
+      "ok": "Dom",
+      "bad": [
+        "Ring",
+        "Tarcza",
+        "Bramka"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakie państwo reprezentowała łyżwiarka figurowa Katarina Witt?",
+      "ok": "NRD",
+      "bad": [
+        "RFN",
+        "Austria",
+        "Czechosłowacja"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym kraju znajduje się mamucia skocznia w Vikersund?",
+      "ok": "Norwegia",
+      "bad": [
+        "Szwecja",
+        "Finlandia",
+        "Austria"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile razy Zakopane gościło mistrzostwa świata w narciarstwie klasycznym?",
+      "ok": "3",
+      "bad": [
+        "1",
+        "2",
+        "4"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Gdzie w 2023 roku odbyły się mistrzostwa świata w narciarstwie klasycznym?",
+      "ok": "Planica",
+      "bad": [
+        "Oberstdorf",
+        "Trondheim",
+        "Lahti"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim kraju łyżwiarze rozgrywają słynny maraton Elfstedentocht na zamarzniętych kanałach?",
+      "ok": "Holandia",
+      "bad": [
+        "Belgia",
+        "Dania",
+        "Szwecja"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile kamieni ma do zagrania każda drużyna w jednym endzie curlingu?",
+      "ok": "8",
+      "bad": [
+        "4",
+        "6",
+        "10"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej dyscyplinie zawodnicy zjeżdżają na plecach, nogami do przodu?",
+      "ok": "Saneczkarstwo",
+      "bad": [
+        "Skeleton",
+        "Bobsleje",
+        "Snowboard"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się konkurencja snowboardowa, w której kilku zawodników ściga się na torze z przeszkodami?",
+      "ok": "Snowboardcross",
+      "bad": [
+        "Halfpipe",
+        "Slopestyle",
+        "Slalom równoległy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakiego koloru jest krążek hokejowy?",
+      "ok": "Czarny",
+      "bad": [
+        "Biały",
+        "Czerwony",
+        "Niebieski"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej dyscyplinie zimowej rywalizują osady dwu- i czteroosobowe w opływowych bolidach?",
+      "ok": "Bobsleje",
+      "bad": [
+        "Saneczkarstwo",
+        "Skeleton",
+        "Curling"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się konkurencja narciarska, w której zawodnicy omijają gęsto ustawione bramki?",
+      "ok": "Slalom",
+      "bad": [
+        "Zjazd",
+        "Supergigant",
+        "Skicross"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej miejscowości kończy się Turniej Czterech Skoczni?",
+      "ok": "Bischofshofen",
+      "bad": [
+        "Oberstdorf",
+        "Innsbruck",
+        "Garmisch-Partenkirchen"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ilu zawodników liczy drużyna w konkursie drużynowym Pucharu Świata w skokach?",
+      "ok": "4",
+      "bad": [
+        "3",
+        "5",
+        "6"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się dyscyplina, w której zawodnik zjeżdża po stoku na jednej desce?",
+      "ok": "Snowboard",
+      "bad": [
+        "Skeleton",
+        "Skicross",
+        "Saneczkarstwo"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który polski skoczek nosił przydomek Orzeł z Wisły?",
+      "ok": "Adam Małysz",
+      "bad": [
+        "Kamil Stoch",
+        "Piotr Żyła",
+        "Wojciech Fortuna"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który polski skoczek jest znany z przydomka Wiewiór?",
+      "ok": "Piotr Żyła",
+      "bad": [
+        "Dawid Kubacki",
+        "Maciej Kot",
+        "Stefan Hula"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim sporcie zawodnicy puszczają po lodzie granitowe kamienie ważące około 20 kg?",
+      "ok": "Curling",
+      "bad": [
+        "Bobsleje",
+        "Hokej na lodzie",
+        "Short track"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego miasta pochodzi klub hokejowy Podhale?",
+      "ok": "Nowy Targ",
+      "bad": [
+        "Zakopane",
+        "Oświęcim",
+        "Sanok"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie zimowej startuje Dawid Kubacki?",
+      "ok": "Skoki narciarskie",
+      "bad": [
+        "Biegi narciarskie",
+        "Biathlon",
+        "Kombinacja norweska"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakiego koloru plastron nosi lider Pucharu Świata w skokach narciarskich?",
+      "ok": "Żółtego",
+      "bad": [
+        "Czerwonego",
+        "Zielonego",
+        "Niebieskiego"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się marcowy cykl zawodów w skokach narciarskich rozgrywany w Norwegii?",
+      "ok": "Raw Air",
+      "bad": [
+        "Tour de Ski",
+        "Planica 7",
+        "Willingen Five"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się konkurencja, w której narciarze wykonują salta po wybiciu ze stromej hopki?",
+      "ok": "Skoki akrobatyczne",
+      "bad": [
+        "Loty narciarskie",
+        "Kombinacja norweska",
+        "Skicross"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju leży ośrodek narciarski Zermatt u stóp Matterhornu?",
+      "ok": "Szwajcaria",
+      "bad": [
+        "Austria",
+        "Włochy",
+        "Francja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim paśmie górskim leży ośrodek narciarski Szczyrk?",
+      "ok": "Beskid Śląski",
+      "bad": [
+        "Tatry",
+        "Karkonosze",
+        "Bieszczady"
+      ],
+      "lvl": 1
+    }
+  ]
+}

@@ -1,0 +1,1106 @@
+{
+  "slug": "moda",
+  "name": "Moda",
+  "questions": [
+    {
+      "q": "Która projektantka spopularyzowała w latach 20. „małą czarną”?",
+      "ok": "Coco Chanel",
+      "bad": [
+        "Elsa Schiaparelli",
+        "Jeanne Lanvin",
+        "Madeleine Vionnet"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki numer nosi słynny zapach Chanel wprowadzony w 1921 roku?",
+      "ok": "5",
+      "bad": [
+        "7",
+        "12",
+        "3"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który projektant zaprezentował w 1947 roku kolekcję nazwaną „New Look”?",
+      "ok": "Christian Dior",
+      "bad": [
+        "Yves Saint Laurent",
+        "Hubert de Givenchy",
+        "Pierre Balmain"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto objął kierownictwo artystyczne domu Dior po śmierci założyciela w 1957 roku?",
+      "ok": "Yves Saint Laurent",
+      "bad": [
+        "Karl Lagerfeld",
+        "Pierre Cardin",
+        "Hubert de Givenchy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który projektant w 1966 roku pokazał damski smoking „Le Smoking”?",
+      "ok": "Yves Saint Laurent",
+      "bad": [
+        "Christian Dior",
+        "Pierre Cardin",
+        "Giorgio Armani"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który projektant przez ponad 30 lat prowadził dom Chanel i nosił siwy kucyk?",
+      "ok": "Karl Lagerfeld",
+      "bad": [
+        "Tom Ford",
+        "Valentino Garavani",
+        "Giorgio Armani"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodził Karl Lagerfeld?",
+      "ok": "Niemcy",
+      "bad": [
+        "Francja",
+        "Austria",
+        "Szwajcaria"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto zaprojektował czarną suknię Audrey Hepburn ze „Śniadania u Tiffany'ego”?",
+      "ok": "Hubert de Givenchy",
+      "bad": [
+        "Coco Chanel",
+        "Christian Dior",
+        "Valentino Garavani"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi dom mody Gucci?",
+      "ok": "Włochy",
+      "bad": [
+        "Francja",
+        "Hiszpania",
+        "Szwajcaria"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim mieście założono dom mody Gucci?",
+      "ok": "Florencja",
+      "bad": [
+        "Mediolan",
+        "Rzym",
+        "Wenecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim mieście założono dom mody Prada?",
+      "ok": "Mediolan",
+      "bad": [
+        "Florencja",
+        "Rzym",
+        "Turyn"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi marka Burberry?",
+      "ok": "Wielka Brytania",
+      "bad": [
+        "Francja",
+        "USA",
+        "Irlandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakim wzorem tkaniny kojarzona jest marka Burberry?",
+      "ok": "Krata",
+      "bad": [
+        "Paski",
+        "Panterka",
+        "Groszki"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się płaszcz przeciwdeszczowy z paskiem, rozsławiony przez Burberry?",
+      "ok": "Trencz",
+      "bad": [
+        "Parka",
+        "Budrysówka",
+        "Kurtka pilotka"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi sieć odzieżowa Zara?",
+      "ok": "Hiszpania",
+      "bad": [
+        "Włochy",
+        "Portugalia",
+        "Francja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi sieć odzieżowa H&M?",
+      "ok": "Szwecja",
+      "bad": [
+        "Dania",
+        "Norwegia",
+        "Niemcy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi dom mody Hermès?",
+      "ok": "Francja",
+      "bad": [
+        "Włochy",
+        "Szwajcaria",
+        "Belgia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od wytwarzania czego zaczynał działalność Hermès w 1837 roku?",
+      "ok": "Uprzęży dla koni",
+      "bad": [
+        "Perfum",
+        "Kapeluszy",
+        "Jedwabnych apaszek"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Od produkcji czego zaczynała marka Louis Vuitton?",
+      "ok": "Kufrów podróżnych",
+      "bad": [
+        "Perfum",
+        "Butów",
+        "Zegarków"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na cześć której aktorki i piosenkarki nazwano słynną torebkę Hermès?",
+      "ok": "Jane Birkin",
+      "bad": [
+        "Brigitte Bardot",
+        "Catherine Deneuve",
+        "Audrey Hepburn"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która projektantka jest uważana za twórczynię minispódniczki w latach 60.?",
+      "ok": "Mary Quant",
+      "bad": [
+        "Vivienne Westwood",
+        "Coco Chanel",
+        "Elsa Schiaparelli"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która brytyjska projektantka jest związana z narodzinami mody punkowej?",
+      "ok": "Vivienne Westwood",
+      "bad": [
+        "Mary Quant",
+        "Stella McCartney",
+        "Zandra Rhodes"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto w 1974 roku stworzył słynną sukienkę kopertową?",
+      "ok": "Diane von Fürstenberg",
+      "bad": [
+        "Donna Karan",
+        "Calvin Klein",
+        "Halston"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która projektantka zasłynęła odcieniem „shocking pink”?",
+      "ok": "Elsa Schiaparelli",
+      "bad": [
+        "Coco Chanel",
+        "Madeleine Vionnet",
+        "Jeanne Lanvin"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kogo uważa się za ojca haute couture?",
+      "ok": "Charles Frederick Worth",
+      "bad": [
+        "Paul Poiret",
+        "Christian Dior",
+        "Cristóbal Balenciaga"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodził projektant Cristóbal Balenciaga?",
+      "ok": "Hiszpania",
+      "bad": [
+        "Francja",
+        "Włochy",
+        "Portugalia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który projektant mody został zastrzelony w Miami w 1997 roku?",
+      "ok": "Gianni Versace",
+      "bad": [
+        "Giorgio Armani",
+        "Valentino Garavani",
+        "Gianfranco Ferré"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak ma na imię siostra Gianniego Versace, która przejęła po nim dom mody?",
+      "ok": "Donatella",
+      "bad": [
+        "Miuccia",
+        "Alberta",
+        "Silvia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który projektant w latach 90. jako dyrektor kreatywny odmienił markę Gucci?",
+      "ok": "Tom Ford",
+      "bad": [
+        "Alessandro Michele",
+        "Karl Lagerfeld",
+        "Marc Jacobs"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto był dyrektorem kreatywnym Louis Vuitton w latach 1997-2014?",
+      "ok": "Marc Jacobs",
+      "bad": [
+        "Tom Ford",
+        "Nicolas Ghesquière",
+        "Virgil Abloh"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto w 2018 roku został dyrektorem artystycznym męskiej linii Louis Vuitton?",
+      "ok": "Virgil Abloh",
+      "bad": [
+        "Pharrell Williams",
+        "Kim Jones",
+        "Hedi Slimane"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto zaprojektował suknię ślubną Kate Middleton w 2011 roku?",
+      "ok": "Sarah Burton",
+      "bad": [
+        "Vera Wang",
+        "Stella McCartney",
+        "Jenny Packham"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która projektantka sukien ślubnych była wcześniej łyżwiarką figurową?",
+      "ok": "Vera Wang",
+      "bad": [
+        "Carolina Herrera",
+        "Monique Lhuillier",
+        "Donna Karan"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która japońska projektantka założyła markę Comme des Garçons?",
+      "ok": "Rei Kawakubo",
+      "bad": [
+        "Hanae Mori",
+        "Yoko Ono",
+        "Junko Koshino"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto razem z Jacobem Davisem opatentował w 1873 roku spodnie z nitami?",
+      "ok": "Levi Strauss",
+      "bad": [
+        "Henry David Lee",
+        "Calvin Klein",
+        "Ralph Lauren"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiej tkaniny szyje się klasyczne dżinsy?",
+      "ok": "Denim",
+      "bad": [
+        "Sztruks",
+        "Tweed",
+        "Len"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się tkanina z wyraźnymi, wypukłymi prążkami?",
+      "ok": "Sztruks",
+      "bad": [
+        "Denim",
+        "Tweed",
+        "Jedwab"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się szorstka wełniana tkanina kojarzona ze Szkocją i Irlandią?",
+      "ok": "Tweed",
+      "bad": [
+        "Satyna",
+        "Szyfon",
+        "Muślin"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się lekka, przezroczysta tkanina używana w sukniach wieczorowych?",
+      "ok": "Szyfon",
+      "bad": [
+        "Tweed",
+        "Sztruks",
+        "Flanela"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się sztywna siateczka, z której szyje się baletowe tutu?",
+      "ok": "Tiul",
+      "bad": [
+        "Szyfon",
+        "Jedwab",
+        "Satyna"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego zwierzęcia pochodzi wełna kaszmirowa?",
+      "ok": "Z kozy",
+      "bad": [
+        "Z owcy",
+        "Z lamy",
+        "Z królika"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego zwierzęcia pochodzi wełna merynosowa?",
+      "ok": "Z owcy",
+      "bad": [
+        "Z kozy",
+        "Z alpaki",
+        "Z jaka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju wynaleziono produkcję jedwabiu?",
+      "ok": "Chiny",
+      "bad": [
+        "Indie",
+        "Japonia",
+        "Persja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się syntetyczne włókno opracowane w firmie DuPont w 1935 roku?",
+      "ok": "Nylon",
+      "bad": [
+        "Poliester",
+        "Lycra",
+        "Wiskoza"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku zaprezentowano pierwsze bikini?",
+      "ok": "1946",
+      "bad": [
+        "1936",
+        "1956",
+        "1966"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się tradycyjny japoński strój w kształcie litery T, przewiązany pasem obi?",
+      "ok": "Kimono",
+      "bad": [
+        "Hanbok",
+        "Sari",
+        "Kaftan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się tradycyjny strój kobiecy z Indii z długiego pasa tkaniny?",
+      "ok": "Sari",
+      "bad": [
+        "Kimono",
+        "Hanbok",
+        "Kaftan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się tradycyjny strój koreański?",
+      "ok": "Hanbok",
+      "bad": [
+        "Kimono",
+        "Qipao",
+        "Ao dai"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się szkocka męska spódnica w kratę?",
+      "ok": "Kilt",
+      "bad": [
+        "Sarong",
+        "Toga",
+        "Kaftan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się wzór szkockiej kraty, przypisany często do klanów?",
+      "ok": "Tartan",
+      "bad": [
+        "Pepitka",
+        "Jodełka",
+        "Paisley"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak w Polsce nazywa się wzór pied-de-poule, czyli drobna łamana kratka?",
+      "ok": "Pepitka",
+      "bad": [
+        "Jodełka",
+        "Tartan",
+        "Paisley"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się wzór z ukośnych pasków układających się w litery V, przypominający szkielet ryby?",
+      "ok": "Jodełka",
+      "bad": [
+        "Pepitka",
+        "Krata",
+        "Prążek"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się wzór w kształcie zakrzywionej łezki, wywodzący się z Persji?",
+      "ok": "Paisley",
+      "bad": [
+        "Argyle",
+        "Jodełka",
+        "Pepitka"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się damski but na wysokim, cienkim obcasie?",
+      "ok": "Szpilka",
+      "bad": [
+        "Koturn",
+        "Mokasyn",
+        "Espadryl"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się but z podeszwą w kształcie klina, bez osobnego obcasa?",
+      "ok": "Koturn",
+      "bad": [
+        "Szpilka",
+        "Mokasyn",
+        "Słupek"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywają się płaskie buty z płótna z podeszwą z plecionego sznurka, pochodzące z Hiszpanii?",
+      "ok": "Espadryle",
+      "bad": [
+        "Mokasyny",
+        "Baleriny",
+        "Trampki"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się miękki, wsuwany but, wywodzący się z obuwia rdzennych Amerykanów?",
+      "ok": "Mokasyn",
+      "bad": [
+        "Espadryl",
+        "Oksford",
+        "Kalosz"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który projektant jest znany z butów z czerwoną podeszwą?",
+      "ok": "Christian Louboutin",
+      "bad": [
+        "Manolo Blahnik",
+        "Jimmy Choo",
+        "Salvatore Ferragamo"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się skórzana kurtka z ukośnym zamkiem, kojarzona z motocyklistami?",
+      "ok": "Ramoneska",
+      "bad": [
+        "Bomberka",
+        "Parka",
+        "Kurtka dżinsowa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się krótka kurtka ze ściągaczami, wywodząca się z lotnictwa wojskowego?",
+      "ok": "Bomberka",
+      "bad": [
+        "Ramoneska",
+        "Parka",
+        "Kurtka pikowana"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się długa, ciepła kurtka z kapturem, często obszytym futrem?",
+      "ok": "Parka",
+      "bad": [
+        "Trencz",
+        "Bomberka",
+        "Ramoneska"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się męski strój wieczorowy z marynarką z długimi połami z tyłu?",
+      "ok": "Frak",
+      "bad": [
+        "Smoking",
+        "Garnitur",
+        "Marynarka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się męski dodatek wiązany pod szyją w kształcie motyla?",
+      "ok": "Mucha",
+      "bad": [
+        "Krawat",
+        "Fular",
+        "Żabot"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się jedwabna chusta zawiązywana pod kołnierzem koszuli?",
+      "ok": "Fular",
+      "bad": [
+        "Mucha",
+        "Żabot",
+        "Poszetka"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się ozdobna chusteczka w kieszonce marynarki?",
+      "ok": "Poszetka",
+      "bad": [
+        "Fular",
+        "Mucha",
+        "Spinka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Czym zapina się koszulę z podwójnym, francuskim mankietem?",
+      "ok": "Spinkami",
+      "bad": [
+        "Zatrzaskami",
+        "Rzepami",
+        "Haftkami"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się marszczona ozdoba z koronki lub materiału na przodzie koszuli?",
+      "ok": "Żabot",
+      "bad": [
+        "Kryza",
+        "Fular",
+        "Poszetka"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się sztywny, plisowany kołnierz modny w XVI i XVII wieku?",
+      "ok": "Kryza",
+      "bad": [
+        "Żabot",
+        "Fular",
+        "Stójka"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się miękki filcowy kapelusz z wgnieceniem na górze, noszony przez Indianę Jonesa?",
+      "ok": "Fedora",
+      "bad": [
+        "Melonik",
+        "Panama",
+        "Kaszkiet"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się okrągły, sztywny kapelusz Charliego Chaplina?",
+      "ok": "Melonik",
+      "bad": [
+        "Fedora",
+        "Cylinder",
+        "Kaszkiet"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się wysoki kapelusz, jaki nosił Abraham Lincoln?",
+      "ok": "Cylinder",
+      "bad": [
+        "Melonik",
+        "Fedora",
+        "Panama"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim kraju tradycyjnie wyrabia się kapelusze panama?",
+      "ok": "Ekwador",
+      "bad": [
+        "Panama",
+        "Kolumbia",
+        "Peru"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się płaska czapka z małym daszkiem, kojarzona z Wielką Brytanią?",
+      "ok": "Kaszkiet",
+      "bad": [
+        "Beret",
+        "Fedora",
+        "Bejsbolówka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się usztywniana bielizna wyszczuplająca talię, modna w XIX wieku?",
+      "ok": "Gorset",
+      "bad": [
+        "Krynolina",
+        "Halka",
+        "Pończochy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się XIX-wieczny stelaż, który nadawał spódnicy kształt dzwonu?",
+      "ok": "Krynolina",
+      "bad": [
+        "Gorset",
+        "Żabot",
+        "Halka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której dekadzie XX wieku modne były luźne sukienki chłopczyc z frędzlami?",
+      "ok": "Lata 20.",
+      "bad": [
+        "Lata 50.",
+        "Lata 60.",
+        "Lata 80."
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywają się spodnie rozszerzane u dołu, modne w latach 70.?",
+      "ok": "Dzwony",
+      "bad": [
+        "Rurki",
+        "Bojówki",
+        "Alladynki"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywają się spodnie z dużymi kieszeniami na udach?",
+      "ok": "Bojówki",
+      "bad": [
+        "Dzwony",
+        "Chinosy",
+        "Rurki"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywają się bawełniane spodnie, często beżowe, wywodzące się z munduru?",
+      "ok": "Chinosy",
+      "bad": [
+        "Bojówki",
+        "Sztruksy",
+        "Dzwony"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się dzianinowy sweter rozpinany z przodu na guziki?",
+      "ok": "Kardigan",
+      "bad": [
+        "Golf",
+        "Pulower",
+        "Bluza"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się sweter z wysokim, wywijanym kołnierzem?",
+      "ok": "Golf",
+      "bad": [
+        "Kardigan",
+        "Pulower",
+        "Serdak"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się elegancka mała torebka wieczorowa noszona w dłoni?",
+      "ok": "Kopertówka",
+      "bad": [
+        "Listonoszka",
+        "Nerka",
+        "Worek"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się torebka na długim pasku, noszona przez ramię na ukos?",
+      "ok": "Listonoszka",
+      "bad": [
+        "Kopertówka",
+        "Plecak",
+        "Kuferek"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się szyte na miarę, ręczne krawiectwo najwyższej klasy z Paryża?",
+      "ok": "Haute couture",
+      "bad": [
+        "Prêt-à-porter",
+        "Fast fashion",
+        "Streetwear"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się odzież projektantów szyta seryjnie w standardowych rozmiarach?",
+      "ok": "Prêt-à-porter",
+      "bad": [
+        "Haute couture",
+        "Vintage",
+        "Bespoke"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście odbywają się oficjalne pokazy haute couture?",
+      "ok": "Paryż",
+      "bad": [
+        "Mediolan",
+        "Londyn",
+        "Nowy Jork"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się zjawisko taniej, szybko zmieniającej się odzieży z sieciówek?",
+      "ok": "Fast fashion",
+      "bad": [
+        "Slow fashion",
+        "Haute couture",
+        "Vintage"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak określa się oryginalne ubrania sprzed co najmniej kilkudziesięciu lat?",
+      "ok": "Vintage",
+      "bad": [
+        "Fast fashion",
+        "Casual",
+        "Streetwear"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się styl inspirowany elitarnymi szkołami USA, z koszulkami polo i swetrami?",
+      "ok": "Preppy",
+      "bad": [
+        "Boho",
+        "Grunge",
+        "Punk"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się styl lat 90. z flanelowymi koszulami w kratę i podartymi dżinsami?",
+      "ok": "Grunge",
+      "bad": [
+        "Preppy",
+        "Disco",
+        "Glam"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się swobodny styl ze zwiewnymi spódnicami, frędzlami i etnicznymi wzorami?",
+      "ok": "Boho",
+      "bad": [
+        "Preppy",
+        "Glamour",
+        "Minimalizm"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się amerykański magazyn modowy kierowany przez lata przez Annę Wintour?",
+      "ok": "Vogue",
+      "bad": [
+        "Elle",
+        "Harper's Bazaar",
+        "Cosmopolitan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim mieście odbywa się coroczna gala Met Gala?",
+      "ok": "Nowy Jork",
+      "bad": [
+        "Paryż",
+        "Los Angeles",
+        "Londyn"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywała się brytyjska modelka, ikona lat 60., znana z krótkich włosów i dużych oczu?",
+      "ok": "Twiggy",
+      "bad": [
+        "Kate Moss",
+        "Naomi Campbell",
+        "Linda Evangelista"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi modelka Gisele Bündchen?",
+      "ok": "Brazylia",
+      "bad": [
+        "Argentyna",
+        "Portugalia",
+        "Kolumbia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza na metce symbol dłoni zanurzonej w misce z wodą?",
+      "ok": "Pranie ręczne",
+      "bad": [
+        "Pranie chemiczne",
+        "Moczenie",
+        "Suszenie na płasko"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co oznacza na metce przekreślony trójkąt?",
+      "ok": "Nie wybielać",
+      "bad": [
+        "Nie prasować",
+        "Nie suszyć w suszarce",
+        "Nie prać"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza na metce symbol żelazka?",
+      "ok": "Prasowanie",
+      "bad": [
+        "Pranie",
+        "Suszenie",
+        "Wybielanie"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki rozmiar ubrania oznacza skrót XL?",
+      "ok": "Bardzo duży",
+      "bad": [
+        "Bardzo mały",
+        "Średni",
+        "Mały"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywają się męskie półbuty zdobione wzorami z drobnych dziurek?",
+      "ok": "Brogsy",
+      "bad": [
+        "Mokasyny",
+        "Espadryle",
+        "Baleriny"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak w Polsce nazywa się płaszcz z kapturem zapinany na drewniane kołki?",
+      "ok": "Budrysówka",
+      "bad": [
+        "Trencz",
+        "Parka",
+        "Ramoneska"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się kultowa torebka Chanel z łańcuszkiem, zaprojektowana w lutym 1955 roku?",
+      "ok": "2.55",
+      "bad": [
+        "5.21",
+        "1.55",
+        "3.47"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakiego koloru jest tradycyjnie suknia ślubna w kulturze zachodniej?",
+      "ok": "Biała",
+      "bad": [
+        "Czerwona",
+        "Złota",
+        "Niebieska"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka brytyjska królowa spopularyzowała w 1840 roku białą suknię ślubną?",
+      "ok": "Wiktoria",
+      "bad": [
+        "Elżbieta I",
+        "Anna",
+        "Maria II"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego materiału wykonane są klasyczne espadryle na podeszwie?",
+      "ok": "Juta",
+      "bad": [
+        "Kauczuk",
+        "Korek",
+        "Drewno"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki numer nosi klasyczny model dżinsów Levi's, oznaczany tak od 1890 roku?",
+      "ok": "501",
+      "bad": [
+        "505",
+        "511",
+        "401"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się dopasowana spódnica do kolan o prostym, wąskim kroju?",
+      "ok": "Ołówkowa",
+      "bad": [
+        "Rozkloszowana",
+        "Plisowana",
+        "Tulipan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się koszula z krótkim rękawem i kołnierzykiem zapinana na 2-3 guziki?",
+      "ok": "Polo",
+      "bad": [
+        "T-shirt",
+        "Tank top",
+        "Henley"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się marka odzieży wierzchniej, której logo na rękawie to kompas?",
+      "ok": "Stone Island",
+      "bad": [
+        "Moncler",
+        "The North Face",
+        "Barbour"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym mieście znajduje się słynna ulica handlowa Savile Row, centrum krawiectwa męskiego?",
+      "ok": "Londyn",
+      "bad": [
+        "Paryż",
+        "Mediolan",
+        "Nowy Jork"
+      ],
+      "lvl": 2
+    }
+  ]
+}

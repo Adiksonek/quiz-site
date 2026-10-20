@@ -1,0 +1,1146 @@
+{
+  "slug": "marki",
+  "name": "Marki i logo",
+  "questions": [
+    {
+      "q": "Od czego pochodzą litery „IK” w nazwie IKEA?",
+      "ok": "Od inicjałów założyciela",
+      "bad": [
+        "Od nazwy miasta",
+        "Od nazwy rzeki",
+        "Od słowa „interior”"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywał się przenośny odtwarzacz muzyki Apple wprowadzony w 2001 roku?",
+      "ok": "iPod",
+      "bad": [
+        "iPad",
+        "iMac",
+        "Walkman"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywał się przenośny odtwarzacz kaset Sony wprowadzony w 1979 roku?",
+      "ok": "Walkman",
+      "bad": [
+        "Discman",
+        "Watchman",
+        "iPod"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co przedstawia logo firmy Apple?",
+      "ok": "Nadgryzione jabłko",
+      "bad": [
+        "Gruszkę",
+        "Wiśnię",
+        "Pomarańczę"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakiej firmy hasłem reklamowym z 1997 roku było „Think Different”?",
+      "ok": "Apple",
+      "bad": [
+        "IBM",
+        "Microsoft",
+        "Dell"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile różnych kolorów liter ma klasyczne logo Google?",
+      "ok": "4",
+      "bad": [
+        "3",
+        "5",
+        "6"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma Spotify?",
+      "ok": "Szwecja",
+      "bad": [
+        "Norwegia",
+        "Dania",
+        "Finlandia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od produkcji czego zaczynała Nokia w XIX wieku?",
+      "ok": "Papieru",
+      "bad": [
+        "Telefonów",
+        "Rowerów",
+        "Zapałek"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza po koreańsku nazwa Samsung?",
+      "ok": "Trzy gwiazdy",
+      "bad": [
+        "Trzy góry",
+        "Wielka rzeka",
+        "Złoty smok"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma Huawei?",
+      "ok": "Chiny",
+      "bad": [
+        "Japonia",
+        "Korea Południowa",
+        "Tajwan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co znaczą duńskie słowa, od których pochodzi nazwa LEGO?",
+      "ok": "Baw się dobrze",
+      "bad": [
+        "Buduj razem",
+        "Mały klocek",
+        "Dziecięca radość"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma wprowadziła na rynek lalkę Barbie w 1959 roku?",
+      "ok": "Mattel",
+      "bad": [
+        "Hasbro",
+        "LEGO",
+        "Fisher-Price"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak ma na imię chłopak lalki Barbie?",
+      "ok": "Ken",
+      "bad": [
+        "Bob",
+        "Ted",
+        "Tom"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie pełne imię i nazwisko nosi lalka Barbie?",
+      "ok": "Barbara Millicent Roberts",
+      "bad": [
+        "Barbara Ann Johnson",
+        "Barbara Mae Carter",
+        "Barbara Lynn Davis"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakie zwierzę widnieje w logo marki Lacoste?",
+      "ok": "Krokodyl",
+      "bad": [
+        "Jaszczurka",
+        "Wąż",
+        "Rekin"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co przedstawia logo marki Polo Ralph Lauren?",
+      "ok": "Gracza polo na koniu",
+      "bad": [
+        "Krokodyla",
+        "Orła",
+        "Lwa"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co przedstawia logo domu mody Versace?",
+      "ok": "Głowę Meduzy",
+      "bad": [
+        "Głowę lwa",
+        "Orła",
+        "Pegaza"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki dom mody ma w logo dwie splecione litery C?",
+      "ok": "Chanel",
+      "bad": [
+        "Gucci",
+        "Dior",
+        "Hermès"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka marka zegarków ma w logo koronę?",
+      "ok": "Rolex",
+      "bad": [
+        "Omega",
+        "TAG Heuer",
+        "Swatch"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zegarki jakiej marki nosi James Bond od filmu „GoldenEye” z 1995 roku?",
+      "ok": "Omega",
+      "bad": [
+        "Rolex",
+        "TAG Heuer",
+        "Breitling"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakiego koloru są firmowe pudełka jubilera Tiffany & Co.?",
+      "ok": "Turkusowego",
+      "bad": [
+        "Różowego",
+        "Czerwonego",
+        "Złotego"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka marka sportowa ma logo w kształcie charakterystycznego „haczyka”?",
+      "ok": "Nike",
+      "bad": [
+        "Adidas",
+        "Puma",
+        "Reebok"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Od imienia jakiej greckiej bogini pochodzi nazwa marki Nike?",
+      "ok": "Bogini zwycięstwa",
+      "bad": [
+        "Bogini mądrości",
+        "Bogini łowów",
+        "Bogini miłości"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak brzmi słynne hasło reklamowe Nike?",
+      "ok": "Just Do It",
+      "bad": [
+        "Impossible Is Nothing",
+        "Forever Faster",
+        "Because You're Worth It"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile pasków ma klasyczne logo Adidasa?",
+      "ok": "3",
+      "bad": [
+        "2",
+        "4",
+        "5"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaką markę założył Rudolf Dassler, brat założyciela Adidasa?",
+      "ok": "Puma",
+      "bad": [
+        "Reebok",
+        "Asics",
+        "Fila"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od czego pochodzi nazwa Adidas?",
+      "ok": "Od imienia i nazwiska twórcy",
+      "bad": [
+        "Od hasła reklamowego",
+        "Od nazwy miasta",
+        "Od greckiego bóstwa"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakiej marki hasłem jest „Bo jesteś tego warta”?",
+      "ok": "L'Oréal",
+      "bad": [
+        "Maybelline",
+        "Garnier",
+        "Nivea"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi marka kosmetyków Nivea?",
+      "ok": "Niemcy",
+      "bad": [
+        "Francja",
+        "Szwajcaria",
+        "Holandia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Do jakiej sieci należy hasło „I'm lovin' it”?",
+      "ok": "McDonald's",
+      "bad": [
+        "Burger King",
+        "KFC",
+        "Subway"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się klaun, maskotka McDonald's?",
+      "ok": "Ronald",
+      "bad": [
+        "Krusty",
+        "Bozo",
+        "Pennywise"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak mieli na imię bracia McDonald, założyciele pierwszej restauracji sieci?",
+      "ok": "Richard i Maurice",
+      "bad": [
+        "Ray i Bob",
+        "John i Henry",
+        "Walter i Roy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Czyj wizerunek widnieje w logo KFC?",
+      "ok": "Pułkownika Sandersa",
+      "bad": [
+        "Wujka Bena",
+        "Kapitana Morgana",
+        "Ronalda McDonalda"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka postać widnieje w logo Starbucks?",
+      "ok": "Syrena",
+      "bad": [
+        "Królowa",
+        "Wróżka",
+        "Bogini"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Skąd pochodzi nazwa sieci kawiarni Starbucks?",
+      "ok": "Od postaci z „Moby Dicka”",
+      "bad": [
+        "Od nazwiska założyciela",
+        "Od portu w Seattle",
+        "Od odmiany kawy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim mieście założono pierwszą kawiarnię Starbucks?",
+      "ok": "Seattle",
+      "bad": [
+        "San Francisco",
+        "Nowy Jork",
+        "Portland"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka szwajcarska czekolada ma w logo górę Matterhorn?",
+      "ok": "Toblerone",
+      "bad": [
+        "Milka",
+        "Lindt",
+        "Ritter Sport"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakiego koloru jest krowa z reklam czekolady Milka?",
+      "ok": "Fioletowa",
+      "bad": [
+        "Różowa",
+        "Niebieska",
+        "Brązowa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi krem Nutella?",
+      "ok": "Włochy",
+      "bad": [
+        "Francja",
+        "Szwajcaria",
+        "Belgia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Od czego pochodzą litery w nazwie cukierków M&M's?",
+      "ok": "Od nazwisk Mars i Murrie",
+      "bad": [
+        "Od słów milk i malt",
+        "Od słów mini i mighty",
+        "Od imion dwóch sióstr"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzą żelki Haribo?",
+      "ok": "Niemcy",
+      "bad": [
+        "Belgia",
+        "Dania",
+        "Austria"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Nazwa Haribo to skrót od imienia, nazwiska i miasta założyciela. Jakie to miasto?",
+      "ok": "Bonn",
+      "bad": [
+        "Berlin",
+        "Kolonia",
+        "Monachium"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka marka keczupu ma na etykiecie liczbę 57?",
+      "ok": "Heinz",
+      "bad": [
+        "Hellmann's",
+        "Kotlin",
+        "Pudliszki"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi piwo Heineken?",
+      "ok": "Holandia",
+      "bad": [
+        "Belgia",
+        "Niemcy",
+        "Dania"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi piwo Carlsberg?",
+      "ok": "Dania",
+      "bad": [
+        "Holandia",
+        "Szwecja",
+        "Niemcy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Logo jakiej firmy paliwowej przedstawia muszlę?",
+      "ok": "Shell",
+      "bad": [
+        "BP",
+        "Total",
+        "Orlen"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie zwierzę widnieje w logo Peugeota?",
+      "ok": "Lew",
+      "bad": [
+        "Byk",
+        "Koń",
+        "Orzeł"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie zwierzę obok czerwonego krzyża widnieje w logo Alfa Romeo?",
+      "ok": "Wąż",
+      "bad": [
+        "Gryf",
+        "Lew",
+        "Orzeł"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co przedstawia logo Mitsubishi?",
+      "ok": "Trzy romby",
+      "bad": [
+        "Trzy elipsy",
+        "Sześć gwiazd",
+        "Krzyż"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki kształt ma logo Renault?",
+      "ok": "Romb",
+      "bad": [
+        "Koło",
+        "Tarcza",
+        "Trójkąt"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka francuska marka samochodów ma w logo dwa szewrony?",
+      "ok": "Citroën",
+      "bad": [
+        "Peugeot",
+        "Renault",
+        "Alpine"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Herb którego miasta znajduje się w logo Porsche?",
+      "ok": "Stuttgart",
+      "bad": [
+        "Monachium",
+        "Berlin",
+        "Wolfsburg"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza po łacinie słowo volvo?",
+      "ok": "Toczę się",
+      "bad": [
+        "Jadę",
+        "Lecę",
+        "Biegnę"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Od produkcji czego zaczynała działalność firma Yamaha?",
+      "ok": "Instrumentów muzycznych",
+      "bad": [
+        "Motocykli",
+        "Rowerów",
+        "Silników łodzi"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi producent opon Michelin?",
+      "ok": "Francja",
+      "bad": [
+        "Włochy",
+        "Niemcy",
+        "Belgia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się ludzik z opon, maskotka firmy Michelin?",
+      "ok": "Bibendum",
+      "bad": [
+        "Michelinus",
+        "Pneumo",
+        "Gumiś"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakie wyróżnienie przyznaje restauracjom przewodnik Michelin?",
+      "ok": "Gwiazdki",
+      "bad": [
+        "Widelce",
+        "Korony",
+        "Liście"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co przedstawia logo Mastercard?",
+      "ok": "Dwa zachodzące na siebie koła",
+      "bad": [
+        "Trzy paski",
+        "Niebieską falę",
+        "Złoty kwadrat"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie zwierzę ryczy w czołówce filmów wytwórni MGM?",
+      "ok": "Lew",
+      "bad": [
+        "Tygrys",
+        "Niedźwiedź",
+        "Pantera"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie zwierzę widnieje w logo organizacji WWF?",
+      "ok": "Panda",
+      "bad": [
+        "Koala",
+        "Tygrys",
+        "Słoń"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma produkuje smartfony z serii Galaxy?",
+      "ok": "Samsung",
+      "bad": [
+        "Huawei",
+        "Xiaomi",
+        "Sony"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma od 2005 roku produkuje laptopy z serii ThinkPad?",
+      "ok": "Lenovo",
+      "bad": [
+        "Dell",
+        "HP",
+        "Asus"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki kolor dominuje w logo Coca-Coli?",
+      "ok": "Czerwony",
+      "bad": [
+        "Niebieski",
+        "Zielony",
+        "Żółty"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie kolory ma logo Pepsi?",
+      "ok": "Czerwony, biały i niebieski",
+      "bad": [
+        "Czerwony, żółty i zielony",
+        "Czarny, biały i złoty",
+        "Zielony, biały i żółty"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi marka biżuterii Pandora?",
+      "ok": "Dania",
+      "bad": [
+        "Szwecja",
+        "Włochy",
+        "Francja"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi koncern Philips?",
+      "ok": "Holandia",
+      "bad": [
+        "Niemcy",
+        "Belgia",
+        "Szwecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi marka odzieżowa Lacoste?",
+      "ok": "Francja",
+      "bad": [
+        "Włochy",
+        "USA",
+        "Hiszpania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która marka obiecuje w reklamach, że „doda ci skrzydeł”?",
+      "ok": "Red Bull",
+      "bad": [
+        "Monster",
+        "Burn",
+        "Tiger"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się szwajcarska marka plastikowych zegarków wprowadzona w 1983 roku?",
+      "ok": "Swatch",
+      "bad": [
+        "Casio",
+        "Timex",
+        "Tissot"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Brzmienie języka jakiego kraju miała przypominać nazwa amerykańskich lodów Häagen-Dazs?",
+      "ok": "Danii",
+      "bad": [
+        "Niemiec",
+        "Holandii",
+        "Szwecji"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka marka samochodów ma w logo trójząb?",
+      "ok": "Maserati",
+      "bad": [
+        "Ferrari",
+        "Alfa Romeo",
+        "Lancia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka brytyjska marka samochodów ma w logo literę B ze skrzydłami?",
+      "ok": "Bentley",
+      "bad": [
+        "Bugatti",
+        "Buick",
+        "Borgward"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Logo której marki samochodów ma kształt muszki?",
+      "ok": "Chevrolet",
+      "bad": [
+        "Ford",
+        "Dodge",
+        "Chrysler"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która marka samochodów ma w logo napis w niebieskim owalu?",
+      "ok": "Ford",
+      "bad": [
+        "Opel",
+        "Fiat",
+        "Toyota"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co przedstawia logo Opla?",
+      "ok": "Błyskawicę",
+      "bad": [
+        "Gwiazdę",
+        "Lwa",
+        "Romb"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się figurka zdobiąca maski samochodów Rolls-Royce?",
+      "ok": "Spirit of Ecstasy",
+      "bad": [
+        "Leaping Cat",
+        "Golden Eagle",
+        "Silver Arrow"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakiej firmy hasłem reklamowym było „Connecting People”?",
+      "ok": "Nokia",
+      "bad": [
+        "Ericsson",
+        "Motorola",
+        "Siemens"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak brzmi słynne hasło reklamowe Adidasa?",
+      "ok": "Impossible Is Nothing",
+      "bad": [
+        "Just Do It",
+        "Forever Faster",
+        "Think Different"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Reklamy jakiego batonu zachęcają hasłem „Have a break”?",
+      "ok": "KitKat",
+      "bad": [
+        "Twix",
+        "Snickers",
+        "Mars"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki baton składa się z dwóch paluszków w złotym opakowaniu?",
+      "ok": "Twix",
+      "bad": [
+        "KitKat",
+        "Bounty",
+        "Lion"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki baton ma nadzienie kokosowe?",
+      "ok": "Bounty",
+      "bad": [
+        "Mars",
+        "Snickers",
+        "Twix"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi czekolada Lindt?",
+      "ok": "Szwajcaria",
+      "bad": [
+        "Belgia",
+        "Austria",
+        "Niemcy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się marka czekoladowych jajek z zabawką w środku?",
+      "ok": "Kinder Niespodzianka",
+      "bad": [
+        "Milka Surprise",
+        "Toblerone Egg",
+        "Wedel Jajo"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi marka obuwia sportowego Asics?",
+      "ok": "Japonia",
+      "bad": [
+        "Korea Południowa",
+        "Chiny",
+        "Tajwan"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju założono markę New Balance?",
+      "ok": "USA",
+      "bad": [
+        "Wielka Brytania",
+        "Kanada",
+        "Australia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi sieć sklepów Lidl?",
+      "ok": "Niemcy",
+      "bad": [
+        "Francja",
+        "Holandia",
+        "Austria"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi sieć hipermarketów Carrefour?",
+      "ok": "Francja",
+      "bad": [
+        "Belgia",
+        "Hiszpania",
+        "Włochy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma produkuje samochody elektryczne Model S i Model 3?",
+      "ok": "Tesla",
+      "bad": [
+        "Rivian",
+        "Lucid",
+        "Polestar"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywał się pierwszy samochód Tesli, wprowadzony w 2008 roku?",
+      "ok": "Roadster",
+      "bad": [
+        "Model S",
+        "Model X",
+        "Cybertruck"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile owali znajduje się w logo Toyoty?",
+      "ok": "3",
+      "bad": [
+        "2",
+        "4",
+        "5"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma produkuje smartfony iPhone?",
+      "ok": "Apple",
+      "bad": [
+        "Samsung",
+        "Google",
+        "Nokia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się sieć restauracji, która serwuje burgera Whopper?",
+      "ok": "Burger King",
+      "bad": [
+        "McDonald's",
+        "KFC",
+        "Wendy's"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się burger McDonald's z dwoma kotletami i trzema częściami bułki?",
+      "ok": "Big Mac",
+      "bad": [
+        "Whopper",
+        "Quarter Pounder",
+        "McRoyal"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakiego koloru są łuki w kształcie litery M w logo McDonald's?",
+      "ok": "Żółte",
+      "bad": [
+        "Czerwone",
+        "Białe",
+        "Zielone"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się sieć pizzerii z czerwonym daszkiem w logo?",
+      "ok": "Pizza Hut",
+      "bad": [
+        "Domino's",
+        "Papa John's",
+        "Telepizza"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co oznacza symbol ® przy nazwie produktu?",
+      "ok": "Zastrzeżony znak towarowy",
+      "bad": [
+        "Prawa autorskie",
+        "Niezarejestrowany znak",
+        "Produkt ekologiczny"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki napój energetyczny ma w logo zieloną literę M przypominającą ślady pazurów?",
+      "ok": "Monster",
+      "bad": [
+        "Red Bull",
+        "Burn",
+        "Tiger"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie zwierzę widnieje w logo francuskiej marki sportowej Le Coq Sportif?",
+      "ok": "Kogut",
+      "bad": [
+        "Orzeł",
+        "Lis",
+        "Lew"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakie zwierzę w muszce widnieje w logo magazynu Playboy?",
+      "ok": "Królik",
+      "bad": [
+        "Kot",
+        "Lis",
+        "Wiewiórka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie zwierzę jest maskotką płatków Frosties?",
+      "ok": "Tygrys",
+      "bad": [
+        "Lew",
+        "Kangur",
+        "Niedźwiedź"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakiego koloru jest logo Facebooka?",
+      "ok": "Niebieskiego",
+      "bad": [
+        "Czerwonego",
+        "Zielonego",
+        "Żółtego"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki symbol widnieje na czerwonym tle w logo YouTube?",
+      "ok": "Przycisk odtwarzania",
+      "bad": [
+        "Kamera",
+        "Gwiazdka",
+        "Serce"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie zwierzę jest maskotką aplikacji do nauki języków Duolingo?",
+      "ok": "Sowa",
+      "bad": [
+        "Papuga",
+        "Żaba",
+        "Pingwin"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi marka długopisów i zapalniczek BIC?",
+      "ok": "Francja",
+      "bad": [
+        "Włochy",
+        "USA",
+        "Szwajcaria"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka marka maszynek do golenia reklamuje się hasłem „The Best a Man Can Get”?",
+      "ok": "Gillette",
+      "bad": [
+        "Wilkinson",
+        "Braun",
+        "Philips"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który koncern produkuje pieluszki Pampers?",
+      "ok": "Procter & Gamble",
+      "bad": [
+        "Unilever",
+        "Johnson & Johnson",
+        "Nestlé"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z którą marką związana jest linia butów Air Jordan?",
+      "ok": "Nike",
+      "bad": [
+        "Adidas",
+        "Reebok",
+        "Puma"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się klasyczny model trampek marki Converse?",
+      "ok": "Chuck Taylor All Star",
+      "bad": [
+        "Old Skool",
+        "Stan Smith",
+        "Air Force 1"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma kurierska słynie z brązowych samochodów i uniformów?",
+      "ok": "UPS",
+      "bad": [
+        "FedEx",
+        "DHL",
+        "TNT"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie kolory ma logo firmy kurierskiej DHL?",
+      "ok": "Żółty i czerwony",
+      "bad": [
+        "Brązowy i złoty",
+        "Fioletowy i pomarańczowy",
+        "Niebieski i biały"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie zwierzę widnieje w logo likieru Jägermeister?",
+      "ok": "Jeleń",
+      "bad": [
+        "Dzik",
+        "Niedźwiedź",
+        "Orzeł"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która marka maszyn rolniczych ma w logo skaczącego jelenia?",
+      "ok": "John Deere",
+      "bad": [
+        "Claas",
+        "New Holland",
+        "Ursus"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka firma produkuje samochodziki Hot Wheels?",
+      "ok": "Mattel",
+      "bad": [
+        "Hasbro",
+        "LEGO",
+        "Bburago"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się sieć barów z kanapkami przygotowywanymi na oczach klienta?",
+      "ok": "Subway",
+      "bad": [
+        "Burger King",
+        "Starbucks",
+        "Pizza Hut"
+      ],
+      "lvl": 1
+    }
+  ]
+}

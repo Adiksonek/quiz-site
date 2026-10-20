@@ -1,0 +1,1136 @@
+{
+  "slug": "olimpiady",
+  "name": "Igrzyska olimpijskie",
+  "questions": [
+    {
+      "q": "Gdzie odbyły się letnie igrzyska olimpijskie w 2024 roku?",
+      "ok": "Paryż",
+      "bad": [
+        "Tokio",
+        "Los Angeles",
+        "Londyn"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile kół jest na fladze olimpijskiej?",
+      "ok": "5",
+      "bad": [
+        "4",
+        "6",
+        "7"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile metrów długości ma basen olimpijski?",
+      "ok": "50",
+      "bad": [
+        "25",
+        "100",
+        "40"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Które miasto zorganizowało letnie igrzyska w 2012 roku?",
+      "ok": "Londyn",
+      "bad": [
+        "Pekin",
+        "Rio de Janeiro",
+        "Ateny"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Gdzie odbyły się letnie igrzyska olimpijskie w 2008 roku?",
+      "ok": "Pekin",
+      "bad": [
+        "Tokio",
+        "Seul",
+        "Szanghaj"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku faktycznie rozegrano igrzyska Tokio 2020?",
+      "ok": "2021",
+      "bad": [
+        "2020",
+        "2022",
+        "2019"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Które miasto gościło letnie igrzyska w 2016 roku?",
+      "ok": "Rio de Janeiro",
+      "bad": [
+        "São Paulo",
+        "Buenos Aires",
+        "Madryt"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 2004 roku?",
+      "ok": "Ateny",
+      "bad": [
+        "Rzym",
+        "Sydney",
+        "Barcelona"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 2000 roku?",
+      "ok": "Sydney",
+      "bad": [
+        "Melbourne",
+        "Atlanta",
+        "Ateny"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Gdzie odbywały się igrzyska olimpijskie w starożytności?",
+      "ok": "Olimpia",
+      "bad": [
+        "Ateny",
+        "Sparta",
+        "Delfy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co ile lat odbywają się letnie igrzyska olimpijskie?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "3",
+        "5"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 2014 roku?",
+      "ok": "Soczi",
+      "bad": [
+        "Vancouver",
+        "Pjongczang",
+        "Turyn"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 2018 roku?",
+      "ok": "Pjongczang",
+      "bad": [
+        "Seul",
+        "Sapporo",
+        "Nagano"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakiego koloru jest tło flagi olimpijskiej?",
+      "ok": "Białe",
+      "bad": [
+        "Niebieskie",
+        "Złote",
+        "Czerwone"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej dyscyplinie Robert Korzeniowski zdobył cztery złote medale olimpijskie?",
+      "ok": "Chód sportowy",
+      "bad": [
+        "Maraton",
+        "Biathlon",
+        "Kolarstwo"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej konkurencji Anita Włodarczyk zdobyła olimpijskie złoto w 2016 roku?",
+      "ok": "Rzut młotem",
+      "bad": [
+        "Rzut dyskiem",
+        "Pchnięcie kulą",
+        "Rzut oszczepem"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej dyscyplinie Justyna Kowalczyk zdobyła złoto olimpijskie w 2014 roku?",
+      "ok": "Biegi narciarskie",
+      "bad": [
+        "Biathlon",
+        "Narciarstwo alpejskie",
+        "Łyżwiarstwo szybkie"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki kraj reprezentował sprinter Usain Bolt?",
+      "ok": "Jamajka",
+      "bad": [
+        "USA",
+        "Trynidad i Tobago",
+        "Bahamy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywano koszykarską reprezentację USA z igrzysk w Barcelonie w 1992 roku?",
+      "ok": "Dream Team",
+      "bad": [
+        "Super Team",
+        "Golden Team",
+        "Redeem Team"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Dlaczego nie odbyły się letnie igrzyska olimpijskie w 1940 roku?",
+      "ok": "Z powodu II wojny światowej",
+      "bad": [
+        "Z powodu bojkotu",
+        "Z powodu epidemii",
+        "Z powodu kryzysu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się osiedle, w którym mieszkają sportowcy podczas igrzysk?",
+      "ok": "Wioska olimpijska",
+      "bad": [
+        "Miasteczko sportowe",
+        "Obóz olimpijski",
+        "Dzielnica atletów"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Reprezentacja jakiego kraju startowała w bobslejach w 1988 roku, inspirując film „Reggae na lodzie”?",
+      "ok": "Jamajka",
+      "bad": [
+        "Kenia",
+        "Nigeria",
+        "Barbados"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która amerykańska gimnastyczka zdobyła cztery złote medale w Rio de Janeiro w 2016 roku?",
+      "ok": "Simone Biles",
+      "bad": [
+        "Nadia Comăneci",
+        "Olga Korbut",
+        "Larisa Łatynina"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki medal otrzymuje zawodnik za zajęcie trzeciego miejsca na igrzyskach?",
+      "ok": "Brązowy",
+      "bad": [
+        "Srebrny",
+        "Złoty",
+        "Miedziany"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile złotych medali olimpijskich zdobył w karierze pływak Michael Phelps?",
+      "ok": "23",
+      "bad": [
+        "18",
+        "28",
+        "21"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 1996 roku?",
+      "ok": "Atlanta",
+      "bad": [
+        "Los Angeles",
+        "Chicago",
+        "Toronto"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 1992 roku?",
+      "ok": "Barcelona",
+      "bad": [
+        "Madryt",
+        "Seul",
+        "Mediolan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 1988 roku?",
+      "ok": "Seul",
+      "bad": [
+        "Tokio",
+        "Pekin",
+        "Osaka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które igrzyska zbojkotowała Polska razem z ZSRR i innymi krajami bloku wschodniego?",
+      "ok": "Los Angeles 1984",
+      "bad": [
+        "Moskwa 1980",
+        "Seul 1988",
+        "Montreal 1976"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które miasto zorganizowało igrzyska w 1980 roku, zbojkotowane przez USA?",
+      "ok": "Moskwa",
+      "bad": [
+        "Leningrad",
+        "Kijów",
+        "Warszawa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 1976 roku?",
+      "ok": "Montreal",
+      "bad": [
+        "Toronto",
+        "Monachium",
+        "Meksyk"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na których igrzyskach doszło do zamachu na izraelskich sportowców?",
+      "ok": "Monachium 1972",
+      "bad": [
+        "Meksyk 1968",
+        "Montreal 1976",
+        "Moskwa 1980"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 1968 roku?",
+      "ok": "Meksyk",
+      "bad": [
+        "Rzym",
+        "Tokio",
+        "Monachium"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które miasto jako pierwsze w Azji zorganizowało letnie igrzyska, w 1964 roku?",
+      "ok": "Tokio",
+      "bad": [
+        "Seul",
+        "Pekin",
+        "Osaka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na igrzyskach w jakim mieście Jesse Owens zdobył cztery złote medale w 1936 roku?",
+      "ok": "Berlin",
+      "bad": [
+        "Paryż",
+        "Londyn",
+        "Amsterdam"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku odbyły się pierwsze nowożytne igrzyska olimpijskie?",
+      "ok": "1896",
+      "bad": [
+        "1900",
+        "1888",
+        "1912"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest uznawany za twórcę nowożytnych igrzysk olimpijskich?",
+      "ok": "Pierre de Coubertin",
+      "bad": [
+        "Avery Brundage",
+        "Juan Antonio Samaranch",
+        "Jacques Rogge"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym kraju zapala się ogień olimpijski przed każdymi igrzyskami?",
+      "ok": "Grecja",
+      "bad": [
+        "Włochy",
+        "Szwajcaria",
+        "Francja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co oznacza olimpijskie motto Citius, Altius, Fortius?",
+      "ok": "Szybciej, wyżej, silniej",
+      "bad": [
+        "Wyżej, dalej, mocniej",
+        "Szybciej, dalej, razem",
+        "Silniej, wyżej, dłużej"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście ma siedzibę Międzynarodowy Komitet Olimpijski?",
+      "ok": "Lozanna",
+      "bad": [
+        "Genewa",
+        "Zurych",
+        "Ateny"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które miasto jako pierwsze zorganizowało zarówno letnie, jak i zimowe igrzyska?",
+      "ok": "Pekin",
+      "bad": [
+        "Tokio",
+        "Moskwa",
+        "Londyn"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 2010 roku?",
+      "ok": "Vancouver",
+      "bad": [
+        "Calgary",
+        "Salt Lake City",
+        "Soczi"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 2006 roku?",
+      "ok": "Turyn",
+      "bad": [
+        "Mediolan",
+        "Cortina d'Ampezzo",
+        "Innsbruck"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 2002 roku?",
+      "ok": "Salt Lake City",
+      "bad": [
+        "Lake Placid",
+        "Denver",
+        "Vancouver"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 1998 roku?",
+      "ok": "Nagano",
+      "bad": [
+        "Sapporo",
+        "Tokio",
+        "Pjongczang"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która lekkoatletka zdobyła dla Polski siedem medali olimpijskich w latach 1964-1976?",
+      "ok": "Irena Szewińska",
+      "bad": [
+        "Halina Konopacka",
+        "Stanisława Walasiewicz",
+        "Ewa Kłobukowska"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto zdobył pierwszy złoty medal olimpijski dla Polski, w 1928 roku?",
+      "ok": "Halina Konopacka",
+      "bad": [
+        "Stanisława Walasiewicz",
+        "Janusz Kusociński",
+        "Irena Szewińska"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim stylu Otylia Jędrzejczak zdobyła złoto olimpijskie w Atenach w 2004 roku?",
+      "ok": "Motylkowym",
+      "bad": [
+        "Dowolnym",
+        "Grzbietowym",
+        "Klasycznym"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile złotych medali zdobył Kamil Stoch na igrzyskach w Soczi w 2014 roku?",
+      "ok": "2",
+      "bad": [
+        "1",
+        "3",
+        "0"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który Polak zdobył złoto w łyżwiarstwie szybkim na 1500 m w Soczi w 2014 roku?",
+      "ok": "Zbigniew Bródka",
+      "bad": [
+        "Konrad Niedźwiedzki",
+        "Jan Szymański",
+        "Piotr Michalski"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto zdobył dla Polski pierwsze złoto zimowych igrzysk, w Sapporo w 1972 roku?",
+      "ok": "Wojciech Fortuna",
+      "bad": [
+        "Adam Małysz",
+        "Stanisław Marusarz",
+        "Kamil Stoch"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na których igrzyskach polscy piłkarze zdobyli złoty medal?",
+      "ok": "Monachium 1972",
+      "bad": [
+        "Montreal 1976",
+        "Barcelona 1992",
+        "Moskwa 1980"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na których igrzyskach polscy siatkarze zdobyli złoty medal olimpijski?",
+      "ok": "Montreal 1976",
+      "bad": [
+        "Moskwa 1980",
+        "Monachium 1972",
+        "Seul 1988"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie Renata Mauer zdobyła złote medale olimpijskie w 1996 i 2000 roku?",
+      "ok": "Strzelectwo",
+      "bad": [
+        "Łucznictwo",
+        "Szermierka",
+        "Pływanie"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej konkurencji Tomasz Majewski zdobył złoto olimpijskie w 2008 i 2012 roku?",
+      "ok": "Pchnięcie kulą",
+      "bad": [
+        "Rzut dyskiem",
+        "Rzut młotem",
+        "Rzut oszczepem"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który polski żeglarz zdobył złoty medal na igrzyskach w Atlancie w 1996 roku?",
+      "ok": "Mateusz Kusznierewicz",
+      "bad": [
+        "Przemysław Miarczyński",
+        "Zofia Klepacka",
+        "Piotr Myszka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który polski tyczkarz zasłynął wymownym gestem po zdobyciu złota w Moskwie w 1980 roku?",
+      "ok": "Władysław Kozakiewicz",
+      "bad": [
+        "Tadeusz Ślusarski",
+        "Piotr Lisek",
+        "Paweł Wojciechowski"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki medal olimpijski zdobyła Iga Świątek na igrzyskach w Paryżu w 2024 roku?",
+      "ok": "Brązowy",
+      "bad": [
+        "Złoty",
+        "Srebrny",
+        "Nie zdobyła medalu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi gimnastyczka Nadia Comăneci?",
+      "ok": "Rumunia",
+      "bad": [
+        "Węgry",
+        "Bułgaria",
+        "Czechosłowacja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który Amerykanin zdobył cztery złote medale lekkoatletyczne w Los Angeles w 1984 roku?",
+      "ok": "Carl Lewis",
+      "bad": [
+        "Jesse Owens",
+        "Michael Johnson",
+        "Edwin Moses"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie zwierzę było maskotką igrzysk w Moskwie w 1980 roku?",
+      "ok": "Niedźwiedź",
+      "bad": [
+        "Wilk",
+        "Tygrys",
+        "Łoś"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która dyscyplina zadebiutowała na igrzyskach w Paryżu w 2024 roku?",
+      "ok": "Breaking",
+      "bad": [
+        "Skateboarding",
+        "Surfing",
+        "Wspinaczka sportowa"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które miasto zorganizuje letnie igrzyska olimpijskie w 2028 roku?",
+      "ok": "Los Angeles",
+      "bad": [
+        "Brisbane",
+        "Madryt",
+        "Rzym"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie Leszek Blanik zdobył złoto olimpijskie w Pekinie w 2008 roku?",
+      "ok": "Gimnastyka sportowa",
+      "bad": [
+        "Podnoszenie ciężarów",
+        "Judo",
+        "Zapasy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie Aleksandra Mirosław zdobyła złoto olimpijskie w Paryżu w 2024 roku?",
+      "ok": "Wspinaczka sportowa",
+      "bad": [
+        "Kajakarstwo",
+        "Kolarstwo torowe",
+        "Lekkoatletyka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z czego w większości wykonany jest złoty medal olimpijski?",
+      "ok": "Ze srebra",
+      "bad": [
+        "Ze złota",
+        "Z brązu",
+        "Z miedzi"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kolor nie występuje w kołach olimpijskich?",
+      "ok": "Fioletowy",
+      "bad": [
+        "Niebieski",
+        "Żółty",
+        "Zielony"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodził skoczek narciarski Eddie „the Eagle” Edwards?",
+      "ok": "Wielka Brytania",
+      "bad": [
+        "Irlandia",
+        "Kanada",
+        "Australia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi biegaczka narciarska Marit Bjørgen?",
+      "ok": "Norwegia",
+      "bad": [
+        "Szwecja",
+        "Finlandia",
+        "Rosja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która Polka zdobyła złoto w rzucie młotem na igrzyskach w Sydney w 2000 roku?",
+      "ok": "Kamila Skolimowska",
+      "bad": [
+        "Anita Włodarczyk",
+        "Joanna Fiodorow",
+        "Malwina Kopron"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi pływak Ian Thorpe, gwiazda igrzysk w Sydney?",
+      "ok": "Australia",
+      "bad": [
+        "Nowa Zelandia",
+        "USA",
+        "Kanada"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 1994 roku?",
+      "ok": "Lillehammer",
+      "bad": [
+        "Albertville",
+        "Calgary",
+        "Oslo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Gdzie odbyły się pierwsze zimowe igrzyska olimpijskie w 1924 roku?",
+      "ok": "Chamonix",
+      "bad": [
+        "St. Moritz",
+        "Innsbruck",
+        "Oslo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 1984 roku?",
+      "ok": "Sarajewo",
+      "bad": [
+        "Sapporo",
+        "Innsbruck",
+        "Calgary"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 1980 roku?",
+      "ok": "Lake Placid",
+      "bad": [
+        "Calgary",
+        "Squaw Valley",
+        "Innsbruck"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Na jakim dystansie Janusz Kusociński zdobył złoto olimpijskie w 1932 roku?",
+      "ok": "10 000 m",
+      "bad": [
+        "5000 m",
+        "1500 m",
+        "Maraton"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej konkurencji Stanisława Walasiewicz zdobyła złoto olimpijskie w 1932 roku?",
+      "ok": "Bieg na 100 m",
+      "bad": [
+        "Skok w dal",
+        "Rzut dyskiem",
+        "Bieg na 200 m"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile medali olimpijskich zdobył w karierze Adam Małysz?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "3",
+        "5"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który polski bokser zdobył złoto olimpijskie w 1964 i 1968 roku?",
+      "ok": "Jerzy Kulej",
+      "bad": [
+        "Józef Grudzień",
+        "Zbigniew Pietrzykowski",
+        "Kazimierz Paździor"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej dyscyplinie Robert Sycz i Tomasz Kucharski zdobyli złoto w 2000 i 2004 roku?",
+      "ok": "Wioślarstwo",
+      "bad": [
+        "Kajakarstwo",
+        "Kolarstwo torowe",
+        "Żeglarstwo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który maratończyk wygrał olimpijski maraton boso w Rzymie w 1960 roku?",
+      "ok": "Abebe Bikila",
+      "bad": [
+        "Emil Zátopek",
+        "Haile Gebrselassie",
+        "Mamo Wolde"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który biegacz wygrał w Helsinkach w 1952 roku 5000 m, 10 000 m i maraton?",
+      "ok": "Emil Zátopek",
+      "bad": [
+        "Paavo Nurmi",
+        "Abebe Bikila",
+        "Lasse Virén"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która dyscyplina wróciła na igrzyska w 2016 roku po ponad stu latach przerwy?",
+      "ok": "Golf",
+      "bad": [
+        "Krykiet",
+        "Polo",
+        "Lacrosse"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile razy Paryż organizował letnie igrzyska, wliczając rok 2024?",
+      "ok": "3",
+      "bad": [
+        "2",
+        "4",
+        "1"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który polski judoka zdobył złoto olimpijskie w 1988 i 1992 roku?",
+      "ok": "Waldemar Legień",
+      "bad": [
+        "Paweł Nastula",
+        "Rafał Kubacki",
+        "Maciej Sarnacki"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który polski szablista zdobył złoto olimpijskie w Meksyku w 1968 roku?",
+      "ok": "Jerzy Pawłowski",
+      "bad": [
+        "Wojciech Zabłocki",
+        "Egon Franke",
+        "Witold Woyda"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej konkurencji Dawid Tomala zdobył złoto olimpijskie w Tokio?",
+      "ok": "Chód na 50 km",
+      "bad": [
+        "Maraton",
+        "Chód na 20 km",
+        "Bieg na 10 000 m"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej sztafecie Polacy zdobyli złoto olimpijskie w Tokio?",
+      "ok": "Mieszanej 4x400 m",
+      "bad": [
+        "Męskiej 4x100 m",
+        "Kobiecej 4x400 m",
+        "Mieszanej 4x100 m"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Od którego roku zimowe igrzyska odbywają się w innym roku niż letnie?",
+      "ok": "1994",
+      "bad": [
+        "1992",
+        "1988",
+        "2000"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile razy Londyn organizował letnie igrzyska olimpijskie?",
+      "ok": "3",
+      "bad": [
+        "2",
+        "1",
+        "4"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Które miasto zorganizowało letnie igrzyska w 1952 roku?",
+      "ok": "Helsinki",
+      "bad": [
+        "Sztokholm",
+        "Oslo",
+        "Londyn"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym mieście odbyły się letnie igrzyska w 1928 roku?",
+      "ok": "Amsterdam",
+      "bad": [
+        "Paryż",
+        "Antwerpia",
+        "Sztokholm"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który olimpijczyk zdobył dziewięć złotych medali w biegach w latach 1920-1928?",
+      "ok": "Paavo Nurmi",
+      "bad": [
+        "Emil Zátopek",
+        "Jesse Owens",
+        "Lasse Virén"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 1988 roku?",
+      "ok": "Calgary",
+      "bad": [
+        "Vancouver",
+        "Lake Placid",
+        "Sarajewo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Gdzie odbyły się zimowe igrzyska olimpijskie w 1992 roku?",
+      "ok": "Albertville",
+      "bad": [
+        "Grenoble",
+        "Chamonix",
+        "Lillehammer"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile złotych medali zdobyła reprezentacja Polski na igrzyskach w Paryżu w 2024 roku?",
+      "ok": "1",
+      "bad": [
+        "3",
+        "5",
+        "0"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku kobiety po raz pierwszy wystartowały w nowożytnych igrzyskach?",
+      "ok": "1900",
+      "bad": [
+        "1896",
+        "1920",
+        "1928"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej konkurencji Bob Beamon ustanowił słynny rekord na igrzyskach w 1968 roku?",
+      "ok": "Skok w dal",
+      "bad": [
+        "Skok wzwyż",
+        "Trójskok",
+        "Bieg na 100 m"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej dyscyplinie Mark Spitz zdobył siedem złotych medali w 1972 roku?",
+      "ok": "Pływanie",
+      "bad": [
+        "Lekkoatletyka",
+        "Gimnastyka",
+        "Kolarstwo"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co symbolizuje pięć kół olimpijskich?",
+      "ok": "Pięć kontynentów",
+      "bad": [
+        "Pięć dyscyplin",
+        "Pięć pierwszych igrzysk",
+        "Pięć cnót sportowca"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazwano zwycięstwo hokeistów USA nad ZSRR na igrzyskach w 1980 roku?",
+      "ok": "Cud na lodzie",
+      "bad": [
+        "Bitwa na lodzie",
+        "Zimna wojna na lodzie",
+        "Lodowy szok"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który Polak zdobył złoto olimpijskie na dużej skoczni w Pjongczangu w 2018 roku?",
+      "ok": "Kamil Stoch",
+      "bad": [
+        "Dawid Kubacki",
+        "Piotr Żyła",
+        "Stefan Hula"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto wygrał bieg na 100 m na igrzyskach w Pekinie w 2008 roku?",
+      "ok": "Usain Bolt",
+      "bad": [
+        "Asafa Powell",
+        "Tyson Gay",
+        "Justin Gatlin"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywają się igrzyska dla sportowców z niepełnosprawnościami fizycznymi?",
+      "ok": "Igrzyska paraolimpijskie",
+      "bad": [
+        "Igrzyska Europejskie",
+        "Uniwersjada",
+        "Igrzyska Wspólnoty Narodów"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej dyscyplinie Natalia Partyka startowała zarówno na igrzyskach, jak i paraolimpiadach?",
+      "ok": "Tenis stołowy",
+      "bad": [
+        "Pływanie",
+        "Łucznictwo",
+        "Lekkoatletyka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na którym zamieszkanym kontynencie do 2024 roku nie odbyły się igrzyska olimpijskie?",
+      "ok": "Afryka",
+      "bad": [
+        "Ameryka Południowa",
+        "Australia",
+        "Azja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które austriackie miasto dwukrotnie gościło zimowe igrzyska, w 1964 i 1976 roku?",
+      "ok": "Innsbruck",
+      "bad": [
+        "Salzburg",
+        "Kitzbühel",
+        "Graz"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który legendarny bokser zapalił znicz olimpijski w Atlancie w 1996 roku?",
+      "ok": "Muhammad Ali",
+      "bad": [
+        "Mike Tyson",
+        "George Foreman",
+        "Joe Frazier"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kraj zdobył najwięcej medali na letnich igrzyskach do 2024 roku włącznie?",
+      "ok": "USA",
+      "bad": [
+        "Chiny",
+        "Wielka Brytania",
+        "Niemcy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się ogień płonący na stadionie przez cały czas trwania igrzysk?",
+      "ok": "Znicz olimpijski",
+      "bad": [
+        "Pochodnia pokoju",
+        "Płomień Zeusa",
+        "Ognisko Olimpu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jakim dystansie Justyna Kowalczyk zdobyła złoto olimpijskie w Vancouver w 2010 roku?",
+      "ok": "30 km",
+      "bad": [
+        "10 km",
+        "15 km",
+        "Sprint"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile złotych medali zdobył Michael Phelps na igrzyskach w Pekinie w 2008 roku?",
+      "ok": "8",
+      "bad": [
+        "6",
+        "7",
+        "9"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który polski lekkoatleta zdobył złoto w pchnięciu kulą w Monachium w 1972 roku?",
+      "ok": "Władysław Komar",
+      "bad": [
+        "Tomasz Majewski",
+        "Edward Sarul",
+        "Ryszard Katus"
+      ],
+      "lvl": 3
+    }
+  ]
+}

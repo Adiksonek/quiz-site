@@ -1,0 +1,1226 @@
+{
+  "slug": "pilka-nozna",
+  "name": "Piłka nożna",
+  "questions": [
+    {
+      "q": "Ilu zawodników jednej drużyny jest na boisku w piłce nożnej?",
+      "ok": "11",
+      "bad": [
+        "10",
+        "9",
+        "12"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile minut trwa regulaminowy mecz piłki nożnej?",
+      "ok": "90",
+      "bad": [
+        "80",
+        "100",
+        "120"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym klubie Robert Lewandowski grał bezpośrednio przed Bayernem Monachium?",
+      "ok": "Borussia Dortmund",
+      "bad": [
+        "Lech Poznań",
+        "Schalke 04",
+        "VfL Wolfsburg"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który kraj gościł mundial w 2022 roku?",
+      "ok": "Katar",
+      "bad": [
+        "Rosja",
+        "Brazylia",
+        "Arabia Saudyjska"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która reprezentacja wygrała mundial w 2022 roku?",
+      "ok": "Argentyna",
+      "bad": [
+        "Francja",
+        "Chorwacja",
+        "Brazylia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która reprezentacja wygrała mundial w 2018 roku?",
+      "ok": "Francja",
+      "bad": [
+        "Chorwacja",
+        "Belgia",
+        "Niemcy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która reprezentacja wygrała mundial w 2010 roku?",
+      "ok": "Hiszpania",
+      "bad": [
+        "Holandia",
+        "Niemcy",
+        "Włochy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która reprezentacja wygrała mundial w 2006 roku?",
+      "ok": "Włochy",
+      "bad": [
+        "Francja",
+        "Niemcy",
+        "Portugalia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który kraj zorganizował mundial w 2014 roku?",
+      "ok": "Brazylia",
+      "bad": [
+        "Argentyna",
+        "Meksyk",
+        "RPA"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim kraju odbył się mundial w 2010 roku?",
+      "ok": "RPA",
+      "bad": [
+        "Nigeria",
+        "Egipt",
+        "Maroko"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który kraj zorganizował mundial w 2006 roku?",
+      "ok": "Niemcy",
+      "bad": [
+        "Francja",
+        "Włochy",
+        "Hiszpania"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z którym krajem Polska współorganizowała Euro 2012?",
+      "ok": "Ukraina",
+      "bad": [
+        "Białoruś",
+        "Czechy",
+        "Słowacja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jaką reprezentacją Brazylia przegrała 1:7 w półfinale mundialu 2014?",
+      "ok": "Niemcy",
+      "bad": [
+        "Argentyna",
+        "Holandia",
+        "Hiszpania"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który Francuz strzelił trzy gole w finale mundialu 2022?",
+      "ok": "Kylian Mbappé",
+      "bad": [
+        "Olivier Giroud",
+        "Antoine Griezmann",
+        "Karim Benzema"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Lionel Messi?",
+      "ok": "Argentyna",
+      "bad": [
+        "Urugwaj",
+        "Hiszpania",
+        "Brazylia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym klubie Lionel Messi spędził większość kariery?",
+      "ok": "FC Barcelona",
+      "bad": [
+        "Real Madryt",
+        "Paris Saint-Germain",
+        "Inter Miami"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Cristiano Ronaldo?",
+      "ok": "Portugalia",
+      "bad": [
+        "Hiszpania",
+        "Brazylia",
+        "Włochy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym angielskim klubie Cristiano Ronaldo grał w latach 2003-2009?",
+      "ok": "Manchester United",
+      "bad": [
+        "Chelsea",
+        "Arsenal",
+        "Liverpool"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodził Pelé?",
+      "ok": "Brazylia",
+      "bad": [
+        "Argentyna",
+        "Portugalia",
+        "Urugwaj"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Do którego klubu Robert Lewandowski przeszedł z Bayernu w 2022 roku?",
+      "ok": "FC Barcelona",
+      "bad": [
+        "Real Madryt",
+        "Chelsea",
+        "Paris Saint-Germain"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiej odległości od bramki wykonuje się rzut karny?",
+      "ok": "11 m",
+      "bad": [
+        "9 m",
+        "12 m",
+        "16 m"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka kartka oznacza wykluczenie zawodnika z meczu?",
+      "ok": "Czerwona",
+      "bad": [
+        "Żółta",
+        "Zielona",
+        "Niebieska"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile żółtych kartek w jednym meczu oznacza dla zawodnika czerwoną kartkę?",
+      "ok": "2",
+      "bad": [
+        "3",
+        "1",
+        "4"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile minut łącznie trwa dogrywka w meczu piłki nożnej?",
+      "ok": "30",
+      "bad": [
+        "20",
+        "15",
+        "45"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się zdobycie trzech goli w jednym meczu przez jednego zawodnika?",
+      "ok": "Hat-trick",
+      "bad": [
+        "Dublet",
+        "Grand Slam",
+        "Kareta"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile punktów dostaje drużyna za zwycięstwo w meczu ligowym?",
+      "ok": "3",
+      "bad": [
+        "2",
+        "1",
+        "4"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jakim stadionie gra FC Barcelona?",
+      "ok": "Camp Nou",
+      "bad": [
+        "Santiago Bernabéu",
+        "Mestalla",
+        "Wanda Metropolitano"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który klub rozgrywa mecze na stadionie Santiago Bernabéu?",
+      "ok": "Real Madryt",
+      "bad": [
+        "Atlético Madryt",
+        "FC Barcelona",
+        "Sevilla FC"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który klub gra na stadionie Old Trafford?",
+      "ok": "Manchester United",
+      "bad": [
+        "Manchester City",
+        "Liverpool",
+        "Leeds United"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który klub gra na stadionie Anfield?",
+      "ok": "Liverpool",
+      "bad": [
+        "Everton",
+        "Arsenal",
+        "Tottenham"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się mecz Realu Madryt z FC Barceloną?",
+      "ok": "El Clásico",
+      "bad": [
+        "Superclásico",
+        "Der Klassiker",
+        "Derby della Madonnina"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się najwyższa liga piłkarska w Anglii?",
+      "ok": "Premier League",
+      "bad": [
+        "La Liga",
+        "Serie A",
+        "Bundesliga"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się najwyższa klasa rozgrywkowa w polskiej piłce nożnej?",
+      "ok": "Ekstraklasa",
+      "bad": [
+        "Superliga",
+        "Liga Polska",
+        "Pierwsza Liga"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego miasta pochodzi klub Legia?",
+      "ok": "Warszawa",
+      "bad": [
+        "Kraków",
+        "Poznań",
+        "Wrocław"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakiego koloru koszulki tradycyjnie nosi reprezentacja Holandii?",
+      "ok": "Pomarańczowe",
+      "bad": [
+        "Czerwone",
+        "Białe",
+        "Niebieskie"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jakim stadionie odbył się mecz otwarcia Euro 2012?",
+      "ok": "Stadion Narodowy",
+      "bad": [
+        "Stadion Śląski",
+        "Stadion Miejski w Poznaniu",
+        "Stadion Energa Gdańsk"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Zlatan Ibrahimović?",
+      "ok": "Szwecja",
+      "bad": [
+        "Bośnia i Hercegowina",
+        "Chorwacja",
+        "Norwegia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Mohamed Salah?",
+      "ok": "Egipt",
+      "bad": [
+        "Maroko",
+        "Tunezja",
+        "Algieria"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Erling Haaland?",
+      "ok": "Norwegia",
+      "bad": [
+        "Dania",
+        "Szwecja",
+        "Islandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który trener prowadził Manchester United w latach 1986-2013?",
+      "ok": "Alex Ferguson",
+      "bad": [
+        "Arsène Wenger",
+        "Matt Busby",
+        "José Mourinho"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi klub Galatasaray?",
+      "ok": "Turcja",
+      "bad": [
+        "Grecja",
+        "Rumunia",
+        "Bułgaria"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się przewinienie, gdy przy podaniu napastnik jest bliżej bramki niż przedostatni rywal?",
+      "ok": "Spalony",
+      "bad": [
+        "Faul",
+        "Aut",
+        "Rzut rożny"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która reprezentacja wygrała Euro 2016?",
+      "ok": "Portugalia",
+      "bad": [
+        "Francja",
+        "Walia",
+        "Niemcy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która reprezentacja wygrała Euro 2020, rozegrane w 2021 roku?",
+      "ok": "Włochy",
+      "bad": [
+        "Anglia",
+        "Hiszpania",
+        "Dania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która reprezentacja wygrała Euro 2012?",
+      "ok": "Hiszpania",
+      "bad": [
+        "Włochy",
+        "Niemcy",
+        "Portugalia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która reprezentacja sensacyjnie wygrała Euro 2004?",
+      "ok": "Grecja",
+      "bad": [
+        "Portugalia",
+        "Czechy",
+        "Dania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile razy Brazylia zdobyła mistrzostwo świata do 2022 roku?",
+      "ok": "5",
+      "bad": [
+        "4",
+        "3",
+        "6"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kraj zorganizował i wygrał pierwszy mundial w 1930 roku?",
+      "ok": "Urugwaj",
+      "bad": [
+        "Brazylia",
+        "Argentyna",
+        "Włochy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na których dwóch mundialach Polska zajęła trzecie miejsce?",
+      "ok": "1974 i 1982",
+      "bad": [
+        "1978 i 1986",
+        "1974 i 1978",
+        "1982 i 1986"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który Polak został królem strzelców mundialu w 1974 roku?",
+      "ok": "Grzegorz Lato",
+      "bad": [
+        "Andrzej Szarmach",
+        "Kazimierz Deyna",
+        "Robert Gadocha"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był selekcjonerem reprezentacji Polski na mundialu w 1974 roku?",
+      "ok": "Kazimierz Górski",
+      "bad": [
+        "Antoni Piechniczek",
+        "Jacek Gmoch",
+        "Ryszard Kulesza"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który polski bramkarz zatrzymał Anglików na Wembley w 1973 roku?",
+      "ok": "Jan Tomaszewski",
+      "bad": [
+        "Józef Młynarczyk",
+        "Jerzy Dudek",
+        "Artur Boruc"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z kim Polska przegrała tak zwany mecz na wodzie podczas mundialu w 1974 roku?",
+      "ok": "RFN",
+      "bad": [
+        "Holandia",
+        "Brazylia",
+        "Szwecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto strzelił gola dla Polski w meczu otwarcia Euro 2012 z Grecją?",
+      "ok": "Robert Lewandowski",
+      "bad": [
+        "Jakub Błaszczykowski",
+        "Łukasz Piszczek",
+        "Ludovic Obraniak"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jaką reprezentacją Polska odpadła w ćwierćfinale Euro 2016?",
+      "ok": "Portugalia",
+      "bad": [
+        "Niemcy",
+        "Szwajcaria",
+        "Walia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był selekcjonerem reprezentacji Polski na Euro 2016?",
+      "ok": "Adam Nawałka",
+      "bad": [
+        "Jerzy Brzęczek",
+        "Franciszek Smuda",
+        "Paulo Sousa"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był selekcjonerem reprezentacji Polski na Euro 2012?",
+      "ok": "Franciszek Smuda",
+      "bad": [
+        "Leo Beenhakker",
+        "Adam Nawałka",
+        "Waldemar Fornalik"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który Holender prowadził reprezentację Polski na Euro 2008?",
+      "ok": "Leo Beenhakker",
+      "bad": [
+        "Guus Hiddink",
+        "Dick Advocaat",
+        "Louis van Gaal"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku Polska po raz pierwszy zagrała w finałach mistrzostw Europy?",
+      "ok": "2008",
+      "bad": [
+        "2012",
+        "2004",
+        "1996"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jaką reprezentacją Polska przegrała w 1/8 finału mundialu 2022?",
+      "ok": "Francja",
+      "bad": [
+        "Argentyna",
+        "Anglia",
+        "Australia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był selekcjonerem reprezentacji Polski na mundialu 2022 w Katarze?",
+      "ok": "Czesław Michniewicz",
+      "bad": [
+        "Fernando Santos",
+        "Paulo Sousa",
+        "Jerzy Brzęczek"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto zdobył Złotą Piłkę w 2018 roku?",
+      "ok": "Luka Modrić",
+      "bad": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Kylian Mbappé"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Przeciwko jakiej drużynie Lewandowski strzelił w 2015 roku pięć goli w dziewięć minut?",
+      "ok": "VfL Wolfsburg",
+      "bad": [
+        "Schalke 04",
+        "Hamburger SV",
+        "Werder Brema"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Przeciwko jakiej reprezentacji Diego Maradona strzelił gola ręką w 1986 roku?",
+      "ok": "Anglia",
+      "bad": [
+        "Niemcy",
+        "Włochy",
+        "Belgia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Którego zawodnika Zinedine Zidane uderzył głową w finale mundialu 2006?",
+      "ok": "Marco Materazzi",
+      "bad": [
+        "Fabio Cannavaro",
+        "Andrea Pirlo",
+        "Gianluigi Buffon"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kraj współorganizował mundial 2002 razem z Japonią?",
+      "ok": "Korea Południowa",
+      "bad": [
+        "Chiny",
+        "Korea Północna",
+        "Tajlandia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która reprezentacja wygrała mundial w 2002 roku?",
+      "ok": "Brazylia",
+      "bad": [
+        "Niemcy",
+        "Turcja",
+        "Korea Południowa"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kraj wygrał mundial w 1998 roku jako gospodarz turnieju?",
+      "ok": "Francja",
+      "bad": [
+        "Brazylia",
+        "Chorwacja",
+        "Holandia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która reprezentacja wygrała mundial w 1966 roku?",
+      "ok": "Anglia",
+      "bad": [
+        "RFN",
+        "Portugalia",
+        "Brazylia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która reprezentacja przegrała finały mundialu w 1974, 1978 i 2010 roku?",
+      "ok": "Holandia",
+      "bad": [
+        "Węgry",
+        "Szwecja",
+        "Chorwacja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót VAR w piłce nożnej?",
+      "ok": "Video Assistant Referee",
+      "bad": [
+        "Video Action Replay",
+        "Visual Analysis Review",
+        "Video Arbiter Room"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak daleko od linii bramkowej sięga pole karne?",
+      "ok": "16,5 m",
+      "bad": [
+        "11 m",
+        "18 m",
+        "20 m"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile minut może maksymalnie trwać przerwa między połowami meczu?",
+      "ok": "15",
+      "bad": [
+        "10",
+        "20",
+        "30"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na jakim stadionie gra Bayern Monachium?",
+      "ok": "Allianz Arena",
+      "bad": [
+        "Signal Iduna Park",
+        "Olympiastadion",
+        "Veltins-Arena"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który klub gra na stadionie Signal Iduna Park?",
+      "ok": "Borussia Dortmund",
+      "bad": [
+        "Schalke 04",
+        "Bayer Leverkusen",
+        "Eintracht Frankfurt"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego miasta pochodzi klub Juventus?",
+      "ok": "Turyn",
+      "bad": [
+        "Mediolan",
+        "Rzym",
+        "Neapol"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim mieście gra Ajax?",
+      "ok": "Amsterdam",
+      "bad": [
+        "Rotterdam",
+        "Eindhoven",
+        "Haga"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego miasta pochodzi klub Benfica?",
+      "ok": "Lizbona",
+      "bad": [
+        "Porto",
+        "Braga",
+        "Coimbra"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który klub nazywany jest Starą Damą?",
+      "ok": "Juventus",
+      "bad": [
+        "AC Milan",
+        "AS Roma",
+        "Inter Mediolan"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który klub nosi przydomek Kanonierzy?",
+      "ok": "Arsenal",
+      "bad": [
+        "Chelsea",
+        "West Ham United",
+        "Tottenham"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który polski klub nosi przydomek Kolejorz?",
+      "ok": "Lech Poznań",
+      "bad": [
+        "Legia Warszawa",
+        "Wisła Kraków",
+        "Śląsk Wrocław"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym włoskim klubie Zbigniew Boniek wygrał Puchar Europy w 1985 roku?",
+      "ok": "Juventus",
+      "bad": [
+        "AC Milan",
+        "Inter Mediolan",
+        "Napoli"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W barwach którego klubu Jerzy Dudek wygrał Ligę Mistrzów w 2005 roku?",
+      "ok": "Liverpool",
+      "bad": [
+        "AC Milan",
+        "Feyenoord",
+        "Real Madryt"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z którego polskiego klubu Robert Lewandowski przeszedł do Borussii Dortmund?",
+      "ok": "Lech Poznań",
+      "bad": [
+        "Legia Warszawa",
+        "Wisła Kraków",
+        "Górnik Zabrze"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym angielskim klubie zaczynał zawodową karierę Wojciech Szczęsny?",
+      "ok": "Arsenal",
+      "bad": [
+        "Chelsea",
+        "Liverpool",
+        "Tottenham"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym polskim klubie Kazimierz Deyna grał przez większość kariery?",
+      "ok": "Legia Warszawa",
+      "bad": [
+        "Lech Poznań",
+        "Górnik Zabrze",
+        "Wisła Kraków"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który klub wygrał Ligę Mistrzów w 2013 roku w finale z Borussią Dortmund?",
+      "ok": "Bayern Monachium",
+      "bad": [
+        "Chelsea",
+        "Real Madryt",
+        "FC Barcelona"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który klub sensacyjnie zdobył mistrzostwo Anglii w sezonie 2015/16?",
+      "ok": "Leicester City",
+      "bad": [
+        "Tottenham",
+        "West Ham United",
+        "Everton"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który klub wygrał Ligę Mistrzów w 1999 roku dzięki dwóm golom w doliczonym czasie?",
+      "ok": "Manchester United",
+      "bad": [
+        "Bayern Monachium",
+        "Juventus",
+        "FC Barcelona"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile drużyn wystąpiło w turnieju finałowym mundialu 2022?",
+      "ok": "32",
+      "bad": [
+        "24",
+        "48",
+        "16"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście ma siedzibę FIFA?",
+      "ok": "Zurych",
+      "bad": [
+        "Genewa",
+        "Paryż",
+        "Nyon"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się najwyższa liga piłkarska we Włoszech?",
+      "ok": "Serie A",
+      "bad": [
+        "Ligue 1",
+        "Eredivisie",
+        "La Liga"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który bramkarz był kapitanem Hiszpanii, gdy zdobyła mistrzostwo świata w 2010 roku?",
+      "ok": "Iker Casillas",
+      "bad": [
+        "Víctor Valdés",
+        "Pepe Reina",
+        "David de Gea"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście urodził się reprezentant Niemiec Miroslav Klose?",
+      "ok": "Opole",
+      "bad": [
+        "Gliwice",
+        "Katowice",
+        "Wrocław"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak potocznie nazywa się reprezentację Włoch?",
+      "ok": "Squadra Azzurra",
+      "bad": [
+        "La Roja",
+        "Seleção",
+        "Die Mannschaft"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które polskie miasto, oprócz Warszawy, Gdańska i Poznania, gościło mecze Euro 2012?",
+      "ok": "Wrocław",
+      "bad": [
+        "Kraków",
+        "Chorzów",
+        "Łódź"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście grają kluby Boca Juniors i River Plate?",
+      "ok": "Buenos Aires",
+      "bad": [
+        "Montevideo",
+        "Rosario",
+        "São Paulo"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który trener prowadził Arsenal w latach 1996-2018?",
+      "ok": "Arsène Wenger",
+      "bad": [
+        "George Graham",
+        "Unai Emery",
+        "Mikel Arteta"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się turniej reprezentacji narodowych Ameryki Południowej?",
+      "ok": "Copa América",
+      "bad": [
+        "Copa Libertadores",
+        "Gold Cup",
+        "Copa Sudamericana"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakim numerem na koszulce grał Diego Maradona w reprezentacji Argentyny?",
+      "ok": "10",
+      "bad": [
+        "9",
+        "7",
+        "11"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi klub Celtic Glasgow?",
+      "ok": "Szkocja",
+      "bad": [
+        "Irlandia",
+        "Anglia",
+        "Walia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym włoskim klubie grał Diego Maradona w latach 1984-1991?",
+      "ok": "Napoli",
+      "bad": [
+        "Juventus",
+        "AC Milan",
+        "AS Roma"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodził Johan Cruyff?",
+      "ok": "Holandia",
+      "bad": [
+        "Belgia",
+        "Dania",
+        "Szwecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki przydomek nosił Franz Beckenbauer?",
+      "ok": "Cesarz",
+      "bad": [
+        "Bombowiec",
+        "Profesor",
+        "Książę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był selekcjonerem reprezentacji Polski na mundialu w 1982 roku?",
+      "ok": "Antoni Piechniczek",
+      "bad": [
+        "Kazimierz Górski",
+        "Jacek Gmoch",
+        "Leo Beenhakker"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto strzelił gola dla Polski w meczu z Anglią na Wembley w 1973 roku?",
+      "ok": "Jan Domarski",
+      "bad": [
+        "Grzegorz Lato",
+        "Robert Gadocha",
+        "Kazimierz Deyna"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto zdobył Złotą Piłkę w 2007 roku?",
+      "ok": "Kaká",
+      "bad": [
+        "Cristiano Ronaldo",
+        "Ronaldinho",
+        "Lionel Messi"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto zdobył zwycięską bramkę w finale mundialu 2014?",
+      "ok": "Mario Götze",
+      "bad": [
+        "Thomas Müller",
+        "Miroslav Klose",
+        "Toni Kroos"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który Anglik strzelił trzy gole w finale mundialu 1966?",
+      "ok": "Geoff Hurst",
+      "bad": [
+        "Bobby Charlton",
+        "Gary Lineker",
+        "Jimmy Greaves"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywało się trofeum dla mistrza świata w piłce nożnej przed 1974 rokiem?",
+      "ok": "Puchar Julesa Rimeta",
+      "bad": [
+        "Puchar Henriego Delaunaya",
+        "Puchar Pelégo",
+        "Puchar Narodów"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Imieniem którego działacza nazwano puchar dla mistrza Europy reprezentacji?",
+      "ok": "Henri Delaunay",
+      "bad": [
+        "Jules Rimet",
+        "Michel Platini",
+        "Lennart Johansson"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym szwajcarskim mieście ma siedzibę UEFA?",
+      "ok": "Nyon",
+      "bad": [
+        "Zurych",
+        "Berno",
+        "Bazylea"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile wynosi szerokość bramki piłkarskiej?",
+      "ok": "7,32 m",
+      "bad": [
+        "7 m",
+        "8 m",
+        "6,5 m"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej odległości od piłki musi stanąć mur przy rzucie wolnym?",
+      "ok": "9,15 m",
+      "bad": [
+        "11 m",
+        "7,32 m",
+        "5 m"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który polski klub zagrał w finale Pucharu Zdobywców Pucharów w 1970 roku?",
+      "ok": "Górnik Zabrze",
+      "bad": [
+        "Legia Warszawa",
+        "Ruch Chorzów",
+        "Wisła Kraków"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z którym klubem Legia Warszawa zremisowała 3:3 w Lidze Mistrzów w 2016 roku?",
+      "ok": "Real Madryt",
+      "bad": [
+        "Borussia Dortmund",
+        "Sporting Lizbona",
+        "FC Barcelona"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z którym klubem Legia Warszawa grała w ćwierćfinale Ligi Mistrzów w 1996 roku?",
+      "ok": "Panathinaikos",
+      "bad": [
+        "Ajax",
+        "Juventus",
+        "Spartak Moskwa"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który klub zdobył swoje pierwsze mistrzostwo Polski w 2023 roku?",
+      "ok": "Raków Częstochowa",
+      "bad": [
+        "Pogoń Szczecin",
+        "Cracovia",
+        "Piast Gliwice"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z którą reprezentacją Polska wygrała swój jedyny mecz na mundialu 2018?",
+      "ok": "Japonia",
+      "bad": [
+        "Senegal",
+        "Kolumbia",
+        "Korea Południowa"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który Polak otrzymał Nagrodę Puskása za najpiękniejszego gola 2022 roku?",
+      "ok": "Marcin Oleksy",
+      "bad": [
+        "Robert Lewandowski",
+        "Piotr Zieliński",
+        "Arkadiusz Milik"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym polskim klubie grał przez większość kariery Włodzimierz Lubański?",
+      "ok": "Górnik Zabrze",
+      "bad": [
+        "Ruch Chorzów",
+        "Legia Warszawa",
+        "Lech Poznań"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto zdobył Złotą Piłkę w 2006 roku?",
+      "ok": "Fabio Cannavaro",
+      "bad": [
+        "Gianluigi Buffon",
+        "Zinedine Zidane",
+        "Thierry Henry"
+      ],
+      "lvl": 3
+    }
+  ]
+}
