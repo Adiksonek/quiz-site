@@ -118,7 +118,7 @@
     { "q": "Jakie zwierzęta towarzyszą wędrownemu handlarzowi?", "ok": "Lamy", "bad": ["Konie", "Muły", "Wielbłądy"], "lvl": 1 },
     { "q": "Czym płaci się wieśniakom w handlu?", "ok": "Szmaragdami", "bad": ["Diamentami", "Złotem", "Rubinami"], "lvl": 1 },
     { "q": "Co trzeba dać zombie wieśniakowi po rzuceniu mikstury słabości, by go uleczyć?", "ok": "Złote jabłko", "bad": ["Mleko", "Złotą marchewkę", "Diament"], "lvl": 2 },
-    { "q": "Jakim paliwem zasila się statyw alchemiczny?", "ok": "Blaze powder", "bad": ["Węglem", "Lawą", "Pyłem redstone"], "lvl": 2 },
+    { "q": "Jakim paliwem zasila się statyw alchemiczny od wersji 1.9?", "ok": "Blaze powder", "bad": ["Węglem", "Lawą", "Pyłem redstone"], "lvl": 2 },
     { "q": "Jaki składnik dodaje się do butelki wody jako bazę większości mikstur?", "ok": "Nether wart", "bad": ["Cukier", "Pył glowstone", "Oko pająka"], "lvl": 2 },
     { "q": "Co dodać do mikstury, by stała się miotana?", "ok": "Proch", "bad": ["Pył redstone", "Pył glowstone", "Fermented spider eye"], "lvl": 2 },
     { "q": "Które zwierzę śpi w dzień i nosi przedmioty w pysku?", "ok": "Lis", "bad": ["Wilk", "Kot", "Panda"], "lvl": 1 },

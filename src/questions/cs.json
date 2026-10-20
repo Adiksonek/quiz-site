@@ -18,12 +18,12 @@
     { "q": "Ile sekund odlicza podłożona bomba w trybie turniejowym?", "ok": "40", "bad": ["35", "45", "30"], "lvl": 2 },
     { "q": "Ile sekund trwa rozbrajanie bomby bez zestawu do rozbrajania?", "ok": "10", "bad": ["5", "8", "15"], "lvl": 2 },
     { "q": "Ile sekund trwa rozbrajanie bomby z zestawem do rozbrajania?", "ok": "5", "bad": ["3", "4", "7"], "lvl": 2 },
-    { "q": "Ile dolarów nagrody dostaje się w trybie turniejowym za zabójstwo nożem?", "ok": "1500", "bad": ["300", "600", "1000"], "lvl": 3 },
-    { "q": "Ile dolarów nagrody dostaje się w trybie turniejowym za zabójstwo z AWP?", "ok": "100", "bad": ["300", "50", "200"], "lvl": 3 },
-    { "q": "Ile dolarów nagrody dostaje się w trybie turniejowym za zabójstwo z P90?", "ok": "300", "bad": ["600", "100", "900"], "lvl": 3 },
+    { "q": "Ile dolarów nagrody dostawało się w CS:GO w trybie turniejowym za zabójstwo nożem?", "ok": "1500", "bad": ["300", "600", "1000"], "lvl": 3 },
+    { "q": "Ile dolarów nagrody dostawało się w CS:GO w trybie turniejowym za zabójstwo z AWP?", "ok": "100", "bad": ["300", "50", "200"], "lvl": 3 },
+    { "q": "Ile dolarów nagrody dostawało się w CS:GO w trybie turniejowym za zabójstwo z P90?", "ok": "300", "bad": ["600", "100", "900"], "lvl": 3 },
     { "q": "Ile wynosi limit pieniędzy gracza w trybie turniejowym?", "ok": "16 000 $", "bad": ["10 000 $", "15 000 $", "20 000 $"], "lvl": 2 },
     { "q": "Ile dolarów ma każdy gracz na początku rundy pistoletowej w trybie turniejowym?", "ok": "800", "bad": ["1000", "500", "650"], "lvl": 1 },
-    { "q": "Ile dolarów dostaje drużyna za wygranie rundy przez wyeliminowanie przeciwników?", "ok": "3250", "bad": ["3500", "2900", "3000"], "lvl": 3 },
+    { "q": "Ile dolarów dostawała w CS:GO drużyna za wygranie rundy przez wyeliminowanie rywali?", "ok": "3250", "bad": ["3500", "2900", "3000"], "lvl": 3 },
     { "q": "Jak nazywa się runda, w której drużyna oszczędza pieniądze i prawie nic nie kupuje?", "ok": "Eco", "bad": ["Force buy", "Full buy", "Retake"], "lvl": 1 },
     { "q": "Jak nazywa się kupowanie czego się da, mimo braku pieniędzy na pełny zestaw?", "ok": "Force buy", "bad": ["Eco", "Full buy", "Save"], "lvl": 2 },
     { "q": "Jak nazywa się unikanie walki pod koniec przegranej rundy, by zachować broń?", "ok": "Save", "bad": ["Eco", "Rotate", "Retake"], "lvl": 2 },
@@ -116,6 +116,6 @@
     { "q": "W barwach której drużyny ZywOo wygrał Majora w Paryżu w 2023 roku?", "ok": "Team Vitality", "bad": ["G2 Esports", "Team Liquid", "Heroic"], "lvl": 2 },
     { "q": "Która drużyna wygrała Majora PGL Antwerp 2022?", "ok": "FaZe Clan", "bad": ["Natus Vincere", "Team Vitality", "Cloud9"], "lvl": 3 },
     { "q": "Który turniej był pierwszym Majorem rozegranym w CS2?", "ok": "PGL Copenhagen 2024", "bad": ["BLAST Paris 2023", "IEM Rio 2022", "Perfect World Shanghai"], "lvl": 3 },
-    { "q": "Który młody gracz poprowadził Team Spirit do zwycięstwa w Majorze w Kopenhadze w 2024 roku?", "ok": "donk", "bad": ["m0NESY", "ZywOo", "NiKo"], "lvl": 2 }
+    { "q": "Który młody gracz poprowadził Team Spirit do zwycięstwa w Majorze w Szanghaju w 2024 roku?", "ok": "donk", "bad": ["m0NESY", "ZywOo", "NiKo"], "lvl": 2 }
   ]
 }
