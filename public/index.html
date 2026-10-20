@@ -176,6 +176,12 @@ button{cursor:pointer}
 .ans.sel{background:var(--accent);color:var(--on-accent);border-color:transparent;font-weight:600}
 .ans.sel b{background:rgba(0,0,0,.1);color:inherit}
 .ans.dim{opacity:.4}
+@media (max-height:700px){
+  .qtext{margin-top:20px;font-size:24px}
+  .answers{gap:8px}
+  .ans{min-height:56px;padding:6px 10px;border-radius:18px}
+  .ans b{width:36px;height:36px;border-radius:11px}
+}
 
 /* wynik */
 .gain{margin-top:28px;font-size:56px;line-height:1;font-weight:600;letter-spacing:-.04em;color:var(--accent-text)}
