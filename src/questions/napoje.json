@@ -1,0 +1,1156 @@
+{
+  "slug": "napoje",
+  "name": "Napoje",
+  "questions": [
+    {
+      "q": "Z jakiego kraju najpewniej pochodzi kawa?",
+      "ok": "Etiopia",
+      "bad": [
+        "Brazylia",
+        "Kolumbia",
+        "Indonezja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju zaczęto pić herbatę?",
+      "ok": "W Chinach",
+      "bad": [
+        "W Indiach",
+        "W Japonii",
+        "W Anglii"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Obok arabiki najpopularniejszą odmianą uprawnej kawy jest:",
+      "ok": "Robusta",
+      "bad": [
+        "Liberica",
+        "Mokka",
+        "Sumatra"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi espresso?",
+      "ok": "Z Włoch",
+      "bad": [
+        "Z Francji",
+        "Z Hiszpanii",
+        "Z Austrii"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Od kogo wzięła nazwę kawa cappuccino?",
+      "ok": "Od zakonników kapucynów",
+      "bad": [
+        "Od włoskiego miasta",
+        "Od nazwiska baristy",
+        "Od rodzaju mleka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co po włosku oznacza słowo latte?",
+      "ok": "Mleko",
+      "bad": [
+        "Kawa",
+        "Piana",
+        "Słodki"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się włoski deser z gorącym espresso wylanym na lody?",
+      "ok": "Affogato",
+      "bad": [
+        "Ristretto",
+        "Macchiato",
+        "Lungo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co po włosku oznacza słowo macchiato?",
+      "ok": "Poplamione",
+      "bad": [
+        "Mleczne",
+        "Gorące",
+        "Słodkie"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się substancja pobudzająca w herbacie, dawniej zwana teiną?",
+      "ok": "Kofeina",
+      "bad": [
+        "Teobromina",
+        "Tauryna",
+        "Tanina"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki alkaloid jest głównym składnikiem pobudzającym w kakao?",
+      "ok": "Teobromina",
+      "bad": [
+        "Tauryna",
+        "Kapsaicyna",
+        "Nikotyna"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kawa kopi luwak powstaje z ziaren, które przeszły przez przewód pokarmowy:",
+      "ok": "Łaskuna",
+      "bad": [
+        "Małpy",
+        "Kozy",
+        "Nietoperza"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Według legendy pasterz Kaldi odkrył kawę, obserwując swoje:",
+      "ok": "Kozy",
+      "bad": [
+        "Owce",
+        "Wielbłądy",
+        "Krowy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który kraj od ponad 150 lat jest największym producentem kawy na świecie?",
+      "ok": "Brazylia",
+      "bad": [
+        "Kolumbia",
+        "Wietnam",
+        "Etiopia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Czym różni się czarna herbata od zielonej?",
+      "ok": "Liście są utlenione",
+      "bad": [
+        "To inna roślina",
+        "Liście są gotowane",
+        "Rośnie tylko w cieniu"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Do jakiego rodzaju roślin należy krzew herbaciany?",
+      "ok": "Kamelia",
+      "bad": [
+        "Magnolia",
+        "Róża",
+        "Jaśmin"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi napar rooibos?",
+      "ok": "RPA",
+      "bad": [
+        "Argentyna",
+        "Indie",
+        "Kenia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim naczyniu tradycyjnie podaje się yerba mate?",
+      "ok": "W tykwie",
+      "bad": [
+        "W samowarze",
+        "W czajniczku",
+        "W karafce"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z liści jakiej rośliny przygotowuje się yerba mate?",
+      "ok": "Ostrokrzewu",
+      "bad": [
+        "Kamelii",
+        "Melisy",
+        "Jałowca"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakim krajem kojarzy się samowar do przygotowywania herbaty?",
+      "ok": "Z Rosją",
+      "bad": [
+        "Z Chinami",
+        "Z Indiami",
+        "Z Japonią"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się japońska sproszkowana zielona herbata?",
+      "ok": "Matcha",
+      "bad": [
+        "Sencha",
+        "Oolong",
+        "Pu-erh"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Olejkiem z jakiego owocu aromatyzuje się herbatę Earl Grey?",
+      "ok": "Bergamotki",
+      "bad": [
+        "Cytryny",
+        "Pomarańczy",
+        "Grejpfruta"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju leży region Darjeeling, słynący z herbaty?",
+      "ok": "W Indiach",
+      "bad": [
+        "W Chinach",
+        "Na Sri Lance",
+        "W Kenii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Gdzie uprawia się herbatę cejlońską?",
+      "ok": "Na Sri Lance",
+      "bad": [
+        "Na Jawie",
+        "Na Tajwanie",
+        "Na Borneo"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku miała miejsce bostońska herbatka?",
+      "ok": "1773",
+      "bad": [
+        "1776",
+        "1789",
+        "1812"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się indyjska herbata z mlekiem i przyprawami?",
+      "ok": "Masala chai",
+      "bad": [
+        "Matcha",
+        "Rooibos",
+        "Bubble tea"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi bubble tea?",
+      "ok": "Z Tajwanu",
+      "bad": [
+        "Z Japonii",
+        "Z Korei Południowej",
+        "Z Tajlandii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się fermentowany napój z osłodzonej herbaty i kultury bakterii i drożdży?",
+      "ok": "Kombucha",
+      "bad": [
+        "Kefir",
+        "Kwas chlebowy",
+        "Ayran"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiej chińskiej prowincji pochodzi herbata pu-erh?",
+      "ok": "Junnan",
+      "bad": [
+        "Syczuan",
+        "Fujian",
+        "Guangdong"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak pierwotnie nazywała się Pepsi?",
+      "ok": "Brad's Drink",
+      "bad": [
+        "Pepper Soda",
+        "Cola Brad",
+        "Carolina Cola"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim kraju podczas II wojny światowej powstała Fanta?",
+      "ok": "W Niemczech",
+      "bad": [
+        "W USA",
+        "We Włoszech",
+        "W Szwajcarii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który koncern produkuje napój Sprite?",
+      "ok": "Coca-Cola",
+      "bad": [
+        "PepsiCo",
+        "Nestlé",
+        "Red Bull"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma Red Bull?",
+      "ok": "Austria",
+      "bad": [
+        "Niemcy",
+        "Szwajcaria",
+        "USA"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która substancja, obok kofeiny, jest typowym składnikiem napojów energetycznych?",
+      "ok": "Tauryna",
+      "bad": [
+        "Melatonina",
+        "Kapsaicyna",
+        "Pektyna"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka substancja nadaje tonikowi gorzki smak?",
+      "ok": "Chinina",
+      "bad": [
+        "Kofeina",
+        "Tauryna",
+        "Kwas cytrynowy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki gaz tworzy bąbelki w napojach gazowanych?",
+      "ok": "Dwutlenek węgla",
+      "bad": [
+        "Tlen",
+        "Wodór",
+        "Hel"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który uczony w XVIII wieku opisał metodę nasycania wody dwutlenkiem węgla?",
+      "ok": "Joseph Priestley",
+      "bad": [
+        "Antoine Lavoisier",
+        "Isaac Newton",
+        "Alessandro Volta"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim procesie powstaje kwas chlebowy?",
+      "ok": "Fermentacji",
+      "bad": [
+        "Destylacji",
+        "Filtracji",
+        "Krystalizacji"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kompot to napój przygotowywany z:",
+      "ok": "Gotowanych owoców",
+      "bad": [
+        "Kiszonych warzyw",
+        "Sfermentowanego mleka",
+        "Prażonych ziaren"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego regionu pochodzi kefir?",
+      "ok": "Z Kaukazu",
+      "bad": [
+        "Z Bałkanów",
+        "Ze Skandynawii",
+        "Z Alp"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się turecki napój z jogurtu, wody i soli?",
+      "ok": "Ayran",
+      "bad": [
+        "Kumys",
+        "Boza",
+        "Salep"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi jogurtowy napój lassi?",
+      "ok": "Z Indii",
+      "bad": [
+        "Z Grecji",
+        "Z Meksyku",
+        "Z Japonii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kumys to sfermentowane mleko:",
+      "ok": "Klaczy",
+      "bad": [
+        "Krowy",
+        "Kozy",
+        "Owcy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kontynentu pochodzi kakaowiec?",
+      "ok": "Z Ameryki",
+      "bad": [
+        "Z Afryki",
+        "Z Azji",
+        "Z Australii"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który składnik nadaje piwu goryczkę?",
+      "ok": "Chmiel",
+      "bad": [
+        "Słód",
+        "Drożdże",
+        "Woda"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku w Bawarii ogłoszono słynne „prawo czystości” piwa?",
+      "ok": "1516",
+      "bad": [
+        "1410",
+        "1648",
+        "1789"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim mieście odbywa się festyn Oktoberfest?",
+      "ok": "W Monachium",
+      "bad": [
+        "W Berlinie",
+        "W Wiedniu",
+        "W Kolonii"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki rodzaj fermentacji jest typowy dla piw typu lager?",
+      "ok": "Dolnej",
+      "bad": [
+        "Górnej",
+        "Spontanicznej",
+        "Mlekowej"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Od nazwy którego miasta pochodzi styl piwa pils?",
+      "ok": "Pilzno",
+      "bad": [
+        "Monachium",
+        "Praga",
+        "Bruksela"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od jakiego miasta pochodzi nazwa piwa Budweiser?",
+      "ok": "Czeskie Budziejowice",
+      "bad": [
+        "Pilzno",
+        "Brno",
+        "Monachium"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego miasta pochodzi piwo Guinness?",
+      "ok": "Dublin",
+      "bad": [
+        "Londyn",
+        "Edynburg",
+        "Cork"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki tradycyjny polski styl piwa warzy się z wędzonego słodu pszenicznego?",
+      "ok": "Grodziskie",
+      "bad": [
+        "Koźlak",
+        "Porter bałtycki",
+        "Pils"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi piwo lambik, fermentowane spontanicznie?",
+      "ok": "Belgia",
+      "bad": [
+        "Niemcy",
+        "Czechy",
+        "Irlandia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Gdzie warzy się piwa trapistów?",
+      "ok": "W klasztorach",
+      "bad": [
+        "W zamkach",
+        "W kopalniach",
+        "W portach"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi szampan?",
+      "ok": "Z Francji",
+      "bad": [
+        "Z Włoch",
+        "Z Hiszpanii",
+        "Z Niemiec"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi wino musujące prosecco?",
+      "ok": "Z Włoch",
+      "bad": [
+        "Z Hiszpanii",
+        "Z Francji",
+        "Z Portugalii"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi wino musujące cava?",
+      "ok": "Z Hiszpanii",
+      "bad": [
+        "Z Włoch",
+        "Z Francji",
+        "Z Grecji"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi wzmacniane wino porto?",
+      "ok": "Z Portugalii",
+      "bad": [
+        "Z Hiszpanii",
+        "Z Włoch",
+        "Z Grecji"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi słynne wino tokaj?",
+      "ok": "Z Węgier",
+      "bad": [
+        "Z Rumunii",
+        "Z Austrii",
+        "Z Bułgarii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego szczepu winogron powstaje głównie wino tokaji aszú?",
+      "ok": "Furmint",
+      "bad": [
+        "Riesling",
+        "Merlot",
+        "Chardonnay"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi wino rioja?",
+      "ok": "Z Hiszpanii",
+      "bad": [
+        "Z Portugalii",
+        "Z Włoch",
+        "Z Argentyny"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim regionie Włoch powstaje wino chianti?",
+      "ok": "W Toskanii",
+      "bad": [
+        "W Piemoncie",
+        "Na Sycylii",
+        "W Apulii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Pinot noir to główny czerwony szczep winorośli w regionie:",
+      "ok": "Burgundia",
+      "bad": [
+        "Rioja",
+        "Toskania",
+        "Douro"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Na czym polega tradycyjna metoda szampańska produkcji wina musującego?",
+      "ok": "Druga fermentacja w butelce",
+      "bad": [
+        "Fermentacja w zbiorniku",
+        "Dodanie gazu z butli",
+        "Mrożenie winogron"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kim był Dom Pérignon, którego imię nosi znany szampan?",
+      "ok": "Mnichem",
+      "bad": [
+        "Królem",
+        "Generałem",
+        "Lekarzem"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakich winogron powstaje wino lodowe?",
+      "ok": "Zamarzniętych na krzewie",
+      "bad": [
+        "Suszonych na słońcu",
+        "Niedojrzałych",
+        "Gotowanych"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się specjalista od doboru i podawania win w restauracji?",
+      "ok": "Sommelier",
+      "bad": [
+        "Barista",
+        "Piwowar",
+        "Konsjerż"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się nauka o winie i jego produkcji?",
+      "ok": "Enologia",
+      "bad": [
+        "Etnologia",
+        "Pomologia",
+        "Dendrologia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Wino z białego szczepu riesling jest zazwyczaj:",
+      "ok": "Białe",
+      "bad": [
+        "Czerwone",
+        "Różowe",
+        "Pomarańczowe"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego stanu USA wywodzi się bourbon?",
+      "ok": "Kentucky",
+      "bad": [
+        "Teksas",
+        "Kalifornia",
+        "Alaska"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie zboże musi stanowić co najmniej 51% zacieru bourbona?",
+      "ok": "Kukurydza",
+      "bad": [
+        "Jęczmień",
+        "Żyto",
+        "Pszenica"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiej rośliny produkuje się tequilę?",
+      "ok": "Z agawy",
+      "bad": [
+        "Z opuncji",
+        "Z trzciny cukrowej",
+        "Z kukurydzy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego surowca produkuje się rum?",
+      "ok": "Z trzciny cukrowej",
+      "bad": [
+        "Z ziemniaków",
+        "Z agawy",
+        "Z ryżu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego zboża produkuje się japońskie sake?",
+      "ok": "Z ryżu",
+      "bad": [
+        "Z jęczmienia",
+        "Z prosa",
+        "Z kukurydzy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie owoce nadają ginowi charakterystyczny smak?",
+      "ok": "Jałowca",
+      "bad": [
+        "Czarnego bzu",
+        "Tarniny",
+        "Głogu"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakich owoców destyluje się calvados?",
+      "ok": "Z jabłek",
+      "bad": [
+        "Ze śliwek",
+        "Z winogron",
+        "Z wiśni"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Koniak to destylat z:",
+      "ok": "Wina",
+      "bad": [
+        "Jabłek",
+        "Zbóż",
+        "Ziemniaków"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z czego powstaje włoska grappa?",
+      "ok": "Z wytłoczyn winogron",
+      "bad": [
+        "Z ziemniaków",
+        "Z jabłek",
+        "Z miodu"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi anyżowy trunek ouzo?",
+      "ok": "Z Grecji",
+      "bad": [
+        "Z Włoch",
+        "Z Hiszpanii",
+        "Z Portugalii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka roślina jest kluczowym składnikiem absyntu?",
+      "ok": "Piołun",
+      "bad": [
+        "Jałowiec",
+        "Mięta",
+        "Lukrecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się najsłodszy miód pitny, z jednej części miodu na pół części wody?",
+      "ok": "Półtorak",
+      "bad": [
+        "Dwójniak",
+        "Trójniak",
+        "Czwórniak"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakich surowców może powstać napój z oznaczeniem „Polska Wódka”?",
+      "ok": "Ze zbóż lub ziemniaków",
+      "bad": [
+        "Z winogron",
+        "Z trzciny cukrowej",
+        "Z dowolnych owoców"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi koktajl mojito?",
+      "ok": "Z Kuby",
+      "bad": [
+        "Z Meksyku",
+        "Z Brazylii",
+        "Z Hiszpanii"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki alkohol jest bazą brazylijskiej caipirinhi?",
+      "ok": "Cachaça",
+      "bad": [
+        "Tequila",
+        "Gin",
+        "Pisco"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi sangria?",
+      "ok": "Z Hiszpanii",
+      "bad": [
+        "Z Meksyku",
+        "Z Francji",
+        "Z Grecji"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się tygielek z długą rączką do parzenia kawy po turecku?",
+      "ok": "Dżezwa",
+      "bad": [
+        "Kawiarka",
+        "Samowar",
+        "Ekspres"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto w 1933 roku stworzył klasyczną włoską kawiarkę Moka Express?",
+      "ok": "Alfonso Bialetti",
+      "bad": [
+        "Achille Gaggia",
+        "Luigi Bezzera",
+        "Luigi Lavazza"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Któremu Polakowi legenda przypisuje otwarcie jednej z pierwszych kawiarni w Wiedniu?",
+      "ok": "Jerzy Franciszek Kulczycki",
+      "bad": [
+        "Jan III Sobieski",
+        "Jan Zamoyski",
+        "Stanisław Leszczyński"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju na początku XX wieku opracowano przemysłowe usuwanie kofeiny z kawy?",
+      "ok": "W Niemczech",
+      "bad": [
+        "We Włoszech",
+        "W USA",
+        "W Brazylii"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Dla sportowców uniwersytetu z jakiego stanu USA opracowano napój Gatorade?",
+      "ok": "Floryda",
+      "bad": [
+        "Teksas",
+        "Kalifornia",
+        "Ohio"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Czym jest słód używany do warzenia piwa?",
+      "ok": "Skiełkowanym zbożem",
+      "bad": [
+        "Suszonym chmielem",
+        "Rodzajem drożdży",
+        "Syropem z cukru"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót UHT na opakowaniu mleka?",
+      "ok": "Ultrawysoką temperaturę",
+      "bad": [
+        "Ultrahomogenizację",
+        "Ubogą zawartość tłuszczu",
+        "Uzdatnianie wody"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Czym w rzeczywistości są ziarna kawy?",
+      "ok": "Nasionami owoców",
+      "bad": [
+        "Orzechami",
+        "Strąkami fasoli",
+        "Bulwami"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się osoba zawodowo przygotowująca kawę w kawiarni?",
+      "ok": "Barista",
+      "bad": [
+        "Sommelier",
+        "Cukiernik",
+        "Kiper"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się kawa espresso rozcieńczona gorącą wodą?",
+      "ok": "Americano",
+      "bad": [
+        "Ristretto",
+        "Doppio",
+        "Cortado"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się bardzo krótkie, skoncentrowane espresso z mniejszą ilością wody?",
+      "ok": "Ristretto",
+      "bad": [
+        "Lungo",
+        "Americano",
+        "Latte"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się meksykański napój alkoholowy ze sfermentowanego soku agawy?",
+      "ok": "Pulque",
+      "bad": [
+        "Mezcal",
+        "Pisco",
+        "Cachaça"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się podgrzewane wino z przyprawami, popularne zimą?",
+      "ok": "Grzaniec",
+      "bad": [
+        "Kompot",
+        "Kwas",
+        "Poncz mleczny"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakich owoców najczęściej wyciska się sok do napoju cydr?",
+      "ok": "Z jabłek",
+      "bad": [
+        "Z gruszek",
+        "Z winogron",
+        "Ze śliwek"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się półfermentowana chińska herbata pośrednia między zieloną a czarną?",
+      "ok": "Oolong",
+      "bad": [
+        "Matcha",
+        "Sencha",
+        "Rooibos"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki napój jest bazą do przygotowania kawy mrożonej frappé w Grecji?",
+      "ok": "Kawa rozpuszczalna",
+      "bad": [
+        "Espresso",
+        "Kawa z ekspresu przelewowego",
+        "Kawa po turecku"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się roztwór soli i cukrów pity przez sportowców dla szybkiego nawodnienia?",
+      "ok": "Napój izotoniczny",
+      "bad": [
+        "Napój energetyczny",
+        "Woda destylowana",
+        "Napój proteinowy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się woda mineralna o naturalnie dużej zawartości dwutlenku węgla?",
+      "ok": "Szczawa",
+      "bad": [
+        "Solanka",
+        "Kranówka",
+        "Woda źródlana"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile wynosi typowa objętość jednej porcji espresso?",
+      "ok": "Około 30 ml",
+      "bad": [
+        "Około 100 ml",
+        "Około 200 ml",
+        "Około 5 ml"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki owoc, obok kokosa, jest głównym składnikiem koktajlu piña colada?",
+      "ok": "Ananas",
+      "bad": [
+        "Mango",
+        "Banan",
+        "Papaja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z czego głównie robi się kawę zbożową?",
+      "ok": "Z prażonego zboża",
+      "bad": [
+        "Z ziaren robusty",
+        "Z liści herbaty",
+        "Z łupin kakao"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się kawa przygotowywana przez wielogodzinne parzenie na zimno?",
+      "ok": "Cold brew",
+      "bad": [
+        "Frappé",
+        "Affogato",
+        "Flat white"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak określa się wino, w którym praktycznie nie pozostał cukier?",
+      "ok": "Wytrawne",
+      "bad": [
+        "Półsłodkie",
+        "Deserowe",
+        "Likierowe"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się na etykiecie wina rok zbioru winogron?",
+      "ok": "Rocznik",
+      "bad": [
+        "Szczep",
+        "Apelacja",
+        "Terroir"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Napar z kwiatów jakiej rośliny ma intensywnie czerwony kolor i kwaśny smak?",
+      "ok": "Hibiskusa",
+      "bad": [
+        "Rumianku",
+        "Lipy",
+        "Bzu czarnego"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się kawa z espresso i spienionym mlekiem, pochodząca z Australii lub Nowej Zelandii?",
+      "ok": "Flat white",
+      "bad": [
+        "Cortado",
+        "Americano",
+        "Lungo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki alkohol dodaje się do tradycyjnej kawy po irlandzku?",
+      "ok": "Whiskey",
+      "bad": [
+        "Rum",
+        "Brandy",
+        "Wódkę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma Hario, twórca zaparzacza V60?",
+      "ok": "Z Japonii",
+      "bad": [
+        "Z Korei Południowej",
+        "Ze Szwecji",
+        "Z Niemiec"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się chińska czarna herbata wędzona nad ogniem z drewna sosnowego?",
+      "ok": "Lapsang souchong",
+      "bad": [
+        "Earl Grey",
+        "Darjeeling",
+        "Assam"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się amerykański gazowany napój, tradycyjnie aromatyzowany korzeniem sasafrasu?",
+      "ok": "Root beer",
+      "bad": [
+        "Ginger ale",
+        "Cream soda",
+        "Tonik"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki składnik nadaje smak napojowi ginger ale?",
+      "ok": "Imbir",
+      "bad": [
+        "Cytryna",
+        "Wanilia",
+        "Mięta"
+      ],
+      "lvl": 1
+    }
+  ]
+}

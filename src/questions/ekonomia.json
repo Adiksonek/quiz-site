@@ -1,0 +1,1176 @@
+{
+  "slug": "ekonomia",
+  "name": "Ekonomia i biznes",
+  "questions": [
+    {
+      "q": "Jaka jest waluta Japonii?",
+      "ok": "Jen",
+      "bad": [
+        "Juan",
+        "Won",
+        "Rupia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka jest waluta Szwajcarii?",
+      "ok": "Frank",
+      "bad": [
+        "Euro",
+        "Korona",
+        "Marka"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka jest waluta Wielkiej Brytanii?",
+      "ok": "Funt szterling",
+      "bad": [
+        "Euro",
+        "Dolar",
+        "Korona"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka jest waluta Czech?",
+      "ok": "Korona czeska",
+      "bad": [
+        "Euro",
+        "Forint",
+        "Złoty"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z którego kraju pochodzi IKEA?",
+      "ok": "Szwecja",
+      "bad": [
+        "Dania",
+        "Norwegia",
+        "Finlandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka jest waluta Węgier?",
+      "ok": "Forint",
+      "bad": [
+        "Korona",
+        "Lej",
+        "Lew"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się waluta Chin?",
+      "ok": "Juan",
+      "bad": [
+        "Jen",
+        "Won",
+        "Rupia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Indii?",
+      "ok": "Rupia",
+      "bad": [
+        "Dinar",
+        "Bat",
+        "Real"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Brazylii?",
+      "ok": "Real",
+      "bad": [
+        "Peso",
+        "Escudo",
+        "Boliwar"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Korei Południowej?",
+      "ok": "Won",
+      "bad": [
+        "Jen",
+        "Juan",
+        "Ringgit"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Rosji?",
+      "ok": "Rubel",
+      "bad": [
+        "Hrywna",
+        "Korona",
+        "Lej"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka jest waluta Ukrainy?",
+      "ok": "Hrywna",
+      "bad": [
+        "Rubel",
+        "Lej",
+        "Korona"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka jest waluta Turcji?",
+      "ok": "Lira",
+      "bad": [
+        "Dinar",
+        "Funt",
+        "Lej"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Szwecji?",
+      "ok": "Korona",
+      "bad": [
+        "Euro",
+        "Frank",
+        "Marka"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka jest waluta Rumunii?",
+      "ok": "Lej",
+      "bad": [
+        "Lew",
+        "Forint",
+        "Kuna"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką walutę miała Chorwacja przed przyjęciem euro w 2023 roku?",
+      "ok": "Kunę",
+      "bad": [
+        "Dinara",
+        "Leja",
+        "Tolara"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka była waluta Niemiec przed wprowadzeniem euro?",
+      "ok": "Marka niemiecka",
+      "bad": [
+        "Frank",
+        "Gulden",
+        "Talar"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka była waluta Włoch przed wprowadzeniem euro?",
+      "ok": "Lir",
+      "bad": [
+        "Peseta",
+        "Drachma",
+        "Escudo"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka była waluta Hiszpanii przed wprowadzeniem euro?",
+      "ok": "Peseta",
+      "bad": [
+        "Lir",
+        "Escudo",
+        "Frank"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka była waluta Grecji przed wprowadzeniem euro?",
+      "ok": "Drachma",
+      "bad": [
+        "Lir",
+        "Peseta",
+        "Gulden"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Meksyku?",
+      "ok": "Peso",
+      "bad": [
+        "Real",
+        "Sol",
+        "Boliwar"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Republiki Południowej Afryki?",
+      "ok": "Rand",
+      "bad": [
+        "Szyling",
+        "Naira",
+        "Kwacha"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka jest waluta Izraela?",
+      "ok": "Szekel",
+      "bad": [
+        "Dinar",
+        "Lira",
+        "Rial"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka jest waluta Tajlandii?",
+      "ok": "Bat",
+      "bad": [
+        "Kip",
+        "Dong",
+        "Ringgit"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka jest waluta Wietnamu?",
+      "ok": "Dong",
+      "bad": [
+        "Bat",
+        "Kip",
+        "Rupia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym roku przeprowadzono w Polsce denominację złotego?",
+      "ok": "1995",
+      "bad": [
+        "1990",
+        "1993",
+        "2000"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile starych złotych odpowiadało 1 nowemu złotemu po denominacji z 1995 roku?",
+      "ok": "10 000",
+      "bad": [
+        "1000",
+        "100",
+        "100 000"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Rezerwa Federalna (Fed) to bank centralny jakiego kraju?",
+      "ok": "USA",
+      "bad": [
+        "Kanady",
+        "Niemiec",
+        "Australii"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku odbyła się pierwsza sesja reaktywowanej Giełdy Papierów Wartościowych w Warszawie?",
+      "ok": "1991",
+      "bad": [
+        "1989",
+        "1995",
+        "1999"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim mieście działa giełda, której głównym indeksem jest DAX?",
+      "ok": "Frankfurt",
+      "bad": [
+        "Londyn",
+        "Paryż",
+        "Mediolan"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim mieście działa giełda, której głównym indeksem jest Nikkei 225?",
+      "ok": "Tokio",
+      "bad": [
+        "Szanghaj",
+        "Seul",
+        "Hongkong"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Indeks FTSE 100 obejmuje spółki notowane na giełdzie w:",
+      "ok": "Londynie",
+      "bad": [
+        "Frankfurcie",
+        "Paryżu",
+        "Nowym Jorku"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście znajduje się ulica Wall Street, symbol amerykańskich finansów?",
+      "ok": "Nowy Jork",
+      "bad": [
+        "Chicago",
+        "Waszyngton",
+        "Boston"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się długotrwały wzrost kursów akcji na giełdzie?",
+      "ok": "Hossa",
+      "bad": [
+        "Bessa",
+        "Korekta",
+        "Krach"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się ogólny wzrost poziomu cen w gospodarce?",
+      "ok": "Inflacja",
+      "bad": [
+        "Deflacja",
+        "Recesja",
+        "Dewaluacja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się ogólny spadek poziomu cen w gospodarce?",
+      "ok": "Deflacja",
+      "bad": [
+        "Inflacja",
+        "Recesja",
+        "Stagflacja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się połączenie stagnacji gospodarczej z wysoką inflacją?",
+      "ok": "Stagflacja",
+      "bad": [
+        "Hiperinflacja",
+        "Dezinflacja",
+        "Recesja"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym kraju w 1923 roku wystąpiła słynna hiperinflacja, gdy chleb kosztował miliardy marek?",
+      "ok": "W Niemczech",
+      "bad": [
+        "We Francji",
+        "W Wielkiej Brytanii",
+        "W Szwecji"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kraj wydał banknot o nominale 100 bilionów dolarów?",
+      "ok": "Zimbabwe",
+      "bad": [
+        "Wenezuela",
+        "Argentyna",
+        "Liberia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza skrót PKB?",
+      "ok": "Produkt krajowy brutto",
+      "bad": [
+        "Państwowy kapitał bankowy",
+        "Podatek krajowy bieżący",
+        "Przychód krajowy bilansowy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się spadek PKB przez co najmniej dwa kolejne kwartały?",
+      "ok": "Recesja",
+      "bad": [
+        "Inflacja",
+        "Deflacja",
+        "Dewaluacja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się rynek, na którym działa tylko jeden sprzedawca?",
+      "ok": "Monopol",
+      "bad": [
+        "Oligopol",
+        "Monopson",
+        "Duopol"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się rynek, na którym działa tylko jeden nabywca?",
+      "ok": "Monopson",
+      "bad": [
+        "Monopol",
+        "Oligopol",
+        "Duopol"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który ekonomista spopularyzował pojęcie „niewidzialnej ręki rynku”?",
+      "ok": "Adam Smith",
+      "bad": [
+        "Karol Marks",
+        "John Maynard Keynes",
+        "Milton Friedman"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest autorem dzieła „Kapitał”?",
+      "ok": "Karol Marks",
+      "bad": [
+        "Adam Smith",
+        "Fryderyk Engels",
+        "David Ricardo"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który ekonomista napisał „Ogólną teorię zatrudnienia, procentu i pieniądza”?",
+      "ok": "John Maynard Keynes",
+      "bad": [
+        "Adam Smith",
+        "Milton Friedman",
+        "David Ricardo"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który Polak, obok Greshama, sformułował prawo, że gorszy pieniądz wypiera lepszy?",
+      "ok": "Mikołaj Kopernik",
+      "bad": [
+        "Jan Kochanowski",
+        "Hugo Kołłątaj",
+        "Andrzej Frycz Modrzewski"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym starożytnym państwie według tradycji wybito pierwsze monety?",
+      "ok": "Lidia",
+      "bad": [
+        "Egipt",
+        "Sparta",
+        "Kartagina"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim kraju jako pierwszym zaczęto używać pieniędzy papierowych?",
+      "ok": "W Chinach",
+      "bad": [
+        "W Anglii",
+        "We Włoszech",
+        "W Egipcie"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się wymiana towaru za towar bez użycia pieniędzy?",
+      "ok": "Barter",
+      "bad": [
+        "Leasing",
+        "Faktoring",
+        "Clearing"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się część zysku spółki wypłacana akcjonariuszom?",
+      "ok": "Dywidenda",
+      "bad": [
+        "Odsetki",
+        "Marża",
+        "Prowizja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku upadł bank Lehman Brothers?",
+      "ok": "2008",
+      "bad": [
+        "2001",
+        "2006",
+        "2011"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku wszedł w życie plan Balcerowicza?",
+      "ok": "1990",
+      "bad": [
+        "1989",
+        "1992",
+        "1995"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku wydobyto pierwszy blok bitcoina?",
+      "ok": "2009",
+      "bad": [
+        "2005",
+        "2012",
+        "2014"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto stworzył kryptowalutę Ethereum?",
+      "ok": "Vitalik Buterin",
+      "bad": [
+        "Satoshi Nakamoto",
+        "Charlie Lee",
+        "Elon Musk"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto założył firmę IKEA?",
+      "ok": "Ingvar Kamprad",
+      "bad": [
+        "Alfred Nobel",
+        "Stefan Persson",
+        "Carl Larsson"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma LEGO?",
+      "ok": "Dania",
+      "bad": [
+        "Szwecja",
+        "Niemcy",
+        "Holandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi koncern spożywczy Nestlé?",
+      "ok": "Szwajcaria",
+      "bad": [
+        "Francja",
+        "Belgia",
+        "Austria"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi koncern Toyota?",
+      "ok": "Japonia",
+      "bad": [
+        "Korea Południowa",
+        "Chiny",
+        "Tajwan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto założył chińską firmę Alibaba?",
+      "ok": "Jack Ma",
+      "bad": [
+        "Ma Huateng",
+        "Lei Jun",
+        "Ren Zhengfei"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jaką firmą inwestycyjną kojarzony jest Warren Buffett?",
+      "ok": "Berkshire Hathaway",
+      "bad": [
+        "BlackRock",
+        "Goldman Sachs",
+        "Vanguard"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywała się firma naftowa założona przez Johna D. Rockefellera?",
+      "ok": "Standard Oil",
+      "bad": [
+        "Shell",
+        "Texaco",
+        "British Petroleum"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej branży fortunę zbił Andrew Carnegie?",
+      "ok": "Stalowej",
+      "bad": [
+        "Naftowej",
+        "Tekstylnej",
+        "Bankowej"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście założono w 1999 roku serwis aukcyjny Allegro?",
+      "ok": "Poznań",
+      "bad": [
+        "Warszawa",
+        "Kraków",
+        "Wrocław"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto założył w 1851 roku w Warszawie słynną wytwórnię czekolady?",
+      "ok": "Karol Wedel",
+      "bad": [
+        "Jan Blikle",
+        "Ludwik Spiess",
+        "Emil Wedel"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakim skrótem określa się pierwszą publiczną ofertę akcji spółki?",
+      "ok": "IPO",
+      "bad": [
+        "ETF",
+        "CFD",
+        "ROI"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza wskaźnik ROI?",
+      "ok": "Zwrot z inwestycji",
+      "bad": [
+        "Ryzyko inwestycyjne",
+        "Rentowność obrotu",
+        "Ratę odsetkową"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się papier wartościowy, w którym emitent zaciąga dług u nabywcy?",
+      "ok": "Obligacja",
+      "bad": [
+        "Akcja",
+        "Opcja",
+        "Udział"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kupując akcje spółki, stajemy się jej:",
+      "ok": "Współwłaścicielem",
+      "bad": [
+        "Wierzycielem",
+        "Pracownikiem",
+        "Dłużnikiem"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się kredyt zabezpieczony na nieruchomości?",
+      "ok": "Hipoteczny",
+      "bad": [
+        "Konsumpcyjny",
+        "Obrotowy",
+        "Lombardowy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się polski system płatności mobilnych z sześciocyfrowymi kodami?",
+      "ok": "BLIK",
+      "bad": [
+        "PayPal",
+        "Revolut",
+        "Przelewy24"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile cyfr ma polski numer rachunku bankowego w formacie NRB?",
+      "ok": "26",
+      "bad": [
+        "20",
+        "24",
+        "28"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka waluta ma symbol £?",
+      "ok": "Funt",
+      "bad": [
+        "Frank",
+        "Euro",
+        "Jen"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki kod ISO ma polski złoty?",
+      "ok": "PLN",
+      "bad": [
+        "PLZ",
+        "PZL",
+        "ZLP"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki kod ISO ma frank szwajcarski?",
+      "ok": "CHF",
+      "bad": [
+        "SWF",
+        "FRS",
+        "SZF"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od nazwy jakiej monety pochodzi słowo „dolar”?",
+      "ok": "Talar",
+      "bad": [
+        "Dukat",
+        "Floren",
+        "Grosz"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym roku NBP wprowadził do obiegu banknot 500 zł?",
+      "ok": "2017",
+      "bad": [
+        "2014",
+        "2019",
+        "2010"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który władca widnieje na banknocie 100 zł?",
+      "ok": "Władysław Jagiełło",
+      "bad": [
+        "Kazimierz Wielki",
+        "Bolesław Chrobry",
+        "Zygmunt Stary"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który władca widnieje na banknocie 500 zł?",
+      "ok": "Jan III Sobieski",
+      "bad": [
+        "Stefan Batory",
+        "Zygmunt August",
+        "Władysław IV"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który władca widnieje na banknocie 10 zł?",
+      "ok": "Mieszko I",
+      "bad": [
+        "Bolesław Chrobry",
+        "Kazimierz Wielki",
+        "Bolesław Krzywousty"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się udostępnianie własnej marki i modelu biznesu innym firmom za opłatą?",
+      "ok": "Franczyza",
+      "bad": [
+        "Leasing",
+        "Faktoring",
+        "Konsorcjum"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się zlecanie części zadań firmy wyspecjalizowanej firmie zewnętrznej?",
+      "ok": "Outsourcing",
+      "bad": [
+        "Lobbing",
+        "Dumping",
+        "Holding"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się sprzedaż towarów za granicą poniżej kosztów produkcji?",
+      "ok": "Dumping",
+      "bad": [
+        "Embargo",
+        "Cło",
+        "Kontyngent"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się zakaz handlu z danym krajem nałożony przez państwo?",
+      "ok": "Embargo",
+      "bad": [
+        "Cło",
+        "Akcyza",
+        "Kontyngent"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się opłata pobierana od towarów przewożonych przez granicę państwa?",
+      "ok": "Cło",
+      "bad": [
+        "Akcyza",
+        "Opłata skarbowa",
+        "Dywidenda"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się podatek nakładany m.in. na paliwo, alkohol i wyroby tytoniowe?",
+      "ok": "Akcyza",
+      "bad": [
+        "Cło",
+        "PIT",
+        "Podatek Belki"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakim skrótem określa się podatek dochodowy od osób fizycznych?",
+      "ok": "PIT",
+      "bad": [
+        "CIT",
+        "VAT",
+        "ZUS"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakim skrótem określa się podatek dochodowy od osób prawnych?",
+      "ok": "CIT",
+      "bad": [
+        "PIT",
+        "VAT",
+        "KRS"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak potocznie nazywa się w Polsce podatek od zysków kapitałowych?",
+      "ok": "Podatek Belki",
+      "bad": [
+        "Janosikowe",
+        "Podatek Kołodki",
+        "Podatek Gilowskiej"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Krzywa Phillipsa opisuje związek między inflacją a:",
+      "ok": "Bezrobociem",
+      "bad": [
+        "PKB",
+        "Kursem walut",
+        "Długiem publicznym"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Krzywa Laffera opisuje zależność wpływów budżetu od:",
+      "ok": "Stawek podatkowych",
+      "bad": [
+        "Inflacji",
+        "Bezrobocia",
+        "Kursu walut"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak zwykle zmienia się cena, gdy podaż towaru rośnie, a popyt pozostaje bez zmian?",
+      "ok": "Spada",
+      "bad": [
+        "Rośnie",
+        "Nie zmienia się",
+        "Podwaja się"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kompania Wschodnioindyjska z jakiego kraju jako pierwsza wyemitowała akcje w 1602 roku?",
+      "ok": "Holandii",
+      "bad": [
+        "Anglii",
+        "Portugalii",
+        "Francji"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej miejscowości w 1944 roku ustalono powojenny międzynarodowy system walutowy?",
+      "ok": "Bretton Woods",
+      "bad": [
+        "Jałta",
+        "Poczdam",
+        "Camp David"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak brzmi polska nazwa organizacji WTO?",
+      "ok": "Światowa Organizacja Handlu",
+      "bad": [
+        "Światowa Organizacja Zdrowia",
+        "Światowy Fundusz Walutowy",
+        "Światowa Rada Gospodarcza"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Organizacja OPEC zrzesza państwa eksportujące:",
+      "ok": "Ropę naftową",
+      "bad": [
+        "Gaz ziemny",
+        "Zboże",
+        "Złoto"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej jednostce podaje się cenę złota na rynkach światowych?",
+      "ok": "Uncja trojańska",
+      "bad": [
+        "Karat",
+        "Kilogram",
+        "Funt"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile państw przyjęło euro jako walutę rozliczeniową w 1999 roku?",
+      "ok": "11",
+      "bad": [
+        "12",
+        "9",
+        "15"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym kraju w XVII wieku jako pierwszym w Europie wydano banknoty?",
+      "ok": "W Szwecji",
+      "bad": [
+        "W Anglii",
+        "We Francji",
+        "W Holandii"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym kraju działa bank z 1472 roku, uznawany za najstarszy wciąż istniejący?",
+      "ok": "We Włoszech",
+      "bad": [
+        "W Szwajcarii",
+        "W Holandii",
+        "W Anglii"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która amerykańska spółka jako pierwsza osiągnęła w 2018 roku wycenę biliona dolarów?",
+      "ok": "Apple",
+      "bad": [
+        "Amazon",
+        "Microsoft",
+        "Google"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się osoba, która zakłada i prowadzi własną firmę na własne ryzyko?",
+      "ok": "Przedsiębiorca",
+      "bad": [
+        "Akcjonariusz",
+        "Komornik",
+        "Syndyk"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się różnica między przychodami a kosztami firmy, gdy jest dodatnia?",
+      "ok": "Zysk",
+      "bad": [
+        "Strata",
+        "Obrót",
+        "Amortyzacja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się zestawienie aktywów i pasywów firmy na dany dzień?",
+      "ok": "Bilans",
+      "bad": [
+        "Rachunek zysków",
+        "Budżet",
+        "Biznesplan"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się procent pobierany przez bank od udzielonej pożyczki?",
+      "ok": "Odsetki",
+      "bad": [
+        "Dywidenda",
+        "Akcyza",
+        "Marża handlowa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się obniżenie wartości waluty krajowej względem walut obcych?",
+      "ok": "Dewaluacja",
+      "bad": [
+        "Rewaluacja",
+        "Denominacja",
+        "Deflacja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się osoba fizyczna lub firma, której ktoś jest winien pieniądze?",
+      "ok": "Wierzyciel",
+      "bad": [
+        "Dłużnik",
+        "Poręczyciel",
+        "Komornik"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Egiptu?",
+      "ok": "Funt egipski",
+      "bad": [
+        "Dinar",
+        "Rial",
+        "Lira"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka jest waluta Arabii Saudyjskiej?",
+      "ok": "Rial",
+      "bad": [
+        "Dinar",
+        "Dirham",
+        "Funt"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się nadwyżka wydatków budżetu państwa nad jego dochodami w danym roku?",
+      "ok": "Deficyt budżetowy",
+      "bad": [
+        "Nadwyżka budżetowa",
+        "Dług publiczny",
+        "Inflacja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się stopniowe rozliczanie w kosztach zużycia maszyn i budynków firmy?",
+      "ok": "Amortyzacja",
+      "bad": [
+        "Dywersyfikacja",
+        "Waloryzacja",
+        "Indeksacja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się rozkładanie inwestycji na różne aktywa, by zmniejszyć ryzyko?",
+      "ok": "Dywersyfikacja",
+      "bad": [
+        "Spekulacja",
+        "Arbitraż",
+        "Lewarowanie"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się zarabianie na różnicy cen tego samego aktywa na różnych rynkach?",
+      "ok": "Arbitraż",
+      "bad": [
+        "Hedging",
+        "Dumping",
+        "Leasing"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się giełdowa strategia zarabiania na spadku ceny akcji?",
+      "ok": "Krótka sprzedaż",
+      "bad": [
+        "Hossa",
+        "Dywidenda",
+        "Split akcji"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który ekonomista jest uważany za twórcę monetaryzmu?",
+      "ok": "Milton Friedman",
+      "bad": [
+        "John Maynard Keynes",
+        "Friedrich Hayek",
+        "Karol Marks"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się odsetek osób bez pracy wśród osób aktywnych zawodowo?",
+      "ok": "Stopa bezrobocia",
+      "bad": [
+        "Stopa procentowa",
+        "Stopa inflacji",
+        "Stopa zwrotu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie zwierzę przedstawia słynna rzeźba z brązu w pobliżu Wall Street?",
+      "ok": "Byka",
+      "bad": [
+        "Niedźwiedzia",
+        "Lwa",
+        "Orła"
+      ],
+      "lvl": 1
+    }
+  ]
+}

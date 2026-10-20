@@ -1,0 +1,1256 @@
+{
+  "slug": "zagadki",
+  "name": "Zagadki i łamigłówki",
+  "questions": [
+    {
+      "q": "Ile minut ma doba?",
+      "ok": "1440",
+      "bad": [
+        "1240",
+        "1600",
+        "1360"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile sekund ma godzina?",
+      "ok": "3600",
+      "bad": [
+        "1440",
+        "6000",
+        "3000"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile dni ma rok przestępny?",
+      "ok": "366",
+      "bad": [
+        "365",
+        "364",
+        "367"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jeśli jest środa, jaki dzień tygodnia będzie za 100 dni?",
+      "ok": "Piątek",
+      "bad": [
+        "Środa",
+        "Czwartek",
+        "Sobota"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile wynosi połowa z połowy ze 100?",
+      "ok": "25",
+      "bad": [
+        "50",
+        "20",
+        "12,5"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile godzin ma tydzień?",
+      "ok": "168",
+      "bad": [
+        "144",
+        "172",
+        "186"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile kolorów ma tęcza w tradycyjnym podziale?",
+      "ok": "7",
+      "bad": [
+        "6",
+        "5",
+        "8"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 2, 4, 8, 16, ...?",
+      "ok": "32",
+      "bad": [
+        "24",
+        "30",
+        "64"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 3, 6, 11, 18, 27, ...?",
+      "ok": "38",
+      "bad": [
+        "36",
+        "39",
+        "40"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 1, 8, 27, 64, ...?",
+      "ok": "125",
+      "bad": [
+        "100",
+        "81",
+        "216"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 100; 50; 25; 12,5; ...?",
+      "ok": "6,25",
+      "bad": [
+        "6",
+        "6,5",
+        "7,5"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 1, 3, 7, 15, 31, ...?",
+      "ok": "63",
+      "bad": [
+        "47",
+        "62",
+        "64"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 2, 6, 12, 20, 30, ...?",
+      "ok": "42",
+      "bad": [
+        "40",
+        "36",
+        "44"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka litera kontynuuje ciąg: P, W, Ś, C, P, S, ...?",
+      "ok": "N",
+      "bad": [
+        "P",
+        "S",
+        "W"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka litera kontynuuje ciąg: S, L, M, K, M, C, L, ...?",
+      "ok": "S",
+      "bad": [
+        "W",
+        "P",
+        "L"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile wynosi 25 × 16?",
+      "ok": "400",
+      "bad": [
+        "350",
+        "450",
+        "380"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile wynosi 999 + 99 + 9?",
+      "ok": "1107",
+      "bad": [
+        "1007",
+        "1117",
+        "1097"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile miesięcy w roku ma co najmniej 28 dni?",
+      "ok": "12",
+      "bad": [
+        "1",
+        "11",
+        "6"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W biegu wyprzedzasz zawodnika, który był drugi. Na którym miejscu teraz jesteś?",
+      "ok": "Na drugim",
+      "bad": [
+        "Na pierwszym",
+        "Na trzecim",
+        "Na ostatnim"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ojciec Marysi ma pięć córek: Lalę, Lelę, Lilę i Lolę. Jak ma na imię piąta?",
+      "ok": "Marysia",
+      "bad": [
+        "Lula",
+        "Lyla",
+        "Ala"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co jest cięższe: kilogram pierza czy kilogram żelaza?",
+      "ok": "Ważą tyle samo",
+      "bad": [
+        "Żelazo",
+        "Pierze",
+        "Zależy od objętości"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zegar wybija 6 uderzeń w 5 sekund, w równych odstępach. Ile sekund zajmie mu 12 uderzeń?",
+      "ok": "11",
+      "bad": [
+        "10",
+        "12",
+        "10,5"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile razy w ciągu doby pokrywają się wskazówka godzinowa i minutowa zegara?",
+      "ok": "22",
+      "bad": [
+        "24",
+        "23",
+        "12"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki kąt tworzą wskazówki zegara o godzinie 3:00?",
+      "ok": "90°",
+      "bad": [
+        "45°",
+        "120°",
+        "180°"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi 10 - 2 × 3 + 4?",
+      "ok": "8",
+      "bad": [
+        "28",
+        "0",
+        "12"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "3 koty łapią 3 myszy w 3 minuty. Ile kotów złapie 100 myszy w 100 minut w tym samym tempie?",
+      "ok": "3",
+      "bad": [
+        "100",
+        "33",
+        "10"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ania ma tylu braci, ile sióstr. Jej brat ma dwa razy więcej sióstr niż braci. Ile dzieci jest w rodzinie?",
+      "ok": "7",
+      "bad": [
+        "5",
+        "6",
+        "8"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ślimak na słupie 10 m w dzień wspina się 3 m, a w nocy zsuwa 2 m. Którego dnia dotrze na szczyt?",
+      "ok": "Ósmego",
+      "bad": [
+        "Dziesiątego",
+        "Siódmego",
+        "Dziewiątego"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 1, 11, 21, 1211, 111221, ...?",
+      "ok": "312211",
+      "bad": [
+        "1112221",
+        "122211",
+        "311221"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak zapisać liczbę 1999 cyframi rzymskimi?",
+      "ok": "MCMXCIX",
+      "bad": [
+        "MIM",
+        "MCMIC",
+        "MCMXCVIV"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaką liczbę oznacza zapis rzymski MMXXIV?",
+      "ok": "2024",
+      "bad": [
+        "2026",
+        "2014",
+        "2044"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Które z tych słów jest palindromem?",
+      "ok": "Kajak",
+      "bad": [
+        "Kanał",
+        "Kufer",
+        "Krowa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Które z tych zdań czytane wspak brzmi tak samo?",
+      "ok": "Kobyła ma mały bok",
+      "bad": [
+        "Ala ma kota",
+        "Kot ma Alę",
+        "Bok ma kobyła"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które z tych słów jest anagramem słowa LAMPA?",
+      "ok": "PALMA",
+      "bad": [
+        "PALMY",
+        "LAMPY",
+        "KLAPA"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: ma zęby, ale nie gryzie. Co to jest?",
+      "ok": "Grzebień",
+      "bad": [
+        "Pies",
+        "Rekin",
+        "Wąż"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: co rośnie korzeniem do góry?",
+      "ok": "Sopel lodu",
+      "bad": [
+        "Marchew",
+        "Grzyb",
+        "Drzewo"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: im więcej z niego zabierasz, tym większy się staje. Co to jest?",
+      "ok": "Dół",
+      "bad": [
+        "Balon",
+        "Garnek",
+        "Ogień"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: należy do ciebie, ale inni używają tego częściej niż ty. Co to jest?",
+      "ok": "Imię",
+      "bad": [
+        "Telefon",
+        "Klucz",
+        "Długopis"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: bez nóg chodzi, bez rąk wskazuje. Co to jest?",
+      "ok": "Zegar",
+      "bad": [
+        "Rzeka",
+        "Chmura",
+        "Kalendarz"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: im dłużej nim wycierasz, tym bardziej jest mokry. Co to jest?",
+      "ok": "Ręcznik",
+      "bad": [
+        "Suszarka",
+        "Parasol",
+        "Kaloryfer"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: co można złapać, ale nie można tym rzucić?",
+      "ok": "Katar",
+      "bad": [
+        "Piłkę",
+        "Rybę",
+        "Kamień"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: ma szyjkę, ale nie ma głowy. Co to jest?",
+      "ok": "Butelka",
+      "bad": [
+        "Żyrafa",
+        "Łabędź",
+        "Struś"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Rolnik miał 17 owiec. Wszystkie oprócz 9 uciekły. Ile owiec mu zostało?",
+      "ok": "9",
+      "bad": [
+        "8",
+        "17",
+        "0"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Pociąg elektryczny jedzie na północ, a wiatr wieje na południe. W którą stronę leci dym z pociągu?",
+      "ok": "Nie ma dymu",
+      "bad": [
+        "Na północ",
+        "Na południe",
+        "W górę"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Samolot rozbił się na granicy Polski i Czech. Gdzie pochowano ocalałych?",
+      "ok": "Nigdzie, bo żyją",
+      "bad": [
+        "W Polsce",
+        "W Czechach",
+        "Na granicy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W ciemnym pokoju masz zapałkę, świeczkę, lampę naftową i kominek. Co zapalisz najpierw?",
+      "ok": "Zapałkę",
+      "bad": [
+        "Świeczkę",
+        "Lampę naftową",
+        "Kominek"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi 111 × 111?",
+      "ok": "12321",
+      "bad": [
+        "11211",
+        "12221",
+        "13321"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile wynosi 3 do potęgi 4?",
+      "ok": "81",
+      "bad": [
+        "64",
+        "12",
+        "27"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile procent to jedna ósma?",
+      "ok": "12,5%",
+      "bad": [
+        "8%",
+        "18%",
+        "15%"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile sekund ma doba?",
+      "ok": "86 400",
+      "bad": [
+        "84 600",
+        "36 000",
+        "72 000"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który z tych lat był rokiem przestępnym?",
+      "ok": "2000",
+      "bad": [
+        "1900",
+        "1800",
+        "1700"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W roku nieprzestępnym 1 stycznia wypada w poniedziałek. Jaki dzień tygodnia będzie 31 grudnia?",
+      "ok": "Poniedziałek",
+      "bad": [
+        "Wtorek",
+        "Niedziela",
+        "Sobota"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 2, 5, 10, 17, 26, ...?",
+      "ok": "37",
+      "bad": [
+        "35",
+        "36",
+        "38"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 81, 27, 9, 3, ...?",
+      "ok": "1",
+      "bad": [
+        "0",
+        "2",
+        "1,5"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 1, 2, 4, 7, 11, 16, ...?",
+      "ok": "22",
+      "bad": [
+        "21",
+        "23",
+        "24"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 1, 4, 2, 8, 3, 12, 4, ...?",
+      "ok": "16",
+      "bad": [
+        "5",
+        "13",
+        "20"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 0, 1, 3, 6, 10, 15, ...?",
+      "ok": "21",
+      "bad": [
+        "20",
+        "25",
+        "18"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 10, 9, 7, 4, 0, ...?",
+      "ok": "-5",
+      "bad": [
+        "-4",
+        "-3",
+        "-6"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 3, 9, 27, 81, ...?",
+      "ok": "243",
+      "bad": [
+        "162",
+        "324",
+        "729"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ojciec jest 3 razy starszy od syna. Za 15 lat będzie od niego 2 razy starszy. Ile lat ma syn?",
+      "ok": "15",
+      "bad": [
+        "10",
+        "20",
+        "12"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ania i Basia mają razem 30 lat. Ania jest o 4 lata starsza. Ile lat ma Basia?",
+      "ok": "13",
+      "bad": [
+        "15",
+        "17",
+        "14"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jedziesz ze stałą prędkością 60 km/h. Ile kilometrów pokonasz w 20 minut?",
+      "ok": "20",
+      "bad": [
+        "30",
+        "15",
+        "12"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jedziesz 30 km z prędkością 60 km/h i wracasz 30 km z prędkością 30 km/h. Jaka jest średnia prędkość?",
+      "ok": "40 km/h",
+      "bad": [
+        "45 km/h",
+        "50 km/h",
+        "35 km/h"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile kwadratów dowolnej wielkości można znaleźć w siatce 3 na 3 pola?",
+      "ok": "14",
+      "bad": [
+        "9",
+        "13",
+        "10"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Uczciwa moneta wypadła 5 razy z rzędu orłem. Jakie jest prawdopodobieństwo orła w szóstym rzucie?",
+      "ok": "1/2",
+      "bad": [
+        "1/32",
+        "1/64",
+        "1/6"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile wynosi odwrotność liczby 0,25?",
+      "ok": "4",
+      "bad": [
+        "0,4",
+        "2,5",
+        "25"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka litera występuje raz w słowie „minuta”, dwa razy w „momencie”, a w „roku” wcale?",
+      "ok": "M",
+      "bad": [
+        "N",
+        "E",
+        "I"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jeśli do pewnej liczby dodasz jej połowę, otrzymasz 15. Jaka to liczba?",
+      "ok": "10",
+      "bad": [
+        "7,5",
+        "12",
+        "5"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Pomyślałem liczbę, pomnożyłem ją przez 3 i dodałem 4. Wyszło 25. Jaka to liczba?",
+      "ok": "7",
+      "bad": [
+        "9",
+        "6",
+        "8"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi 1% z miliona?",
+      "ok": "10 000",
+      "bad": [
+        "1000",
+        "100 000",
+        "100"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile dokładnie wynosi liczba 0,999... z dziewiątką w okresie?",
+      "ok": "1",
+      "bad": [
+        "0,9",
+        "0,99",
+        "0,999"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Wczoraj był piątek. Jaki dzień tygodnia będzie pojutrze?",
+      "ok": "Poniedziałek",
+      "bad": [
+        "Niedziela",
+        "Wtorek",
+        "Sobota"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Pojutrze będzie niedziela. Jaki dzień tygodnia był przedwczoraj?",
+      "ok": "Środa",
+      "bad": [
+        "Czwartek",
+        "Wtorek",
+        "Piątek"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W szufladzie są czarne i białe skarpetki. Ile minimum trzeba wyjąć po ciemku, by mieć parę w jednym kolorze?",
+      "ok": "3",
+      "bad": [
+        "2",
+        "4",
+        "5"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Wśród 8 identycznych kulek jedna jest cięższa. Ile minimum ważeń na wadze szalkowej pozwoli ją znaleźć?",
+      "ok": "2",
+      "bad": [
+        "3",
+        "1",
+        "4"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Masz 3 tabletki do zażycia, jedną co pół godziny. Po ilu minutach od pierwszej weźmiesz ostatnią?",
+      "ok": "60",
+      "bad": [
+        "90",
+        "120",
+        "30"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jedno przecięcie kłody trwa 2 minuty. Ile minut zajmie pocięcie jej na 5 kawałków?",
+      "ok": "8",
+      "bad": [
+        "10",
+        "12",
+        "6"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile słupków trzeba na prosty płot długości 20 m, gdy stoją co 2 m, łącznie z oboma końcami?",
+      "ok": "11",
+      "bad": [
+        "10",
+        "12",
+        "9"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 5, 11, 23, 47, ...?",
+      "ok": "95",
+      "bad": [
+        "94",
+        "96",
+        "71"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 2, 4, 12, 48, 240, ...?",
+      "ok": "1440",
+      "bad": [
+        "480",
+        "960",
+        "1200"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 7, 14, 21, 28, ...?",
+      "ok": "35",
+      "bad": [
+        "32",
+        "36",
+        "42"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaka liczba kontynuuje ciąg: 1, 2, 5, 14, 41, ...?",
+      "ok": "122",
+      "bad": [
+        "123",
+        "82",
+        "121"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaka litera kontynuuje ciąg: J, D, T, C, P, S, S, ...?",
+      "ok": "O",
+      "bad": [
+        "D",
+        "N",
+        "S"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile wynosi 12 × 12 - 12?",
+      "ok": "132",
+      "bad": [
+        "144",
+        "120",
+        "0"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi 1000 - 7 - 7 - 7?",
+      "ok": "979",
+      "bad": [
+        "980",
+        "989",
+        "973"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi 30 podzielone przez pół, plus 10?",
+      "ok": "70",
+      "bad": [
+        "25",
+        "40",
+        "35"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile nóg mają razem 3 kury i 2 krowy?",
+      "ok": "14",
+      "bad": [
+        "10",
+        "12",
+        "16"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na podwórku są kury i króliki: razem 10 głów i 28 nóg. Ile jest królików?",
+      "ok": "4",
+      "bad": [
+        "6",
+        "5",
+        "3"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ania jest wyższa od Basi, a Basia od Celiny. Kto jest najniższy?",
+      "ok": "Celina",
+      "bad": [
+        "Ania",
+        "Basia",
+        "Nie da się ustalić"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Tomek jest starszy od Marka, ale młodszy od Pawła. Kto jest najstarszy?",
+      "ok": "Paweł",
+      "bad": [
+        "Tomek",
+        "Marek",
+        "Nie da się ustalić"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile minut mija od 9:45 do 11:20 tego samego dnia?",
+      "ok": "95",
+      "bad": [
+        "85",
+        "105",
+        "75"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Pociąg odjeżdża o 22:40 i jedzie 3 godziny 35 minut. O której przyjedzie?",
+      "ok": "2:15",
+      "bad": [
+        "1:15",
+        "2:05",
+        "3:15"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Masz dwie monety, razem 3 zł. Jedna z nich nie jest złotówką. Jakie to monety?",
+      "ok": "2 zł i 1 zł",
+      "bad": [
+        "1,50 zł i 1,50 zł",
+        "2,50 zł i 50 gr",
+        "Takich monet nie ma"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: ma ucho, ale nie słyszy. Co to jest?",
+      "ok": "Igła",
+      "bad": [
+        "Lustro",
+        "Zegar",
+        "Okno"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: ma nogi, ale nie chodzi. Co to jest?",
+      "ok": "Stół",
+      "bad": [
+        "Pies",
+        "Kot",
+        "Bocian"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: im więcej jej jest, tym mniej widać. Co to jest?",
+      "ok": "Ciemność",
+      "bad": [
+        "Światło",
+        "Lustro",
+        "Okno"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: prowadzą w górę i w dół, choć same się nie ruszają. Co to jest?",
+      "ok": "Schody",
+      "bad": [
+        "Winda",
+        "Piłka",
+        "Huśtawka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: ma miasta bez domów, lasy bez drzew i rzeki bez wody. Co to jest?",
+      "ok": "Mapa",
+      "bad": [
+        "Telefon",
+        "Zegar",
+        "Kalendarz"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: zawsze jest przed nami, ale nigdy nie nadchodzi. Co to jest?",
+      "ok": "Jutro",
+      "bad": [
+        "Wczoraj",
+        "Wiosna",
+        "Południe"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: co można złamać, w ogóle tego nie dotykając?",
+      "ok": "Obietnicę",
+      "bad": [
+        "Kij",
+        "Szklankę",
+        "Ołówek"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: ma klawisze, ale nie otwiera nimi żadnych drzwi. Co to jest?",
+      "ok": "Pianino",
+      "bad": [
+        "Dozorca",
+        "Sejf",
+        "Kłódka"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Zagadka: znika, gdy tylko wypowiesz jej nazwę. Co to jest?",
+      "ok": "Cisza",
+      "bad": [
+        "Lód",
+        "Mgła",
+        "Tęcza"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Zagadka: ma kapelusz, a nie ma głowy, ma nogę, a nie ma buta. Co to jest?",
+      "ok": "Grzyb",
+      "bad": [
+        "Parasol",
+        "Wieszak",
+        "Gwóźdź"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Wszystkie koty mają ogony. Mruczek jest kotem. Co na pewno wynika z tych zdań?",
+      "ok": "Mruczek ma ogon",
+      "bad": [
+        "Każde zwierzę z ogonem to kot",
+        "Mruczek nie ma ogona",
+        "Nic nie wynika"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Gdy pada deszcz, ulica jest mokra. Ulica jest sucha. Co na pewno wynika?",
+      "ok": "Nie pada deszcz",
+      "bad": [
+        "Pada deszcz",
+        "Zaraz zacznie padać",
+        "Nic nie wynika"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Rycerze zawsze mówią prawdę, łotrzy zawsze kłamią. A: „B to łotr”. B: „Obaj jesteśmy rycerzami”. Kim są?",
+      "ok": "A rycerz, B łotr",
+      "bad": [
+        "A łotr, B rycerz",
+        "Obaj rycerze",
+        "Obaj łotrzy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Mam 6 jabłek. Zabierasz mi 4. Ile jabłek masz ty?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "6",
+        "0"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile ziemi jest w wykopanym dole o wymiarach 1 m × 1 m × 1 m?",
+      "ok": "Nie ma w nim ziemi",
+      "bad": [
+        "1 m³",
+        "1 tona",
+        "1000 litrów"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile zwierząt każdego gatunku zabrał Mojżesz do arki?",
+      "ok": "Żadnych, to był Noe",
+      "bad": [
+        "Po dwa",
+        "Po siedem",
+        "Po jednym"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki miesiąc jest trzy miesiące po listopadzie?",
+      "ok": "Luty",
+      "bad": [
+        "Styczeń",
+        "Marzec",
+        "Grudzień"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Którym dniem roku nieprzestępnego jest 1 marca?",
+      "ok": "60.",
+      "bad": [
+        "59.",
+        "61.",
+        "62."
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaka liczba jest dwa razy większa od połowy z 50?",
+      "ok": "50",
+      "bad": [
+        "25",
+        "100",
+        "75"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile sztuk to pół tuzina tuzinów?",
+      "ok": "72",
+      "bad": [
+        "66",
+        "144",
+        "60"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile sztuk liczyła dawna kopa?",
+      "ok": "60",
+      "bad": [
+        "12",
+        "50",
+        "100"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile wynosi suma cyfr liczby 2025?",
+      "ok": "9",
+      "bad": [
+        "7",
+        "8",
+        "10"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi 9 × 9 + 9 + 9?",
+      "ok": "99",
+      "bad": [
+        "100",
+        "90",
+        "97"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wszystkich trójkątów widać w kwadracie z narysowanymi obiema przekątnymi?",
+      "ok": "8",
+      "bad": [
+        "4",
+        "6",
+        "10"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kartkę złożono na pół trzy razy i przebito raz na wylot. Ile dziurek będzie po rozłożeniu?",
+      "ok": "8",
+      "bad": [
+        "6",
+        "3",
+        "9"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które słowo jest anagramem słowa SOK?",
+      "ok": "KOS",
+      "bad": [
+        "KOC",
+        "SOS",
+        "SKOK"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która liczba nie pasuje do pozostałych: 2, 3, 5, 9, 11?",
+      "ok": "9",
+      "bad": [
+        "2",
+        "5",
+        "11"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które słowo nie pasuje do pozostałych: jabłko, gruszka, marchew, śliwka?",
+      "ok": "Marchew",
+      "bad": [
+        "Jabłko",
+        "Gruszka",
+        "Śliwka"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Które słowo nie pasuje do pozostałych: Wisła, Odra, Warta, Śniardwy?",
+      "ok": "Śniardwy",
+      "bad": [
+        "Wisła",
+        "Odra",
+        "Warta"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która liczba nie pasuje do pozostałych: 16, 25, 36, 48, 64?",
+      "ok": "48",
+      "bad": [
+        "25",
+        "36",
+        "64"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ptak ma się do gniazda tak, jak pszczoła do:",
+      "ok": "Ula",
+      "bad": [
+        "Nory",
+        "Budy",
+        "Jaskini"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Lekarz ma się do szpitala tak, jak nauczyciel do:",
+      "ok": "Szkoły",
+      "bad": [
+        "Urzędu",
+        "Sklepu",
+        "Fabryki"
+      ],
+      "lvl": 1
+    }
+  ]
+}

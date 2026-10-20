@@ -1,0 +1,1246 @@
+{
+  "slug": "muzyka-rozrywkowa",
+  "name": "Muzyka rozrywkowa",
+  "questions": [
+    {
+      "q": "Z jakiego kraju pochodzi zespół ABBA?",
+      "ok": "Szwecja",
+      "bad": [
+        "Norwegia",
+        "Dania",
+        "Finlandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ilu członków liczyło The Beatles w najsłynniejszym składzie?",
+      "ok": "4",
+      "bad": [
+        "3",
+        "5",
+        "6"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który kraj wygrał Konkurs Piosenki Eurowizji w 2024 roku?",
+      "ok": "Szwajcaria",
+      "bad": [
+        "Chorwacja",
+        "Ukraina",
+        "Szwecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego miasta pochodził zespół The Beatles?",
+      "ok": "Liverpool",
+      "bad": [
+        "Manchester",
+        "Londyn",
+        "Birmingham"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kogo nazywa się „Królem Popu”?",
+      "ok": "Michael Jackson",
+      "bad": [
+        "Elvis Presley",
+        "Prince",
+        "Freddie Mercury"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kogo nazywa się „Królem Rock and Rolla”?",
+      "ok": "Elvis Presley",
+      "bad": [
+        "Chuck Berry",
+        "Little Richard",
+        "Jerry Lee Lewis"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto był wokalistą zespołu Queen?",
+      "ok": "Freddie Mercury",
+      "bad": [
+        "Brian May",
+        "Roger Taylor",
+        "John Deacon"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto był gitarzystą zespołu Queen?",
+      "ok": "Brian May",
+      "bad": [
+        "Roger Taylor",
+        "John Deacon",
+        "Jimmy Page"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na którym albumie Michaela Jacksona z 1982 roku znalazła się piosenka „Billie Jean”?",
+      "ok": "Thriller",
+      "bad": [
+        "Bad",
+        "Off the Wall",
+        "Dangerous"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się taniec spopularyzowany przez Michaela Jacksona, w którym tancerz sunie do tyłu?",
+      "ok": "Moonwalk",
+      "bad": [
+        "Twist",
+        "Breakdance",
+        "Vogue"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który zespół nagrał album „The Dark Side of the Moon”?",
+      "ok": "Pink Floyd",
+      "bad": [
+        "Led Zeppelin",
+        "The Who",
+        "Genesis"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na którym albumie Queen ukazała się „Bohemian Rhapsody”?",
+      "ok": "A Night at the Opera",
+      "bad": [
+        "A Day at the Races",
+        "News of the World",
+        "Jazz"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto był wokalistą zespołu Nirvana?",
+      "ok": "Kurt Cobain",
+      "bad": [
+        "Dave Grohl",
+        "Eddie Vedder",
+        "Chris Cornell"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z którym miastem kojarzy się narodziny muzyki grunge?",
+      "ok": "Seattle",
+      "bad": [
+        "Portland",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się album Nirvany z 1991 roku z pływającym niemowlęciem na okładce?",
+      "ok": "Nevermind",
+      "bad": [
+        "In Utero",
+        "Bleach",
+        "Incesticide"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto założył zespół Foo Fighters?",
+      "ok": "Dave Grohl",
+      "bad": [
+        "Krist Novoselic",
+        "Eddie Vedder",
+        "Chris Cornell"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest wokalistą The Rolling Stones?",
+      "ok": "Mick Jagger",
+      "bad": [
+        "Keith Richards",
+        "Ronnie Wood",
+        "Charlie Watts"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi zespół U2?",
+      "ok": "Irlandia",
+      "bad": [
+        "Szkocja",
+        "Anglia",
+        "Walia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki pseudonim nosi wokalista zespołu U2?",
+      "ok": "Bono",
+      "bad": [
+        "The Edge",
+        "Sting",
+        "Slash"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto był wokalistą i basistą zespołu The Police?",
+      "ok": "Sting",
+      "bad": [
+        "Bono",
+        "Phil Collins",
+        "Peter Gabriel"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim zespole grał gitarzysta Slash?",
+      "ok": "Guns N' Roses",
+      "bad": [
+        "Mötley Crüe",
+        "Bon Jovi",
+        "Aerosmith"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim kraju powstał zespół AC/DC?",
+      "ok": "Australia",
+      "bad": [
+        "Wielka Brytania",
+        "Kanada",
+        "Nowa Zelandia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi zespół Rammstein?",
+      "ok": "Niemcy",
+      "bad": [
+        "Austria",
+        "Szwajcaria",
+        "Holandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który zespół nagrał utwór „Enter Sandman”?",
+      "ok": "Metallica",
+      "bad": [
+        "Megadeth",
+        "Slayer",
+        "Iron Maiden"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się maskotka zespołu Iron Maiden, widoczna na okładkach płyt?",
+      "ok": "Eddie",
+      "bad": [
+        "Vic Rattlehead",
+        "Snaggletooth",
+        "Charlie"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto był wokalistą zespołu The Doors?",
+      "ok": "Jim Morrison",
+      "bad": [
+        "Robert Plant",
+        "Roger Daltrey",
+        "Iggy Pop"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był wokalistą zespołu Led Zeppelin?",
+      "ok": "Robert Plant",
+      "bad": [
+        "Jimmy Page",
+        "Ozzy Osbourne",
+        "Ian Gillan"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim zespole śpiewał Ozzy Osbourne?",
+      "ok": "Black Sabbath",
+      "bad": [
+        "Deep Purple",
+        "Judas Priest",
+        "Motörhead"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który zespół nagrał utwór „Smoke on the Water”?",
+      "ok": "Deep Purple",
+      "bad": [
+        "Black Sabbath",
+        "Uriah Heep",
+        "Led Zeppelin"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który gitarzysta zagrał na festiwalu Woodstock w 1969 roku słynną wersję hymnu USA?",
+      "ok": "Jimi Hendrix",
+      "bad": [
+        "Eric Clapton",
+        "Carlos Santana",
+        "Jimmy Page"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku odbył się legendarny festiwal Woodstock?",
+      "ok": "1969",
+      "bad": [
+        "1967",
+        "1971",
+        "1973"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się debiutancki album Adele z 2008 roku?",
+      "ok": "19",
+      "bad": [
+        "21",
+        "25",
+        "30"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto nagrał album „Back to Black” z 2006 roku?",
+      "ok": "Amy Winehouse",
+      "bad": [
+        "Adele",
+        "Duffy",
+        "Lily Allen"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kogo nazywa się „Królową Popu”?",
+      "ok": "Madonna",
+      "bad": [
+        "Cher",
+        "Whitney Houston",
+        "Kylie Minogue"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto zaśpiewał „I Will Always Love You” w filmie „Bodyguard”?",
+      "ok": "Whitney Houston",
+      "bad": [
+        "Mariah Carey",
+        "Celine Dion",
+        "Tina Turner"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto zaśpiewał „My Heart Will Go On” z filmu „Titanic”?",
+      "ok": "Celine Dion",
+      "bad": [
+        "Whitney Houston",
+        "Mariah Carey",
+        "Shania Twain"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Celine Dion?",
+      "ok": "Kanada",
+      "bad": [
+        "Francja",
+        "Belgia",
+        "Szwajcaria"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Shakira?",
+      "ok": "Kolumbia",
+      "bad": [
+        "Meksyk",
+        "Wenezuela",
+        "Argentyna"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Björk?",
+      "ok": "Islandia",
+      "bad": [
+        "Norwegia",
+        "Finlandia",
+        "Dania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Rihanna?",
+      "ok": "Barbados",
+      "bad": [
+        "Jamajka",
+        "Trynidad i Tobago",
+        "Bahamy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Ed Sheeran?",
+      "ok": "Wielka Brytania",
+      "bad": [
+        "Irlandia",
+        "Australia",
+        "Kanada"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim boysbandzie zaczynał karierę Justin Timberlake?",
+      "ok": "*NSYNC",
+      "bad": [
+        "Backstreet Boys",
+        "Boyz II Men",
+        "New Kids on the Block"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim zespole śpiewała Beyoncé przed karierą solową?",
+      "ok": "Destiny's Child",
+      "bad": [
+        "TLC",
+        "Spice Girls",
+        "En Vogue"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile członkiń liczył zespół Spice Girls?",
+      "ok": "5",
+      "bad": [
+        "4",
+        "3",
+        "6"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi zespół BTS?",
+      "ok": "Korea Południowa",
+      "bad": [
+        "Japonia",
+        "Chiny",
+        "Tajwan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który teledysk PSY jako pierwszy w historii YouTube przekroczył miliard wyświetleń?",
+      "ok": "Gangnam Style",
+      "bad": [
+        "Gentleman",
+        "Daddy",
+        "Hangover"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto nagrał album „1989”?",
+      "ok": "Taylor Swift",
+      "bad": [
+        "Katy Perry",
+        "Lady Gaga",
+        "Ariana Grande"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się debiutancki album Lady Gagi z 2008 roku?",
+      "ok": "The Fame",
+      "bad": [
+        "Born This Way",
+        "Artpop",
+        "Joanne"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który zespół nagrał „Hotel California”?",
+      "ok": "Eagles",
+      "bad": [
+        "The Doors",
+        "Fleetwood Mac",
+        "Lynyrd Skynyrd"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który zespół wydał w 1977 roku album „Rumours”?",
+      "ok": "Fleetwood Mac",
+      "bad": [
+        "Eagles",
+        "The Doors",
+        "Steely Dan"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Na jakim instrumencie grał Ringo Starr w The Beatles?",
+      "ok": "Perkusja",
+      "bad": [
+        "Gitara basowa",
+        "Gitara rytmiczna",
+        "Instrumenty klawiszowe"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jakim instrumencie grał głównie Paul McCartney w The Beatles?",
+      "ok": "Gitara basowa",
+      "bad": [
+        "Perkusja",
+        "Gitara prowadząca",
+        "Saksofon"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na okładce którego albumu The Beatles przechodzą przez pasy?",
+      "ok": "Abbey Road",
+      "bad": [
+        "Let It Be",
+        "Revolver",
+        "Rubber Soul"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się debiutancki album studyjny The Beatles z 1963 roku?",
+      "ok": "Please Please Me",
+      "bad": [
+        "With the Beatles",
+        "A Hard Day's Night",
+        "Rubber Soul"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto napisał i nagrał w 1971 roku piosenkę „Imagine”?",
+      "ok": "John Lennon",
+      "bad": [
+        "Paul McCartney",
+        "George Harrison",
+        "Bob Dylan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który muzyk otrzymał w 2016 roku literacką Nagrodę Nobla?",
+      "ok": "Bob Dylan",
+      "bad": [
+        "Leonard Cohen",
+        "Bruce Springsteen",
+        "Paul Simon"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto nagrał album „Born in the U.S.A.”?",
+      "ok": "Bruce Springsteen",
+      "bad": [
+        "Tom Petty",
+        "John Mellencamp",
+        "Billy Joel"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto nagrał w 1973 roku piosenkę „Piano Man”?",
+      "ok": "Billy Joel",
+      "bad": [
+        "Elton John",
+        "Neil Diamond",
+        "Barry Manilow"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak naprawdę nazywa się Elton John?",
+      "ok": "Reginald Dwight",
+      "bad": [
+        "Gordon Sumner",
+        "David Jones",
+        "Paul Hewson"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywała się sceniczna postać Davida Bowiego z albumu z 1972 roku?",
+      "ok": "Ziggy Stardust",
+      "bad": [
+        "Sgt. Pepper",
+        "Slim Shady",
+        "Captain Fantastic"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Pod jakim pseudonimem występował John Lydon w zespole Sex Pistols?",
+      "ok": "Johnny Rotten",
+      "bad": [
+        "Sid Vicious",
+        "Joe Strummer",
+        "Billy Idol"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakim gatunkiem muzyki kojarzony jest zespół Ramones?",
+      "ok": "Punk rock",
+      "bad": [
+        "Grunge",
+        "Heavy metal",
+        "Britpop"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto nagrał album „Purple Rain”?",
+      "ok": "Prince",
+      "bad": [
+        "Stevie Wonder",
+        "Michael Jackson",
+        "Lionel Richie"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który niewidomy od dzieciństwa muzyk nagrał „Superstition”?",
+      "ok": "Stevie Wonder",
+      "bad": [
+        "Ray Charles",
+        "Marvin Gaye",
+        "Lionel Richie"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto nagrał w 1971 roku album „What's Going On”?",
+      "ok": "Marvin Gaye",
+      "bad": [
+        "Otis Redding",
+        "Al Green",
+        "Sam Cooke"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kogo nazywa się „Królową Soulu”?",
+      "ok": "Aretha Franklin",
+      "bad": [
+        "Diana Ross",
+        "Tina Turner",
+        "Etta James"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim girlsbandzie śpiewała Diana Ross?",
+      "ok": "The Supremes",
+      "bad": [
+        "The Ronettes",
+        "The Shirelles",
+        "The Pointer Sisters"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się wytwórnia z Detroit, która wylansowała The Supremes i Jackson 5?",
+      "ok": "Motown",
+      "bad": [
+        "Stax",
+        "Atlantic",
+        "Chess"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który francuski duet nagrał przebój „Get Lucky”?",
+      "ok": "Daft Punk",
+      "bad": [
+        "Justice",
+        "Air",
+        "Cassius"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodził DJ Avicii?",
+      "ok": "Szwecja",
+      "bad": [
+        "Norwegia",
+        "Holandia",
+        "Dania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi DJ Tiësto?",
+      "ok": "Holandia",
+      "bad": [
+        "Belgia",
+        "Niemcy",
+        "Szwecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto stworzył elektroniczny album „Oxygène” z 1976 roku?",
+      "ok": "Jean-Michel Jarre",
+      "bad": [
+        "Vangelis",
+        "Giorgio Moroder",
+        "Mike Oldfield"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi pionierski zespół elektroniczny Kraftwerk?",
+      "ok": "Niemcy",
+      "bad": [
+        "Holandia",
+        "Austria",
+        "Belgia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto nagrał w 1973 roku album „Tubular Bells”?",
+      "ok": "Mike Oldfield",
+      "bad": [
+        "Jean-Michel Jarre",
+        "Brian Eno",
+        "Rick Wakeman"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto skomponował muzykę do filmu „Rydwany ognia”?",
+      "ok": "Vangelis",
+      "bad": [
+        "Hans Zimmer",
+        "Ennio Morricone",
+        "Jean-Michel Jarre"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który raper wydał album „The Marshall Mathers LP”?",
+      "ok": "Eminem",
+      "bad": [
+        "Dr. Dre",
+        "50 Cent",
+        "Snoop Dogg"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym mieście dorastał Eminem?",
+      "ok": "Detroit",
+      "bad": [
+        "Chicago",
+        "Nowy Jork",
+        "Atlanta"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się film z 2002 roku, w którym Eminem zagrał główną rolę?",
+      "ok": "8 Mile",
+      "bad": [
+        "Hustle & Flow",
+        "Get Rich or Die Tryin'",
+        "Notorious"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej grupie zaczynali karierę Dr. Dre i Ice Cube?",
+      "ok": "N.W.A",
+      "bad": [
+        "Wu-Tang Clan",
+        "Public Enemy",
+        "Run-DMC"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który raper został śmiertelnie postrzelony w Las Vegas w 1996 roku?",
+      "ok": "Tupac Shakur",
+      "bad": [
+        "The Notorious B.I.G.",
+        "Eazy-E",
+        "Big L"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Pod jakim pseudonimem występował Christopher Wallace?",
+      "ok": "The Notorious B.I.G.",
+      "bad": [
+        "Big Pun",
+        "Big L",
+        "Biz Markie"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który raper wydał w 2004 roku album „The College Dropout”?",
+      "ok": "Kanye West",
+      "bad": [
+        "Jay-Z",
+        "Lil Wayne",
+        "Nas"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który raper otrzymał Nagrodę Pulitzera w 2018 roku?",
+      "ok": "Kendrick Lamar",
+      "bad": [
+        "Drake",
+        "J. Cole",
+        "Kanye West"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi raper Drake?",
+      "ok": "Kanada",
+      "bad": [
+        "USA",
+        "Wielka Brytania",
+        "Jamajka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki gatunek muzyczny rozsławił na świecie Bob Marley?",
+      "ok": "Reggae",
+      "bad": [
+        "Calypso",
+        "Soul",
+        "Salsa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się jamajski gatunek muzyczny, który poprzedził reggae?",
+      "ok": "Ska",
+      "bad": [
+        "Reggaeton",
+        "Calypso",
+        "Zouk"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto był wokalistą zespołu The Smiths?",
+      "ok": "Morrissey",
+      "bad": [
+        "Robert Smith",
+        "Ian Curtis",
+        "Dave Gahan"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto jest wokalistą zespołu The Cure?",
+      "ok": "Robert Smith",
+      "bad": [
+        "Morrissey",
+        "Ian Curtis",
+        "Dave Gahan"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi zespół Depeche Mode?",
+      "ok": "Wielka Brytania",
+      "bad": [
+        "Niemcy",
+        "Belgia",
+        "USA"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który zespół rywalizował z Oasis w tzw. bitwie britpopu w 1995 roku?",
+      "ok": "Blur",
+      "bad": [
+        "Pulp",
+        "Suede",
+        "The Verve"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie nazwisko noszą bracia Liam i Noel z zespołu Oasis?",
+      "ok": "Gallagher",
+      "bad": [
+        "Albarn",
+        "Cocker",
+        "Ashcroft"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego miasta pochodzi zespół Oasis?",
+      "ok": "Manchester",
+      "bad": [
+        "Liverpool",
+        "Londyn",
+        "Sheffield"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest wokalistą zespołu Radiohead?",
+      "ok": "Thom Yorke",
+      "bad": [
+        "Chris Martin",
+        "Matt Bellamy",
+        "Damon Albarn"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest wokalistą zespołu Coldplay?",
+      "ok": "Chris Martin",
+      "bad": [
+        "Brandon Flowers",
+        "Matt Bellamy",
+        "Thom Yorke"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który zespół nagrał przebój „Mr. Brightside”?",
+      "ok": "The Killers",
+      "bad": [
+        "The Strokes",
+        "Franz Ferdinand",
+        "Kings of Leon"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim zespole śpiewał Chester Bennington?",
+      "ok": "Linkin Park",
+      "bad": [
+        "Limp Bizkit",
+        "Papa Roach",
+        "Korn"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który zespół nagrał utwór „Seven Nation Army”?",
+      "ok": "The White Stripes",
+      "bad": [
+        "The Black Keys",
+        "The Strokes",
+        "The Hives"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który zespół nagrał w 1994 roku piosenkę „Zombie”?",
+      "ok": "The Cranberries",
+      "bad": [
+        "The Corrs",
+        "No Doubt",
+        "Garbage"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był wokalistką zespołu No Doubt?",
+      "ok": "Gwen Stefani",
+      "bad": [
+        "Shirley Manson",
+        "Dolores O'Riordan",
+        "Courtney Love"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który zespół nagrał album „Californication”?",
+      "ok": "Red Hot Chili Peppers",
+      "bad": [
+        "Foo Fighters",
+        "Pearl Jam",
+        "Incubus"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak potocznie nazywa się grupę słynnych muzyków zmarłych w wieku 27 lat?",
+      "ok": "Klub 27",
+      "bad": [
+        "Klub 33",
+        "Klub 21",
+        "Klub 30"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która piosenkarka wydała w 1995 roku album „Jagged Little Pill”?",
+      "ok": "Alanis Morissette",
+      "bad": [
+        "Sheryl Crow",
+        "Avril Lavigne",
+        "Shania Twain"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto nagrał w 1971 roku album „Tapestry”?",
+      "ok": "Carole King",
+      "bad": [
+        "Joni Mitchell",
+        "Carly Simon",
+        "Linda Ronstadt"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto wydał w 1999 roku album „Supernatural” z przebojem „Smooth”?",
+      "ok": "Santana",
+      "bad": [
+        "Lenny Kravitz",
+        "Sting",
+        "Eric Clapton"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki przydomek nosi gitarzysta Eric Clapton?",
+      "ok": "Slowhand",
+      "bad": [
+        "The Boss",
+        "The Edge",
+        "Slash"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto wydał w 2012 roku album „Born to Die”?",
+      "ok": "Lana Del Rey",
+      "bad": [
+        "Lorde",
+        "Florence Welch",
+        "Halsey"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi piosenkarka Lorde?",
+      "ok": "Nowa Zelandia",
+      "bad": [
+        "Australia",
+        "Kanada",
+        "Irlandia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi Kylie Minogue?",
+      "ok": "Australia",
+      "bad": [
+        "Nowa Zelandia",
+        "Kanada",
+        "Wielka Brytania"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto nagrał w 2019 roku przebój „Bad Guy”?",
+      "ok": "Billie Eilish",
+      "bad": [
+        "Olivia Rodrigo",
+        "Dua Lipa",
+        "Lorde"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak ma na imię brat Billie Eilish, współautor jej piosenek?",
+      "ok": "Finneas",
+      "bad": [
+        "Jack",
+        "Max",
+        "Mark"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi producent przebojów Max Martin?",
+      "ok": "Szwecja",
+      "bad": [
+        "Norwegia",
+        "Dania",
+        "USA"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto nagrał w 2019 roku przebój „Blinding Lights”?",
+      "ok": "The Weeknd",
+      "bad": [
+        "Drake",
+        "Bruno Mars",
+        "Post Malone"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto wspólnie z Markiem Ronsonem nagrał „Uptown Funk”?",
+      "ok": "Bruno Mars",
+      "bad": [
+        "Pharrell Williams",
+        "Justin Timberlake",
+        "Usher"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto nagrał w 2013 roku przebój „Happy”?",
+      "ok": "Pharrell Williams",
+      "bad": [
+        "Will.i.am",
+        "Robin Thicke",
+        "Kanye West"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto nagrał „Despacito” wspólnie z Daddy Yankee?",
+      "ok": "Luis Fonsi",
+      "bad": [
+        "Enrique Iglesias",
+        "Ricky Martin",
+        "J Balvin"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto zaśpiewał w 1999 roku przebój „Livin' la Vida Loca”?",
+      "ok": "Ricky Martin",
+      "bad": [
+        "Enrique Iglesias",
+        "Marc Anthony",
+        "Luis Fonsi"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się najważniejsza amerykańska nagroda muzyczna przyznawana przez Akademię Nagraniową?",
+      "ok": "Grammy",
+      "bad": [
+        "Oscar",
+        "Emmy",
+        "Tony"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się słynny festiwal muzyczny odbywający się w hrabstwie Somerset w Anglii?",
+      "ok": "Glastonbury",
+      "bad": [
+        "Reading",
+        "Download",
+        "Isle of Wight"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym stanie USA odbywa się festiwal Coachella?",
+      "ok": "Kalifornia",
+      "bad": [
+        "Nevada",
+        "Arizona",
+        "Teksas"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym konkursie ABBA odniosła zwycięstwo w 1974 roku?",
+      "ok": "Eurowizja",
+      "bad": [
+        "Festiwal w Sanremo",
+        "Festiwal w Sopocie",
+        "Nagrody Grammy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi zespół a-ha?",
+      "ok": "Norwegia",
+      "bad": [
+        "Szwecja",
+        "Dania",
+        "Finlandia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile strun ma standardowa gitara basowa?",
+      "ok": "4",
+      "bad": [
+        "5",
+        "6",
+        "8"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym mieście narodziła się w latach 80. muzyka house?",
+      "ok": "Chicago",
+      "bad": [
+        "Detroit",
+        "Nowy Jork",
+        "Berlin"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z którym miastem USA kojarzone są narodziny muzyki techno?",
+      "ok": "Detroit",
+      "bad": [
+        "Chicago",
+        "Miami",
+        "Seattle"
+      ],
+      "lvl": 3
+    }
+  ]
+}

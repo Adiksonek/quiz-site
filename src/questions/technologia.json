@@ -1,0 +1,1176 @@
+{
+  "slug": "technologia",
+  "name": "Technologia i IT",
+  "questions": [
+    {
+      "q": "Kto założył Apple razem ze Steve'em Jobsem?",
+      "ok": "Steve Wozniak",
+      "bad": [
+        "Bill Gates",
+        "Paul Allen",
+        "Larry Page"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto stworzył jądro systemu Linux?",
+      "ok": "Linus Torvalds",
+      "bad": [
+        "Richard Stallman",
+        "Dennis Ritchie",
+        "Ken Thompson"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót USB?",
+      "ok": "Universal Serial Bus",
+      "bad": [
+        "United System Board",
+        "Ultra Speed Bridge",
+        "Universal Storage Base"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile bitów ma bajt?",
+      "ok": "8",
+      "bad": [
+        "4",
+        "16",
+        "10"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku zaprezentowano pierwszego iPhone'a?",
+      "ok": "2007",
+      "bad": [
+        "2005",
+        "2008",
+        "2010"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma rozwija system operacyjny Android?",
+      "ok": "Google",
+      "bad": [
+        "Samsung",
+        "Apple",
+        "Nokia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto założył Microsoft razem z Billem Gatesem?",
+      "ok": "Paul Allen",
+      "bad": [
+        "Steve Ballmer",
+        "Steve Wozniak",
+        "Larry Ellison"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który z tych przedsiębiorców współzałożył Facebooka?",
+      "ok": "Mark Zuckerberg",
+      "bad": [
+        "Jack Dorsey",
+        "Larry Page",
+        "Elon Musk"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak rozwija się skrót WWW?",
+      "ok": "World Wide Web",
+      "bad": [
+        "Wide World Web",
+        "World Web Window",
+        "Web Wide World"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się system operacyjny iPhone'a?",
+      "ok": "iOS",
+      "bad": [
+        "Android",
+        "macOS",
+        "Windows"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się przeglądarka internetowa firmy Google?",
+      "ok": "Chrome",
+      "bad": [
+        "Firefox",
+        "Safari",
+        "Opera"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co oznacza skrót RAM?",
+      "ok": "Random Access Memory",
+      "bad": [
+        "Read And Memory",
+        "Rapid Access Module",
+        "Run All Memory"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót CPU?",
+      "ok": "Central Processing Unit",
+      "bad": [
+        "Computer Personal Unit",
+        "Central Program Utility",
+        "Core Power Unit"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto wynalazł mysz komputerową?",
+      "ok": "Douglas Engelbart",
+      "bad": [
+        "Alan Turing",
+        "Steve Jobs",
+        "Charles Babbage"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki system liczbowy używa tylko cyfr 0 i 1?",
+      "ok": "Dwójkowy",
+      "bad": [
+        "Dziesiętny",
+        "Ósemkowy",
+        "Szesnastkowy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi dwójkowa liczba 1010 zapisana w systemie dziesiętnym?",
+      "ok": "10",
+      "bad": [
+        "8",
+        "12",
+        "5"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót PDF?",
+      "ok": "Portable Document Format",
+      "bad": [
+        "Printable Data File",
+        "Public Document Format",
+        "Personal Document File"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót SMS?",
+      "ok": "Short Message Service",
+      "bad": [
+        "Simple Mobile Signal",
+        "Send Message System",
+        "Short Mobile Service"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót GPS?",
+      "ok": "Global Positioning System",
+      "bad": [
+        "General Position Signal",
+        "Global Phone Satellite",
+        "Geo Point Service"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od przydomka którego króla pochodzi nazwa technologii Bluetooth?",
+      "ok": "Harald Sinozęby",
+      "bad": [
+        "Kanut Wielki",
+        "Eryk Rudy",
+        "Olaf Święty"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który brytyjski matematyk, nazywany ojcem informatyki, łamał szyfry w Bletchley Park?",
+      "ok": "Alan Turing",
+      "bad": [
+        "John von Neumann",
+        "Charles Babbage",
+        "Claude Shannon"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który język programowania nazwano na cześć grupy komików Monty Python?",
+      "ok": "Python",
+      "bad": [
+        "Ruby",
+        "Perl",
+        "Java"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Logo którego języka programowania przedstawia filiżankę kawy?",
+      "ok": "Java",
+      "bad": [
+        "Python",
+        "C++",
+        "PHP"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót HTML?",
+      "ok": "HyperText Markup Language",
+      "bad": [
+        "HighText Machine Language",
+        "HyperTool Multi Language",
+        "Home Tool Markup Language"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Do czego służy język SQL?",
+      "ok": "Do pracy z bazami danych",
+      "bad": [
+        "Do tworzenia grafiki 3D",
+        "Do montażu wideo",
+        "Do pisania sterowników"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Za co odpowiadają arkusze CSS na stronie internetowej?",
+      "ok": "Wygląd i układ",
+      "bad": [
+        "Zapis danych na serwerze",
+        "Szyfrowanie połączenia",
+        "Adresowanie w sieci"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza litera S w skrócie HTTPS?",
+      "ok": "Secure",
+      "bad": [
+        "Server",
+        "Speed",
+        "System"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki port domyślnie wykorzystuje protokół HTTP?",
+      "ok": "80",
+      "bad": [
+        "21",
+        "443",
+        "25"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile bitów ma adres IPv4?",
+      "ok": "32",
+      "bad": [
+        "64",
+        "128",
+        "16"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza skrót DNS?",
+      "ok": "Domain Name System",
+      "bad": [
+        "Digital Network Service",
+        "Data Name Server",
+        "Domain Network Socket"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza skrót LAN?",
+      "ok": "Local Area Network",
+      "bad": [
+        "Large Access Network",
+        "Linked Area Node",
+        "Local Access Node"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Prawo Moore'a mówi o podwajaniu się co około dwa lata liczby:",
+      "ok": "Tranzystorów w układzie",
+      "bad": [
+        "Użytkowników internetu",
+        "Stron WWW",
+        "Pikseli na ekranie"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Którą firmę współzałożył Gordon Moore?",
+      "ok": "Intel",
+      "bad": [
+        "AMD",
+        "IBM",
+        "Nvidia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim kraju zbudowano komputer ENIAC?",
+      "ok": "USA",
+      "bad": [
+        "Wielka Brytania",
+        "Niemcy",
+        "ZSRR"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto skonstruował komputer Z3 w 1941 roku?",
+      "ok": "Konrad Zuse",
+      "bad": [
+        "Alan Turing",
+        "Charles Babbage",
+        "Howard Aiken"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym roku założono firmę Microsoft?",
+      "ok": "1975",
+      "bad": [
+        "1980",
+        "1969",
+        "1984"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym roku założono firmę Apple?",
+      "ok": "1976",
+      "bad": [
+        "1971",
+        "1981",
+        "1984"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywał się komputer Apple z 1984 roku, reklamowany słynnym spotem „1984”?",
+      "ok": "Macintosh",
+      "bad": [
+        "Apple II",
+        "Lisa",
+        "iMac"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma stworzyła system Windows?",
+      "ok": "Microsoft",
+      "bad": [
+        "Apple",
+        "IBM",
+        "Google"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się asystent głosowy firmy Apple?",
+      "ok": "Siri",
+      "bad": [
+        "Alexa",
+        "Cortana",
+        "Bixby"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co oznacza skrót AI w informatyce?",
+      "ok": "Sztuczna inteligencja",
+      "bad": [
+        "Analiza informacji",
+        "Automatyczny interfejs",
+        "Aktywny internet"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się niechciana, masowo rozsyłana poczta e-mail?",
+      "ok": "Spam",
+      "bad": [
+        "Phishing",
+        "Malware",
+        "Cookies"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się złośliwe oprogramowanie szyfrujące dane i żądające okupu?",
+      "ok": "Ransomware",
+      "bad": [
+        "Adware",
+        "Spyware",
+        "Freeware"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakim skrótem oznacza się dysk półprzewodnikowy?",
+      "ok": "SSD",
+      "bad": [
+        "HDD",
+        "DVD",
+        "ROM"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co oznacza skrót HDD?",
+      "ok": "Hard Disk Drive",
+      "bad": [
+        "High Density Data",
+        "Hard Data Device",
+        "Home Digital Disk"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką typową pojemność ma płyta CD-R?",
+      "ok": "700 MB",
+      "bad": [
+        "4,7 GB",
+        "25 GB",
+        "100 MB"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką pojemność ma standardowa dyskietka 3,5 cala HD?",
+      "ok": "1,44 MB",
+      "bad": [
+        "700 MB",
+        "64 KB",
+        "16 MB"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót QR w nazwie kodu QR?",
+      "ok": "Quick Response",
+      "bad": [
+        "Quality Read",
+        "Quick Reader",
+        "Query Result"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju wynaleziono kod QR?",
+      "ok": "Japonia",
+      "bad": [
+        "Korea Południowa",
+        "USA",
+        "Chiny"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto stworzył język programowania C?",
+      "ok": "Dennis Ritchie",
+      "bad": [
+        "Bjarne Stroustrup",
+        "James Gosling",
+        "Guido van Rossum"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto jest twórcą języka C++, rozszerzenia języka C?",
+      "ok": "Bjarne Stroustrup",
+      "bad": [
+        "Dennis Ritchie",
+        "Linus Torvalds",
+        "James Gosling"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto stworzył język programowania Python?",
+      "ok": "Guido van Rossum",
+      "bad": [
+        "Bjarne Stroustrup",
+        "Dennis Ritchie",
+        "Brendan Eich"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która firma stworzyła język programowania Java?",
+      "ok": "Sun Microsystems",
+      "bad": [
+        "IBM",
+        "Microsoft",
+        "Intel"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak ma na imię pingwin, maskotka systemu Linux?",
+      "ok": "Tux",
+      "bad": [
+        "Pingu",
+        "Linus",
+        "Kernel"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który duet opracował protokół TCP/IP?",
+      "ok": "Cerf i Kahn",
+      "bad": [
+        "Page i Brin",
+        "Jobs i Wozniak",
+        "Gates i Allen"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza skrót GIF?",
+      "ok": "Graphics Interchange Format",
+      "bad": [
+        "General Image File",
+        "Graphic Internet Frame",
+        "Global Image Format"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakiego rodzaju dane zwykle zawiera plik w formacie JPG?",
+      "ok": "Obraz",
+      "bad": [
+        "Dźwięk",
+        "Arkusz kalkulacyjny",
+        "Program"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym kraju opracowano format MP3?",
+      "ok": "Niemcy",
+      "bad": [
+        "USA",
+        "Japonia",
+        "Holandia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma Nokia?",
+      "ok": "Finlandia",
+      "bad": [
+        "Szwecja",
+        "Norwegia",
+        "Dania"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma Samsung?",
+      "ok": "Korea Południowa",
+      "bad": [
+        "Japonia",
+        "Chiny",
+        "Tajwan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakim skrótem oznacza się procesor graficzny?",
+      "ok": "GPU",
+      "bad": [
+        "CPU",
+        "PSU",
+        "ROM"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co oznacza skrót ROM?",
+      "ok": "Read-Only Memory",
+      "bad": [
+        "Random Order Memory",
+        "Rapid Online Module",
+        "Remote Operating Mode"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się oprogramowanie z publicznie dostępnym kodem źródłowym?",
+      "ok": "Open source",
+      "bad": [
+        "Shareware",
+        "Adware",
+        "Trialware"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Skąd wzięła się nazwa układu klawiatury QWERTY?",
+      "ok": "Od liter w górnym rzędzie",
+      "bad": [
+        "Od nazwiska twórcy",
+        "Od nazwy producenta",
+        "Od skrótu angielskiego"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co robi skrót klawiszowy Ctrl+C?",
+      "ok": "Kopiuje",
+      "bad": [
+        "Wkleja",
+        "Wycina",
+        "Cofa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co robi skrót klawiszowy Ctrl+Z?",
+      "ok": "Cofa ostatnią czynność",
+      "bad": [
+        "Zapisuje plik",
+        "Zamyka okno",
+        "Zaznacza wszystko"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma produkuje procesory z serii Ryzen?",
+      "ok": "AMD",
+      "bad": [
+        "Intel",
+        "Nvidia",
+        "Qualcomm"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się seria kart graficznych firmy Nvidia?",
+      "ok": "GeForce",
+      "bad": [
+        "Radeon",
+        "Ryzen",
+        "Pentium"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie życzenia zawierał pierwszy SMS wysłany w 1992 roku?",
+      "ok": "Wesołych Świąt",
+      "bad": [
+        "Szczęśliwego Nowego Roku",
+        "Wszystkiego najlepszego",
+        "Dzień dobry"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza litera G w nazwach sieci 4G i 5G?",
+      "ok": "Generacja",
+      "bad": [
+        "Gigabit",
+        "Global",
+        "Gigaherc"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Do czego służy test CAPTCHA na stronach internetowych?",
+      "ok": "Do odróżnienia ludzi od botów",
+      "bad": [
+        "Do szyfrowania haseł",
+        "Do kompresji plików",
+        "Do przyspieszania sieci"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką końcówkę mają polskie krajowe domeny internetowe?",
+      "ok": ".pl",
+      "bad": [
+        ".po",
+        ".pol",
+        ".pn"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym stanie USA leży Dolina Krzemowa?",
+      "ok": "Kalifornia",
+      "bad": [
+        "Teksas",
+        "Waszyngton",
+        "Nowy Jork"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakim typem programu jest Microsoft Excel?",
+      "ok": "Arkusz kalkulacyjny",
+      "bad": [
+        "Edytor tekstu",
+        "Program graficzny",
+        "Przeglądarka"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się najmniejszy element obrazu cyfrowego?",
+      "ok": "Piksel",
+      "bad": [
+        "Wektor",
+        "Bit",
+        "Kadr"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakich jednostkach podaje się zwykle taktowanie procesora?",
+      "ok": "Gigahercach",
+      "bad": [
+        "Gigabajtach",
+        "Watach",
+        "Woltach"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się program komputerowy, który potajemnie śledzi działania użytkownika?",
+      "ok": "Spyware",
+      "bad": [
+        "Firmware",
+        "Freeware",
+        "Middleware"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Czym jest Wi-Fi?",
+      "ok": "Bezprzewodowa sieć lokalna",
+      "bad": [
+        "Szybki światłowód",
+        "Sieć komórkowa",
+        "Łącze satelitarne"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile bajtów ma kilobajt w układzie SI?",
+      "ok": "1000",
+      "bad": [
+        "1024",
+        "100",
+        "8000"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się pierwszy program zwyczajowo pisany przy nauce języka?",
+      "ok": "Hello World",
+      "bad": [
+        "Foo Bar",
+        "Lorem Ipsum",
+        "Test One"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się błąd w programie komputerowym?",
+      "ok": "Bug",
+      "bad": [
+        "Patch",
+        "Commit",
+        "Cache"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma stworzyła wyszukiwarkę Bing?",
+      "ok": "Microsoft",
+      "bad": [
+        "Google",
+        "Yahoo",
+        "Apple"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się poprawka usuwająca błędy w oprogramowaniu?",
+      "ok": "Łatka",
+      "bad": [
+        "Ciasteczko",
+        "Wtyczka",
+        "Zrzut"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile kombinacji wartości może zapisać jeden bajt?",
+      "ok": "256",
+      "bad": [
+        "128",
+        "255",
+        "512"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakim skrótem określa się wyświetlacz ciekłokrystaliczny?",
+      "ok": "LCD",
+      "bad": [
+        "LED",
+        "CRT",
+        "OLED"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się zabezpieczenie sieci filtrujące ruch przychodzący i wychodzący?",
+      "ok": "Zapora sieciowa",
+      "bad": [
+        "Router",
+        "Modem",
+        "Wzmacniacz sygnału"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót URL?",
+      "ok": "Uniform Resource Locator",
+      "bad": [
+        "Universal Remote Link",
+        "United Resource List",
+        "Unique Record Locator"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co oznacza skrót IT?",
+      "ok": "Information Technology",
+      "bad": [
+        "Internet Tools",
+        "Intelligent Technology",
+        "Integrated Terminal"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakie rozszerzenie mają zwykle dokumenty programu Microsoft Word?",
+      "ok": ".docx",
+      "bad": [
+        ".xlsx",
+        ".pptx",
+        ".csv"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto stworzył język JavaScript?",
+      "ok": "Brendan Eich",
+      "bad": [
+        "James Gosling",
+        "Guido van Rossum",
+        "Tim Berners-Lee"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się system kontroli wersji stworzony przez Linusa Torvaldsa?",
+      "ok": "Git",
+      "bad": [
+        "SVN",
+        "Mercurial",
+        "CVS"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się serwis z repozytoriami Git przejęty przez Microsoft w 2018 roku?",
+      "ok": "GitHub",
+      "bad": [
+        "GitLab",
+        "Bitbucket",
+        "SourceForge"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co oznacza skrót VPN?",
+      "ok": "Virtual Private Network",
+      "bad": [
+        "Virtual Public Node",
+        "Verified Protected Net",
+        "Video Private Network"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakim skrótem określa się uwierzytelnianie dwuskładnikowe?",
+      "ok": "2FA",
+      "bad": [
+        "SSL",
+        "VPN",
+        "DNS"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od jakiego znaku zaczyna się formuła w arkuszu Excel?",
+      "ok": "Znak równości",
+      "bad": [
+        "Krzyżyk",
+        "Dolar",
+        "Ampersand"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się najmniejsza jednostka informacji w informatyce?",
+      "ok": "Bit",
+      "bad": [
+        "Bajt",
+        "Piksel",
+        "Herc"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma produkuje procesory mobilne Snapdragon?",
+      "ok": "Qualcomm",
+      "bad": [
+        "Intel",
+        "AMD",
+        "Nvidia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym roku Apple zaprezentowało pierwszego iPada?",
+      "ok": "2010",
+      "bad": [
+        "2008",
+        "2012",
+        "2007"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się szybka pamięć podręczna procesora?",
+      "ok": "Cache",
+      "bad": [
+        "Swap",
+        "BIOS",
+        "Partycja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się oprogramowanie płyty głównej uruchamiane przed systemem operacyjnym?",
+      "ok": "BIOS",
+      "bad": [
+        "DOS",
+        "RAM",
+        "DNS"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie urządzenie łączy sieć domową z internetem i kieruje ruchem między nimi?",
+      "ok": "Router",
+      "bad": [
+        "Monitor",
+        "Skaner",
+        "Ploter"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywał się tekstowy system operacyjny Microsoftu, poprzednik Windows?",
+      "ok": "MS-DOS",
+      "bad": [
+        "Unix",
+        "Linux",
+        "BeOS"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma tworzy system operacyjny macOS?",
+      "ok": "Apple",
+      "bad": [
+        "Microsoft",
+        "Google",
+        "IBM"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile bitów można zapisać jedną cyfrą szesnastkową?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "8",
+        "16"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaką cyfrą szesnastkową zapisuje się dziesiętne 15?",
+      "ok": "F",
+      "bad": [
+        "E",
+        "A",
+        "G"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki kod ma wielka litera A w tablicy ASCII?",
+      "ok": "65",
+      "bad": [
+        "64",
+        "97",
+        "1"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Co sprawdza test Turinga?",
+      "ok": "Czy maszyna udaje człowieka",
+      "bad": [
+        "Szybkość procesora",
+        "Siłę szyfrowania",
+        "Poprawność kodu"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się platforma chmurowa firmy Amazon?",
+      "ok": "AWS",
+      "bad": [
+        "Azure",
+        "iCloud",
+        "OneDrive"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się rodzina procesorów Intela z modelami i3, i5 i i7?",
+      "ok": "Core",
+      "bad": [
+        "Ryzen",
+        "Athlon",
+        "Snapdragon"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką rozdzielczość ma obraz Full HD?",
+      "ok": "1920 × 1080",
+      "bad": [
+        "1280 × 720",
+        "3840 × 2160",
+        "2560 × 1440"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki język programowania przedstawiło Apple w 2014 roku?",
+      "ok": "Swift",
+      "bad": [
+        "Kotlin",
+        "Go",
+        "Rust"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Do czego służy kompilator?",
+      "ok": "Tłumaczy kod na kod maszynowy",
+      "bad": [
+        "Szyfruje pliki",
+        "Kompresuje dane",
+        "Usuwa wirusy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się program chroniący komputer przed złośliwym oprogramowaniem?",
+      "ok": "Antywirus",
+      "bad": [
+        "Kompilator",
+        "Sterownik",
+        "Edytor"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się program, który pozwala systemowi obsługiwać konkretne urządzenie, np. drukarkę?",
+      "ok": "Sterownik",
+      "bad": [
+        "Antywirus",
+        "Kompilator",
+        "Przeglądarka"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywał się pierwszy komercyjny mikroprocesor Intela z 1971 roku?",
+      "ok": "Intel 4004",
+      "bad": [
+        "Intel 8086",
+        "Intel 8080",
+        "Intel 386"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się technologia krótkiego zasięgu używana w płatnościach zbliżeniowych telefonem?",
+      "ok": "NFC",
+      "bad": [
+        "GPS",
+        "LTE",
+        "USB"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakim złączem przesyła się cyfrowo obraz i dźwięk z komputera do telewizora?",
+      "ok": "HDMI",
+      "bad": [
+        "VGA",
+        "RJ-45",
+        "PS/2"
+      ],
+      "lvl": 1
+    }
+  ]
+}

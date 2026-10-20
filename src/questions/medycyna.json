@@ -1,0 +1,1166 @@
+{
+  "slug": "medycyna",
+  "name": "Medycyna i zdrowie",
+  "questions": [
+    {
+      "q": "Która grupa krwi to tak zwany uniwersalny dawca?",
+      "ok": "0 Rh-",
+      "bad": [
+        "AB Rh+",
+        "A Rh-",
+        "B Rh+"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto opracował inaktywowaną szczepionkę przeciw polio wprowadzoną w 1955 roku?",
+      "ok": "Jonas Salk",
+      "bad": [
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Albert Calmette"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym roku WHO ogłosiła wyeliminowanie ospy prawdziwej?",
+      "ok": "1980",
+      "bad": [
+        "1965",
+        "1995",
+        "2000"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Którą chorobę zakaźną ludzi udało się całkowicie wyeliminować na świecie?",
+      "ok": "Ospę prawdziwą",
+      "bad": [
+        "Polio",
+        "Odrę",
+        "Gruźlicę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką chorobę przenoszą komary z rodzaju Anopheles?",
+      "ok": "Malarię",
+      "bad": [
+        "Cholerę",
+        "Dżumę",
+        "Gruźlicę"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaką chorobę nazywano dawniej białą zarazą?",
+      "ok": "Gruźlicę",
+      "bad": [
+        "Dżumę",
+        "Cholerę",
+        "Ospę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką chorobą była pandemia hiszpanki z lat 1918-1920?",
+      "ok": "Grypą",
+      "bad": [
+        "Cholerą",
+        "Dżumą",
+        "Tyfusem"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Niedobór której witaminy powoduje szkorbut?",
+      "ok": "C",
+      "bad": [
+        "A",
+        "D",
+        "K"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Niedobór której witaminy powoduje u dzieci krzywicę?",
+      "ok": "D",
+      "bad": [
+        "C",
+        "B1",
+        "K"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Niedobór której witaminy może powodować kurzą ślepotę?",
+      "ok": "A",
+      "bad": [
+        "C",
+        "D",
+        "B12"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Niedobór której witaminy powoduje chorobę beri-beri?",
+      "ok": "B1",
+      "bad": [
+        "C",
+        "D",
+        "B12"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Niedobór której witaminy powoduje pelagrę?",
+      "ok": "B3 (niacyny)",
+      "bad": [
+        "B12",
+        "C",
+        "A"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która z tych witamin rozpuszcza się w tłuszczach?",
+      "ok": "E",
+      "bad": [
+        "C",
+        "B6",
+        "B12"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która witamina jest niezbędna do prawidłowego krzepnięcia krwi?",
+      "ok": "K",
+      "bad": [
+        "C",
+        "B1",
+        "D"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Niedobór jakiego hormonu jest przyczyną cukrzycy typu 1?",
+      "ok": "Insuliny",
+      "bad": [
+        "Adrenaliny",
+        "Tyroksyny",
+        "Melatoniny"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim kraju w 1967 roku przeszczepiono pierwsze ludzkie serce?",
+      "ok": "RPA",
+      "bad": [
+        "USA",
+        "Wielka Brytania",
+        "Francja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kardiochirurg przeprowadził w 1985 roku pierwszy udany w Polsce przeszczep serca?",
+      "ok": "Zbigniew Religa",
+      "bad": [
+        "Ludwik Rydygier",
+        "Wiktor Dega",
+        "Tytus Chałubiński"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kogo nazywa się ojcem medycyny?",
+      "ok": "Hipokratesa",
+      "bad": [
+        "Galena",
+        "Awicennę",
+        "Paracelsusa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co owija laskę Asklepiosa, symbol medycyny?",
+      "ok": "Wąż",
+      "bad": [
+        "Winorośl",
+        "Bluszcz",
+        "Wstęga"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kogo uważa się za twórczynię nowoczesnego pielęgniarstwa?",
+      "ok": "Florence Nightingale",
+      "bad": [
+        "Elizabeth Blackwell",
+        "Hildegarda z Bingen",
+        "Maria Montessori"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto założył Międzynarodowy Czerwony Krzyż?",
+      "ok": "Henri Dunant",
+      "bad": [
+        "Alfred Nobel",
+        "Louis Pasteur",
+        "Albert Schweitzer"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto wprowadził antyseptykę w chirurgii, stosując kwas karbolowy?",
+      "ok": "Joseph Lister",
+      "bad": [
+        "Robert Koch",
+        "Edward Jenner",
+        "William Harvey"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto w XVII wieku opisał krążenie krwi w organizmie człowieka?",
+      "ok": "William Harvey",
+      "bad": [
+        "Andreas Vesalius",
+        "Galen",
+        "Paracelsus"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się przyrząd do pomiaru ciśnienia krwi?",
+      "ok": "Ciśnieniomierz",
+      "bad": [
+        "Glukometr",
+        "Spirometr",
+        "Pulsoksymetr"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co mierzy glukometr?",
+      "ok": "Poziom cukru we krwi",
+      "bad": [
+        "Ciśnienie krwi",
+        "Tętno",
+        "Poziom tlenu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Pracę jakiego narządu ocenia spirometria?",
+      "ok": "Płuc",
+      "bad": [
+        "Serca",
+        "Nerek",
+        "Wątroby"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Badanie EKG rejestruje elektryczną aktywność:",
+      "ok": "Serca",
+      "bad": [
+        "Mózgu",
+        "Płuc",
+        "Mięśni nóg"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Badanie EEG rejestruje elektryczną aktywność:",
+      "ok": "Mózgu",
+      "bad": [
+        "Serca",
+        "Płuc",
+        "Żołądka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie ciśnienie tętnicze uznaje się za wzorcowo prawidłowe u dorosłego?",
+      "ok": "120/80 mmHg",
+      "bad": [
+        "160/100 mmHg",
+        "90/40 mmHg",
+        "140/110 mmHg"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakim zakresie mieści się prawidłowe tętno spoczynkowe dorosłego?",
+      "ok": "60-100 na minutę",
+      "bad": [
+        "30-50 na minutę",
+        "110-150 na minutę",
+        "150-200 na minutę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki jest ogólnoeuropejski numer alarmowy?",
+      "ok": "112",
+      "bad": [
+        "997",
+        "911",
+        "999"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki jest stosunek uciśnięć klatki piersiowej do oddechów w RKO u dorosłego?",
+      "ok": "30:2",
+      "bad": [
+        "15:2",
+        "5:1",
+        "10:1"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na jaką głębokość uciska się klatkę piersiową dorosłego podczas RKO?",
+      "ok": "5-6 cm",
+      "bad": [
+        "2-3 cm",
+        "8-10 cm",
+        "1-2 cm"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jaką częstotliwością uciska się klatkę piersiową podczas RKO?",
+      "ok": "100-120 na minutę",
+      "bad": [
+        "60-80 na minutę",
+        "140-160 na minutę",
+        "40-60 na minutę"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się urządzenie AED dostępne w wielu miejscach publicznych?",
+      "ok": "Defibrylator",
+      "bad": [
+        "Respirator",
+        "Inhalator",
+        "Pulsoksymetr"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej sytuacji stosuje się rękoczyn Heimlicha?",
+      "ok": "Przy zadławieniu",
+      "bad": [
+        "Przy oparzeniu",
+        "Przy złamaniu",
+        "Przy omdleniu"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej pozycji układa się nieprzytomną osobę, która oddycha prawidłowo?",
+      "ok": "Bocznej ustalonej",
+      "bad": [
+        "Na brzuchu",
+        "Siedzącej",
+        "Na plecach"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Czym według zasad pierwszej pomocy schładza się świeże oparzenie?",
+      "ok": "Chłodną wodą",
+      "bad": [
+        "Masłem",
+        "Lodem przyłożonym do skóry",
+        "Spirytusem"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który polski uczony współtworzył nazewnictwo grup krwi A, B, AB i 0?",
+      "ok": "Ludwik Hirszfeld",
+      "bad": [
+        "Rudolf Weigl",
+        "Kazimierz Funk",
+        "Jan Mikulicz-Radecki"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki drobnoustrój wywołuje grypę?",
+      "ok": "Wirus",
+      "bad": [
+        "Bakteria",
+        "Grzyb",
+        "Pierwotniak"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki organizm wywołuje malarię?",
+      "ok": "Pierwotniak",
+      "bad": [
+        "Wirus",
+        "Bakteria",
+        "Grzyb"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Przed jaką chorobą chroni szczepionka BCG?",
+      "ok": "Gruźlicą",
+      "bad": [
+        "Tężcem",
+        "Odrą",
+        "Polio"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Szczepionka MMR chroni przed odrą, świnką i:",
+      "ok": "Różyczką",
+      "bad": [
+        "Ospą wietrzną",
+        "Polio",
+        "Tężcem"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Którą chorobę wywołują bakterie z gleby, mogące wniknąć do organizmu przez ranę?",
+      "ok": "Tężec",
+      "bad": [
+        "Wścieklizna",
+        "Cholera",
+        "Odra"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką chorobę najczęściej przenoszą kleszcze w Polsce?",
+      "ok": "Boreliozę",
+      "bad": [
+        "Malarię",
+        "Wściekliznę",
+        "Toksoplazmozę"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która choroba szerzy się głównie przez skażoną wodę pitną?",
+      "ok": "Cholera",
+      "bad": [
+        "Malaria",
+        "Grypa",
+        "Gruźlica"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Badania Johna Snowa w Londynie w 1854 roku dotyczyły epidemii:",
+      "ok": "Cholery",
+      "bad": [
+        "Dżumy",
+        "Ospy",
+        "Grypy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który wirus wywołuje AIDS?",
+      "ok": "HIV",
+      "bad": [
+        "HPV",
+        "HBV",
+        "HCV"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Szczepionka przeciw HPV chroni przede wszystkim przed rakiem:",
+      "ok": "Szyjki macicy",
+      "bad": [
+        "Płuc",
+        "Trzustki",
+        "Skóry"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który narząd atakują wirusy HBV i HCV?",
+      "ok": "Wątrobę",
+      "bad": [
+        "Nerki",
+        "Płuca",
+        "Trzustkę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki wirus wywołuje chorobę COVID-19?",
+      "ok": "SARS-CoV-2",
+      "bad": [
+        "H1N1",
+        "MERS-CoV",
+        "HIV"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku WHO ogłosiła pandemię COVID-19?",
+      "ok": "2020",
+      "bad": [
+        "2019",
+        "2021",
+        "2018"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym mieście ma siedzibę Światowa Organizacja Zdrowia?",
+      "ok": "Genewa",
+      "bad": [
+        "Nowy Jork",
+        "Paryż",
+        "Wiedeń"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która choroba neurologiczna wiąże się z postępującą utratą pamięci?",
+      "ok": "Choroba Alzheimera",
+      "bad": [
+        "Choroba Crohna",
+        "Choroba Hashimoto",
+        "Choroba Addisona"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Którą chorobę neurologiczną charakteryzują drżenie i spowolnienie ruchów?",
+      "ok": "Choroba Parkinsona",
+      "bad": [
+        "Choroba Alzheimera",
+        "Choroba Addisona",
+        "Choroba Hashimoto"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który układ atakuje przede wszystkim choroba Leśniowskiego-Crohna?",
+      "ok": "Pokarmowy",
+      "bad": [
+        "Kostny",
+        "Oddechowy",
+        "Nerwowy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Czego muszą unikać w diecie osoby chore na celiakię?",
+      "ok": "Glutenu",
+      "bad": [
+        "Laktozy",
+        "Fruktozy",
+        "Kofeiny"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Laktoza to cukier występujący naturalnie w:",
+      "ok": "Mleku",
+      "bad": [
+        "Miodzie",
+        "Owocach",
+        "Ziemniakach"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Którego narządu dotyczy choroba Hashimoto?",
+      "ok": "Tarczycy",
+      "bad": [
+        "Trzustki",
+        "Nerek",
+        "Wątroby"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakie naczynia krwionośne zajmuje głównie miażdżyca?",
+      "ok": "Tętnice",
+      "bad": [
+        "Żyły",
+        "Naczynia limfatyczne",
+        "Włosowate"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Osteoporoza prowadzi do osłabienia:",
+      "ok": "Kości",
+      "bad": [
+        "Mięśni",
+        "Zębów",
+        "Naczyń krwionośnych"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Białaczka to nowotwór:",
+      "ok": "Krwi",
+      "bad": [
+        "Skóry",
+        "Płuc",
+        "Mózgu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Czerniak to nowotwór złośliwy najczęściej rozwijający się w:",
+      "ok": "Skórze",
+      "bad": [
+        "Wątrobie",
+        "Płucach",
+        "Kościach"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile mniej więcej kilokalorii dostarcza 1 gram tłuszczu?",
+      "ok": "9",
+      "bad": [
+        "4",
+        "7",
+        "12"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile mniej więcej kilokalorii dostarcza 1 gram białka?",
+      "ok": "4",
+      "bad": [
+        "9",
+        "7",
+        "1"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak oblicza się wskaźnik BMI?",
+      "ok": "Masa / wzrost²",
+      "bad": [
+        "Wzrost / masa",
+        "Masa x wzrost",
+        "Masa / wiek"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki zakres BMI uznaje się za prawidłowy u dorosłych?",
+      "ok": "18,5-24,9",
+      "bad": [
+        "25-29,9",
+        "15-18,4",
+        "30-34,9"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się roślinny składnik pokarmu, którego organizm nie trawi, a wspiera on pracę jelit?",
+      "ok": "Błonnik",
+      "bad": [
+        "Kolagen",
+        "Gluten",
+        "Skrobia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jaki barwnik odpowiada za żółte zabarwienie skóry przy żółtaczce?",
+      "ok": "Bilirubina",
+      "bad": [
+        "Hemoglobina",
+        "Melanina",
+        "Chlorofil"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma BioNTech, współtwórca szczepionki mRNA na COVID-19?",
+      "ok": "Niemcy",
+      "bad": [
+        "USA",
+        "Wielka Brytania",
+        "Szwajcaria"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Za badania nad jaką technologią Katalin Karikó otrzymała Nagrodę Nobla w 2023 roku?",
+      "ok": "mRNA",
+      "bad": [
+        "CRISPR",
+        "PCR",
+        "Klonowanie"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się substancja czynna aspiryny?",
+      "ok": "Kwas acetylosalicylowy",
+      "bad": [
+        "Paracetamol",
+        "Ibuprofen",
+        "Kwas askorbinowy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kwas askorbinowy to inaczej witamina:",
+      "ok": "C",
+      "bad": [
+        "A",
+        "D",
+        "E"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiej rośliny pozyskuje się morfinę?",
+      "ok": "Z maku",
+      "bad": [
+        "Z konopi",
+        "Z chinowca",
+        "Z naparstnicy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Chininę, dawny lek przeciw malarii, pozyskiwano z kory:",
+      "ok": "Chinowca",
+      "bad": [
+        "Wierzby",
+        "Cisu",
+        "Dębu"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jakiego środka użyto w 1846 roku w słynnym pokazie znieczulenia ogólnego w Bostonie?",
+      "ok": "Eteru",
+      "bad": [
+        "Chloroformu",
+        "Kokainy",
+        "Morfiny"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się lekarz specjalizujący się w chorobach serca?",
+      "ok": "Kardiolog",
+      "bad": [
+        "Neurolog",
+        "Nefrolog",
+        "Pulmonolog"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak fachowo nazywa się lekarz okulista?",
+      "ok": "Oftalmolog",
+      "bad": [
+        "Otolaryngolog",
+        "Ortopeda",
+        "Onkolog"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Lekarz zajmujący się uszami, nosem i gardłem to:",
+      "ok": "Laryngolog",
+      "bad": [
+        "Dermatolog",
+        "Okulista",
+        "Neurolog"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się lekarz specjalizujący się w leczeniu osób starszych?",
+      "ok": "Geriatra",
+      "bad": [
+        "Pediatra",
+        "Ortopeda",
+        "Reumatolog"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Lekarz zajmujący się zaburzeniami hormonalnymi to:",
+      "ok": "Endokrynolog",
+      "bad": [
+        "Hematolog",
+        "Gastrolog",
+        "Urolog"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Lekarz zajmujący się chorobami nerek to:",
+      "ok": "Nefrolog",
+      "bad": [
+        "Neurolog",
+        "Hepatolog",
+        "Pulmonolog"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Którą witaminę weganie zwykle muszą suplementować, bo występuje głównie w produktach zwierzęcych?",
+      "ok": "B12",
+      "bad": [
+        "C",
+        "K",
+        "E"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Wirus której choroby może po latach uaktywnić się jako półpasiec?",
+      "ok": "Ospy wietrznej",
+      "bad": [
+        "Odry",
+        "Różyczki",
+        "Grypy"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak inaczej nazywa się szkarlatynę?",
+      "ok": "Płonica",
+      "bad": [
+        "Różyczka",
+        "Krztusiec",
+        "Świnka"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak inaczej nazywa się krztusiec?",
+      "ok": "Koklusz",
+      "bad": [
+        "Dyfteryt",
+        "Płonica",
+        "Tężec"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak inaczej nazywa się chorobę polio?",
+      "ok": "Choroba Heinego-Medina",
+      "bad": [
+        "Choroba Lyme",
+        "Choroba Hansena",
+        "Choroba Weila"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak inaczej nazywa się trąd?",
+      "ok": "Choroba Hansena",
+      "bad": [
+        "Choroba Lyme",
+        "Choroba Weila",
+        "Choroba Hodgkina"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaką chorobę stawów nazywano dawniej chorobą królów?",
+      "ok": "Dnę moczanową",
+      "bad": [
+        "Gruźlicę kości",
+        "Krzywicę",
+        "Osteoporozę"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Którą chorobę krwi przekazała części swoich potomków królowa Wiktoria?",
+      "ok": "Hemofilię",
+      "bad": [
+        "Anemię",
+        "Białaczkę",
+        "Talasemię"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się choroba, w której organizm źle reaguje na pyłki roślin?",
+      "ok": "Katar sienny",
+      "bad": [
+        "Angina",
+        "Zapalenie oskrzeli",
+        "Grypa żołądkowa"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się wysypkowa choroba zakaźna wieku dziecięcego z pęcherzykami na skórze?",
+      "ok": "Ospa wietrzna",
+      "bad": [
+        "Świnka",
+        "Krztusiec",
+        "Angina"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który narząd zwykle usuwa się podczas appendektomii?",
+      "ok": "Wyrostek robaczkowy",
+      "bad": [
+        "Pęcherzyk żółciowy",
+        "Migdałki",
+        "Śledzionę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakim skrótem określa się resuscytację krążeniowo-oddechową?",
+      "ok": "RKO",
+      "bad": [
+        "AED",
+        "EKG",
+        "SOR"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się szpitalny oddział ratunkowy w skrócie?",
+      "ok": "SOR",
+      "bad": [
+        "OIOM",
+        "POZ",
+        "NFZ"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się lekarz specjalizujący się w chorobach skóry?",
+      "ok": "Dermatolog",
+      "bad": [
+        "Hematolog",
+        "Reumatolog",
+        "Urolog"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się lekarz specjalizujący się w leczeniu dzieci?",
+      "ok": "Pediatra",
+      "bad": [
+        "Geriatra",
+        "Ortopeda",
+        "Internista"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się lekarz specjalizujący się w leczeniu nowotworów?",
+      "ok": "Onkolog",
+      "bad": [
+        "Okulista",
+        "Ortopeda",
+        "Neurolog"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakim skrótem oznacza się badanie rezonansem magnetycznym?",
+      "ok": "MRI",
+      "bad": [
+        "CT",
+        "PET",
+        "USG"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Co wykorzystuje badanie USG?",
+      "ok": "Ultradźwięki",
+      "bad": [
+        "Promieniowanie X",
+        "Pole magnetyczne",
+        "Izotopy"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Co wykorzystuje tomografia komputerowa?",
+      "ok": "Promieniowanie X",
+      "bad": [
+        "Ultradźwięki",
+        "Pole magnetyczne",
+        "Podczerwień"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się wirusowa choroba z obrzękiem ślinianek przyusznych?",
+      "ok": "Świnka",
+      "bad": [
+        "Odra",
+        "Różyczka",
+        "Płonica"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się zakaźne zapalenie gardła i migdałków, często z białym nalotem?",
+      "ok": "Angina",
+      "bad": [
+        "Świnka",
+        "Odra",
+        "Ospa wietrzna"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która substancja zawarta w tytoniu silnie uzależnia?",
+      "ok": "Nikotyna",
+      "bad": [
+        "Tlenek węgla",
+        "Smoła",
+        "Benzen"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywano ruchome aparaty rentgenowskie Marii Skłodowskiej-Curie z czasów I wojny?",
+      "ok": "Małe Curie",
+      "bad": [
+        "Polskie lampy",
+        "Rentgenówki",
+        "Białe wozy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się nauka badająca szerzenie się chorób w populacji?",
+      "ok": "Epidemiologia",
+      "bad": [
+        "Etiologia",
+        "Immunologia",
+        "Patologia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który narząd najbardziej uszkadza zatrucie muchomorem sromotnikowym?",
+      "ok": "Wątrobę",
+      "bad": [
+        "Płuca",
+        "Serce",
+        "Skórę"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gwałtowna, zagrażająca życiu reakcja alergiczna?",
+      "ok": "Wstrząs anafilaktyczny",
+      "bad": [
+        "Udar cieplny",
+        "Hipotermia",
+        "Zawał serca"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się spadek temperatury głębokiej ciała poniżej 35°C?",
+      "ok": "Hipotermia",
+      "bad": [
+        "Hipertermia",
+        "Hipoksja",
+        "Hipoglikemia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się leczenie nowotworów lekami niszczącymi szybko dzielące się komórki?",
+      "ok": "Chemioterapia",
+      "bad": [
+        "Radioterapia",
+        "Fizjoterapia",
+        "Psychoterapia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się nauka o działaniu leków na organizm?",
+      "ok": "Farmakologia",
+      "bad": [
+        "Toksykologia",
+        "Fizjologia",
+        "Etiologia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką chorobę wywołuje krętek blady?",
+      "ok": "Kiłę",
+      "bad": [
+        "Gruźlicę",
+        "Boreliozę",
+        "Malarię"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Dla jakiej choroby charakterystyczne są plamki Koplika w jamie ustnej?",
+      "ok": "Odry",
+      "bad": [
+        "Świnki",
+        "Różyczki",
+        "Ospy wietrznej"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Kto przeprowadził w 1954 roku pierwszy udany przeszczep nerki?",
+      "ok": "Joseph Murray",
+      "bad": [
+        "Christiaan Barnard",
+        "Zbigniew Religa",
+        "Michael DeBakey"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak dawniej potocznie nazywano gruźlicę płuc?",
+      "ok": "Suchoty",
+      "bad": [
+        "Szkorbut",
+        "Febra",
+        "Kołtun"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaką chorobę dawniej nazywano w Polsce febrą lub zimnicą?",
+      "ok": "Malarię",
+      "bad": [
+        "Grypę",
+        "Cholerę",
+        "Dżumę"
+      ],
+      "lvl": 3
+    }
+  ]
+}

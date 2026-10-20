@@ -44,7 +44,9 @@ function check() {
       if (!Array.isArray(x.bad) || x.bad.length !== 3) errors.push(`${at}: wymagane dokładnie 3 błędne odpowiedzi`);
       const all = [x.ok, ...(x.bad || [])];
       all.forEach(a => { if (typeof a !== 'string' || !a.trim()) errors.push(`${at}: pusta odpowiedź`); else if (a.length > MAX_A) errors.push(`${at}: odpowiedź "${a}" ma ${a.length} znaków (max ${MAX_A})`); });
-      if (new Set(all.map(norm)).size !== all.length) errors.push(`${at}: odpowiedzi się powtarzają`);
+      // Przy odpowiedziach liczy się znak liczby: "-4" i "4" to różne odpowiedzi.
+      const normA = a => String(a).toLowerCase().replace(/\s+/g, ' ').trim();
+      if (new Set(all.map(normA)).size !== all.length) errors.push(`${at}: odpowiedzi się powtarzają`);
       if (x.lvl !== undefined && ![1, 2, 3].includes(x.lvl)) errors.push(`${at}: lvl musi być 1, 2 albo 3`);
       if (typeof x.q === 'string') {
         const k = norm(x.q);

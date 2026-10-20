@@ -1,0 +1,1136 @@
+{
+  "slug": "gry-wideo",
+  "name": "Gry wideo",
+  "questions": [
+    {
+      "q": "Które polskie studio stworzyło grę „Wiedźmin 3: Dziki Gon”?",
+      "ok": "CD Projekt Red",
+      "bad": [
+        "Techland",
+        "People Can Fly",
+        "11 bit studios"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma produkuje konsole PlayStation?",
+      "ok": "Sony",
+      "bad": [
+        "Nintendo",
+        "Microsoft",
+        "Sega"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma stworzyła konsolę Xbox?",
+      "ok": "Microsoft",
+      "bad": [
+        "Sony",
+        "Nintendo",
+        "Sega"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się wąsaty hydraulik, maskotka firmy Nintendo?",
+      "ok": "Mario",
+      "bad": [
+        "Luigi",
+        "Wario",
+        "Toad"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak ma na imię brat Mario w grach Nintendo?",
+      "ok": "Luigi",
+      "bad": [
+        "Wario",
+        "Waluigi",
+        "Toad"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak ma na imię księżniczka z Grzybowego Królestwa w grach o Mario?",
+      "ok": "Peach",
+      "bad": [
+        "Daisy",
+        "Zelda",
+        "Rosalina"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się kolczasty król żółwi, główny wróg Mario?",
+      "ok": "Bowser",
+      "bad": [
+        "Ganondorf",
+        "Wario",
+        "Doktor Eggman"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak ma na imię bohater serii „The Legend of Zelda”?",
+      "ok": "Link",
+      "bad": [
+        "Zelda",
+        "Ganon",
+        "Navi"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakiego koloru jest jeż Sonic?",
+      "ok": "Niebieskiego",
+      "bad": [
+        "Czerwonego",
+        "Zielonego",
+        "Żółtego"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma stworzyła jeża Sonica?",
+      "ok": "Sega",
+      "bad": [
+        "Nintendo",
+        "Capcom",
+        "Namco"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się szalony naukowiec, główny wróg Sonica?",
+      "ok": "Doktor Eggman",
+      "bad": [
+        "Bowser",
+        "Ganondorf",
+        "Doktor Wily"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która japońska firma wydała w 1980 roku grę „Pac-Man”?",
+      "ok": "Namco",
+      "bad": [
+        "Atari",
+        "Sega",
+        "Taito"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest twórcą postaci Mario i serii „The Legend of Zelda”?",
+      "ok": "Shigeru Miyamoto",
+      "bad": [
+        "Hideo Kojima",
+        "Satoru Iwata",
+        "Hironobu Sakaguchi"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest twórcą serii „Metal Gear”?",
+      "ok": "Hideo Kojima",
+      "bad": [
+        "Shigeru Miyamoto",
+        "Shinji Mikami",
+        "Yu Suzuki"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Od produkcji czego zaczynało działalność Nintendo w 1889 roku?",
+      "ok": "Karty do gry",
+      "bad": [
+        "Zabawki z drewna",
+        "Rowery",
+        "Zegarki"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się klacz Geralta w grach z serii „Wiedźmin”?",
+      "ok": "Płotka",
+      "bad": [
+        "Kasztanka",
+        "Siwka",
+        "Bucefał"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak ma na imię przybrana córka Geralta w „Wiedźminie 3”?",
+      "ok": "Ciri",
+      "bad": [
+        "Yennefer",
+        "Triss",
+        "Keira"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na podstawie czyich książek powstała seria gier „Wiedźmin”?",
+      "ok": "Andrzej Sapkowski",
+      "bad": [
+        "Stanisław Lem",
+        "Jacek Dukaj",
+        "Jarosław Grzędowicz"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się karciana minigra z „Wiedźmina 3”?",
+      "ok": "Gwint",
+      "bad": [
+        "Kości",
+        "Durak",
+        "Tysiąc"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku ukazał się „Wiedźmin 3: Dziki Gon”?",
+      "ok": "2015",
+      "bad": [
+        "2013",
+        "2016",
+        "2017"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się dodatek do „Wiedźmina 3”, w którym pojawia się Gaunter O'Dimm?",
+      "ok": "Serca z kamienia",
+      "bad": [
+        "Krew i wino",
+        "Zabójcy królów",
+        "Pani Jeziora"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Które polskie studio stworzyło grę „Dying Light”?",
+      "ok": "Techland",
+      "bad": [
+        "CD Projekt Red",
+        "Flying Wild Hog",
+        "Bloober Team"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które polskie studio stworzyło grę „This War of Mine”?",
+      "ok": "11 bit studios",
+      "bad": [
+        "Techland",
+        "CI Games",
+        "Bloober Team"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gra 11 bit studios o mieście ogrzewanym przez wielki generator?",
+      "ok": "Frostpunk",
+      "bad": [
+        "Anno 1800",
+        "Surviving Mars",
+        "Banished"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które polskie studio stworzyło strzelankę „Painkiller” z 2004 roku?",
+      "ok": "People Can Fly",
+      "bad": [
+        "Techland",
+        "CD Projekt Red",
+        "City Interactive"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Które polskie studio stworzyło horror „Layers of Fear”?",
+      "ok": "Bloober Team",
+      "bad": [
+        "11 bit studios",
+        "Techland",
+        "People Can Fly"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakim mieście toczy się akcja gry „Cyberpunk 2077”?",
+      "ok": "Night City",
+      "bad": [
+        "Neo Tokyo",
+        "Rapture",
+        "Los Santos"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który aktor użyczył wizerunku postaci Johnny'ego Silverhanda w „Cyberpunk 2077”?",
+      "ok": "Keanu Reeves",
+      "bad": [
+        "Tom Cruise",
+        "Brad Pitt",
+        "Johnny Depp"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku ukazała się gra „Cyberpunk 2077”?",
+      "ok": "2020",
+      "bad": [
+        "2019",
+        "2021",
+        "2018"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się fikcyjne miasto, w którym toczy się akcja „GTA V”?",
+      "ok": "Los Santos",
+      "bad": [
+        "Vice City",
+        "Liberty City",
+        "San Fierro"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na którym prawdziwym mieście wzorowano Vice City z serii GTA?",
+      "ok": "Miami",
+      "bad": [
+        "Los Angeles",
+        "Nowy Jork",
+        "Las Vegas"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które studio tworzy serię „Grand Theft Auto”?",
+      "ok": "Rockstar Games",
+      "bad": [
+        "Ubisoft",
+        "Bethesda",
+        "Valve"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W którym roku ukazała się gra „GTA V”?",
+      "ok": "2013",
+      "bad": [
+        "2011",
+        "2014",
+        "2015"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się główny bohater gry „Red Dead Redemption 2”?",
+      "ok": "Arthur Morgan",
+      "bad": [
+        "John Marston",
+        "Dutch van der Linde",
+        "Micah Bell"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W którym roku zadebiutował pierwszy Xbox?",
+      "ok": "2001",
+      "bad": [
+        "1999",
+        "2003",
+        "2005"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W którym roku w Japonii ukazała się pierwsza konsola PlayStation?",
+      "ok": "1994",
+      "bad": [
+        "1992",
+        "1996",
+        "1998"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się przenośna konsola Nintendo wydana w 1989 roku?",
+      "ok": "Game Boy",
+      "bad": [
+        "Game Gear",
+        "Atari Lynx",
+        "Nintendo DS"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się hybrydowa konsola Nintendo z 2017 roku?",
+      "ok": "Nintendo Switch",
+      "bad": [
+        "Wii U",
+        "Nintendo 3DS",
+        "GameCube"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się konsola Nintendo z 2006 roku sterowana ruchami kontrolera?",
+      "ok": "Wii",
+      "bad": [
+        "Wii U",
+        "GameCube",
+        "Nintendo 64"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jakim skrótem określa się 8-bitową konsolę Nintendo z lat 80.?",
+      "ok": "NES",
+      "bad": [
+        "SNES",
+        "N64",
+        "GBA"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywał się popularny w Polsce w latach 90. klon konsoli NES?",
+      "ok": "Pegasus",
+      "bad": [
+        "Amiga",
+        "Atari",
+        "Commodore"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywała się przenośna konsola Sony wydana w 2004 roku?",
+      "ok": "PSP",
+      "bad": [
+        "PS Vita",
+        "Game Gear",
+        "Nintendo DS"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma wyprodukowała konsolę Dreamcast?",
+      "ok": "Sega",
+      "bad": [
+        "Sony",
+        "Nintendo",
+        "Atari"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się przenośny komputer do gier wydany przez Valve w 2022 roku?",
+      "ok": "Steam Deck",
+      "bad": [
+        "Steam Box",
+        "PS Vita",
+        "Nintendo Switch"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki kształt widnieje na przyciskach pada PlayStation obok trójkąta, kółka i krzyżyka?",
+      "ok": "Kwadrat",
+      "bad": [
+        "Gwiazdka",
+        "Romb",
+        "Serce"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywał się słynny 8-bitowy komputer firmy Commodore z 1982 roku?",
+      "ok": "Commodore 64",
+      "bad": [
+        "Amiga 500",
+        "ZX Spectrum",
+        "Atari 800XL"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest współzałożycielem i wieloletnim szefem firmy Valve?",
+      "ok": "Gabe Newell",
+      "bad": [
+        "John Carmack",
+        "Tim Sweeney",
+        "Todd Howard"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się platforma cyfrowej dystrybucji gier firmy Valve?",
+      "ok": "Steam",
+      "bad": [
+        "Origin",
+        "Uplay",
+        "GOG"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się platforma z grami bez zabezpieczeń DRM, stworzona przez CD Projekt?",
+      "ok": "GOG",
+      "bad": [
+        "Steam",
+        "Epic Games Store",
+        "itch.io"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się bohater serii „Half-Life”?",
+      "ok": "Gordon Freeman",
+      "bad": [
+        "Duke Nukem",
+        "Marcus Fenix",
+        "Sam Fisher"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się bohater serii „Halo”?",
+      "ok": "Master Chief",
+      "bad": [
+        "Marcus Fenix",
+        "Commander Shepard",
+        "Isaac Clarke"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które studio stworzyło pierwsze gry z serii „Halo”?",
+      "ok": "Bungie",
+      "bad": [
+        "Infinity Ward",
+        "Valve",
+        "Epic Games"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się bohaterka serii „Tomb Raider”?",
+      "ok": "Lara Croft",
+      "bad": [
+        "Jill Valentine",
+        "Samus Aran",
+        "Ellie"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się bohaterka serii „Metroid”?",
+      "ok": "Samus Aran",
+      "bad": [
+        "Jill Valentine",
+        "Bayonetta",
+        "Chun-Li"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które studio stworzyło grę „Minecraft”?",
+      "ok": "Mojang",
+      "bad": [
+        "Valve",
+        "Epic Games",
+        "Blizzard"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jaki pseudonim nosi Markus Persson, twórca „Minecrafta”?",
+      "ok": "Notch",
+      "bad": [
+        "Jeb",
+        "Dinnerbone",
+        "Herobrine"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się zielony, wybuchający przeciwnik w „Minecrafcie”?",
+      "ok": "Creeper",
+      "bad": [
+        "Enderman",
+        "Zombie",
+        "Szkielet"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma stworzyła grę „Fortnite”?",
+      "ok": "Epic Games",
+      "bad": [
+        "Valve",
+        "Riot Games",
+        "Blizzard"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która firma stworzyła grę „League of Legends”?",
+      "ok": "Riot Games",
+      "bad": [
+        "Blizzard",
+        "Valve",
+        "Epic Games"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma stworzyła grę „World of Warcraft”?",
+      "ok": "Blizzard",
+      "bad": [
+        "Riot Games",
+        "Bethesda",
+        "BioWare"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której grze Blizzarda walczą ze sobą Terranie, Zergowie i Protossi?",
+      "ok": "StarCraft",
+      "bad": [
+        "Warcraft",
+        "Diablo",
+        "Overwatch"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze Valve rywalizują drużyny terrorystów i antyterrorystów?",
+      "ok": "Counter-Strike",
+      "bad": [
+        "Team Fortress 2",
+        "Left 4 Dead",
+        "Half-Life"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ilu graczy liczy drużyna w standardowym meczu turniejowym Counter-Strike?",
+      "ok": "5",
+      "bad": [
+        "4",
+        "6",
+        "7"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gra MOBA wydana przez Valve w 2013 roku?",
+      "ok": "Dota 2",
+      "bad": [
+        "Heroes of the Storm",
+        "Smite",
+        "League of Legends"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gra Atari z 1972 roku, symulująca tenis stołowy?",
+      "ok": "Pong",
+      "bad": [
+        "Asteroids",
+        "Breakout",
+        "Space Invaders"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z jakiego kraju pochodzi automatowa gra „Space Invaders” z 1978 roku?",
+      "ok": "Japonia",
+      "bad": [
+        "USA",
+        "Wielka Brytania",
+        "Korea Południowa"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się przełomowa strzelanka studia id Software z 1993 roku?",
+      "ok": "Doom",
+      "bad": [
+        "Quake",
+        "Wolfenstein 3D",
+        "Heretic"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się goryl, przeciwnik Mario w automatowej grze Nintendo z 1981 roku?",
+      "ok": "Donkey Kong",
+      "bad": [
+        "King Kong",
+        "Diddy Kong",
+        "Bowser"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się seria wyścigów gokartowych z postaciami Nintendo?",
+      "ok": "Mario Kart",
+      "bad": [
+        "Mario Party",
+        "Crash Team Racing",
+        "F-Zero"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się seria wyścigowa na PlayStation tworzona przez Polyphony Digital?",
+      "ok": "Gran Turismo",
+      "bad": [
+        "Forza",
+        "Need for Speed",
+        "Project CARS"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się torbacz, maskotka PlayStation z lat 90. stworzona przez Naughty Dog?",
+      "ok": "Crash Bandicoot",
+      "bad": [
+        "Spyro",
+        "Rayman",
+        "Jak"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gatunek gier wzorowanych na „Dark Souls”?",
+      "ok": "Soulslike",
+      "bad": [
+        "Roguelike",
+        "Metroidvania",
+        "Battle royale"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Które japońskie studio stworzyło serię „Dark Souls”?",
+      "ok": "FromSoftware",
+      "bad": [
+        "Capcom",
+        "Square Enix",
+        "Konami"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która gra FromSoftware z 2022 roku powstała przy udziale George'a R.R. Martina?",
+      "ok": "Elden Ring",
+      "bad": [
+        "Sekiro",
+        "Bloodborne",
+        "Demon's Souls"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma tworzy serię „Resident Evil”?",
+      "ok": "Capcom",
+      "bad": [
+        "Konami",
+        "Square Enix",
+        "Sega"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która firma stworzyła serię horrorów „Silent Hill”?",
+      "ok": "Konami",
+      "bad": [
+        "Capcom",
+        "Sega",
+        "Namco"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która firma wydaje serię „Final Fantasy”?",
+      "ok": "Square Enix",
+      "bad": [
+        "Capcom",
+        "Bandai Namco",
+        "Konami"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której serii bijatyk walczą Ryu i Ken?",
+      "ok": "Street Fighter",
+      "bad": [
+        "Tekken",
+        "Mortal Kombat",
+        "The King of Fighters"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której bijatyce pada słynne polecenie „Finish Him”?",
+      "ok": "Mortal Kombat",
+      "bad": [
+        "Tekken",
+        "Street Fighter",
+        "Soulcalibur"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się żółty, elektryczny Pokémon, maskotka serii?",
+      "ok": "Pikachu",
+      "bad": [
+        "Raichu",
+        "Jigglypuff",
+        "Eevee"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile gatunków Pokémonów występowało w pierwszej generacji gier?",
+      "ok": "151",
+      "bad": [
+        "150",
+        "100",
+        "251"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej grze mobilnej z 2016 roku łapano stworki w rzeczywistości rozszerzonej?",
+      "ok": "Pokémon GO",
+      "bad": [
+        "Ingress",
+        "Clash Royale",
+        "Candy Crush Saga"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się seria gier, w której kieruje się życiem wirtualnych ludzi?",
+      "ok": "The Sims",
+      "bad": [
+        "SimCity",
+        "Second Life",
+        "Spore"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto jest twórcą gier „SimCity” i „The Sims”?",
+      "ok": "Will Wright",
+      "bad": [
+        "Sid Meier",
+        "Peter Molyneux",
+        "John Carmack"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się fikcyjny język, którym mówią postacie w „The Sims”?",
+      "ok": "Simlish",
+      "bad": [
+        "Simlingo",
+        "Simspeak",
+        "Sindarin"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się seria strategii Sida Meiera o rozwoju cywilizacji?",
+      "ok": "Civilization",
+      "bad": [
+        "Age of Empires",
+        "Europa Universalis",
+        "Total War"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się seria Ubisoftu o bractwie skrytobójców?",
+      "ok": "Assassin's Creed",
+      "bad": [
+        "Hitman",
+        "Splinter Cell",
+        "Dishonored"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi firma Ubisoft?",
+      "ok": "Francja",
+      "bad": [
+        "Kanada",
+        "Belgia",
+        "USA"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się bohater gry „Assassin's Creed II”?",
+      "ok": "Ezio Auditore",
+      "bad": [
+        "Altaïr",
+        "Connor",
+        "Edward Kenway"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Pod jaką nazwą do 2023 roku ukazywały się gry piłkarskie EA Sports, dziś znane jako EA Sports FC?",
+      "ok": "FIFA",
+      "bad": [
+        "PES",
+        "Football Manager",
+        "eFootball"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się seria RPG studia Bethesda, której akcja toczy się w Tamriel?",
+      "ok": "The Elder Scrolls",
+      "bad": [
+        "Fallout",
+        "Dragon Age",
+        "Gothic"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze Bethesdy smocze okrzyki brzmią na przykład „Fus Ro Dah”?",
+      "ok": "Skyrim",
+      "bad": [
+        "Oblivion",
+        "Morrowind",
+        "Fallout 3"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której serii gier ludzie chronili się w Kryptach przed skutkami wojny atomowej?",
+      "ok": "Fallout",
+      "bad": [
+        "Metro",
+        "S.T.A.L.K.E.R.",
+        "Wasteland"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się niemiecka gra RPG z 2001 roku z Bezimiennym w roli głównej?",
+      "ok": "Gothic",
+      "bad": [
+        "Risen",
+        "Two Worlds",
+        "Arcania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się bohater serii „God of War”?",
+      "ok": "Kratos",
+      "bad": [
+        "Dante",
+        "Ares",
+        "Marcus Fenix"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jakiej mitologii oparto grę „God of War” z 2018 roku?",
+      "ok": "Nordyckiej",
+      "bad": [
+        "Greckiej",
+        "Egipskiej",
+        "Japońskiej"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się seria studia Naughty Dog, w której występują Joel i Ellie?",
+      "ok": "The Last of Us",
+      "bad": [
+        "Uncharted",
+        "Days Gone",
+        "Ghost of Tsushima"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się bohater serii „Uncharted”?",
+      "ok": "Nathan Drake",
+      "bad": [
+        "Joel Miller",
+        "Sam Fisher",
+        "Max Payne"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się podwodne miasto z gry „BioShock”?",
+      "ok": "Rapture",
+      "bad": [
+        "Columbia",
+        "City 17",
+        "Midgar"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gra z 2009 roku, w której ptaki wystrzeliwuje się z procy w świnie?",
+      "ok": "Angry Birds",
+      "bad": [
+        "Flappy Bird",
+        "Cut the Rope",
+        "Fruit Ninja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Z jakiego kraju pochodzi studio Rovio, twórca „Angry Birds”?",
+      "ok": "Finlandia",
+      "bad": [
+        "Szwecja",
+        "Norwegia",
+        "Dania"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gra mobilna z 2012 roku polegająca na układaniu cukierków w rzędy?",
+      "ok": "Candy Crush Saga",
+      "bad": [
+        "Bejeweled",
+        "FarmVille",
+        "Fruit Ninja"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się gatunek gier, w którym wygrywa ostatni gracz, który przetrwa?",
+      "ok": "Battle royale",
+      "bad": [
+        "MOBA",
+        "Roguelike",
+        "Sandbox"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się seria strzelanek wojennych Activision, zapoczątkowana w 2003 roku?",
+      "ok": "Call of Duty",
+      "bad": [
+        "Battlefield",
+        "Medal of Honor",
+        "Brothers in Arms"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Które szwedzkie studio tworzy serię „Battlefield”?",
+      "ok": "DICE",
+      "bad": [
+        "Infinity Ward",
+        "Treyarch",
+        "Bungie"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się gra niezależna o prowadzeniu farmy w miasteczku Pelican Town?",
+      "ok": "Stardew Valley",
+      "bad": [
+        "Harvest Moon",
+        "Animal Crossing",
+        "Terraria"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której serii Nintendo gracz zamieszkuje w wiosce lub na wyspie wśród zwierząt?",
+      "ok": "Animal Crossing",
+      "bad": [
+        "Stardew Valley",
+        "Pikmin",
+        "Harvest Moon"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze niezależnej z 2015 roku występują szkielety Sans i Papyrus?",
+      "ok": "Undertale",
+      "bad": [
+        "Cuphead",
+        "Celeste",
+        "Hollow Knight"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się gra z 2017 roku stylizowana na kreskówki z lat 30.?",
+      "ok": "Cuphead",
+      "bad": [
+        "Undertale",
+        "Hollow Knight",
+        "Celeste"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się dodatek do „Cyberpunk 2077” wydany w 2023 roku?",
+      "ok": "Widmo wolności",
+      "bad": [
+        "Krew i wino",
+        "Ostatni bastion",
+        "Nocna zmiana"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się seria gier z łysym zabójcą z kodem kreskowym na karku?",
+      "ok": "Hitman",
+      "bad": [
+        "Max Payne",
+        "Splinter Cell",
+        "Dishonored"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Które duńskie studio stworzyło serię „Hitman”?",
+      "ok": "IO Interactive",
+      "bad": [
+        "Remedy",
+        "DICE",
+        "Paradox"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi studio Remedy, twórca gier „Max Payne” i „Alan Wake”?",
+      "ok": "Finlandia",
+      "bad": [
+        "Szwecja",
+        "Dania",
+        "Kanada"
+      ],
+      "lvl": 3
+    }
+  ]
+}

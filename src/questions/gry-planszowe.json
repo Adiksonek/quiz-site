@@ -1,0 +1,1116 @@
+{
+  "slug": "gry-planszowe",
+  "name": "Gry planszowe i karciane",
+  "questions": [
+    {
+      "q": "Z ilu pól składa się szachownica?",
+      "ok": "64",
+      "bad": [
+        "81",
+        "100",
+        "49"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile kart ma standardowa talia do brydża?",
+      "ok": "52",
+      "bad": [
+        "54",
+        "48",
+        "32"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wynosi suma oczek na standardowej sześciennej kostce do gry?",
+      "ok": "21",
+      "bad": [
+        "18",
+        "24",
+        "36"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która figura szachowa porusza się tylko po przekątnej?",
+      "ok": "Goniec",
+      "bad": [
+        "Wieża",
+        "Skoczek",
+        "Hetman"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile kart zakrytych dostaje każdy gracz na początku rozdania w Texas Hold'em?",
+      "ok": "2",
+      "bad": [
+        "5",
+        "3",
+        "7"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile kart wspólnych łącznie wykłada się na stół w jednym rozdaniu Texas Hold'em?",
+      "ok": "5",
+      "bad": [
+        "3",
+        "4",
+        "7"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile pionków ma każdy gracz na początku partii szachów?",
+      "ok": "8",
+      "bad": [
+        "6",
+        "10",
+        "16"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile wszystkich bierek ma każdy gracz na początku partii szachów?",
+      "ok": "16",
+      "bad": [
+        "12",
+        "18",
+        "20"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Która figura szachowa porusza się po polach w kształcie litery L?",
+      "ok": "Skoczek",
+      "bad": [
+        "Goniec",
+        "Wieża",
+        "Hetman"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Która figura szachowa może poruszać się w dowolnym kierunku o dowolną liczbę pól?",
+      "ok": "Hetman",
+      "bad": [
+        "Wieża",
+        "Król",
+        "Goniec"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się ruch w szachach wykonywany jednocześnie królem i wieżą?",
+      "ok": "Roszada",
+      "bad": [
+        "Promocja",
+        "Gambit",
+        "Fianchetto"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak po francusku nazywa się bicie pionka w przelocie?",
+      "ok": "En passant",
+      "bad": [
+        "Zugzwang",
+        "Fianchetto",
+        "Touché"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się sytuacja, gdy szachowany król nie ma żadnej obrony?",
+      "ok": "Mat",
+      "bad": [
+        "Pat",
+        "Remis",
+        "Zugzwang"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się sytuacja, gdy gracz nie ma legalnego ruchu, a jego król nie jest szachowany?",
+      "ok": "Pat",
+      "bad": [
+        "Mat",
+        "Zugzwang",
+        "Gambit"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się zamiana pionka na inną figurę po dojściu do ostatniego rzędu?",
+      "ok": "Promocja",
+      "bad": [
+        "Roszada",
+        "Gambit",
+        "Fianchetto"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak w szachach nazywa się przymus wykonania ruchu, który pogarsza pozycję?",
+      "ok": "Zugzwang",
+      "bad": [
+        "Fianchetto",
+        "Gambit",
+        "Pat"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się początkowa faza partii szachów?",
+      "ok": "Debiut",
+      "bad": [
+        "Gra środkowa",
+        "Końcówka",
+        "Gambit"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który kolor wykonuje pierwszy ruch w partii szachów?",
+      "ok": "Białe",
+      "bad": [
+        "Czarne",
+        "Losowany",
+        "Ten, kto ma mniej punktów"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Na jakim polu stoi biały hetman na początku partii szachów?",
+      "ok": "d1",
+      "bad": [
+        "e1",
+        "c1",
+        "d8"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile punktów jest tradycyjnie warty hetman przy liczeniu materiału w szachach?",
+      "ok": "9",
+      "bad": [
+        "5",
+        "3",
+        "12"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się otwarcie szachowe rozpoczynające się ruchami 1.e4 c5?",
+      "ok": "Obrona sycylijska",
+      "bad": [
+        "Obrona francuska",
+        "Partia hiszpańska",
+        "Gambit królewski"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się otwarcie szachowe 1.d4 d5 2.c4?",
+      "ok": "Gambit hetmański",
+      "bad": [
+        "Obrona sycylijska",
+        "Partia włoska",
+        "Obrona Caro-Kann"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się system rankingowy siły gry szachistów?",
+      "ok": "Ranking Elo",
+      "bad": [
+        "Ranking ATP",
+        "System Buchholza",
+        "Współczynnik Morphy'ego"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jaki jest najwyższy tytuł szachowy nadawany przez FIDE?",
+      "ok": "Arcymistrz",
+      "bad": [
+        "Mistrz międzynarodowy",
+        "Mistrz FIDE",
+        "Kandydat na mistrza"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto był pierwszym oficjalnym mistrzem świata w szachach?",
+      "ok": "Wilhelm Steinitz",
+      "bad": [
+        "Emanuel Lasker",
+        "José Raúl Capablanca",
+        "Paul Morphy"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakim komputerem IBM przegrał mecz Garri Kasparow w 1997 roku?",
+      "ok": "Deep Blue",
+      "bad": [
+        "AlphaZero",
+        "Watson",
+        "Stockfish"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Który Amerykanin zdobył tytuł mistrza świata w szachach w 1972 roku?",
+      "ok": "Bobby Fischer",
+      "bad": [
+        "Paul Morphy",
+        "Hikaru Nakamura",
+        "Fabiano Caruana"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Z kim Bobby Fischer rozegrał mecz o mistrzostwo świata w 1972 roku?",
+      "ok": "Borys Spasski",
+      "bad": [
+        "Anatolij Karpow",
+        "Michaił Tal",
+        "Tigran Petrosjan"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Który szachista nosił przydomek „Czarodziej z Rygi”?",
+      "ok": "Michaił Tal",
+      "bad": [
+        "Aleksander Alechin",
+        "Anatolij Karpow",
+        "Wasilij Smysłow"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi szachista Magnus Carlsen?",
+      "ok": "Norwegia",
+      "bad": [
+        "Szwecja",
+        "Dania",
+        "Islandia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Który polski szachista wygrał Puchar Świata FIDE w 2021 roku?",
+      "ok": "Jan-Krzysztof Duda",
+      "bad": [
+        "Radosław Wojtaszek",
+        "Mateusz Bartel",
+        "Kacper Piorun"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju wywodzą się szachy?",
+      "ok": "Indie",
+      "bad": [
+        "Chiny",
+        "Egipt",
+        "Grecja"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Na planszy o ilu polach gra się w warcaby polskie (międzynarodowe)?",
+      "ok": "100",
+      "bad": [
+        "64",
+        "81",
+        "144"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej grze kładzie się czarne i białe kamienie na planszy 19 na 19 linii?",
+      "ok": "Go",
+      "bad": [
+        "Reversi",
+        "Mahjong",
+        "Warcaby"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się program DeepMind, który w 2016 roku pokonał mistrza go Lee Sedola?",
+      "ok": "AlphaGo",
+      "bad": [
+        "Deep Blue",
+        "Watson",
+        "Stockfish"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Pod jaką inną nazwą znana jest gra Reversi?",
+      "ok": "Othello",
+      "bad": [
+        "Go",
+        "Halma",
+        "Mancala"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze wygrywa ten, kto pierwszy ustawi pięć kamieni w rzędzie?",
+      "ok": "Gomoku",
+      "bad": [
+        "Go",
+        "Othello",
+        "Mahjong"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Z jakiego kraju pochodzi gra mahjong?",
+      "ok": "Chiny",
+      "bad": [
+        "Japonia",
+        "Korea",
+        "Wietnam"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej grze planszowej kupuje się ulice i stawia na nich domy i hotele?",
+      "ok": "Monopoly",
+      "bad": [
+        "Cluedo",
+        "Ryzyko",
+        "Catan"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile pól znajduje się wokół planszy do gry Monopoly?",
+      "ok": "40",
+      "bad": [
+        "36",
+        "44",
+        "48"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywała się popularna w Polsce gra planszowa wzorowana na Monopoly?",
+      "ok": "Eurobiznes",
+      "bad": [
+        "Grzybobranie",
+        "Chińczyk",
+        "Kalambury"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gra o hodowli zwierząt wymyślona przez matematyka Karola Borsuka?",
+      "ok": "Superfarmer",
+      "bad": [
+        "Eurobiznes",
+        "Grzybobranie",
+        "Farmer"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej grze układa się słowa z płytek z literami na planszy?",
+      "ok": "Scrabble",
+      "bad": [
+        "Cluedo",
+        "Domino",
+        "Mahjong"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile płytek z literami ma każdy gracz na stojaku w Scrabble?",
+      "ok": "7",
+      "bad": [
+        "5",
+        "6",
+        "8"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile punktów jest warta pusta płytka (blank) w Scrabble?",
+      "ok": "0",
+      "bad": [
+        "1",
+        "5",
+        "10"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile pól ma każdy bok planszy do Scrabble?",
+      "ok": "15",
+      "bad": [
+        "13",
+        "17",
+        "19"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W jakiej grze detektywistycznej występują panna Scarlet i pułkownik Mustard?",
+      "ok": "Cluedo",
+      "bad": [
+        "Scotland Yard",
+        "Sherlock Holmes",
+        "Dixit"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej grze detektywi ścigają tajemniczego Pana X po Londynie?",
+      "ok": "Scotland Yard",
+      "bad": [
+        "Cluedo",
+        "Mr. Jack",
+        "Ryzyko"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak brzmi polski tytuł strategicznej gry planszowej Risk?",
+      "ok": "Ryzyko",
+      "bad": [
+        "Hazard",
+        "Podbój",
+        "Imperium"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której grze buduje się drogi i osady na wyspie z sześciokątnych pól?",
+      "ok": "Catan",
+      "bad": [
+        "Carcassonne",
+        "Agricola",
+        "Wsiąść do pociągu"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Kto jest autorem gry „Catan”?",
+      "ok": "Klaus Teuber",
+      "bad": [
+        "Reiner Knizia",
+        "Uwe Rosenberg",
+        "Wolfgang Kramer"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile punktów zwycięstwa potrzeba do wygrania podstawowej wersji „Catanu”?",
+      "ok": "10",
+      "bad": [
+        "8",
+        "12",
+        "15"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze układa się kafelki tworzące średniowieczny krajobraz z miastami i drogami?",
+      "ok": "Carcassonne",
+      "bad": [
+        "Alhambra",
+        "Agricola",
+        "Dominion"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju leży miasto, od którego pochodzi nazwa gry „Carcassonne”?",
+      "ok": "Francja",
+      "bad": [
+        "Hiszpania",
+        "Włochy",
+        "Portugalia"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze buduje się trasy kolejowe łączące miasta?",
+      "ok": "Wsiąść do pociągu",
+      "bad": [
+        "Carcassonne",
+        "Pandemia",
+        "Dixit"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której kooperacyjnej grze gracze wspólnie walczą z chorobami na całym świecie?",
+      "ok": "Pandemia",
+      "bad": [
+        "Dixit",
+        "Splendor",
+        "Agricola"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się polskie wydawnictwo gier założone przez Ignacego Trzewiczka?",
+      "ok": "Portal Games",
+      "bad": [
+        "Rebel",
+        "Galakta",
+        "Granna"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W której grze opowiada się skojarzenia do kart z baśniowymi ilustracjami?",
+      "ok": "Dixit",
+      "bad": [
+        "Tajniacy",
+        "Mysterium",
+        "Dobble"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej grze dwie drużyny odgadują swoich agentów na podstawie jednowyrazowych podpowiedzi?",
+      "ok": "Tajniacy",
+      "bad": [
+        "Dixit",
+        "Mafia",
+        "Kalambury"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakiej grze układa się płytki inspirowane portugalskimi kaflami azulejos?",
+      "ok": "Azul",
+      "bad": [
+        "Splendor",
+        "Sagrada",
+        "Patchwork"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze zbiera się żetony klejnotów, kupuje karty i przyciąga arystokratów?",
+      "ok": "Splendor",
+      "bad": [
+        "Azul",
+        "Catan",
+        "Dixit"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się gra, w której wyciąga się klocki z wieży i kładzie je na jej szczycie?",
+      "ok": "Jenga",
+      "bad": [
+        "Mikado",
+        "Domino",
+        "Tangram"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się gra w podnoszenie patyczków ze stosu bez poruszenia pozostałych?",
+      "ok": "Bierki",
+      "bad": [
+        "Jenga",
+        "Pchełki",
+        "Domino"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Pod jaką nazwą w Polsce znana jest gra Ludo?",
+      "ok": "Chińczyk",
+      "bad": [
+        "Warcaby",
+        "Młynek",
+        "Grzybobranie"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej grze ustawia się trzy pionki w rzędzie na planszy z trzech kwadratów?",
+      "ok": "Młynek",
+      "bad": [
+        "Kółko i krzyżyk",
+        "Warcaby",
+        "Halma"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile pól ma plansza do gry w kółko i krzyżyk?",
+      "ok": "9",
+      "bad": [
+        "6",
+        "12",
+        "16"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której grze drabiny przenoszą pionek w górę, a węże w dół?",
+      "ok": "Węże i drabiny",
+      "bad": [
+        "Chińczyk",
+        "Grzybobranie",
+        "Eurobiznes"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak po polsku nazywa się gra backgammon?",
+      "ok": "Tryktrak",
+      "bad": [
+        "Młynek",
+        "Halma",
+        "Mancala"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile pionów ma każdy gracz na początku partii tryktraka?",
+      "ok": "15",
+      "bad": [
+        "12",
+        "16",
+        "10"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile kostek domina zawiera standardowy zestaw z maksymalnie sześcioma oczkami?",
+      "ok": "28",
+      "bad": [
+        "36",
+        "21",
+        "32"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile kart ma talia do gry w tysiąca?",
+      "ok": "24",
+      "bad": [
+        "32",
+        "52",
+        "36"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze karcianej zgłasza się meldunki, czyli pary króla z damą?",
+      "ok": "Tysiąc",
+      "bad": [
+        "Brydż",
+        "Poker",
+        "Makao"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ilu graczy bierze udział w partii brydża?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "3",
+        "6"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak w brydżu nazywa się zapowiedź wzięcia wszystkich 13 lew?",
+      "ok": "Wielki szlem",
+      "bad": [
+        "Mały szlem",
+        "Kontra",
+        "Rekontra"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile kart liczy standardowa talia z dwoma jokerami?",
+      "ok": "54",
+      "bad": [
+        "52",
+        "56",
+        "50"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile kart ma pełna talia do tarota?",
+      "ok": "78",
+      "bad": [
+        "52",
+        "64",
+        "72"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Ile kolorów, takich jak kier czy pik, ma standardowa talia kart?",
+      "ok": "4",
+      "bad": [
+        "2",
+        "3",
+        "6"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się kolor kart oznaczony czerwonym sercem?",
+      "ok": "Kier",
+      "bad": [
+        "Karo",
+        "Pik",
+        "Trefl"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się najwyższy układ w pokerze?",
+      "ok": "Poker królewski",
+      "bad": [
+        "Kareta",
+        "Full",
+        "Strit"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak w pokerze nazywa się układ trzech kart jednej wartości i dwóch kart innej?",
+      "ok": "Full",
+      "bad": [
+        "Kareta",
+        "Strit",
+        "Kolor"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak w pokerze nazywa się układ pięciu kart o kolejnych wartościach w różnych kolorach?",
+      "ok": "Strit",
+      "bad": [
+        "Kolor",
+        "Full",
+        "Kareta"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się karta, która w wielu grach może zastąpić dowolną inną?",
+      "ok": "Joker",
+      "bad": [
+        "As",
+        "Walet",
+        "Dama"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której kasynowej grze karcianej celem jest zbliżenie się do 21 punktów bez przekroczenia?",
+      "ok": "Blackjack",
+      "bad": [
+        "Poker",
+        "Bakarat",
+        "Makao"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile punktów może być wart as w blackjacku?",
+      "ok": "1 lub 11",
+      "bad": [
+        "Tylko 1",
+        "Tylko 11",
+        "10"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej grze kasynowej kulka toczy się po kole z numerowanymi przegródkami?",
+      "ok": "Ruletka",
+      "bad": [
+        "Bakarat",
+        "Craps",
+        "Keno"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile przegródek z liczbami, licząc zero, ma ruletka europejska?",
+      "ok": "37",
+      "bad": [
+        "36",
+        "38",
+        "40"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jakiego koloru jest pole zero w ruletce?",
+      "ok": "Zielonego",
+      "bad": [
+        "Czerwonego",
+        "Czarnego",
+        "Białego"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się gra karciana dla jednej osoby, znana m.in. z systemu Windows?",
+      "ok": "Pasjans",
+      "bad": [
+        "Makao",
+        "Wojna",
+        "Remik"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej grze z kolorowymi kartami trzeba wykrzyknąć jej nazwę, gdy zostaje nam jedna karta?",
+      "ok": "Uno",
+      "bad": [
+        "Dobble",
+        "Skip-Bo",
+        "Phase 10"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej prostej grze karcianej wyższa karta zabiera niższą, a remis wywołuje bitwę?",
+      "ok": "Wojna",
+      "bad": [
+        "Makao",
+        "Oczko",
+        "Piotruś"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej dziecięcej grze karcianej przegrywa ten, komu zostanie karta bez pary?",
+      "ok": "Piotruś",
+      "bad": [
+        "Wojna",
+        "Makao",
+        "Oczko"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się gra fabularna fantasy wydana w 1974 roku, znana z wielościennych kości?",
+      "ok": "Dungeons & Dragons",
+      "bad": [
+        "Warhammer",
+        "Pathfinder",
+        "Zew Cthulhu"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto jest współtwórcą gry fabularnej Dungeons & Dragons?",
+      "ok": "Gary Gygax",
+      "bad": [
+        "Richard Garfield",
+        "Klaus Teuber",
+        "Reiner Knizia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się bryła, w kształcie której wykonana jest kość k20?",
+      "ok": "Dwudziestościan",
+      "bad": [
+        "Dwunastościan",
+        "Ośmiościan",
+        "Czworościan"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Jak nazywa się kolekcjonerska gra karciana wydana w 1993 roku przez Wizards of the Coast?",
+      "ok": "Magic: The Gathering",
+      "bad": [
+        "Pokémon TCG",
+        "Hearthstone",
+        "Gwint"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Kto wymyślił kolekcjonerską grę karcianą Magic: The Gathering?",
+      "ok": "Richard Garfield",
+      "bad": [
+        "Gary Gygax",
+        "Klaus Teuber",
+        "Reiner Knizia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak w Polsce nazywa się gra w kości znana na świecie jako Yahtzee?",
+      "ok": "Generał",
+      "bad": [
+        "Marszałek",
+        "Kapral",
+        "Admirał"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W której grze towarzyskiej pokazuje się hasła bez użycia słów?",
+      "ok": "Kalambury",
+      "bad": [
+        "Tabu",
+        "Dixit",
+        "Państwa-miasta"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której grze trzeba opisać hasło bez użycia kilku zakazanych słów?",
+      "ok": "Tabu",
+      "bad": [
+        "Kalambury",
+        "Tajniacy",
+        "Dixit"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W której grze towarzyskiej mieszkańcy miasta próbują zdemaskować ukrytych przestępców?",
+      "ok": "Mafia",
+      "bad": [
+        "Tajniacy",
+        "Dixit",
+        "Pandemia"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej grze na kartce papieru zatapia się okręty przeciwnika na planszy 10 na 10?",
+      "ok": "Statki",
+      "bad": [
+        "Kółko i krzyżyk",
+        "Państwa-miasta",
+        "Wisielec"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "W jakiej grze zgaduje się słowo litera po literze, a za błędy dorysowuje się szubienicę?",
+      "ok": "Wisielec",
+      "bad": [
+        "Statki",
+        "Kalambury",
+        "Państwa-miasta"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się rodzaj gier, w których wszyscy gracze wspólnie grają przeciw grze?",
+      "ok": "Kooperacyjne",
+      "bad": [
+        "Abstrakcyjne",
+        "Imprezowe",
+        "Ekonomiczne"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "W jakim kraju założono wydawnictwo gier i puzzli Ravensburger?",
+      "ok": "Niemcy",
+      "bad": [
+        "Szwajcaria",
+        "Austria",
+        "Holandia"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "W której grze na kartce wypisuje się na czas wyrazy na wylosowaną literę w kilku kategoriach?",
+      "ok": "Państwa-miasta",
+      "bad": [
+        "Wisielec",
+        "Scrabble",
+        "Kalambury"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Jak nazywa się rodzina gier, w których przekłada się nasiona lub kamyki między dołkami w planszy?",
+      "ok": "Mankala",
+      "bad": [
+        "Go",
+        "Halma",
+        "Senet"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Jak nazywa się jedna z najstarszych znanych gier planszowych, w którą grano w starożytnym Egipcie?",
+      "ok": "Senet",
+      "bad": [
+        "Mankala",
+        "Go",
+        "Pachisi"
+      ],
+      "lvl": 3
+    },
+    {
+      "q": "Która karta w standardowej talii oznaczona jest literą A?",
+      "ok": "As",
+      "bad": [
+        "Król",
+        "Dama",
+        "Walet"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile kostek do gry używa się podczas ruchu w Monopoly?",
+      "ok": "2",
+      "bad": [
+        "1",
+        "3",
+        "4"
+      ],
+      "lvl": 1
+    },
+    {
+      "q": "Ile kart rozdaje się każdemu z czterech graczy w brydżu?",
+      "ok": "13",
+      "bad": [
+        "10",
+        "12",
+        "14"
+      ],
+      "lvl": 2
+    },
+    {
+      "q": "Ile pól ma plansza do warcabów angielskich (checkers)?",
+      "ok": "64",
+      "bad": [
+        "100",
+        "81",
+        "144"
+      ],
+      "lvl": 2
+    }
+  ]
+}
