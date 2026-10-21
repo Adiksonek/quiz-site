@@ -7,6 +7,13 @@
 <meta name="description" content="Quiz wiedzy ogólnej na żywo - każdy gra na swoim telefonie.">
 <meta name="theme-color" content="#F4F4F1" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0E0E11" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<!-- iOS: po dodaniu do ekranu początkowego gra otwiera się na pełnym ekranie, bez paska Safari -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Quiz Party">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%229%22 fill=%22%23C6F432%22/><text x=%2216%22 y=%2223%22 font-family=%22system-ui%22 font-size=%2220%22 font-weight=%22600%22 text-anchor=%22middle%22 fill=%22%23111113%22>?</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +39,9 @@
   }
 }
 *,*::before,*::after{box-sizing:border-box}
-html{background:var(--bg)}
+html{background:var(--bg);overscroll-behavior:none;-webkit-text-size-adjust:100%}
+button,a,input,label{touch-action:manipulation}
+button{-webkit-user-select:none;user-select:none}
 body{margin:0;background:var(--bg);color:var(--text);font-family:"Geist",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
 button,input{font:inherit;color:inherit}
 button{cursor:pointer}
@@ -129,6 +138,16 @@ button{cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--thumb);color:var(--text);font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,.12)}
 .seg button:disabled{cursor:default}
 .solo{margin-top:20px}
+#installSlot:not(:empty){margin-top:20px}
+#installSlot+.solo{margin-top:10px}
+#installSlot:empty+.solo{margin-top:20px}
+.install .ico{color:var(--accent-text)}
+.hint{display:flex;align-items:flex-start;gap:8px;padding:14px 6px 14px 18px}
+.hint .t{flex:1;display:flex;flex-direction:column;gap:4px}
+.hint .t b{font-size:16px;font-weight:600}
+.hint .t span{font-size:13px;line-height:1.45;color:var(--text-2)}
+.inline-ico svg{width:16px;height:16px;vertical-align:-3px}
+.hint .kick{margin:-8px 0}
 .modes{display:flex;flex-direction:column;gap:10px}
 .mode{width:100%;padding:16px 18px;display:flex;align-items:center;gap:14px;text-align:left;color:var(--text)}
 .mode[aria-checked="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
@@ -249,6 +268,7 @@ const ICON={
   ok:'<svg viewBox="0 0 24 24" class="i-ok" aria-label="Poprawna"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
   bad:'<svg viewBox="0 0 24 24" class="i-bad" aria-label="Błędna"><path d="M7 7l10 10M17 7L7 17"/></svg>',
   x:'<svg class="ico" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17"/></svg>',
+  download:'<svg class="ico" viewBox="0 0 24 24"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5"/><path d="M5 19h14"/></svg>',
   scan:'<svg class="ico" viewBox="0 0 24 24"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><path d="M7 12h10"/></svg>'
 };
 /* ---------- platforma: strona albo aplikacja (Capacitor) ---------- */
@@ -258,6 +278,10 @@ const NATIVE=!!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNative
 const API=NATIVE?(ls.get('api','')||SITE):'';
 const ORIGIN=NATIVE?SITE:location.origin;  // adres do linków zaproszeń i kodów QR
 const P=NATIVE?Capacitor.Plugins:{};
+// Zainstalowana jako PWA (z ekranu początkowego) i iPhone/iPad w przeglądarce.
+const STANDALONE=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+const IOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+let installEvt=null; // beforeinstallprompt z Chrome, gdy stronę da się zainstalować
 function vibrate(kind){
   if(P.Haptics){kind==='error'?P.Haptics.notification({type:'ERROR'}):P.Haptics.impact({style:'LIGHT'});return}
   if(navigator.vibrate)navigator.vibrate(kind==='error'?[40,40,40]:12);
@@ -332,6 +356,7 @@ function renderHome(err=''){
         <div class="brand"><i aria-hidden="true">?</i>Quiz Party</div>
         <h1 class="hero">Quiz na żywo<br>dla całej ekipy</h1>
         <p class="lead">Jedna osoba zakłada pokój, reszta dołącza kodem. Każdy odpowiada na swoim telefonie.</p>
+        <div id="installSlot">${installHTML()}</div>
         <button class="card catsum solo" id="soloBtn">
           <span class="t"><b>Graj sam</b><span id="dailyInfo">Sprint: odpowiadaj, dopóki się nie pomylisz</span></span>
           <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
@@ -371,6 +396,7 @@ function renderHome(err=''){
   };
   on('homeBtn',()=>{code='';history.replaceState(null,'','/');renderHome()});
   on('soloBtn',()=>renderSprintMenu());
+  bindInstall();
   on('scanBtn',async()=>{
     const c=await scanCode().catch(e=>{showErr(e.message);return null});
     if(!c)return;
@@ -382,6 +408,26 @@ function renderHome(err=''){
     if(c.length!==4){showErr('Kod ma 4 litery.');cd.focus();return}
     if(!needName())return; code=c;history.replaceState(null,'','/?r='+code);connect();});
 }
+
+/* ---------- instalacja jako aplikacja (PWA) ---------- */
+// Android/Chrome: przycisk z systemowym oknem instalacji. iPhone: instrukcja, bo Safari nie ma takiego okna.
+function installHTML(){
+  if(NATIVE||STANDALONE)return '';
+  if(installEvt)return `<button class="card catsum install" id="installBtn">
+    <span class="t"><b>Zainstaluj aplikację</b><span>Ikona na ekranie, gra na pełnym ekranie</span></span>${ICON.download}</button>`;
+  if(IOS&&!ls.get('iosHint',''))return `<div class="card hint" id="iosHint">
+    <span class="t"><b>Dodaj grę do ekranu początkowego</b>
+    <span>Stuknij <span class="inline-ico" aria-label="Udostępnij">${ICON.share}</span> Udostępnij, potem „Do ekranu początkowego”.</span></span>
+    <button class="kick" id="hintClose" aria-label="Nie pokazuj więcej">${ICON.x}</button></div>`;
+  return '';
+}
+function bindInstall(){
+  const b=document.getElementById('installBtn');
+  if(b)b.onclick=async()=>{if(!installEvt)return;installEvt.prompt();await installEvt.userChoice.catch(()=>{});installEvt=null;refreshInstall()};
+  const c=document.getElementById('hintClose');
+  if(c)c.onclick=()=>{ls.set('iosHint','1');refreshInstall()};
+}
+function refreshInstall(){const slot=document.getElementById('installSlot');if(slot){slot.innerHTML=installHTML();bindInstall()}}
 
 /* ---------- połączenie ---------- */
 function connect(){
@@ -915,7 +961,11 @@ if(NATIVE){
 }
 
 /* ---------- start aplikacji ---------- */
-if(code&&name&&ls.get('id:'+code,'')) connect(); else renderHome();
+if(new URLSearchParams(location.search).has('solo')){history.replaceState(null,'','/');renderSprintMenu()}
+else if(code&&name&&ls.get('id:'+code,'')) connect(); else renderHome();
+if('serviceWorker' in navigator&&!NATIVE)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;refreshInstall()});
+addEventListener('appinstalled',()=>{installEvt=null;refreshInstall()});
 addEventListener('offline',()=>{const b=document.getElementById('banner');b.textContent='Brak internetu. Gra wróci, gdy połączenie wróci.';b.hidden=false});
 addEventListener('online',()=>{const b=document.getElementById('banner');b.hidden=true;b.textContent='Brak połączenia. Łączę ponownie…';if(code&&!leaving&&ws&&ws.readyState>1)connect()});
 if(!navigator.onLine)dispatchEvent(new Event('offline'));

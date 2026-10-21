@@ -28,4 +28,9 @@ await sharp(splash('#0E0E11')).png().toFile('assets/splash-dark.png');
 mkdirSync('android/app/src/main/res/drawable-nodpi', { recursive: true });
 await sharp(svg(`<circle cx="480" cy="480" r="320" fill="${LIME}"/><g transform="translate(-32 -32)">${mark(INK, 0.5)}</g>`, 960))
   .png().toFile('android/app/src/main/res/drawable-nodpi/qp_splash_icon.png');
-console.log('assets/: icon-only, icon-foreground, icon-background, splash, splash-dark; android: qp_splash_icon');
+// Ikony PWA (strona instalowana z przeglądarki): zwykła, maskowalna (znak w bezpiecznej strefie 80%) i dla iOS.
+mkdirSync('public/icons', { recursive: true });
+for (const s of [192, 512]) await sharp(svg(mark(INK, 0.72), 1024, LIME)).resize(s, s).png().toFile(`public/icons/icon-${s}.png`);
+await sharp(svg(mark(INK, 0.56), 1024, LIME)).resize(512, 512).png().toFile('public/icons/maskable-512.png');
+await sharp(svg(mark(INK, 0.72), 1024, LIME)).resize(180, 180).png().toFile('public/icons/apple-touch-icon.png');
+console.log('assets/: icon-only, icon-foreground, icon-background, splash, splash-dark; android: qp_splash_icon; public/icons: 192, 512, maskable, apple-touch-icon');
