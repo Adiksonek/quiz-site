@@ -66,6 +66,15 @@ Strona będzie pod `http://localhost:8787`.
 Poprawna odpowiedź daje od 500 do 1000 punktów - im szybciej, tym więcej. Zła albo brak odpowiedzi: 0.
 Pytanie kończy się, gdy odpowiedzą wszyscy podłączeni gracze albo gdy skończy się czas. Host przechodzi dalej przyciskiem.
 
+## Instalacja z przeglądarki (iPhone i Android)
+
+Strona jest aplikacją webową (PWA): po zainstalowaniu ma ikonę na ekranie, otwiera się na pełnym ekranie i startuje bez sieci (gra na żywo i tak wymaga internetu).
+
+- **iPhone (Safari):** stuknij Udostępnij, potem „Do ekranu początkowego”. Na stronie startowej jest podpowiedź, którą można zamknąć na stałe.
+- **Android (Chrome):** przycisk „Zainstaluj aplikację” na stronie startowej albo menu Chrome > „Zainstaluj aplikację”.
+- Pliki: `public/manifest.webmanifest`, `public/sw.js` (strona i ikony w pamięci, `/api/*` zawsze z sieci), ikony w `public/icons/` z `scripts/app-assets.mjs`.
+- Na iPhonie link z zaproszeniem otwiera się w Safari, nie w zainstalowanej grze. W grze wystarczy wpisać kod pokoju.
+
 ## Aplikacja na Androida
 
 Ten sam frontend (`public/`) w Capacitorze. Plan i decyzje: `docs/ANDROID_PLAN.md`.

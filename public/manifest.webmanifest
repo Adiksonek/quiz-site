@@ -1,0 +1,20 @@
+{
+  "name": "Quiz Party",
+  "short_name": "Quiz Party",
+  "description": "Quiz na żywo dla całej ekipy. Każdy odpowiada na swoim telefonie.",
+  "lang": "pl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E0E11",
+  "theme_color": "#0E0E11",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Graj sam", "short_name": "Sprint", "description": "Sprint: odpowiadaj, dopóki się nie pomylisz", "url": "/?solo=1", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
