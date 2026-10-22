@@ -51,10 +51,7 @@
     { "q": "Za jaki rodzaj twórczości przyznawana jest Nagroda im. Ryszarda Kapuścińskiego?", "ok": "Za reportaż literacki", "bad": ["Za felieton", "Za poezję", "Za fotografię prasową"], "lvl": 2 },
     { "q": "Jak nazywa się nagroda dziennikarska przyznawana przez polski magazyn „Press”?", "ok": "Grand Press", "bad": ["Wiktory", "Telekamery", "Fryderyki"], "lvl": 2 },
     { "q": "Jak nazywała się pierwsza polska gazeta, wydawana od 1661 roku?", "ok": "„Merkuriusz Polski”", "bad": ["„Monitor”", "„Kurier Warszawski”", "„Gazeta Warszawska”"], "lvl": 2 },
-    { "q": "Kto był pierwszym redaktorem „Merkuriusza Polskiego”?", "ok": "Hieronim Pinocci", "bad": ["Ignacy Krasicki", "Franciszek Bohomolec", "Stanisław Konarski"], "lvl": 3 },
-    { "q": "Jak nazywało się oświeceniowe czasopismo wzorowane na angielskim „Spectatorze”, wydawane od 1765 roku?", "ok": "„Monitor”", "bad": ["„Merkuriusz Polski”", "„Kurier Polski”", "„Tygodnik Ilustrowany”"], "lvl": 3 },
     { "q": "W którym roku Polskie Radio rozpoczęło regularne nadawanie programu?", "ok": "1926", "bad": ["1918", "1935", "1945"], "lvl": 3 },
-    { "q": "W którym roku nadano w Warszawie pierwszy powojenny eksperymentalny program telewizyjny?", "ok": "1952", "bad": ["1946", "1958", "1965"], "lvl": 3 },
     { "q": "Jak nazywał się główny program informacyjny telewizji w PRL?", "ok": "Dziennik Telewizyjny", "bad": ["Fakty", "Wydarzenia", "Kropka nad i"], "lvl": 1 },
     { "q": "Jak nazywała się rozgłośnia nadająca w czasach PRL audycje po polsku z Monachium?", "ok": "Radio Wolna Europa", "bad": ["Radio Zet", "BBC World Service", "Radio Luxembourg"], "lvl": 1 },
     { "q": "Kto kierował Rozgłośnią Polską Radia Wolna Europa w latach 1952-1976?", "ok": "Jan Nowak-Jeziorański", "bad": ["Jerzy Giedroyc", "Zbigniew Brzeziński", "Jan Karski"], "lvl": 2 },
@@ -66,7 +63,6 @@
     { "q": "Jak nazywał się pierwszy polski całodobowy kanał informacyjny, uruchomiony w 2001 roku?", "ok": "TVN24", "bad": ["TVP Info", "Polsat News", "Superstacja"], "lvl": 1 },
     { "q": "Z jakiego kraju pochodzi agencja informacyjna Reuters?", "ok": "Z Wielkiej Brytanii", "bad": ["Z USA", "Z Niemiec", "Z Francji"], "lvl": 2 },
     { "q": "Czego używał na początku Paul Julius Reuter do szybkiego przesyłania notowań giełdowych?", "ok": "Gołębi pocztowych", "bad": ["Balonów", "Sygnałów dymnych", "Kurierów konnych"], "lvl": 3 },
-    { "q": "Jak nazywa się zbiór zasad etyki dziennikarskiej przyjęty w 1995 roku przez Konferencję Mediów Polskich?", "ok": "Karta Etyczna Mediów", "bad": ["Kodeks Prasowy", "Karta Praw Reportera", "Deklaracja Mediów"], "lvl": 3 },
     { "q": "W którym roku uchwalono ustawę Prawo prasowe, obowiązującą w Polsce (z licznymi zmianami) w 2025 roku?", "ok": "1984", "bad": ["1990", "1997", "2005"], "lvl": 3 },
     { "q": "Jak nazywa się obowiązek dziennikarza nieujawniania tożsamości swojego informatora?", "ok": "Tajemnica dziennikarska", "bad": ["Autoryzacja", "Embargo", "Klauzula sumienia"], "lvl": 2 },
     { "q": "Jak nazywa się dziennikarstwo oparte na analizie i wizualizacji dużych zbiorów danych?", "ok": "Dziennikarstwo danych", "bad": ["Dziennikarstwo obywatelskie", "Dziennikarstwo gonzo", "Dziennikarstwo tabloidowe"], "lvl": 2 },
@@ -98,7 +94,7 @@
     { "q": "Jak nazywano prasę wydawaną przez Niemców po polsku w czasie okupacji?", "ok": "Gadzinowa", "bad": ["Podziemna", "Brukowa", "Bulwarowa"], "lvl": 2 },
     { "q": "Jak nazywał się główny konspiracyjny tygodnik Armii Krajowej?", "ok": "„Biuletyn Informacyjny”", "bad": ["„Robotnik”", "„Wiadomości Polskie”", "„Szaniec”"], "lvl": 3 },
     { "q": "Jak tradycyjnie nazywa się zmyśloną, nieprawdziwą wiadomość prasową?", "ok": "Kaczka dziennikarska", "bad": ["Gęś redakcyjna", "Wróbel prasowy", "Sroka medialna"], "lvl": 1 },
-    { "q": "Jak nazywa się w mediach letni okres wakacyjny, gdy brakuje ważnych wiadomości?", "ok": "Sezon ogórkowy", "bad": ["Sezon truskawkowy", "Martwy sezon", "Babie lato"], "lvl": 1 },
+    { "q": "Jak nazywa się w mediach letni okres wakacyjny, gdy brakuje ważnych wiadomości?", "ok": "Sezon ogórkowy", "bad": ["Sezon truskawkowy", "Sezon grzewczy", "Babie lato"], "lvl": 1 },
     { "q": "Jak nazywa się osoba oficjalnie przekazująca mediom stanowisko instytucji lub firmy?", "ok": "Rzecznik prasowy", "bad": ["Korespondent", "Lobbysta", "Felietonista"], "lvl": 1 },
     { "q": "Jak nazywa się łączenie informacji z rozrywką w przekazie medialnym?", "ok": "Infotainment", "bad": ["Edutainment", "Advertainment", "Clickbait"], "lvl": 2 },
     { "q": "Jak nazywa się zjawisko, gdy algorytmy pokazują internaucie głównie treści zgodne z jego poglądami?", "ok": "Bańka filtrująca", "bad": ["Efekt motyla", "Spirala milczenia", "Efekt Streisand"], "lvl": 2 },
@@ -114,6 +110,12 @@
     { "q": "Jak nazywa się zestaw najważniejszych wiadomości nadawany w radiu lub telewizji o stałych porach?", "ok": "Serwis informacyjny", "bad": ["Felieton", "Magazyn reporterski", "Talk-show"], "lvl": 1 },
     { "q": "Jak nazywa się program, w którym prowadzący rozmawia z gośćmi, często przy publiczności w studiu?", "ok": "Talk-show", "bad": ["Reality show", "Teleturniej", "Sitcom"], "lvl": 1 },
     { "q": "Jak nazywa się fotograf robiący z ukrycia zdjęcia celebrytom bez ich zgody?", "ok": "Paparazzo", "bad": ["Stringer", "Fixer", "Kamerzysta"], "lvl": 1 },
-    { "q": "Jak nazywa się dziennikarz wykonujący zdjęcia do gazety lub serwisu informacyjnego?", "ok": "Fotoreporter", "bad": ["Grafik", "Korektor", "Łamacz"], "lvl": 1 }
+    { "q": "Jak nazywa się dziennikarz wykonujący zdjęcia do gazety lub serwisu informacyjnego?", "ok": "Fotoreporter", "bad": ["Grafik", "Korektor", "Łamacz"], "lvl": 1 },
+    { "q": "Jak nazywa się dziennikarz prowadzący w studiu telewizyjny program informacyjny?", "ok": "Prezenter", "bad": ["Lektor", "Reżyser", "Operator"], "lvl": 1 },
+    { "q": "Jak nazywa się audycja w odcinkach publikowana w internecie do odsłuchania w dowolnej chwili?", "ok": "Podcast", "bad": ["Vlog", "Słuchowisko", "Teleturniej"], "lvl": 1 },
+    { "q": "Jak nazywa się celowe rozpowszechnianie fałszywych informacji, by wprowadzić odbiorców w błąd?", "ok": "Dezinformacja", "bad": ["Sprostowanie", "Autoryzacja", "Embargo"], "lvl": 1 },
+    { "q": "Jak nazywa się gazeta ukazująca się codziennie?", "ok": "Dziennik", "bad": ["Tygodnik", "Miesięcznik", "Kwartalnik"], "lvl": 1 },
+    { "q": "Jak nazywa się program telewizyjny, w którym uczestnicy rywalizują, odpowiadając na pytania?", "ok": "Teleturniej", "bad": ["Talk-show", "Reality show", "Sitcom"], "lvl": 1 },
+    { "q": "Jak nazywa się płatny tekst reklamowy, który wygląda jak zwykły artykuł redakcyjny?", "ok": "Artykuł sponsorowany", "bad": ["Felieton", "Wstępniak", "Sprostowanie"], "lvl": 1 }
   ]
 }

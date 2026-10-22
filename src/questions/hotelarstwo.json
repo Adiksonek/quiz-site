@@ -25,7 +25,7 @@
     { "q": "Jak nazywa się usługa budzenia gościa telefonem z recepcji o umówionej porze?", "ok": "Wake-up call", "bad": ["Do not disturb", "Late check-out", "Room service"], "lvl": 1 },
     { "q": "Jak nazywa się usługa, w której pracownik hotelu parkuje samochód gościa?", "ok": "Valet parking", "bad": ["Park & Ride", "Kiss & Ride", "Car sharing"], "lvl": 1 },
     { "q": "Ile gwiazdek ma hotel najwyższej kategorii według polskich przepisów?", "ok": "5", "bad": ["3", "4", "7"], "lvl": 1 },
-    { "q": "Kto w Polsce nadaje kategorie obiektom hotelarskim, np. gwiazdki hotelom?", "ok": "Marszałek województwa", "bad": ["Wojewoda", "Starosta", "Burmistrz"], "lvl": 3 },
+    { "q": "Kto w Polsce w 2024 roku nadawał kategorie obiektom hotelarskim, np. gwiazdki hotelom?", "ok": "Marszałek województwa", "bad": ["Wojewoda", "Starosta", "Burmistrz"], "lvl": 3 },
     { "q": "Jak nazywa się obiekt noclegowy przy drodze, zapewniający parking dla zmotoryzowanych gości?", "ok": "Motel", "bad": ["Pensjonat", "Hostel", "Kemping"], "lvl": 1 },
     { "q": "Jak według polskich przepisów nazywa się obiekt hotelarski, który zapewnia gościom całodzienne wyżywienie?", "ok": "Pensjonat", "bad": ["Motel", "Hostel", "Kemping"], "lvl": 2 },
     { "q": "Jak nazywa się tani obiekt noclegowy z łóżkami we wspólnych salach, popularny wśród młodych podróżnych?", "ok": "Hostel", "bad": ["Pensjonat", "Motel", "Apartament"], "lvl": 1 },

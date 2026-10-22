@@ -25,7 +25,7 @@
     { "q": "Jak potocznie nazywa się makijaż z kreską wyciągniętą na zewnątrz i ku górze?", "ok": "Kocie oko", "bad": ["Smoky eye", "Cut crease", "Halo eye"], "lvl": 1 },
     { "q": "Jak nazywa się technika ostrego odcięcia cieniem załamania powieki?", "ok": "Cut crease", "bad": ["Smoky eye", "Halo eye", "Baking"], "lvl": 3 },
     { "q": "Z jakiej właściwości słynie kwas hialuronowy w kosmetykach?", "ok": "Wiąże wodę", "bad": ["Złuszcza naskórek", "Filtruje UV", "Barwi skórę"], "lvl": 2 },
-    { "q": "Pochodną której witaminy jest retinol?", "ok": "A", "bad": ["C", "E", "B3"], "lvl": 2 },
+    { "q": "Formą której witaminy jest retinol?", "ok": "A", "bad": ["C", "E", "B3"], "lvl": 2 },
     { "q": "Formą której witaminy jest niacynamid?", "ok": "B3", "bad": ["B12", "C", "A"], "lvl": 3 },
     { "q": "Jak inaczej nazywa się witaminę C w składach kosmetyków?", "ok": "Kwas askorbinowy", "bad": ["Kwas foliowy", "Tokoferol", "Retinol"], "lvl": 2 },
     { "q": "Jaką witaminą jest tokoferol?", "ok": "E", "bad": ["A", "C", "D"], "lvl": 3 },
@@ -52,15 +52,11 @@
     { "q": "W jakim kraju urodził się Max Factor, twórca marki kosmetycznej z Hollywood?", "ok": "W Polsce", "bad": ["We Francji", "We Włoszech", "W Szwecji"], "lvl": 2 },
     { "q": "W jakim mieście urodziła się Helena Rubinstein, twórczyni imperium kosmetycznego?", "ok": "W Krakowie", "bad": ["W Warszawie", "We Lwowie", "W Wiedniu"], "lvl": 2 },
     { "q": "Która rywalka Heleny Rubinstein słynęła z salonów z charakterystycznymi czerwonymi drzwiami?", "ok": "Elizabeth Arden", "bad": ["Estée Lauder", "Coco Chanel", "Mary Kay Ash"], "lvl": 3 },
-    { "q": "Od czyjego imienia pochodzi nazwa marki Maybelline?", "ok": "Siostry założyciela", "bad": ["Żony założyciela", "Córki założyciela", "Matki założyciela"], "lvl": 3 },
-    { "q": "Jaki kosmetyk był pierwszym produktem marki Maybelline?", "ok": "Tusz do rzęs", "bad": ["Szminka", "Puder", "Lakier do paznokci"], "lvl": 3 },
     { "q": "Jaki produkt był pierwszym wynalazkiem założyciela firmy L'Oréal?", "ok": "Farba do włosów", "bad": ["Szminka", "Krem do twarzy", "Perfumy"], "lvl": 3 },
     { "q": "Z jakiego kraju pochodzi koncern kosmetyczny Estée Lauder?", "ok": "Z USA", "bad": ["Z Francji", "Ze Szwajcarii", "Z Wielkiej Brytanii"], "lvl": 2 },
     { "q": "W jakim mieście założono polską markę kosmetyków kolorowych Inglot?", "ok": "W Przemyślu", "bad": ["W Rzeszowie", "W Krakowie", "W Gdańsku"], "lvl": 3 },
     { "q": "W jakim mieście ma siedzibę polska firma kosmetyczna Ziaja?", "ok": "W Gdańsku", "bad": ["W Poznaniu", "W Łodzi", "W Krakowie"], "lvl": 2 },
     { "q": "Jaki produkt jako pierwszy wprowadziła na rynek firma Revlon w latach 30.?", "ok": "Lakier do paznokci", "bad": ["Szminkę", "Tusz do rzęs", "Podkład"], "lvl": 3 },
-    { "q": "Jak nazywa się koloryzacja, w której fryzjer odręcznie maluje rozjaśnione pasma pędzlem?", "ok": "Balayage", "bad": ["Pasemka z folii", "Trwała ondulacja", "Dekoloryzacja"], "lvl": 2 },
-    { "q": "Jak nazywa się koloryzacja z płynnym przejściem od ciemnych nasad do jasnych końcówek?", "ok": "Ombre", "bad": ["Refleksy", "Trwała ondulacja", "Henna"], "lvl": 1 },
     { "q": "Jak nazywa się zabieg trwałego, chemicznego skręcania włosów?", "ok": "Trwała ondulacja", "bad": ["Laminacja", "Keratynowe prostowanie", "Dekoloryzacja"], "lvl": 1 },
     { "q": "Jaki kosmetyk w sprayu odświeża włosy bez mycia, pochłaniając sebum?", "ok": "Suchy szampon", "bad": ["Lakier", "Pianka", "Odżywka bez spłukiwania"], "lvl": 1 },
     { "q": "Co oznacza litera H w zasadzie równowagi PEH w pielęgnacji włosów?", "ok": "Humektanty", "bad": ["Hydrolaty", "Hennę", "Hormony"], "lvl": 3 },
@@ -123,6 +119,9 @@
     { "q": "Z jakiego kraju pochodzi koncern kosmetyczny L'Oréal?", "ok": "Z Francji", "bad": ["Ze Szwajcarii", "Z Belgii", "Z Włoch"], "lvl": 1 },
     { "q": "Jak nazywa się kosmetyk nakładany na włosy po szamponie, ułatwiający rozczesywanie?", "ok": "Odżywka", "bad": ["Lakier", "Pianka", "Suchy szampon"], "lvl": 1 },
     { "q": "Jakim urządzeniem kręci się włosy, nawijając je na rozgrzany wałek?", "ok": "Lokówką", "bad": ["Prostownicą", "Suszarką", "Karbownicą"], "lvl": 1 },
-    { "q": "Jaki kosmetyk nakłada się na ciało po kąpieli, aby nawilżyć skórę?", "ok": "Balsam", "bad": ["Peeling", "Tonik", "Szampon"], "lvl": 1 }
+    { "q": "Jaki kosmetyk nakłada się na ciało po kąpieli, aby nawilżyć skórę?", "ok": "Balsam", "bad": ["Peeling", "Tonik", "Szampon"], "lvl": 1 },
+    { "q": "Jak nazywa się miękki płatek z materiału do nakładania pudru?", "ok": "Puszek", "bad": ["Pęseta", "Spiralka", "Zalotka"], "lvl": 1 },
+    { "q": "Jak nazywa się usuwanie owłosienia z powierzchni skóry, np. maszynką lub kremem?", "ok": "Depilacja", "bad": ["Demakijaż", "Tonizacja", "Konturowanie"], "lvl": 1 },
+    { "q": "Jak nazywa się kosmetyk nadający skórze opaleniznę bez słońca?", "ok": "Samoopalacz", "bad": ["Krem z filtrem", "Tonik", "Rozświetlacz"], "lvl": 1 }
   ]
 }

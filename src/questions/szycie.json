@@ -27,10 +27,10 @@
     { "q": "Jak nazywa się pasek tkaniny ciętej ze skosu, którym obszywa się i wykańcza brzegi?", "ok": "Lamówka", "bad": ["Krajka", "Falbana", "Mankiet"], "lvl": 2 },
     { "q": "Jakim splotem tkackim, z ukośnymi prążkami, tkana jest tkanina dżinsowa?", "ok": "Skośnym", "bad": ["Płóciennym", "Atłasowym", "Rządkowym"], "lvl": 2 },
     { "q": "Jak nazywa się najprostszy splot, w którym wątek przechodzi kolejno nad i pod nitkami osnowy?", "ok": "Płócienny", "bad": ["Skośny", "Atłasowy", "Żakardowy"], "lvl": 2 },
-    { "q": "Jaki splot tkacki daje gładką, błyszczącą powierzchnię tkanin takich jak satyna?", "ok": "Atłasowy", "bad": ["Płócienny", "Skośny", "Rypsowy"], "lvl": 3 },
+    { "q": "Jaki splot tkacki daje gładką, błyszczącą powierzchnię tkanin takich jak satyna?", "ok": "Atłasowy", "bad": ["Płócienny", "Skośny", "Rypsowy"], "lvl": 2 },
     { "q": "Która naturalna tkanina, wytwarzana z łodyg rośliny, jest przewiewna, ale łatwo się gniecie?", "ok": "Len", "bad": ["Bawełna", "Wiskoza", "Jedwab"], "lvl": 1 },
     { "q": "Z jakiej części rośliny pozyskuje się włókno bawełny?", "ok": "Z włosków na nasionach", "bad": ["Z łodyg", "Z liści", "Z korzeni"], "lvl": 2 },
-    { "q": "Które z tych włókien jest włóknem sztucznym, wytwarzanym z celulozy?", "ok": "Wiskoza", "bad": ["Poliester", "Akryl", "Poliamid"], "lvl": 3 },
+    { "q": "Które z tych włókien jest włóknem sztucznym, wytwarzanym z celulozy?", "ok": "Wiskoza", "bad": ["Poliester", "Akryl", "Poliamid"], "lvl": 2 },
     { "q": "Jak nazywa się bardzo rozciągliwe włókno syntetyczne, znane też pod nazwą handlową lycra?", "ok": "Elastan", "bad": ["Akryl", "Poliamid", "Wiskoza"], "lvl": 2 },
     { "q": "Pod jaką nazwą znany jest poliamid wynaleziony w firmie DuPont w latach 30. XX wieku?", "ok": "Nylon", "bad": ["Elana", "Akryl", "Lycra"], "lvl": 2 },
     { "q": "Jak nazywa się miękka tkanina z meszkiem, z której często szyje się koszule w kratę?", "ok": "Flanela", "bad": ["Satyna", "Organza", "Popelina"], "lvl": 1 },
@@ -100,7 +100,7 @@
     { "q": "Z jakiego kraju pochodzi marka maszyn do szycia Janome?", "ok": "Z Japonii", "bad": ["Z Niemiec", "Z Chin", "Ze Szwecji"], "lvl": 2 },
     { "q": "Jak nazywa się przeszywanie kilku warstw, np. kołdry, liniami tworzącymi wzór i trzymającymi wypełnienie?", "ok": "Pikowanie", "bad": ["Fastrygowanie", "Marszczenie", "Plisowanie"], "lvl": 1 },
     { "q": "Jak nazywa się zbieranie tkaniny w drobne fałdki przez ściągnięcie nici?", "ok": "Marszczenie", "bad": ["Pikowanie", "Plisowanie", "Lamowanie"], "lvl": 1 },
-    { "q": "Co trzeba zwykle dodać, odrysowując wykrój z arkusza w magazynie „Burda”?", "ok": "Zapasy na szwy", "bad": ["Zaszewki", "Linię nitki prostej", "Kieszenie"], "lvl": 3 },
+    { "q": "Co trzeba zwykle dodać, odrysowując wykrój z arkusza w magazynie „Burda”?", "ok": "Zapasy na szwy", "bad": ["Zaszewki", "Linię nitki prostej", "Kieszenie"], "lvl": 2 },
     { "q": "Czym zaznacza się na wykroju kierunek nitki prostej?", "ok": "Strzałką", "bad": ["Linią przerywaną", "Kółkiem", "Krzyżykiem"], "lvl": 2 },
     { "q": "Jak nazywa się w szyciu przyszycie wyciętego kształtu z jednej tkaniny na drugą jako ozdoby?", "ok": "Aplikacja", "bad": ["Patchwork", "Pikowanie", "Plisowanie"], "lvl": 2 },
     { "q": "Jak nazywa się wzór w dzianinie z dziurek tworzonych narzutami i przerabianiem oczek razem?", "ok": "Ażur", "bad": ["Żakard", "Warkocz", "Ściągacz"], "lvl": 2 },
@@ -115,7 +115,11 @@
     { "q": "Jak nazywa się ręczny ścieg ozdobny z pętelek ułożonych jedna w drugiej jak ogniwa?", "ok": "Ścieg łańcuszkowy", "bad": ["Ścieg krzyżykowy", "Ścieg płaski", "Ścieg za igłą"], "lvl": 2 },
     { "q": "Jak nazywa się mocny ręczny ścieg z cofaniem igły, przypominający ścieg maszynowy?", "ok": "Ścieg za igłą", "bad": ["Fastryga", "Ścieg kryty", "Ścieg łańcuszkowy"], "lvl": 2 },
     { "q": "Jak nazywa się dwukolorowy wzór tkaniny z drobnych, połamanych kratek, np. na żakietach?", "ok": "Pepitka", "bad": ["Jodełka", "Szkocka krata", "Grochy"], "lvl": 2 },
-    { "q": "Jak nazywa się wzór tkaniny z ukośnych pasków układających się w zygzak jak ości ryby?", "ok": "Jodełka", "bad": ["Pepitka", "Prążek", "Vichy"], "lvl": 1 },
-    { "q": "Jak nazywa się szkocka wełniana krata, której barwy tradycyjnie przypisane są klanom?", "ok": "Tartan", "bad": ["Pepitka", "Jodełka", "Vichy"], "lvl": 2 }
+    { "q": "Jak potocznie nazywa się wzór tkaniny z równomiernie rozmieszczonych kółek?", "ok": "Groszki", "bad": ["Pepitka", "Jodełka", "Prążki"], "lvl": 1 },
+    { "q": "Jak nazywa się szkocka wełniana krata, której barwy tradycyjnie przypisane są klanom?", "ok": "Tartan", "bad": ["Pepitka", "Jodełka", "Vichy"], "lvl": 2 },
+    { "q": "Jak nazywa się rzemieślnik szyjący ubrania na miarę?", "ok": "Krawiec", "bad": ["Kaletnik", "Rymarz", "Kuśnierz"], "lvl": 1 },
+    { "q": "Jak nazywa się rzemieślnik szyjący odzież z futer?", "ok": "Kuśnierz", "bad": ["Kaletnik", "Garbarz", "Modystka"], "lvl": 2 },
+    { "q": "Larwy jakiego owada wytwarzają naturalny jedwab?", "ok": "Jedwabnika", "bad": ["Pszczoły", "Pająka", "Mrówki"], "lvl": 1 },
+    { "q": "Jak nazywa się zapięcie z dwóch metalowych części zatrzaskiwanych przez dociśnięcie?", "ok": "Napa", "bad": ["Haftka", "Rzep", "Sprzączka"], "lvl": 1 }
   ]
 }

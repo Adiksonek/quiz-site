@@ -29,7 +29,7 @@
     { "q": "Od jakich cyfr zaczyna się kod kreskowy EAN produktów zarejestrowanych w Polsce?", "ok": "590", "bad": ["400", "500", "859"], "lvl": 2 },
     { "q": "Jak nazywa się model handlu internetowego, w którym konsumenci sprzedają sobie nawzajem?", "ok": "C2C", "bad": ["B2B", "B2G", "G2B"], "lvl": 2 },
     { "q": "Jak nazywa się sytuacja, gdy klient dodał towar do koszyka w sklepie online, ale nie kupił?", "ok": "Porzucony koszyk", "bad": ["Pusty koszyk", "Zwrot towaru", "Chargeback"], "lvl": 2 },
-    { "q": "Jak nazywa się sprzedaż wieloma kanałami połączonymi w jedno spójne doświadczenie klienta?", "ok": "Omnichannel", "bad": ["Single channel", "Dropshipping", "Cross-docking"], "lvl": 3 },
+    { "q": "Jak nazywa się sprzedaż wieloma kanałami połączonymi w jedno spójne doświadczenie klienta?", "ok": "Omnichannel", "bad": ["Single channel", "Dropshipping", "Cross-docking"], "lvl": 2 },
     { "q": "Jak nazywa się sprzedaż produktów podczas transmisji wideo na żywo?", "ok": "Live commerce", "bad": ["Social listening", "Cold calling", "Dropshipping"], "lvl": 2 },
     { "q": "Jak nazywa się sprzedaż towarów w małych ilościach bezpośrednio konsumentom?", "ok": "Detal", "bad": ["Hurt", "Komis", "Eksport"], "lvl": 1 },
     { "q": "Jak nazywa się sklep, który sprzedaje cudze rzeczy i pobiera za to prowizję?", "ok": "Komis", "bad": ["Lombard", "Hurtownia", "Dyskont"], "lvl": 1 },
@@ -51,7 +51,7 @@
     { "q": "W którym mieście Harry Gordon Selfridge otworzył w 1909 roku słynny dom towarowy?", "ok": "W Londynie", "bad": ["W Nowym Jorku", "W Paryżu", "W Chicago"], "lvl": 2 },
     { "q": "Jak nazywała się w PRL sieć sklepów, w których płaciło się dolarami lub bonami?", "ok": "Pewex", "bad": ["Cepelia", "Społem", "Ruch"], "lvl": 1 },
     { "q": "Jak nazywało się w PRL przedsiębiorstwo prowadzące kioski z prasą?", "ok": "Ruch", "bad": ["Pewex", "Cepelia", "Społem"], "lvl": 1 },
-    { "q": "Jak nazywa się polska spółdzielczość spożywców, której nazwa oznacza dawniej „wspólnie”?", "ok": "Społem", "bad": ["Cepelia", "Pewex", "Ruch"], "lvl": 2 },
+    { "q": "Jak nazywa się polska spółdzielczość spożywców, której nazwa to dawne słowo „wspólnie”?", "ok": "Społem", "bad": ["Cepelia", "Pewex", "Ruch"], "lvl": 2 },
     { "q": "W którym mieście w 1995 roku otwarto pierwszy sklep sieci Biedronka?", "ok": "W Poznaniu", "bad": ["W Warszawie", "W Krakowie", "W Łodzi"], "lvl": 3 },
     { "q": "Jak nazywała się amerykańska sieć, która w 1916 roku otworzyła pierwszy sklep samoobsługowy?", "ok": "Piggly Wiggly", "bad": ["Walmart", "Safeway", "Kroger"], "lvl": 3 },
     { "q": "Kto w 1962 roku otworzył pierwszy sklep sieci Walmart?", "ok": "Sam Walton", "bad": ["Ray Kroc", "Jeff Bezos", "Richard Sears"], "lvl": 2 },
@@ -111,7 +111,7 @@
     { "q": "Jak nazywa się etap rozmowy handlowej, w którym klient podejmuje decyzję i podpisuje umowę?", "ok": "Zamknięcie sprzedaży", "bad": ["Prospecting", "Prezentacja oferty", "Follow-up"], "lvl": 2 },
     { "q": "Jak nazywa się średnia kwota, jaką klient wydaje podczas jednego zakupu w sklepie?", "ok": "Średnia wartość koszyka", "bad": ["Marża brutto", "Rotacja zapasów", "Próg rentowności"], "lvl": 2 },
     { "q": "Jak nazywa się łączna wartość sprzedaży firmy w danym okresie?", "ok": "Obrót", "bad": ["Zysk netto", "Marża", "Kapitał zakładowy"], "lvl": 1 },
-    { "q": "Jak nazywa się kluczowy klient firmy, obsługiwany przez dedykowanego opiekuna?", "ok": "Key account", "bad": ["Lead", "Prospekt", "Mystery shopper"], "lvl": 3 },
+    { "q": "Jak nazywa się kluczowy klient firmy, obsługiwany przez dedykowanego opiekuna?", "ok": "Key account", "bad": ["Lead", "Prospekt", "Mystery shopper"], "lvl": 2 },
     { "q": "Jak nazywa się duży, cykliczny targ, np. Dominikański w Gdańsku?", "ok": "Jarmark", "bad": ["Bazar", "Pchli targ", "Kiermasz"], "lvl": 1 },
     { "q": "Jak nazywa się salon, w którym można obejrzeć i przetestować towar marki, często bez zakupu na miejscu?", "ok": "Showroom", "bad": ["Outlet", "Second hand", "Hurtownia"], "lvl": 2 }
   ]

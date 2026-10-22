@@ -69,7 +69,7 @@
     { "q": "Do jakiej grupy psów myśliwskich należy ogar polski?", "ok": "Psy gończe", "bad": ["Charty", "Wyżły", "Teriery"], "lvl": 2 },
     { "q": "Z którego kraju pochodzi pies pasterski kangal?", "ok": "Turcja", "bad": ["Gruzja", "Iran", "Armenia"], "lvl": 3 },
     { "q": "Jak nazywa się różna barwa oczu, częsta np. u husky syberyjskich?", "ok": "Heterochromia", "bad": ["Anizokoria", "Albinizm", "Melanizm"], "lvl": 2 },
-    { "q": "Rasa psów kojarzona z królową Elżbietą II to:", "ok": "Welsh corgi pembroke", "bad": ["Beagle", "Jack Russell terier", "Bulterier"], "lvl": 1 },
+    { "q": "Z którą rasą psów kojarzona była królowa Elżbieta II?", "ok": "Welsh corgi pembroke", "bad": ["Beagle", "Jack Russell terier", "Bulterier"], "lvl": 1 },
     { "q": "Z jakiej pracy słynie border collie?", "ok": "Z zaganiania owiec", "bad": ["Z polowania na lisy", "Z ciągnięcia sań", "Z tropienia zwierzyny"], "lvl": 1 },
     { "q": "Kim z zawodu był twórca rasy doberman?", "ok": "Poborcą podatków", "bad": ["Lekarzem", "Księdzem", "Kowalem"], "lvl": 3 },
     { "q": "W którym kraju leży miasto, od którego nazwę wziął rottweiler?", "ok": "Niemcy", "bad": ["Austria", "Szwajcaria", "Holandia"], "lvl": 1 },

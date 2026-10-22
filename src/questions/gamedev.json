@@ -123,6 +123,20 @@
     { "q": "Jak nazywa się ponowne pojawienie się postaci lub przeciwnika po śmierci?", "ok": "Respawn", "bad": ["Cooldown", "Reboot", "Checkpoint"], "lvl": 1 },
     { "q": "Jak nazywa się modyfikacja gry stworzona przez fanów?", "ok": "Mod", "bad": ["DLC", "Patch", "Port"], "lvl": 1 },
     { "q": "Jak nazywa się zestaw narzędzi programistycznych do tworzenia na daną platformę?", "ok": "SDK", "bad": ["GDD", "HUD", "DRM"], "lvl": 2 },
-    { "q": "Jak nazywa się zabezpieczenie gry przed kopiowaniem i nielegalnym uruchamianiem?", "ok": "DRM", "bad": ["DLC", "SDK", "LOD"], "lvl": 2 }
+    { "q": "Jak nazywa się zabezpieczenie gry przed kopiowaniem i nielegalnym uruchamianiem?", "ok": "DRM", "bad": ["DLC", "SDK", "LOD"], "lvl": 2 },
+    { "q": "Na jakim silniku Epic Games powstała gra „Fortnite”?", "ok": "Unreal Engine", "bad": ["Unity", "Frostbite", "CryEngine"], "lvl": 1 },
+    { "q": "Jakim skrótem określa się liczbę klatek wyświetlanych przez grę w ciągu sekundy?", "ok": "FPS", "bad": ["DPI", "FOV", "HUD"], "lvl": 1 },
+    { "q": "Jak nazywa się sprzedaż niedokończonej gry, którą twórcy dalej rozwijają przed premierą?", "ok": "Early access", "bad": ["Remaster", "Day one patch", "Season pass"], "lvl": 1 },
+    { "q": "Jak w żargonie nazywa się błąd w programie lub grze?", "ok": "Bug", "bad": ["Buff", "Boost", "Spawn"], "lvl": 1 },
+    { "q": "Jak nazywa się opóźnienie między akcją gracza a reakcją gry sieciowej?", "ok": "Lag", "bad": ["Glitch", "Spawn", "Loot"], "lvl": 1 },
+    { "q": "Jak nazywa się przechodzenie gry w jak najkrótszym czasie, często na rekord?", "ok": "Speedrun", "bad": ["Grind", "Walkthrough", "Farming"], "lvl": 1 },
+    { "q": "Do jakiego gatunku należy „PUBG”, w którym gracze walczą, aż zostanie jeden?", "ok": "Battle royale", "bad": ["MOBA", "MMORPG", "Roguelike"], "lvl": 1 },
+    { "q": "Jak nazywa się oprogramowanie z rendererem, fizyką i edytorem, na którym buduje się gry?", "ok": "Silnik gry", "bad": ["Kompilator", "Emulator", "Sterownik"], "lvl": 1 },
+    { "q": "Jak nazywa się gra przeznaczona na smartfony i tablety?", "ok": "Gra mobilna", "bad": ["Gra konsolowa", "Gra planszowa", "Gra pudełkowa"], "lvl": 1 },
+    { "q": "Jak nazywa się sklep z grami na PC prowadzony przez Valve?", "ok": "Steam", "bad": ["Epic Games Store", "GOG", "Origin"], "lvl": 1 },
+    { "q": "Jak nazywa się darmowa, okrojona wersja gry do wypróbowania przed zakupem?", "ok": "Demo", "bad": ["Remaster", "Mod", "Port"], "lvl": 1 },
+    { "q": "Jak nazywa się gatunek gier z otwartym światem do swobodnego budowania, jak „Minecraft”?", "ok": "Sandbox", "bad": ["Platformówka", "Bijatyka", "Wyścigi"], "lvl": 1 },
+    { "q": "Jak nazywa się tryb gry, w którym wielu graczy gra razem lub przeciw sobie?", "ok": "Multiplayer", "bad": ["Singleplayer", "Kampania", "Tutorial"], "lvl": 1 },
+    { "q": "Jak nazywa się wersja gry testowana publicznie przed premierą, zwykle po wersji alfa?", "ok": "Beta", "bad": ["Gamma", "Delta", "Omega"], "lvl": 1 }
   ]
 }

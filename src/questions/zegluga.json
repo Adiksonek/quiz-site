@@ -105,7 +105,7 @@
     { "q": "Na jaką chorobę, wywołaną brakiem witaminy C, cierpieli dawni marynarze w długich rejsach?", "ok": "Szkorbut", "bad": ["Krzywica", "Malaria", "Gruźlica"], "lvl": 1 },
     { "q": "Jak nazywa się statek napędzany maszyną parową?", "ok": "Parowiec", "bad": ["Żaglowiec", "Galera", "Drakkar"], "lvl": 1 },
     { "q": "Jak nazywa się dawny statek napędzany dużymi kołami łopatkowymi po bokach lub na rufie?", "ok": "Parowiec kołowy", "bad": ["Wodolot", "Poduszkowiec", "Katamaran"], "lvl": 2 },
-    { "q": "Ile mil morskich od linii podstawowej może sięgać wyłączna strefa ekonomiczna państwa?", "ok": "200", "bad": ["12", "24", "100"], "lvl": 3 },
+    { "q": "Ile mil morskich od linii podstawowej może sięgać wyłączna strefa ekonomiczna państwa?", "ok": "200", "bad": ["12", "24", "100"], "lvl": 2 },
     { "q": "Jak nazywa się członek załogi stojący za sterem i kierujący statkiem według poleceń oficera?", "ok": "Sternik", "bad": ["Bosman", "Kuk", "Motorzysta"], "lvl": 1 },
     { "q": "Jak nazywa się płaskodenna jednostka do przewozu towarów po rzekach i kanałach?", "ok": "Barka", "bad": ["Trawler", "Kuter", "Jacht"], "lvl": 1 },
     { "q": "Jak nazywa się mały statek rybacki używany głównie na wodach przybrzeżnych?", "ok": "Kuter", "bad": ["Holownik", "Barka", "Prom"], "lvl": 1 },

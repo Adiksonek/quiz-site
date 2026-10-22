@@ -96,7 +96,7 @@
     { "q": "Jak nazywa się liczba wyprodukowanych egzemplarzy np. monety lub znaczka?", "ok": "Nakład", "bad": ["Nominał", "Emisja próbna", "Stempel"], "lvl": 1 },
     { "q": "Jakim przyrządem kolekcjonerzy najczęściej oglądają drobne szczegóły monet i znaczków?", "ok": "Lupą", "bad": ["Peryskopem", "Lunetą", "Teodolitem"], "lvl": 1 },
     { "q": "Dlaczego numizmatycy zwykle nie czyszczą starych monet?", "ok": "Traci się wartość", "bad": ["Moneta się rozpuści", "Jest to zakazane", "Znika nominał"], "lvl": 1 },
-    { "q": "Jak nazywa się zbieranie owadów do kolekcji naukowej?", "ok": "Entomologia", "bad": ["Ornitologia", "Mikologia", "Malakologia"], "lvl": 2 },
+    { "q": "Jak nazywa się nauka o owadach, której pasjonaci tworzą kolekcje motyli i chrząszczy?", "ok": "Entomologia", "bad": ["Ornitologia", "Mikologia", "Malakologia"], "lvl": 2 },
     { "q": "Jak nazywa się zbiór zasuszonych roślin?", "ok": "Zielnik", "bad": ["Klaser", "Lapidarium", "Terrarium"], "lvl": 1 },
     { "q": "Jak nazywa się zbiór kamieni, często rzeźbionych fragmentów architektury, eksponowanych razem?", "ok": "Lapidarium", "bad": ["Zielnik", "Pinakoteka", "Fonoteka"], "lvl": 3 },
     { "q": "Jak nazywa się zbiór lub galeria obrazów?", "ok": "Pinakoteka", "bad": ["Fonoteka", "Lapidarium", "Kartoteka"], "lvl": 2 },

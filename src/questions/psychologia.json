@@ -13,7 +13,7 @@
     { "q": "Co znajduje się na szczycie klasycznej piramidy potrzeb Maslowa?", "ok": "Samorealizacja", "bad": ["Szacunek", "Przynależność", "Bezpieczeństwo"], "lvl": 1 },
     { "q": "Jakie potrzeby tworzą podstawę piramidy Maslowa?", "ok": "Fizjologiczne", "bad": ["Bezpieczeństwa", "Przynależności", "Uznania"], "lvl": 1 },
     { "q": "Z jakim nurtem psychologii kojarzony jest przede wszystkim B.F. Skinner?", "ok": "Behawioryzm", "bad": ["Psychoanaliza", "Psychologia humanistyczna", "Psychologia Gestalt"], "lvl": 2 },
-    { "q": "Jak nazywa się uczenie się, w którym zachowanie kształtują nagrody i kary?", "ok": "Warunkowanie sprawcze", "bad": ["Warunkowanie klasyczne", "Wdrukowanie", "Habituacja"], "lvl": 3 },
+    { "q": "Jak nazywa się uczenie się, w którym zachowanie kształtują nagrody i kary?", "ok": "Warunkowanie sprawcze", "bad": ["Warunkowanie klasyczne", "Wdrukowanie", "Habituacja"], "lvl": 2 },
     { "q": "Jak nazywa się rodzaj uczenia się opisany przez Iwana Pawłowa?", "ok": "Warunkowanie klasyczne", "bad": ["Warunkowanie sprawcze", "Wdrukowanie", "Modelowanie"], "lvl": 2 },
     { "q": "Kto ogłosił w 1913 roku manifest behawioryzmu?", "ok": "John B. Watson", "bad": ["Wilhelm Wundt", "William James", "Carl Rogers"], "lvl": 3 },
     { "q": "Jak nazywano niemowlę z eksperymentu Watsona, u którego wywołano lęk przed szczurem?", "ok": "Mały Albert", "bad": ["Mały Hans", "Anna O.", "Mały Piotruś"], "lvl": 3 },
@@ -22,7 +22,6 @@
     { "q": "Kto jest autorem teorii ośmiu stadiów rozwoju psychospołecznego?", "ok": "Erik Erikson", "bad": ["Jean Piaget", "Zygmunt Freud", "Lawrence Kohlberg"], "lvl": 3 },
     { "q": "Co badał słynny eksperyment Stanleya Milgrama?", "ok": "Posłuszeństwo wobec autorytetu", "bad": ["Konformizm w grupie", "Pamięć krótkotrwałą", "Agresję u dzieci"], "lvl": 2 },
     { "q": "Jaką rolę pełnił badany w eksperymencie Milgrama?", "ok": "Nauczyciela", "bad": ["Ucznia", "Eksperymentatora", "Obserwatora"], "lvl": 2 },
-    { "q": "Do jakiego najwyższego napięcia opisany był generator w eksperymencie Milgrama?", "ok": "450 V", "bad": ["220 V", "300 V", "1000 V"], "lvl": 3 },
     { "q": "W którym roku Philip Zimbardo przeprowadził stanfordzki eksperyment więzienny?", "ok": "1971", "bad": ["1961", "1965", "1978"], "lvl": 3 },
     { "q": "Jakie role przydzielono uczestnikom eksperymentu Zimbarda?", "ok": "Strażników i więźniów", "bad": ["Nauczycieli i uczniów", "Lekarzy i pacjentów", "Sędziów i oskarżonych"], "lvl": 1 },
     { "q": "Jakie zjawisko badał Solomon Asch w eksperymencie z oceną długości odcinków?", "ok": "Konformizm", "bad": ["Posłuszeństwo", "Agresję", "Altruizm"], "lvl": 2 },
@@ -79,7 +78,6 @@
     { "q": "Jak nazywa się tłumaczenie zachowań innych ich cechami, a nie sytuacją?", "ok": "Podstawowy błąd atrybucji", "bad": ["Błąd konfirmacji", "Efekt aureoli", "Złudzenie kontroli"], "lvl": 3 },
     { "q": "Jak nazywa się przekonanie, że po serii orłów reszka staje się bardziej prawdopodobna?", "ok": "Błąd hazardzisty", "bad": ["Błąd konfirmacji", "Efekt zakotwiczenia", "Efekt aureoli"], "lvl": 2 },
     { "q": "Jak nazywa się zjawisko, gdy dążenie grupy do zgody tłumi krytykę i prowadzi do złych decyzji?", "ok": "Myślenie grupowe", "bad": ["Efekt widza", "Próżniactwo społeczne", "Facylitacja społeczna"], "lvl": 2 },
-    { "q": "Jakie zwierzęta Edward Thorndike zamykał w skrzynkach problemowych?", "ok": "Koty", "bad": ["Psy", "Szczury", "Gołębie"], "lvl": 3 },
     { "q": "Z jakimi ptakami B.F. Skinner przeprowadził wiele eksperymentów?", "ok": "Z gołębiami", "bad": ["Z wronami", "Z kurami", "Z papugami"], "lvl": 3 },
     { "q": "Jak Freud nazwał opisany przez siebie przypadek chłopca z lękiem przed końmi?", "ok": "Mały Hans", "bad": ["Mały Albert", "Człowiek-Szczur", "Anna O."], "lvl": 3 },
     { "q": "Jak nazywa się metoda Freuda, w której pacjent mówi wszystko, co przychodzi mu do głowy?", "ok": "Wolne skojarzenia", "bad": ["Trening autogenny", "Biofeedback", "Desensytyzacja"], "lvl": 2 },
@@ -111,10 +109,13 @@
     { "q": "Jak nazywa się mechanizm obronny powrotu do zachowań z wcześniejszego etapu rozwoju?", "ok": "Regresja", "bad": ["Projekcja", "Sublimacja", "Racjonalizacja"], "lvl": 2 },
     { "q": "Jak nazywa się skłonność do brnięcia w przedsięwzięcie tylko dlatego, że już dużo w nie włożono?", "ok": "Efekt utopionych kosztów", "bad": ["Efekt aureoli", "Błąd hazardzisty", "Efekt widza"], "lvl": 2 },
     { "q": "Który z czterech klasycznych temperamentów cechuje się pogodą ducha i towarzyskością?", "ok": "Sangwinik", "bad": ["Choleryk", "Flegmatyk", "Melancholik"], "lvl": 1 },
-    { "q": "Jak nazywa się lęk przed otwartymi przestrzeniami i miejscami, z których trudno uciec?", "ok": "Agorafobia", "bad": ["Klaustrofobia", "Akrofobia", "Ksenofobia"], "lvl": 2 },
+    { "q": "Jak nazywa się lęk przed otwartymi przestrzeniami i miejscami, z których trudno uciec?", "ok": "Agorafobia", "bad": ["Klaustrofobia", "Akrofobia", "Ksenofobia"], "lvl": 1 },
     { "q": "Jak nazywa się dostrzeganie twarzy i znanych kształtów w przypadkowych wzorach, np. w chmurach?", "ok": "Pareidolia", "bad": ["Synestezja", "Prozopagnozja", "Déjà vu"], "lvl": 2 },
     { "q": "Jak nazywa się zjawisko, w którym np. dźwięki wywołują wrażenie barw?", "ok": "Synestezja", "bad": ["Pareidolia", "Prozopagnozja", "Afazja"], "lvl": 2 },
     { "q": "Jak nazywa się zaburzenie polegające na niezdolności rozpoznawania twarzy?", "ok": "Prozopagnozja", "bad": ["Afazja", "Apraksja", "Ataksja"], "lvl": 3 },
-    { "q": "Kto jest autorem wydanej w 1895 roku książki „Psychologia tłumu”?", "ok": "Gustave Le Bon", "bad": ["Émile Durkheim", "Zygmunt Freud", "Gabriel Tarde"], "lvl": 3 }
+    { "q": "Kto jest autorem wydanej w 1895 roku książki „Psychologia tłumu”?", "ok": "Gustave Le Bon", "bad": ["Émile Durkheim", "Zygmunt Freud", "Gabriel Tarde"], "lvl": 3 },
+    { "q": "Który z czterech klasycznych temperamentów cechuje się skłonnością do smutku i zadumy?", "ok": "Melancholik", "bad": ["Choleryk", "Sangwinik", "Flegmatyk"], "lvl": 1 },
+    { "q": "Jak nazywa się lęk przed przebywaniem w ciasnych, zamkniętych pomieszczeniach?", "ok": "Klaustrofobia", "bad": ["Agorafobia", "Akrofobia", "Arachnofobia"], "lvl": 1 },
+    { "q": "Jak nazywa się zaburzenie odżywiania polegające na skrajnym ograniczaniu jedzenia z lęku przed przytyciem?", "ok": "Anoreksja", "bad": ["Bulimia", "Ortoreksja", "Otyłość"], "lvl": 1 }
   ]
 }

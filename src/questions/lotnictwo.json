@@ -86,7 +86,7 @@
     { "q": "Jakiej wysokości odpowiada poziom lotu FL350?", "ok": "35 000 stóp", "bad": ["3500 metrów", "35 000 metrów", "350 stóp"], "lvl": 2 },
     { "q": "Jak nazywa się statek powietrzny lżejszy od powietrza, mający napęd i sterowanie?", "ok": "Sterowiec", "bad": ["Balon", "Szybowiec", "Wiatrakowiec"], "lvl": 1 },
     { "q": "Jak nazywa się statek powietrzny z wirnikiem nośnym obracanym przez napływające powietrze?", "ok": "Wiatrakowiec", "bad": ["Śmigłowiec", "Motoszybowiec", "Sterowiec"], "lvl": 2 },
-    { "q": "Jak nazywa się samolot bez silnika, unoszący się dzięki prądom powietrza?", "ok": "Szybowiec", "bad": ["Motolotnia", "Awionetka", "Wiatrakowiec"], "lvl": 1 },
+    { "q": "Jak nazywa się statek powietrzny bez silnika, unoszący się dzięki prądom powietrza?", "ok": "Szybowiec", "bad": ["Motolotnia", "Awionetka", "Wiatrakowiec"], "lvl": 1 },
     { "q": "Jak potocznie nazywa się mały, lekki samolot z silnikiem, np. turystyczny?", "ok": "Awionetka", "bad": ["Motolotnia", "Szybowiec", "Paralotnia"], "lvl": 1 },
     { "q": "Jak nazywa się obrót samolotu wokół osi pionowej?", "ok": "Odchylenie", "bad": ["Pochylenie", "Przechylenie", "Wznoszenie"], "lvl": 3 },
     { "q": "Jak nazywa się figura akrobacji lotniczej polegająca na pełnym obrocie wokół osi podłużnej?", "ok": "Beczka", "bad": ["Pętla", "Korkociąg", "Świeca"], "lvl": 1 },

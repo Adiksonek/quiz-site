@@ -100,7 +100,7 @@
     { "q": "Jak gracz może zakończyć partię, uznając swoją przegraną przed matem?", "ok": "Poddając się", "bad": ["Prosząc o pat", "Robiąc roszadę", "Zatrzymując zegar"], "lvl": 1 },
     { "q": "Ile razy w jednej partii każdy gracz może wykonać roszadę?", "ok": "Raz", "bad": ["Dwa razy", "Bez limitu", "Trzy razy"], "lvl": 1 },
     { "q": "Ile maksymalnie hetmanów może mieć gracz dzięki promocji pionków?", "ok": "9", "bad": ["2", "8", "5"], "lvl": 2 },
-    { "q": "Obok jakiej figury stoi na początku partii król?", "ok": "Obok hetmana i gońca", "bad": ["Obok dwóch skoczków", "Obok dwóch wież", "Obok hetmana i wieży"], "lvl": 1 },
+    { "q": "Obok jakich figur stoi król na początku partii?", "ok": "Obok hetmana i gońca", "bad": ["Obok dwóch skoczków", "Obok dwóch wież", "Obok hetmana i wieży"], "lvl": 1 },
     { "q": "W którym rzędzie stoją białe pionki na początku partii?", "ok": "W drugim rzędzie", "bad": ["W pierwszym rzędzie", "W trzecim rzędzie", "W czwartym rzędzie"], "lvl": 1 },
     { "q": "Co dzieje się z bierką zbitą w szachach klasycznych?", "ok": "Schodzi z planszy", "bad": ["Wraca na start", "Przechodzi do bijącego", "Zmienia kolor"], "lvl": 1 },
     { "q": "Jak nazywa się w szachach zapowiedź ataku na króla?", "ok": "Szach", "bad": ["Mat", "Pat", "Gambit"], "lvl": 1 },

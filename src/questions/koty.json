@@ -80,7 +80,6 @@
     { "q": "Jak nazywa się czarny kot, jedna z pierwszych gwiazd animacji kina niemego?", "ok": "Kot Feliks", "bad": ["Kot Sylwester", "Kot Tom", "Kot Mruczek"], "lvl": 2 },
     { "q": "Jak nazywa się film Disneya o kotce Duchessie i jej kociętach?", "ok": "„Aryskotraci”", "bad": ["„Zakochany kundel”", "„Oliver i spółka”", "„101 dalmatyńczyków”"], "lvl": 1 },
     { "q": "Jak nazywa się niebieski kot-robot z przyszłości z japońskiej mangi i anime?", "ok": "Doraemon", "bad": ["Pikachu", "Totoro", "Astro Boy"], "lvl": 2 },
-    { "q": "Jak nazywa się rudy kot Hermiony Granger?", "ok": "Krzywołap", "bad": ["Parszywek", "Hedwiga", "Puszek"], "lvl": 1 },
     { "q": "Jak nazywa się kotka woźnego Filcha w polskim przekładzie „Harry'ego Pottera”?", "ok": "Pani Norris", "bad": ["Pani Figg", "Pani Pomfrey", "Pani Hooch"], "lvl": 2 },
     { "q": "Jak ma na imię gadający czarny kot z serialu „Sabrina, nastoletnia czarownica”?", "ok": "Salem", "bad": ["Behemot", "Jiji", "Klakier"], "lvl": 2 },
     { "q": "Jak nazywa się kotka, bohaterka serii książeczek Anity Głowińskiej dla małych dzieci?", "ok": "Kicia Kocia", "bad": ["Kotka Psotka", "Mruczka", "Pusia"], "lvl": 1 },
