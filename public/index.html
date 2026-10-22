@@ -39,6 +39,7 @@
   }
 }
 *,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
 html{background:var(--bg);overscroll-behavior:none;-webkit-text-size-adjust:100%}
 button,a,input,label{touch-action:manipulation}
 button{-webkit-user-select:none;user-select:none}
@@ -182,9 +183,13 @@ button{cursor:pointer}
 .presets::-webkit-scrollbar{display:none}
 .presets .btn{flex:none;background:var(--surface)}
 .cs-body{flex:1;overflow-y:auto;margin:0 -20px;padding:4px 20px 12px;overscroll-behavior:contain}
-.cs-group+.cs-group{margin-top:20px}
-.cs-gh{display:flex;align-items:center;gap:8px;margin:0 4px 8px;min-height:24px}
-.cs-gh h3{flex:1;margin:0;font-size:13px;font-weight:500;color:var(--text-2)}
+.cs-group+.cs-group{margin-top:4px;border-top:.5px solid var(--line);padding-top:4px}
+.cs-group .chips{margin:4px 0 12px}
+.cs-gh{display:flex;align-items:center;gap:8px;margin:0 4px;min-height:44px}
+.cs-toggle{flex:1;min-width:0;height:44px;display:flex;align-items:center;gap:8px;padding:0;border:0;background:none;color:var(--text);text-align:left}
+.cs-toggle .ico{width:18px;height:18px;color:var(--text-3);transition:transform .2s ease-out}
+.cs-toggle[aria-expanded="true"] .ico{transform:rotate(90deg)}
+.cs-gh h3{flex:1;margin:0;font-size:15px;font-weight:500;color:var(--text)}
 .cs-gh span{font-size:13px;color:var(--text-3)}
 .cs-gh .textlink{height:32px;font-size:13px}
 .textlink.acc{color:var(--accent-text)}
@@ -322,7 +327,7 @@ const SAMPLES=[
 let code=cleanCode(new URLSearchParams(location.search).get('r'));
 let name=ls.get('name','');
 let ws=null,S=null,retry=0,leaving=false,pingT=null,deadline=0,raf=0;
-const ui={sheet:false,search:'',searchFocus:false};
+const ui={sheet:false,search:'',searchFocus:false,open:new Set()}; // open: rozwinięte grupy w arkuszu kategorii
 let view='home'; // bieżący ekran, potrzebny przyciskowi wstecz w aplikacji
 
 function uid(){return (crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2))}
@@ -582,10 +587,12 @@ function catSheetHTML(cats,sel,host,count,total){
       </div>`:''}
       <div class="cs-body" id="csBody">${groups.map(g=>{
         const on=g.cats.filter(c=>sel.includes(c.slug)).length, full=on===g.cats.length;
-        return `<div class="cs-group">
-          <div class="cs-gh"><h3>${esc(g.name)}</h3><span class="tnum">${on}/${g.cats.length}</span>
+        const open=ui.open.has(g.name);
+        return `<div class="cs-group" data-g="${esc(g.name)}">
+          <div class="cs-gh"><button class="cs-toggle" data-toggle="${esc(g.name)}" aria-expanded="${open}">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg><h3>${esc(g.name)}</h3><span class="tnum">${on}/${g.cats.length}</span></button>
             ${host?`<button class="textlink acc" data-group="${esc(g.name)}">${full?'Odznacz':'Zaznacz'}</button>`:''}</div>
-          <div class="chips">${g.cats.map(c=>`<button class="chip" data-c="${esc(c.slug)}" data-s="${esc(c.name.toLowerCase())}" aria-pressed="${sel.includes(c.slug)}" ${host?'':'disabled'}>${esc(c.name)}<span class="n tnum">${c.n}</span></button>`).join('')}</div>
+          <div class="chips" ${open?"":"hidden"}>${g.cats.map(c=>`<button class="chip" data-c="${esc(c.slug)}" data-s="${esc(c.name.toLowerCase())}" aria-pressed="${sel.includes(c.slug)}" ${host?'':'disabled'}>${esc(c.name)}<span class="n tnum">${c.n}</span></button>`).join('')}</div>
         </div>`}).join('')}
         <p class="foot" id="csEmpty" hidden>Nic nie pasuje do wyszukiwania.</p>
       </div>
@@ -600,9 +607,12 @@ function bindCatSheet(cats,sel,host,scroll,push,rerender){
   document.getElementById('scrim').onclick=close;
   const filter=()=>{
     const q=ui.search.trim().toLowerCase();let any=false;
+    // Przy wyszukiwaniu pokazujemy pasujące kategorie we wszystkich grupach, bez wyszukiwania - tylko rozwinięte grupy.
     body.querySelectorAll('.cs-group').forEach(g=>{let vis=0;
       g.querySelectorAll('.chip').forEach(c=>{const on=!q||c.dataset.s.includes(q);c.hidden=!on;if(on)vis++});
-      g.hidden=!vis;if(vis)any=true});
+      g.hidden=!vis;if(vis)any=true;
+      const open=q?vis>0:ui.open.has(g.dataset.g);
+      g.querySelector('.chips').hidden=!open;g.querySelector('.cs-toggle').setAttribute('aria-expanded',open)});
     document.getElementById('csEmpty').hidden=any;
   };
   search.oninput=()=>{ui.search=search.value;filter()};
@@ -610,8 +620,10 @@ function bindCatSheet(cats,sel,host,scroll,push,rerender){
   if(ui.searchFocus){search.focus();search.setSelectionRange(search.value.length,search.value.length)}
   search.onfocus=()=>{ui.searchFocus=true};search.onblur=()=>{ui.searchFocus=false};
   filter();
-  if(!host)return;
   body.onclick=e=>{
+    const tg=e.target.closest('[data-toggle]');
+    if(tg){const n=tg.dataset.toggle;ui.open.has(n)?ui.open.delete(n):ui.open.add(n);filter();return}
+    if(!host)return;
     const chip=e.target.closest('.chip'), grp=e.target.closest('[data-group]');
     if(chip){const s=new Set(sel);s.has(chip.dataset.c)?s.delete(chip.dataset.c):s.add(chip.dataset.c);push([...s])}
     else if(grp){const slugs=cats.filter(c=>c.group===grp.dataset.group).map(c=>c.slug);
